@@ -1,0 +1,17 @@
+Package: PHESEF
+Type: Package
+Title: PHES-EF
+Version: 0.0.0
+Authors@R: c(
+    person(given = "Yulric", family = "Sequeira", role = c("aut"), email = "ysequeira@ohri.ca"),
+Maintainer: Rostyslav Vyuha <rvyuha@toh.ca>
+Description: Public Health Environmental Surveillance - Evaluation Framework
+Depends:
+    R (>= 4.0.3)
+Imports:
+    rmarkdown
+License: 
+URL: https://github.com/Big-Life-Lab/PHES-EF
+BugReports: https://github.com/Big-Life-Lab/PHES-EF/issues
+Encoding: UTF-8
+RoxygenNote: 7.1.1
