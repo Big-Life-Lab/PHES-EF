@@ -8,9 +8,19 @@ book:
   date: last-modified
   date-format: iso
   license: CC 4.0 BY-SA
-  repo-url: "https://big-life-lab.github.io/PHES-EF/"
+  # url: 
+  repo-url: "https://github.com/big-life-lab/PHES-EF"
+  repo-actions: [edit, issue, source]
+  repo-subdir: qmd
+  downloads: [pdf, epub]
+  sidebar:
+    search: true
+    logo: ./assets/icon.png
+    
   chapters:
     - index.qmd
+  # appendices:
+    # - appendix.qmd
 
 format:
   html:
@@ -20,8 +30,23 @@ format:
     code-copy: true
     code-overflow: wrap
     lang: en-ca
+    use_issues_button: true
+    use_repository_button: true
+    
   pdf:
     documentclass: scrbook
     toc: true
     number-sections: true
     colorlinks: true
+  
+  epub: 
+    # epub-cover-image: 
+    fig-format: png
+    
+
+# bibliography: references.bib
+# csl: ets
+# citations-hover: true
+# link-citations: true # pandoc setting
+# latex-auto-mk: true
+# link-external-icon: true
