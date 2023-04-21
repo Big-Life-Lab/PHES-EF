@@ -1,3 +1,5 @@
-# Public Health Environmental Surveillance - Evaluation Framework
+# Overview
 
-Framework development project
+Introduction to the framework development project
+
+![figure example](assets/icon.png){fig-align="left" width="50"}
