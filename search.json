@@ -4,6 +4,13 @@
     "href": "index.html",
     "title": "Public Health Environmental Surveillance - Evaluation Framework",
     "section": "",
-    "text": "1 Public Health Environmental Surveillance - Evaluation Framework\nFramework development project"
+    "text": "Overview\nIntroduction to the framework development project\n\n\n\nfigure example\n\n\nHow to reference a citation(1) and here(2).\n\n\n\n\n1. Huisman JS, Scire J, Caduff L, Fernandez-Cassi X, Ganesanandamoorthy P, Kull A, et al. Wastewater-based estimation of the effective reproductive number of SARS-CoV-2. medRxiv [Internet]. 2021 Jan 1;2021.04.29.21255961. Available from: http://medrxiv.org/content/early/2021/04/30/2021.04.29.21255961.abstract\n\n\n2. The open data model for environment surveillance [Internet]. 2021. Available from: https://github.com/Big-Life-Lab/ODM"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "1. The\nopen data model for environment surveillance [Internet]. 2021. Available\nfrom: https://github.com/Big-Life-Lab/ODM\n\n\n2. Huisman JS, Scire J, Caduff L, Fernandez-Cassi\nX, Ganesanandamoorthy P, Kull A, et al. Wastewater-based estimation of\nthe effective reproductive number of SARS-CoV-2. medRxiv [Internet].\n2021 Jan 1;2021.04.29.21255961. Available from: http://medrxiv.org/content/early/2021/04/30/2021.04.29.21255961.abstract"
   }
 ]
