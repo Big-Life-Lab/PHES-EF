@@ -19,8 +19,13 @@ book:
     
   chapters:
     - index.qmd
+    - text: "---"
+    - references.qmd
   # appendices:
     # - appendix.qmd
+
+bibliography: references.bib
+csl: assets/vancouver.csl
 
 format:
   html:
@@ -42,11 +47,3 @@ format:
   epub: 
     # epub-cover-image: 
     fig-format: png
-    
-
-# bibliography: references.bib
-# csl: ets
-# citations-hover: true
-# link-citations: true # pandoc setting
-# latex-auto-mk: true
-# link-external-icon: true
