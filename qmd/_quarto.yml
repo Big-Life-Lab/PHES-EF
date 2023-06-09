@@ -45,17 +45,3 @@ format:
     lang: en-ca
     use_issues_button: true
     use_repository_button: true
-    
-  pdf:
-    documentclass: scrbook
-    toc: true
-    number-sections: true
-    colorlinks: true
-  
-  epub: 
-    # epub-cover-image: 
-    fig-format: png
-editor: visual
-
-bibliography: references.bib
-csl: assets/vancouver.csl
