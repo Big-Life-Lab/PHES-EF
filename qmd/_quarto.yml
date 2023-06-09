@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  title: "PHES-EF"
   # url: 
   repo-url: "https://github.com/big-life-lab/PHES-EF"
   sidebar:
