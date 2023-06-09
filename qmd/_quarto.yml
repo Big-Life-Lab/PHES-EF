@@ -1,24 +1,12 @@
-
- project:
+project:
   type: website
   output-dir: docs
 
 website:
   title: "PHES-EF"
-  favicon: qmd/assets/phes-ef-logo_black-white.svg
-   date: last-modified
-  date-format: iso
-  license: CC 4.0 BY-SA
-  # url: 
-  repo-url: "https://github.com/big-life-lab/PHES-EF"
-  repo-actions: [edit, issue, source]
-  repo-subdir: qmd
-  downloads: [pdf, epub]
-  sidebar:
-    search: true
-    logo: qmd/assets/phes-ef-logo_black-white.svg
+  favicon: qmd/assets/phes-ef-logo_colour.png
 
-  navbar:
+ navbar:
     background: primary
     search: true
     left:
@@ -27,7 +15,7 @@ website:
       - about.qmd
       - StudyTimeline.qmd
       - ContactUs.qmd
-    logo: qmd/assets/phes-ef-logo_black-white.svg
+    logo: qmd/assets/phes-ef-logo_colour.png
     tools:
       - icon: twitter
         href: https://twitter.com
@@ -40,8 +28,5 @@ format:
     Link colour: blue
     css: styles.css
     toc: true
-    code-copy: true
-    code-overflow: wrap
-    lang: en-ca
-    use_issues_button: true
-    use_repository_button: true
+
+editor: visual
