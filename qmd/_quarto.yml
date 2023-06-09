@@ -6,10 +6,10 @@ website:
   title: "PHES-EF"
   favicon: qmd/assets/phes-ef-logo_colour.png
 
- navbar:
-    background: primary
-    search: true
-    left:
+navbar:
+   background: primary
+   search: true
+   left:
       - href: index.qmd
         text: Home
       - about.qmd
@@ -22,7 +22,7 @@ website:
       - icon: github
       
 format:
-  html:
+    html:
     theme: flatly
     font colour: black
     Link colour: blue
