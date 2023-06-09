@@ -5,7 +5,18 @@
 
 website:
   title: "PHES-EF"
-  favicon: /Users/emmabrown/Downloads/phes-ef-logo_colour.png
+  favicon: ./assets/phes-ef-logo_colour.svg
+   date: last-modified
+  date-format: iso
+  license: CC 4.0 BY-SA
+  # url: 
+  repo-url: "https://github.com/big-life-lab/PHES-EF"
+  repo-actions: [edit, issue, source]
+  repo-subdir: qmd
+  downloads: [pdf, epub]
+  sidebar:
+    search: true
+    logo: ./assets/phes-ef-logo_colour.svg
 
   navbar:
     background: primary
@@ -16,7 +27,7 @@ website:
       - about.qmd
       - StudyTimeline.qmd
       - ContactUs.qmd
-    logo: /Users/emmabrown/Downloads/phes-ef-logo_colour.png
+    logo: ./assets/phes-ef-logo_colour.svg
     tools:
       - icon: twitter
         href: https://twitter.com
@@ -29,44 +40,6 @@ format:
     Link colour: blue
     css: styles.css
     toc: true
-
-editor: visual
-
-
-project:
-  type: book
-  output-dir: ../docs
-
-book:
-  title: "Public Health Environmental Surveillance - Evaluation Framework"
-  subtitle: ""
-  date: last-modified
-  date-format: iso
-  license: CC 4.0 BY-SA
-  # url: 
-  repo-url: "https://github.com/big-life-lab/PHES-EF"
-  repo-actions: [edit, issue, source]
-  repo-subdir: qmd
-  downloads: [pdf, epub]
-  sidebar:
-    search: true
-    logo: ./assets/icon.png
-    
-  chapters:
-    - index.qmd
-    - text: "---"
-    - references.qmd
-  # appendices:
-    # - appendix.qmd
-
-bibliography: references.bib
-csl: assets/vancouver.csl
-
-format:
-  html:
-    toc: true
-    theme:
-      light: [cosmo, ./assets/phes-odm.scss]
     code-copy: true
     code-overflow: wrap
     lang: en-ca
@@ -82,3 +55,7 @@ format:
   epub: 
     # epub-cover-image: 
     fig-format: png
+editor: visual
+
+bibliography: references.bib
+csl: assets/vancouver.csl
