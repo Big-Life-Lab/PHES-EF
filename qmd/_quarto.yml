@@ -1,3 +1,38 @@
+
+ project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PHES-EF"
+  favicon: /Users/emmabrown/Downloads/phes-ef-logo_colour.png
+
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - StudyTimeline.qmd
+      - ContactUs.qmd
+    logo: /Users/emmabrown/Downloads/phes-ef-logo_colour.png
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+      
+format:
+  html:
+    theme: flatly
+    font colour: black
+    Link colour: blue
+    css: styles.css
+    toc: true
+
+editor: visual
+
+
 project:
   type: book
   output-dir: ../docs
