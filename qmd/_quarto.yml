@@ -5,7 +5,7 @@
 
 website:
   title: "PHES-EF"
-  favicon: ./assets/phes-ef-logo_colour.svg
+  favicon: qmd/assets/phes-ef-logo_black-white.svg
    date: last-modified
   date-format: iso
   license: CC 4.0 BY-SA
@@ -16,7 +16,7 @@ website:
   downloads: [pdf, epub]
   sidebar:
     search: true
-    logo: ./assets/phes-ef-logo_colour.svg
+    logo: qmd/assets/phes-ef-logo_black-white.svg
 
   navbar:
     background: primary
@@ -27,7 +27,7 @@ website:
       - about.qmd
       - StudyTimeline.qmd
       - ContactUs.qmd
-    logo: ./assets/phes-ef-logo_colour.svg
+    logo: qmd/assets/phes-ef-logo_black-white.svg
     tools:
       - icon: twitter
         href: https://twitter.com
