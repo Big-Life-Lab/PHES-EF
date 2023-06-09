@@ -9,7 +9,7 @@ website:
   license: CC 4.0 BY-SA
   # url: 
   repo-url: "https://github.com/big-life-lab/PHES-EF"
-   sidebar:
+  sidebar:
     search: true
     logo: ./assets/icon.png
 
