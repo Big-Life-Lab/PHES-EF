@@ -4,25 +4,21 @@ project:
 
 website:
   title: "PHES-EF"
-  favicon: qmd/assets/phes-ef-logo_colour.png
 
-navbar:
-   background: primary
-   search: true
-   left:
+  navbar:
+    background: primary
+    search: true
+    left:
       - href: index.qmd
         text: Home
       - about.qmd
-      - StudyTimeline.qmd
-      - ContactUs.qmd
-    logo: qmd/assets/phes-ef-logo_colour.png
     tools:
       - icon: twitter
         href: https://twitter.com
       - icon: github
       
 format:
-    html:
+  html:
     theme: flatly
     font colour: black
     Link colour: blue
