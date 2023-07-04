@@ -3,12 +3,15 @@ project:
   output-dir: docs
 
 website:
+  title: "PHES-EF"
+  favicon: /Users/emmabrown/Downloads/phes-ef-logo_colour.png
+
+website:
   # url: 
   repo-url: "https://github.com/big-life-lab/PHES-EF"
   sidebar:
     search: true
-    logo: ./assets/icon.png
-
+ 
   navbar:
     background: primary
     search: true
@@ -16,6 +19,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - ContactUs.qmd
     tools:
       - icon: twitter
         href: https://twitter.com
