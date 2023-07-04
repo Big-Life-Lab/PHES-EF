@@ -4,9 +4,6 @@ project:
 
 website:
   title: "PHES-EF"
-  favicon: /Users/emmabrown/Downloads/phes-ef-logo_colour.png
-
-website:
   # url: 
   repo-url: "https://github.com/big-life-lab/PHES-EF"
   sidebar:
