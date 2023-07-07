@@ -22,8 +22,7 @@ website:
       
 format:
   html:
-    theme: flatly
-    css: assets/phes-odm.css
+    theme: 
+      - flatly
+      - assets/phes-odm.scss
     toc: true
-
-editor: visual
