@@ -12,13 +12,7 @@ bibliography: references.bib
 
 ## Background
 
-Public health requires robust surveillance systems that inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving significant attention
-
-```{mermaid}
-
-```
-
-[@manuel2022].
+Public health requires robust surveillance systems that inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving significant attention.[@manuel2022].
 
 A structured evaluation of public health surveillance systems can improve program accountability, transparency, trust, and performance; thereby quantifying their value to public health and informing future surveillance needs [@cdc2001].
 
@@ -46,7 +40,7 @@ Our specific objectives are to:
 
 {{< downloadthis images/doug_manuel.jpg label="Download the pdf" icon=file-earmark-pdf >}}
 
-```{}
+```         
 ```
 
 ## Funding
@@ -60,3 +54,8 @@ We are grateful for funding from the following sources:
 ## Research Ethics
 
 place here and how to contact REB if you have questions or concerns.
+
+## References
+
+::: {#refs}
+:::

@@ -30,3 +30,5 @@ format:
     code-tools: true
     toc: true
 
+bibliography: references.bib
+csl: assets/vancouver.csl
