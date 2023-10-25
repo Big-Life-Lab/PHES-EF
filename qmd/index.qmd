@@ -33,3 +33,7 @@ Our specific objectives are to:
 4.  Conduct a consensus meeting that engages international representatives from all wastewater surveillance stakeholder groups to create an evaluation framework for public health environmental surveillance based on the multinational and multidisciplinary consensus.
 
 5.  Develop a comprehensive dissemination plan for the evaluation framework.
+
+### If needed, we can download files using a button like this
+
+{{< downloadthis images/doug_manuel.jpg label="Download the pdf" icon=file-earmark-pdf >}}

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: ../docs
+  
+embed-resources: true
 
 website:
   title: "PHES-EF"
@@ -25,4 +27,6 @@ format:
     theme: 
       - flatly
       - assets/phes-odm.scss
+    code-tools: true
     toc: true
+
