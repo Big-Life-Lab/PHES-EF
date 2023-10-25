@@ -7,6 +7,15 @@ $color_4: #c4c4c4; // used for .section-head border
 $font_family_1: "Noto Sans Display", "HelveticaNeue", "Helvetica", "Arial", sans-serif; // used for *, p, a, .big, .section-head, h5
 $font_family_2: "lora"; // used for h1, h2, h3, h4, .lora
 $background_color_1: #ffcb6c; // used for mark
+$tag_public_health: #8b6e4a;
+$tag_environmental_science: #6a7378;
+$tag_social_sciences: #1f8fa8;
+$tag_infectious_diseases: #a0a0a0;
+// Define color variables for regions
+$region_north_america: #0277BD;
+$region_south_america: #2E7D32;
+$region_europe: #C2185B;
+
 
 
 @import "https://fonts.googleapis.com/css?family=Lora:400,600,800";
@@ -94,4 +103,67 @@ mark {
 
 .centered-content {
     text-align: center;
+}
+
+.person-img {
+  float: left;
+  width: 200px;
+  height: auto;
+  max-width: 30%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.person-info {
+  text-align: right;
+}
+
+.tag-label {
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #fff;
+  font-family: $font_family_1;
+}
+
+.public-health {
+  @extend .tag-label;
+  background-color: $tag_public_health;
+}
+
+.environmental-science {
+  @extend .tag-label;
+  background-color: $tag_environmental_science;
+}
+
+.social-sciences {
+  @extend .tag-label;
+  background-color: $tag_social_sciences;
+}
+
+.infectious-diseases {
+  @extend .tag-label;
+  background-color: $tag_infectious_diseases;
+}
+
+.region-tag {
+  @extend .tag-label;
+  font-style: italic;
+}
+
+
+
+.north-america {
+  @extend .region-tag;
+  background-color: $region_north_america;
+}
+
+.south-america {
+  @extend .region-tag;
+  background-color: $region_south_america;
+}
+
+.europe {
+  @extend .region-tag;
+  background-color: $region_europe;
 }
