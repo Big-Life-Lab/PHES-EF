@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Public Health Environmental Surveillance Evaluation Framework (PHES-EF)",
+    "section": "",
+    "text": "An international e-Delphi study to develop an evaluation framework for public health environmental surveillance"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Public Health Environmental Surveillance Evaluation Framework (PHES-EF)",
+    "section": "Background",
+    "text": "Background\nThe use of environmental surveillance systems for public health has drastically increased since the beginning of the COVID-19 pandemic. With this increased use, comes a need to these systems to be evaluated. A formal evaluation of environmental surveillance systems for public health is crucial for determining whether such systems can be used reliably and credibly to inform public policy and public health action. Formal evaluation of this landscape will also be critical in determining whether these systems will continue to receive funding or remain operational.\nBefore these surveillance systems can formally be evaluated, consensus on evaluation criteria will need to be obtained.\nThe study will develop an evaluation framework using a multidisciplinary and multinational consensus approach that considers current evidence for evaluating public health surveillance systems and new knowledge gained throughout the COVID-19 pandemic. The goal is to identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed. While SARS-CoV-2 wastewater surveillance will be used to frame the study, the framework and associated criteria should also consider other environmental surveillance targets and uses (e.g., other pathogens, antimicrobial resistance, and drug use). A range of uses of environmental surveillance will be considered.\nThis project will use an electronic Delphi (e-Delphi) consensus process to generate a list of contextually appropriate criteria to be used when evaluating public health environmental surveillance systems."
+  },
+  {
+    "objectID": "index.html#objectives",
+    "href": "index.html#objectives",
+    "title": "Public Health Environmental Surveillance Evaluation Framework (PHES-EF)",
+    "section": "Objectives",
+    "text": "Objectives\nOur primary objective is to develop an evaluation framework for public health environmental surveillance (PHES-EF), using a consensus approach.\nAn evaluation framework provides structured guidance to facilitate a systematic approach to evaluation of the program.10 While there is variation in the terminology used to describe frameworks, 11 we further define our approach as: presenting a clear list of items that should appear in an evaluation; providing an organisation or structure for the list of items; defining how the list and organisation were developed; and, potentially, including details about how to measure the evaluation items.\nOur specific objectives are to:\n\nEngage a multidisciplinary executive group of international experts to inform the development of the evaluation framework.\nReview the literature to identify current guidance on surveillance evaluation items.\nPrioritize items for an evaluation framework for environmental surveillance using an international e-Delphi process.\nConduct a consensus meeting that engages international representatives from all wastewater surveillance stakeholder groups to create an evaluation framework for public health environmental surveillance based on the multinational and multidisciplinary consensus.\nDevelop a comprehensive dissemination plan for the evaluation framework."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "References"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About us",
@@ -7,32 +35,32 @@
     "text": "This project will be shaped by input from the multidisciplinary executive group and associated working groups, as well as by the feedback received from the Delphi process.\nThe executive group is a multidisciplinary and multinational group composed of 12 members. Executive group members will provide expertise on the following areas: ethics, mathematical sciences, social sciences, environmental and physical sciences, public health and medicine, and public interest/knowledge user."
   },
   {
-    "objectID": "about.html#douglas-manuel",
-    "href": "about.html#douglas-manuel",
+    "objectID": "about.html#douglas-manuel-co-chair",
+    "href": "about.html#douglas-manuel-co-chair",
     "title": "About us",
-    "section": "Douglas Manuel",
-    "text": "Douglas Manuel\n\n\n\n\n\n\n\n\nDr. Doug Manuel is a Professor at the University of Ottawa in the Departments of Family Medicine and School of Epidemiology and Public Health. He is a Senior Scientist at The Ottawa Hospital Research Institute, a Clinical Scientist with C.T. Lamont Primary Health Care Research Centre, Bruyère Research Institute, a Senior Core Scientist at ICES and a Senior Medical Advisor for Statistics Canada. Dr Manuel’s research develops advanced predictive algorithms and microsimulation models to assess population health and the health impact of health strategies. He has published over 250 studies, including papers in leading medical journals. He leads the CoVaRR-Net wastewater research group. He consults for the World Bank for the development of wastewater surveillance for low and middle-income countries. He developed the Public Health Environmental Surveillance Open Data Model (ODM) used worldwide for wastewater surveillance. He leads a multi-national, multidisciplinary consensus study to develop a wastewater surveillance evaluation framework. |"
+    "section": "Douglas Manuel (Co-chair)",
+    "text": "Douglas Manuel (Co-chair)\nPublic HealthNorth America Dr. Doug Manuel is a Distinguished Professor at the University of Ottawa in the Departments of Family Medicine and School of Epidemiology and Public Health. He is a Senior Scientist at The Ottawa Hospital Research Institute, a Clinical Scientist with C.T. Lamont Primary Health Care Research Centre, Bruyère Research Instituet. He has published over 250 studies, including papers in leading medical journals. He formerly led the CoVaRR-Net wastewater research group. He consults for the World Bank for the development of wastewater surveillance for low and middle-income countries. He developed the Public Health Environmental Surveillance Open Data Model (ODM) used worldwide for wastewater surveillance.\nPublic Health Environmental Science Social Sciences Infectious Diseases South America Europe"
   },
   {
-    "objectID": "about.html#david-buckeridge",
-    "href": "about.html#david-buckeridge",
+    "objectID": "about.html#david-buckeridge-co-chair",
+    "href": "about.html#david-buckeridge-co-chair",
     "title": "About us",
-    "section": "David Buckeridge",
-    "text": "David Buckeridge\n\n\n\n\n\n\n[public health] | David Buckeridge is a Professor in the School of Population and Global Health at McGill University in Montreal where he directs the Surveillance Lab, an interdisciplinary group that develops, implements, and evaluates novel computational methods for population health surveillance. He also directs the Anonymized Data Warehouse at the McGill University Health Center, provides informatics advice to the Quebec Institute for Excellence in Health and Social Services, and leads data management and analytics for the COVID-19 Immunity Task Force. | | | His research and practice focus on the informatics of health surveillance and disease control and he holds a Canada Research Chair (Tier 1) in Health Informatics and Data Science. Dr Buckeridge sits on the Expert Panel advising the Canadian government about health systems during the COVID-19 pandemic. He is also a technical advisor to the World Health Organization Epidemic Intelligence from Open Sources (EIOS) program on the application of artificial intelligence to global infectious disease surveillance. Dr Buckeridge holds an M.D. from Queen’s University, a M.Sc. in Epidemiology from the University of Toronto, and a Ph.D. in Biomedical Informatics from Stanford University. |"
+    "section": "David Buckeridge (Co-chair)",
+    "text": "David Buckeridge (Co-chair)\nDavid Buckeridge is a Professor in the School of Population and Global Health at McGill University in Montreal where he directs the Surveillance Lab, an interdisciplinary group that develops, implements, and evaluates novel computational methods for population health surveillance. He also directs the Anonymized Data Warehouse at the McGill University Health Center, provides informatics advice to the Quebec Institute for Excellence in Health and Social Services, and leads data management and analytics for the COVID-19 Immunity Task Force.\nHis research and practice focus on the informatics of health surveillance and disease control and he holds a Canada Research Chair (Tier 1) in Health Informatics and Data Science. Dr Buckeridge sits on the Expert Panel advising the Canadian government about health systems during the COVID-19 pandemic. He is also a technical advisor to the World Health Organization Epidemic Intelligence from Open Sources (EIOS) program on the application of artificial intelligence to global infectious disease surveillance. Dr Buckeridge holds an M.D. from Queen’s University, a M.Sc. in Epidemiology from the University of Toronto, and a Ph.D. in Biomedical Informatics from Stanford University."
   },
   {
     "objectID": "about.html#david-moher",
     "href": "about.html#david-moher",
     "title": "About us",
     "section": "David Moher",
-    "text": "David Moher\n\n\n\n\n\n\n\n\nDr. David Moher is a senior scientist, Clinical Epidemiology Program, Ottawa Hospital Research Institute, where he directs the Centre for Journalology. Dr. Moher is also a full Professor, School of Epidemiology and Public Health, Faculty of Medicine, University of Ottawa. Dr. Moher received an MSc in epidemiology and PhD in clinical epidemiology and biostatistics. Dr. Moher is a fellow of the Royal Society of Canada, and Canadian Academy of Health Sciences. Dr. Moher works in knowledge synthesis; predatory journals; reporting guidelines; and open science."
+    "text": "David Moher\nDr. David Moher is a senior scientist, Clinical Epidemiology Program, Ottawa Hospital Research Institute, where he directs the Centre for Journalology. Dr. Moher is also a full Professor, School of Epidemiology and Public Health, Faculty of Medicine, University of Ottawa. Dr. Moher received an MSc in epidemiology and PhD in clinical epidemiology and biostatistics. Dr. Moher is a fellow of the Royal Society of Canada, and Canadian Academy of Health Sciences. Dr. Moher works in knowledge synthesis; predatory journals; reporting guidelines; and open science."
   },
   {
     "objectID": "about.html#beate-sander",
     "href": "about.html#beate-sander",
     "title": "About us",
     "section": "Beate Sander",
-    "text": "Beate Sander\n\n\n\n\n\n\n\n\nBeate Sander, RN MBA MEcDev PhD, holds a Canada Research Chair in Economics of Infectious Diseases, is a Senior Scientist at the Toronto Health Economics and Technology Assessment (THETA) collaborative at the Toronto General Hospital Research Institute, University Health Network (UHN), and Professor at the Institute of Health Policy, Management and Evaluation (IHPME), University of Toronto.\nDr. Sander is an internationally recognized leader in infectious disease economics with extensive expertise in health economics and simulation modeling. Her research focus is on assessing infectious disease interventions using simulation modeling and on estimating the burden of infectious diseases using population-based data. Dr. Sander has received several awards for research excellence.\nDr. Sander is an expert to national and international advisory bodies, including Canada’s National Advisory Committee for Immunization (NACI), where she chairs the Economics Task Group and co-chairs the Economic Guidelines Task Group – a group tasked with developing national guidelines for the economic evaluation of vaccines, which will set the standard for conducting economic evaluations for vaccines in Canada. Dr. Sander co-chaired the Ontario COVID-19 Modeling Consensus Table from March 2020 to March 2022 and was a member of Ontario’s Science Advisory Table, leading timely COVID-19 evidence generation and knowledge mobilization. Dr. Sander is a member of several Federal expert advisory committees and President of the international Society for Medical Decision Making."
+    "text": "Beate Sander\n | Beate Sander, RN MBA MEcDev PhD, holds a Canada Research Chair in Economics of Infectious Diseases, is a Senior Scientist at the Toronto Health Economics and Technology Assessment (THETA) collaborative at the Toronto General Hospital Research Institute, University Health Network (UHN), and Professor at the Institute of Health Policy, Management and Evaluation (IHPME), University of Toronto. |\n                                             | |\n                                             | Dr. Sander is an internationally recognized leader in infectious disease economics with extensive expertise in health economics and simulation modeling. Her research focus is on assessing infectious disease interventions using simulation modeling and on estimating the burden of infectious diseases using population-based data. Dr. Sander has received several awards for research excellence. |\n                                             | |\n                                             | Dr. Sander is an expert to national and international advisory bodies, including Canada’s National Advisory Committee for Immunization (NACI), where she chairs the Economics Task Group and co-chairs the Economic Guidelines Task Group – a group tasked with developing national guidelines for the economic evaluation of vaccines, which will set the standard for conducting economic evaluations for vaccines in Canada. Dr. Sander co-chaired the Ontario COVID-19 Modeling Consensus Table from March 2020 to March 2022 and was a member of Ontario’s Science Advisory Table, leading timely COVID-19 evidence generation and knowledge mobilization. Dr. Sander is a member of several Federal expert advisory committees and President of the international Society for Medical Decision Making. |\n+———————————————-+—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————+"
   },
   {
     "objectID": "about.html#mary-jessome",
@@ -89,33 +117,5 @@
     "title": "About us",
     "section": "Yoni Freedhoff",
     "text": "Yoni Freedhoff\nPrimary Affiliation: N/A\nPrimary Discipline: Public Interest/Knowledge User\nCountry of Residence: Canada\nBio:\nConflict-of-Interest Statement:"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Public Health Environmental Surveillance Evaluation Framework (PHES-EF)",
-    "section": "",
-    "text": "An international e-Delphi study to develop an evaluation framework for public health environmental surveillance"
-  },
-  {
-    "objectID": "index.html#background",
-    "href": "index.html#background",
-    "title": "Public Health Environmental Surveillance Evaluation Framework (PHES-EF)",
-    "section": "Background",
-    "text": "Background\nThe use of environmental surveillance systems for public health has drastically increased since the beginning of the COVID-19 pandemic. With this increased use, comes a need to these systems to be evaluated. A formal evaluation of environmental surveillance systems for public health is crucial for determining whether such systems can be used reliably and credibly to inform public policy and public health action. Formal evaluation of this landscape will also be critical in determining whether these systems will continue to receive funding or remain operational.\nBefore these surveillance systems can formally be evaluated, consensus on evaluation criteria will need to be obtained.\nThe study will develop an evaluation framework using a multidisciplinary and multinational consensus approach that considers current evidence for evaluating public health surveillance systems and new knowledge gained throughout the COVID-19 pandemic. The goal is to identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed. While SARS-CoV-2 wastewater surveillance will be used to frame the study, the framework and associated criteria should also consider other environmental surveillance targets and uses (e.g., other pathogens, antimicrobial resistance, and drug use). A range of uses of environmental surveillance will be considered.\nThis project will use an electronic Delphi (e-Delphi) consensus process to generate a list of contextually appropriate criteria to be used when evaluating public health environmental surveillance systems."
-  },
-  {
-    "objectID": "index.html#objectives",
-    "href": "index.html#objectives",
-    "title": "Public Health Environmental Surveillance Evaluation Framework (PHES-EF)",
-    "section": "Objectives",
-    "text": "Objectives\nOur primary objective is to develop an evaluation framework for public health environmental surveillance (PHES-EF), using a consensus approach.\nAn evaluation framework provides structured guidance to facilitate a systematic approach to evaluation of the program.10 While there is variation in the terminology used to describe frameworks, 11 we further define our approach as: presenting a clear list of items that should appear in an evaluation; providing an organisation or structure for the list of items; defining how the list and organisation were developed; and, potentially, including details about how to measure the evaluation items.\nOur specific objectives are to:\n\nEngage a multidisciplinary executive group of international experts to inform the development of the evaluation framework.\nReview the literature to identify current guidance on surveillance evaluation items.\nPrioritize items for an evaluation framework for environmental surveillance using an international e-Delphi process.\nConduct a consensus meeting that engages international representatives from all wastewater surveillance stakeholder groups to create an evaluation framework for public health environmental surveillance based on the multinational and multidisciplinary consensus.\nDevelop a comprehensive dissemination plan for the evaluation framework."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "References"
   }
 ]
