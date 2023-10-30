@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram id="BcWC3n7M8_-AfZd_4lyK" name="Page-1">
+        <mxGraphModel dx="1152" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div style=&quot;font-family: &amp;quot;Fira Code&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;Establish the Executive Group&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="178" y="150" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;div style=&quot;font-family: &amp;quot;Fira Code&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;Generate candidate items&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="178" y="274" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#f4f2f6;fontColor=#000000;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="418" y="450" as="sourcePoint"/>
+                        <mxPoint x="468" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;font-family: &amp;quot;Fira Code&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;International &lt;br&gt;e-Delphi survey&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="178" y="398" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div style=&quot;font-family: &amp;quot;Fira Code&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;Consensus meeting&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="178" y="521" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;font-family: &amp;quot;Fira Code&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;Disseminate the evaluation framework&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="178" y="645" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#f4f2f6;fontColor=#000000;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="3" target="7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="288" y="240" as="sourcePoint"/>
+                        <mxPoint x="288" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#f4f2f6;fontColor=#000000;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="7" target="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="288" y="240" as="sourcePoint"/>
+                        <mxPoint x="288" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#f4f2f6;fontColor=#000000;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="8" target="9" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="288" y="490" as="sourcePoint"/>
+                        <mxPoint x="288" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Step 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="170" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Step 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="294" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Step 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="418" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Step 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="541" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Step 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="665" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;div style=&quot;font-size: 14px; line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px; font-size: 12px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font&gt;Agree on the scope of the study and develop study protocol.&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font&gt;Agree on Terms of Reference for executive group members.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;align=left;fillColor=none;labelBackgroundColor=none;strokeColor=none;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="150" width="490" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Conduct scoping reviews to extract relevant items for e-Delphi.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Executive Group to provide feedback on the organization, &lt;br&gt;completeness, and redundancy of candidate items list.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;align=left;fillColor=none;labelBackgroundColor=none;strokeColor=none;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="274" width="490" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;Recruit, screen, and register international participants for&lt;br&gt;participation in e-Delphi survey.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font&gt;Conduct recruitment and retention efforts during each round.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;align=left;fillColor=none;labelBackgroundColor=none;strokeColor=none;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="398" width="490" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Obtain expert consensus on the final list of items for PHES-EF.&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font&gt;Determine dissemination strategies for evaluation framework.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;align=left;fillColor=none;labelBackgroundColor=none;strokeColor=none;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="521" width="490" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;div style=&quot;line-height: 21px;&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Make framework available to all stakeholder groups and publish&lt;br&gt;&lt;/span&gt;in an open-access journal with an open license.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font&gt;Engage with researchers and to promote the adoption of the&lt;br&gt;evaluation framework.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;align=left;fillColor=none;labelBackgroundColor=none;strokeColor=none;fontFamily=Noto Sans Display;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNoto%2BSans%2BDisplay;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="645" width="490" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
