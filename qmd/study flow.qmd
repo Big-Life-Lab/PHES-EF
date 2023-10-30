@@ -1,0 +1,172 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+---
+
+``` javascript
+```
+
+```{d3}
+var steps = [
+  'Step 1',
+  'Step 2',
+  'Step 3',
+  'Step 4',
+  'Step 5'
+];
+
+var first_boxes = [
+  'Establishment of the Executive Group',
+  'Generation of candidate items',
+  'International e-Delphi survey',
+  'Consensus meeting',
+  'Dissemination of the evaluation framework'
+];
+
+var steps_text_data = [
+  [
+    "Agree on the scope of the study and develop study protocol",
+    "Agree on Terms of Reference for executive group members"
+  ],
+  [
+    "Conduct scoping reviews to extract relevant items for e-Delphi",
+    "Executive Group to provide feedback on the organization, completeness, and redundancy of candidate items list"
+  ],
+  [
+    "Recruit, screen, and register international participants for participation in e-Delphi survey",
+    "Conduct recruitment and retention efforts during each round"
+  ],
+  [
+    "Obtain expert consensus on the final list of items for PHES-EF",
+    "Determine dissemination strategies for evaluation framework"
+  ],
+  [
+    "Make framework available to all stakeholder groups and publish in an open-access journal with an open license",
+    "Engage with researchers and to promote the adoption of the evaluation framework"
+  ]
+]
+
+// Calculate y position based on preceding bullet points' text length
+function calculateYPosition(data, index) {
+  let totalHeight = 0;
+  for (let i = 0; i <= index; i++) {
+    totalHeight += (third_column[data[i]].length * 14 * 1.1) + (i > 0 ? 10 : 0);
+  }
+  return totalHeight;
+}
+
+function wrap(text, width) {
+    text.each(function () {
+        var textElement = d3.select(this),
+            words = textElement.text().split(/\s+/).reverse(),
+            word,
+            line = [],
+            lineNumber = 0,
+            lineHeight = 1.1, // ems
+            x = textElement.attr("x"),
+            y = textElement.attr("y"),
+            dy = 0,
+            tspan = textElement.text(null)
+                        .append("tspan")
+                        .attr("x", x)
+                        .attr("y", y)
+                        .attr("dy", dy + "em");
+        while (word = words.pop()) {
+            line.push(word);
+            tspan.text(line.join(" "));
+            if (tspan.node().getComputedTextLength() > width) {
+                line.pop();
+                tspan.text(line.join(" "));
+                line = [word];
+                tspan = textElement.append("tspan")
+                            .attr("x", x)
+                            .attr("y", y)
+                            .attr("dy", ++lineNumber * lineHeight + dy + "em")
+                            .text(word);
+            }
+        }
+    });
+}
+
+svg.selectAll('rect')
+  .data(first_boxes)
+  .enter()
+  .append('rect')
+    .attr('x', 100)
+    .attr('y', function(d, i) { return 5 + i * 60; })
+    .attr('width', 250)
+    .attr('height', 55)
+    .attr('fill', 'lightgrey');
+
+svg.selectAll('.stepsText')
+  .data(steps)
+  .enter()
+  .append('text')
+    .attr('x', 10)
+    .attr('y', function(d, i) { return 35 + i * 60; })
+    .attr('font-family', 'Verdana')
+    .attr('font-size', 12)
+    .text(function(d) { return d; })
+    .call(wrap, 90); // Adjusted this for the steps width
+
+svg.selectAll('.boxText')
+  .data(first_boxes)
+  .enter()
+  .append('text')
+    .attr('x', 105)
+    .attr('y', function(d, i) { return 20 + i * 60; })
+    .attr('font-family', 'Verdana')
+    .attr('font-size', 12)
+    .text(function(d) { return d; })
+    .call(wrap, 250);
+
+// Add a third column for steps_text_data
+function calculateYPosition(data, index) {
+  let totalHeight = 0;
+  for (let i = 0; i <= index; i++) {
+    totalHeight += (third_column[data[i]].length * 14 * 1.1) + (i > 0 ? 10 : 0);
+  }
+  return totalHeight;
+}
+
+function calculateYPosition(data, index) {
+  let totalHeight = 0;
+  for (let i = 0; i <= index; i++) {
+    totalHeight += (steps_text[data[i]].length * 14 * 1.1) + (i > 0 ? 10 : 0);
+  }
+  return totalHeight;
+}
+
+// Rendering for the third column's bullet points:
+
+steps.forEach(function(step, i) {
+  var yPos = 20 + i * 60;  // Starting y position for each 'Step'
+  
+  steps_text[step].forEach(function(txt, j) {
+    svg.append('text')
+      .attr('x', 400)
+      .attr('y', yPos + calculateYPosition(steps, i))
+      .attr('font-family', 'Verdana')
+      .attr('font-size', 12)
+      .text(txt)
+      .call(wrap, 250);
+  });
+});
+
+
+```
+
+\
+
+## Study flow
+
+Step1. Establishment of the Executive Group
+
+Step 2. Generation of candidate items
+
+Step 3. International e-Delphi survey
+
+Step 4. Consensus meeting
+
+Step 5. Dissemination of the evaluation framework
