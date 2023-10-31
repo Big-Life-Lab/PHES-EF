@@ -16,6 +16,8 @@ website:
     left:
       - text: Home
         href: index.qmd
+      - text: Participate
+        href: delphi.qmd
       - href: about.qmd
       
     tools:

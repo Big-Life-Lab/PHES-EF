@@ -1,0 +1,66 @@
+---
+title: "eDelphi study"
+format: html
+---
+
+```{r echo=FALSE, warning=FALSE}
+# Install the gt package if not already installed
+if (!requireNamespace("gt", quietly = TRUE)) {
+  install.packages("gt")
+}
+
+# Load the gt package
+library(gt)
+
+# Create a data frame with your data
+data <- data.frame(
+  Discipline = c(
+    "Mathematical Sciences", 
+    "Social Sciences", 
+    "Environmental and Physical Sciences",
+    "Public Health and Medicine",
+    "Public Interest/ Knowledge User"
+  ),
+  Inclusion_Criteria = c(
+    "An adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.",
+    "An adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or has relevant lived experience.",
+    "An adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.",
+    "An adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.",
+    "An adult (≥ 18 years old) who is proficient in English."
+  )
+)
+
+# Generate the table using gt
+gt(data, id = "delphi_table") %>%
+  tab_header(
+    title = "Inclusion Criteria by Discipline"
+  ) %>%
+  cols_width(Discipline ~ "30%") %>%
+  opt_css(
+    css = "
+    #delphi_table .gt_table {
+      font-family: 'Noto Sans Display', sans-serif;
+      border-color: #c4c4c4;
+    }
+
+    #delphi_table .gt_heading {
+      font-family: 'Lora', serif;
+      font-size: 20px;
+      color: #9B5539;
+}
+
+    #delphi_table .gt_col_headings {
+      color: #838c91;
+}
+    "
+  )
+
+
+
+```
+
+**Definitions**
+
+Professional experience: Paid employment in current disciplines (current or former) post-training experience, 3+ graduate training or professional practice
+
+Graduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health
