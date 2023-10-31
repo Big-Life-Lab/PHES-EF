@@ -14,9 +14,6 @@ runs:
         r-version: "4.1.1"
     - name: Install R dependencies
       uses: r-lib/actions/setup-r-dependencies@v2
-      with:
-        packages:
-          any::gt
     - name: Render quarto
       run: quarto render ./qmd
       shell: bash
