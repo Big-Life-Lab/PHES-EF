@@ -4,9 +4,6 @@ title: "About us"
 
 This project will be shaped by input from the multidisciplinary executive group and associated working groups, as well as by the feedback received from the Delphi process.
 
-```{r}
-
-```
 
 The executive group is a multidisciplinary and multinational group composed of 12 members. Executive group members will provide expertise on the following areas: ethics, mathematical sciences, social sciences, environmental and physical sciences, public health and medicine, and public interest/knowledge user.
 

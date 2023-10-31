@@ -4,13 +4,10 @@ format: html
 ---
 
 ```{r echo=FALSE, warning=FALSE}
-# Install the gt package if not already installed
-if (!requireNamespace("gt", quietly = TRUE)) {
-  install.packages("gt")
-}
 
 # Load the gt package
 library(gt)
+library(juicyjuice)
 
 # Create a data frame with your data
 data <- data.frame(
