@@ -13,7 +13,7 @@ The executive group is a multidisciplinary and multinational group composed of 1
 
 ![](images/doug_manuel.jpg){.person-img width="200"}[Public Health]{.public-health}[North America]{.north-america} Dr. Doug Manuel is a Distinguished Professor at the University of Ottawa in the Departments of Family Medicine and School of Epidemiology and Public Health. He is a Senior Scientist at The Ottawa Hospital Research Institute, a Clinical Scientist with C.T. Lamont Primary Health Care Research Centre, Bruyère Research Instituet. He has published over 250 studies, including papers in leading medical journals. He formerly led the CoVaRR-Net wastewater research group. He consults for the World Bank for the development of wastewater surveillance for low and middle-income countries. He developed the Public Health Environmental Surveillance Open Data Model (ODM) used worldwide for wastewater surveillance.
 
-[Public Health]{.public-health} [Environmental Science]{.environmental-science} [Social Sciences]{.social-sciences} [Infectious Diseases]{.infectious-diseases} [South America]{.south-america} [Europe]{.europe}
+[Public Health and Medicine]{.public-health-and-medicine} [Environmental Science]{.environmental-science} [Social Sciences]{.social-sciences} [Infectious Diseases]{.infectious-diseases} [South America]{.south-america} [Europe]{.europe}
 
 ## David Buckeridge (Co-chair)
 
