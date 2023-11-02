@@ -7,14 +7,18 @@ $color_4: #c4c4c4; // used for .section-head border
 $font_family_1: "Noto Sans Display", "HelveticaNeue", "Helvetica", "Arial", sans-serif; // used for *, p, a, .big, .section-head, h5
 $font_family_2: "lora"; // used for h1, h2, h3, h4, .lora
 $background_color_1: #ffcb6c; // used for mark
-$tag_public_health: #8b6e4a;
-$tag_environmental_science: #6a7378;
+$tag_mathematical_sciences: #8b6e4a;
 $tag_social_sciences: #1f8fa8;
-$tag_infectious_diseases: #a0a0a0;
+$tag_environmental_and_physical_sciences: #6a7378;
+$tag_public_health_and_medicine: #8b6e4a;
+$tag_public_interest_or_knowledge_user: #a0a0a0;
 // Define color variables for regions
-$region_north_america: #0277BD;
-$region_south_america: #2E7D32;
-$region_europe: #C2185B;
+$region_canada: #0277BD;
+$region_united_states_of_america: #2E7D32;
+$region_south_africa: #C2185B;
+$region_india: #C2185B;
+$region_united_kingdom: #C2185B;
+$region_germany: #C2185B;
 
 
 
@@ -126,14 +130,14 @@ mark {
   font-family: $font_family_1;
 }
 
-.public-health {
+.public-health-and-medicine {
   @extend .tag-label;
-  background-color: $tag_public_health;
+  background-color: $tag_public_health_and_medicine;
 }
 
-.environmental-science {
+.environmental-and-physical-sciences {
   @extend .tag-label;
-  background-color: $tag_environmental_science;
+  background-color: $tag_environmental_and_physical_sciences;
 }
 
 .social-sciences {
@@ -141,9 +145,14 @@ mark {
   background-color: $tag_social_sciences;
 }
 
-.infectious-diseases {
+.mathematical-sciences {
   @extend .tag-label;
-  background-color: $tag_infectious_diseases;
+  background-color: $tag_mathematical_sciences;
+}
+
+.public-interest-or-knowledge-user {
+  @extend .tag-label;
+  background-color: $tag_public_interest_or_knowledge_user;
 }
 
 .region-tag {
@@ -151,17 +160,32 @@ mark {
   font-style: italic;
 }
 
-.north-america {
+.canada {
   @extend .region-tag;
-  background-color: $region_north_america;
+  background-color: $region_canada;
 }
 
-.south-america {
+.united-states-of-america {
   @extend .region-tag;
-  background-color: $region_south_america;
+  background-color: $region_united_states_of_america;
 }
 
-.europe {
+.south-africa {
   @extend .region-tag;
-  background-color: $region_europe;
+  background-color: $region_south_africa;
+}
+
+.india {
+  @extend .region-tag;
+  background-color: $region_india;
+}
+
+.united-kingdom {
+  @extend .region-tag;
+  background-color: $region_united_kingdom;
+}
+
+.germany {
+  @extend .region-tag;
+  background-color: $region_germany;
 }
