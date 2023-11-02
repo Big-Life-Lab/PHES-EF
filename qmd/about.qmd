@@ -57,7 +57,7 @@ Dr. Sander is an expert to national and international advisory bodies, including
 
 ## Jeremy Veillard
 
-![](images/jeremy_veillard.jpg){.person-img width="200"}[Public Health and Medicine]{.public-health-and-medicine}[United States of America]{.united-states-of-america} Jeremy Veillard is a Senior Health Specialist in the Latin America and Caribbean Region of the Health, Nutrition and Population Global Practice at the World Bank. Jeremy is a former health care executive in Canada and France, with deep expertise in quality of care, service delivery performance and health systems research and analytics. Jeremy has a PhD in public health (health systems research) from the University of Amsterdam, The Netherlands and a masters in hospital administration from the Ecole des Hautes Etudes en Santé Publique, France. 
+![](images/jeremy_veillard.jpg){.person-img width="200"}[Public Health and Medicine]{.public-health-and-medicine}[United States of America]{.united-states-of-america} Jeremy Veillard is a Lead Health Specialist in the Latin America and Caribbean Region, for Health, Nutrition and Population, at the World Bank. Jeremy is a former health care executive in Canada and France, with deep expertise in quality of care, service delivery performance and health systems research and analytics. Jeremy has a PhD in public health (health systems research) from the University of Amsterdam, The Netherlands and a masters in hospital administration from the Ecole des Hautes Etudes en Santé Publique, France. 
 
 ## Matthew Wade
 
