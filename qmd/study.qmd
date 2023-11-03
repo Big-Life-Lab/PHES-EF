@@ -1,16 +1,42 @@
 ---
 title: "About the study"
 format: html
-
+bibliography: references.bib
 ---
 
+## Study Title
 
+Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International Multidisciplinary e-Delphi Study
+
+Short Study Title: Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
+
+Principal Investigator: Dr. Douglas Manuel [dmanuel\@ohri.ca](mailto:dmanuel@ohri.ca){.email}
+
+## Study approach
+
+...
+
+## Study steps
+
+## ![](images/study-flow.svg){fig-align="center" width="700"}
 
 ## Open Science
 
-The project will follow an open-science approach and make available the data for all project stages, including the search strategy, search findings, initial curation of evaluation measures, summary of executive group discussions, e-Delphi processes, and agreement procedures. 
+The project will follow an open-science approach and make available the data for all project stages, including the search strategy, search findings, initial curation of evaluation measures, summary of executive group discussions, e-Delphi processes, and agreement procedures.
+
+PHES-EF will be made available using an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Anonymous aggregate data will be available on OSF, where the study protocol is registered. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used.
+
+## Equity, diversity, and inclusion (EDI)
+
+"Equity is defined as the removal of systemic barriers and biases enabling all individuals to have equal opportunity to access and benefit from the program"[@schmalz2021]. To achieve this, members of the research team are committed to developing a strong understanding of the systemic barriers faced by individuals from underrepresented groups. "Diversity is defined as differences in race, colour, place of origin, religion, immigrant and newcomer status, ethnic origin, ability, sex, sexual orientation, gender identity, gender expression and age". Panellists will be asked to provide characteristic information (e.g., country of residence, gender, primary discipline) to assess and help ensure (through more targeted recruitment) a large diversity in perspectives. "Inclusion is defined as the practice of ensuring that all individuals are valued and respected for their contributions and are equally supported". To help ensure that all research team members are integrated and supported, we will have a code of conduct statement in the Executive Group Terms of Reference.
+
+All study working group members will complete EDI-related Canadian Institutes for Health Research (CIHR) Training, and the First Nations principles of Ownership, Control, Access and Possession (OCAP©) training for the research [@ocap2023]. The executive group will receive an overview of EDI and OCAP and will be encouraged and supported to complete such training. Furthermore, staff trained in EDI and OCAP principles will review the framework from an EDI perspective to ensure appropriate language.
+
+## Knowledge user and public involvement
+
+To ensure accurate and transparent reporting of knowledge users and public involvement throughout the study, we will refer to the Guidance for Reporting Involvement of Patients and the Public (GRIPP2) checklist [@staniszewska2017]. We will document the methods used to engage knowledge users, report the impacts and outcomes of their engagement, and report on lessons learned from the experience.
 
 ## Funding
 
@@ -19,18 +45,22 @@ This project is funded by the Canadian Institutes for Health Research-funded net
 # Declarations
 
 ## Ethics Approval and Consent to Participate
-Ethical approval will be obtained from the Ottawa Health Science Network Research Ethics Board (OHSN-REB) before commencing the study Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study.
-Only anonymous panellist responses will be used for analyses. All panellist data and responses will be exported from relevant survey platforms to a shared folder on the Ottawa Hospital SharePoint. The shared folder contents will be password protected and only REB-approved study working group members from the Ottawa Hospital will have access to the data. 
 
-# Availability of Data and Materials
+Ethical approval will be obtained from the Ottawa Health Science Network Research Ethics Board (OHSN-REB) before commencing the study Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study. Only anonymous panellist responses will be used for analyses.
+
+OHSN-REB Number: 20230428-01H
+
+If you have questions about ethical issues related to this study, you can talk to someone who is not involved in the study at the Ottawa Health Science Network Research Ethics Board, Chairperson at 1-613-798-5555 extension 16719.
 
 # Competing Interests
-All participants (i.e., study working group, executive group, and e-Delphi panellists) will be asked to declare any financial or personal relationships that may influence either the conduct or presentation of this research. 
 
-place here and how to contact REB if you have questions or concerns.
+All participants (i.e., study working group, executive group, and e-Delphi panellists) will be asked to declare any financial or personal relationships that may influence either the conduct or presentation of this research.
 
 ## Acknowledgements
 
-We thank Peter Farrell (Research Librarian, University of Ottawa) for developing the associated scoping review search strategies for this study. 
+We thank Peter Farrell (Research Librarian, University of Ottawa) for developing the associated scoping review search strategies for this study.
 
+## references
 
+::: {#refs}
+:::
