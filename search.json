@@ -112,6 +112,41 @@
     "text": "Emma Brown\nCanada"
   },
   {
+    "objectID": "study.html",
+    "href": "study.html",
+    "title": "About the study",
+    "section": "",
+    "text": "The project will follow an open-science approach and make available the data for all project stages, including the search strategy, search findings, initial curation of evaluation measures, summary of executive group discussions, e-Delphi processes, and agreement procedures.\nAnonymous aggregate data will be available on OSF, where the study protocol is registered. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used."
+  },
+  {
+    "objectID": "study.html#open-science",
+    "href": "study.html#open-science",
+    "title": "About the study",
+    "section": "",
+    "text": "The project will follow an open-science approach and make available the data for all project stages, including the search strategy, search findings, initial curation of evaluation measures, summary of executive group discussions, e-Delphi processes, and agreement procedures.\nAnonymous aggregate data will be available on OSF, where the study protocol is registered. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used."
+  },
+  {
+    "objectID": "study.html#funding",
+    "href": "study.html#funding",
+    "title": "About the study",
+    "section": "Funding",
+    "text": "Funding\nThis project is funded by the Canadian Institutes for Health Research-funded network, CoVaRR-Net (Coronavirus Variants Rapid Response Network. FRN: 175622), and Health Canada (through the Safe Restart Agreement Contribution Program. Arrangement #: 2223-HQ-000098). The Canadian Institutes for Health Research and Health Canada have not been involved in the design or conduct or the study and the views expressed herein do not necessarily represent the views of either funding organization."
+  },
+  {
+    "objectID": "study.html#ethics-approval-and-consent-to-participate",
+    "href": "study.html#ethics-approval-and-consent-to-participate",
+    "title": "About the study",
+    "section": "Ethics Approval and Consent to Participate",
+    "text": "Ethics Approval and Consent to Participate\nEthical approval will be obtained from the Ottawa Health Science Network Research Ethics Board (OHSN-REB) before commencing the study Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study. Only anonymous panellist responses will be used for analyses. All panellist data and responses will be exported from relevant survey platforms to a shared folder on the Ottawa Hospital SharePoint. The shared folder contents will be password protected and only REB-approved study working group members from the Ottawa Hospital will have access to the data."
+  },
+  {
+    "objectID": "study.html#acknowledgements",
+    "href": "study.html#acknowledgements",
+    "title": "About the study",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nWe thank Peter Farrell (Research Librarian, University of Ottawa) for developing the associated scoping review search strategies for this study."
+  },
+  {
     "objectID": "delphi.html",
     "href": "delphi.html",
     "title": "eDelphi study",
@@ -130,42 +165,28 @@
     "href": "index.html#background",
     "title": "",
     "section": "Background",
-    "text": "Background\nPublic health requires robust surveillance systems that inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving significant attention(1).\nA structured evaluation of public health surveillance systems can improve program accountability, transparency, trust, and performance; thereby quantifying their value to public health and informing future surveillance needs(2).\nThe study seeks to develop an evaluation framework using a multidisciplinary and multinational consensus approach that considers current evidence for evaluating public health surveillance systems and new knowledge gained throughout the COVID-19 pandemic. The goal is to identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed."
+    "text": "Background\nPublic health requires robust surveillance systems to inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving attention with widespread adoption.(1)\nA structured evaluation of public health surveillance systems can improve program accountability, transparency, trust, and performance; thereby quantifying their value to public health and informing future surveillance needs.(2)"
+  },
+  {
+    "objectID": "index.html#study-objectives",
+    "href": "index.html#study-objectives",
+    "title": "",
+    "section": "Study objectives",
+    "text": "Study objectives\nThe study’s primary objective is to develop an evaluation framework for public health environmental surveillance (PHES-EF), using a multi-nation, mulitdisicplinary consensus approach. PHES-EF will identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed.\nLearn more about the study."
   },
   {
     "objectID": "index.html#recruiting-consensus-panel-members",
     "href": "index.html#recruiting-consensus-panel-members",
     "title": "",
     "section": "Recruiting consensus panel members",
-    "text": "Recruiting consensus panel members\nBecome a voice in shaping the adoption of public health surveillance. A robust, accepted, and highly adopted surveillance systems reuqires a diverse range of expertise from around the world. Your Expertise Needed. Click to learn more and join this vital, open science effort. Learn aboup participating in the eDelphi study"
-  },
-  {
-    "objectID": "index.html#objectives",
-    "href": "index.html#objectives",
-    "title": "",
-    "section": "Objectives",
-    "text": "Objectives\nOur primary objective is to develop an evaluation framework for public health environmental surveillance (PHES-EF), using a multi-nation, mulitdisicplinary consensus approach.\nAn evaluation framework provides structured guidance to facilitate a systematic approach to evaluation of the program.10 An evaluation framework includes: a clear list of items that should appear in an evaluation; an organisation or structure for the list of items; a description how the list and organisation were developed; and, potentially, details about how to measure the evaluation items."
+    "text": "Recruiting consensus panel members\nBecome a voice in shaping the adoption of public health surveillance. A robust, accepted, and highly adopted surveillance systems reuqires a diverse range of expertise from around the world. Click to learn more and join this vital, open science effort.\nLearn about participating in the eDelphi study"
   },
   {
     "objectID": "index.html#study-steps",
     "href": "index.html#study-steps",
     "title": "",
     "section": "Study steps",
-    "text": "Study steps\n\n\n\n\n\n\nIf needed, we can download files using a button like this\n Download the pdf"
-  },
-  {
-    "objectID": "index.html#funding",
-    "href": "index.html#funding",
-    "title": "",
-    "section": "Funding",
-    "text": "Funding\nWe are grateful for funding from the following sources:\n\nHealth Canada SRA. Grant number The views expressed herein do not necessarily represent the views of Health Canada.\nCoVaRR-Net - …. CIHR FRA…"
-  },
-  {
-    "objectID": "index.html#research-ethics",
-    "href": "index.html#research-ethics",
-    "title": "",
-    "section": "Research Ethics",
-    "text": "Research Ethics\nplace here and how to contact REB if you have questions or concerns."
+    "text": "Study steps"
   },
   {
     "objectID": "index.html#references",
