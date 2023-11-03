@@ -12,44 +12,26 @@ bibliography: references.bib
 
 ## Background
 
-Public health requires robust surveillance systems that inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving significant attention[@manuel2022].
+Public health requires robust surveillance systems to inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving attention with widespread adoption.[@manuel2022]
 
-A structured evaluation of public health surveillance systems can improve program accountability, transparency, trust, and performance; thereby quantifying their value to public health and informing future surveillance needs[@cdc2001].
+A structured evaluation of public health surveillance systems can improve program accountability, transparency, trust, and performance; thereby quantifying their value to public health and informing future surveillance needs.[@cdc2001]
 
-The study seeks to develop an evaluation framework using a multidisciplinary and multinational consensus approach that considers current evidence for evaluating public health surveillance systems and new knowledge gained throughout the COVID-19 pandemic. The goal is to identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed.
+## Study objectives
+
+The study's primary objective is to develop an evaluation framework for public health environmental surveillance (*PHES-EF*), using a multi-nation, mulitdisicplinary consensus approach. PHES-EF will identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed.
+
+[Learn more about the study.](about.qmd)
 
 ## Recruiting consensus panel members
 
-Become a voice in shaping the adoption of public health surveillance. A robust, accepted, and highly adopted surveillance systems reuqires a diverse range of expertise from around the world. Your Expertise Needed. Click to learn more and join this vital, open science effort. [Learn aboup participating in the eDelphi study](delphi.qmd)
+Become a voice in shaping the adoption of public health surveillance. A robust, accepted, and highly adopted surveillance systems reuqires a diverse range of expertise from around the world. Click to learn more and join this vital, open science effort. 
 
-## Objectives
-
-Our primary objective is to develop an evaluation framework for public health environmental surveillance (*PHES-EF*), using a multi-nation, mulitdisicplinary consensus approach.
-
-An evaluation framework provides structured guidance to facilitate a systematic approach to evaluation of the program.^10^ An evaluation framework includes: a clear list of items that should appear in an evaluation; an organisation or structure for the list of items; a description how the list and organisation were developed; and, potentially, details about how to measure the evaluation items.
+[Learn about participating in the eDelphi study](delphi.qmd)
 
 ## Study steps
 
 ![](images/study-flow.svg){fig-align="center" width="700"}
 
-### If needed, we can download files using a button like this
-
-{{< downloadthis images/doug_manuel.jpg label="Download the pdf" icon=file-earmark-pdf >}}
-
-```         
-```
-
-## Funding
-
-We are grateful for funding from the following sources:
-
--   Health Canada SRA. Grant number The views expressed herein do not necessarily represent the views of Health Canada.
-
--   CoVaRR-Net - .... CIHR FRA...
-
-## Research Ethics
-
-place here and how to contact REB if you have questions or concerns.
 
 ## References
 
