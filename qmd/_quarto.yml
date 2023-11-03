@@ -19,7 +19,8 @@ website:
       - text: Participate
         href: delphi.qmd
       - href: about.qmd
-      - href: contact_us 
+      - text: Contact Us
+      - href: contact_us.qmd
       
     tools:
       - icon: github
