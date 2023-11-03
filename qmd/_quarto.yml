@@ -19,6 +19,8 @@ website:
       - text: Participate
         href: delphi.qmd
       - href: about.qmd
+      - text: About the study
+        href: study.qmd
       - href: contact.qmd
       
     tools:

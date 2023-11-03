@@ -1,0 +1,36 @@
+---
+title: "About the study"
+format: html
+
+---
+
+
+
+## Open Science
+
+The project will follow an open-science approach and make available the data for all project stages, including the search strategy, search findings, initial curation of evaluation measures, summary of executive group discussions, e-Delphi processes, and agreement procedures. 
+
+Anonymous aggregate data will be available on OSF, where the study protocol is registered. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used.
+
+## Funding
+
+This project is funded by the Canadian Institutes for Health Research-funded network, CoVaRR-Net (Coronavirus Variants Rapid Response Network. FRN: 175622), and Health Canada (through the Safe Restart Agreement Contribution Program. Arrangement #: 2223-HQ-000098). The Canadian Institutes for Health Research and Health Canada have not been involved in the design or conduct or the study and the views expressed herein do not necessarily represent the views of either funding organization.
+
+# Declarations
+
+## Ethics Approval and Consent to Participate
+Ethical approval will be obtained from the Ottawa Health Science Network Research Ethics Board (OHSN-REB) before commencing the study Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study.
+Only anonymous panellist responses will be used for analyses. All panellist data and responses will be exported from relevant survey platforms to a shared folder on the Ottawa Hospital SharePoint. The shared folder contents will be password protected and only REB-approved study working group members from the Ottawa Hospital will have access to the data. 
+
+# Availability of Data and Materials
+
+# Competing Interests
+All participants (i.e., study working group, executive group, and e-Delphi panellists) will be asked to declare any financial or personal relationships that may influence either the conduct or presentation of this research. 
+
+place here and how to contact REB if you have questions or concerns.
+
+## Acknowledgements
+
+We thank Peter Farrell (Research Librarian, University of Ottawa) for developing the associated scoping review search strategies for this study. 
+
+
