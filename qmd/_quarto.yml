@@ -21,6 +21,7 @@ website:
       - href: about.qmd
       - text: About the study
         href: study.qmd
+      - href: publications.qmd
       - href: contact.qmd
       
     tools:
