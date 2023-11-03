@@ -19,7 +19,6 @@ website:
       - text: Participate
         href: delphi.qmd
       - href: about.qmd
-      - text: Contact Us
       - href: contact_us.qmd
       
     tools:
