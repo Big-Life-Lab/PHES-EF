@@ -31,7 +31,7 @@ website:
 format:
   html:
     theme: 
-      - flatly
+      - flatly # https://bootswatch.com/flatly/
       - assets/phes-odm.scss
     code-tools: true
     toc: true

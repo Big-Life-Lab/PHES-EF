@@ -1,12 +1,21 @@
 ---
 title: "Publications"
+
 ---
+
 ## Study Protocol
 
 ## Scoping Reviews
 
 ## Executive Group Terms of Reference
 
+<!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
+<!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
+
+[Download terms of reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
+
+
 ## Presentations
 
 ## Poster Presentations
+
