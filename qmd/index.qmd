@@ -28,11 +28,6 @@ Become a voice in shaping the adoption of public health surveillance. A robust, 
 
 [Learn about participating in the eDelphi study](delphi.qmd)
 
-## Study steps
-
-![](images/study-flow.svg){fig-align="center" width="700"}
-
-
 ## References
 
 ::: {#refs}
