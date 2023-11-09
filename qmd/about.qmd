@@ -1,5 +1,5 @@
 ---
-title: "Study Team"
+title: "Team"
 ---
 
 This project will be shaped by input from the multidisciplinary executive group, research conducted by the study working group, as well as by the feedback received from the Delphi process.
