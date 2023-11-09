@@ -16,12 +16,15 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Participate
-        href: delphi.qmd
-      - href: about.qmd
-      - text: About the study
+      - text: About
         href: study.qmd
+      - text: Methods
+      - href: methods.qmd
+      - text: Team
+      - href: about.qmd
+      - text: Publications
       - href: publications.qmd
+      - text: Contact Us
       - href: contact.qmd
       
     tools:
