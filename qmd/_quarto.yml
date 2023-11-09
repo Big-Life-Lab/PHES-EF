@@ -15,8 +15,9 @@ website:
     search: true
     left:
       - text: Home
-        href: index.qmd
-        href: study.qmd
+      - href: index.qmd
+      - text: About
+      - href: study.qmd
       - href: methods.qmd
       - href: about.qmd
       - href: publications.qmd
