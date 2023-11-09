@@ -25,7 +25,7 @@ Relevant scoping review registrations and publications can be accessed [here.](p
 # Step 3: International e-Delphi Survey
 We will use an electronic Delphi (e-Delphi) technique to develop an internationally accepted evaluation framework for public health environmental surveillance. The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity (19,20). We will use the e-Delphi method to overcome geographic barriers and allow us to engage panellists internationally across various time zones. 
 
-## ![](qmd/images/Delphi_Consensus_Process - website.svg){fig-align="center" width="1000"}
+## ![](images/Delphi_Consensus_Process - website.svg){fig-align="center" width="1000"}
 Figure 2. E-Delphi and consensus meeting methodology, methods to achieve consensus on core items for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).
 
 # Step 4: Consensus Meeting
