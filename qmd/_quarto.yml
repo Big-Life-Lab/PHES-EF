@@ -16,15 +16,10 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: About
         href: study.qmd
-      - text: Methods
       - href: methods.qmd
-      - text: Team
       - href: about.qmd
-      - text: Publications
       - href: publications.qmd
-      - text: Contact Us
       - href: contact.qmd
       
     tools:
