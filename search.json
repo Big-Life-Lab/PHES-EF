@@ -1,157 +1,10 @@
 [
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Us",
-    "section": "",
-    "text": "phes-ef@ohri.ca"
-  },
-  {
-    "objectID": "publications.html#scoping-reviews",
-    "href": "publications.html#scoping-reviews",
-    "title": "Publications",
-    "section": "Scoping Reviews",
-    "text": "Scoping Reviews"
-  },
-  {
-    "objectID": "publications.html#executive-group-terms-of-reference",
-    "href": "publications.html#executive-group-terms-of-reference",
-    "title": "Publications",
-    "section": "Executive Group Terms of Reference",
-    "text": "Executive Group Terms of Reference\n\n\nDownload terms of reference"
-  },
-  {
-    "objectID": "publications.html#presentations",
-    "href": "publications.html#presentations",
-    "title": "Publications",
-    "section": "Presentations",
-    "text": "Presentations"
-  },
-  {
-    "objectID": "publications.html#poster-presentations",
-    "href": "publications.html#poster-presentations",
-    "title": "Publications",
-    "section": "Poster Presentations",
-    "text": "Poster Presentations"
-  },
-  {
-    "objectID": "study.html",
-    "href": "study.html",
-    "title": "About the study",
-    "section": "",
-    "text": "Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International Multidisciplinary e-Delphi Study\nShort Study Title: Public Health Environmental Surveillance Evaluation Framework (PHES-EF)\nPrincipal Investigator: Dr. Douglas Manuel dmanuel@ohri.ca"
-  },
-  {
-    "objectID": "study.html#study-title",
-    "href": "study.html#study-title",
-    "title": "About the study",
-    "section": "",
-    "text": "Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International Multidisciplinary e-Delphi Study\nShort Study Title: Public Health Environmental Surveillance Evaluation Framework (PHES-EF)\nPrincipal Investigator: Dr. Douglas Manuel dmanuel@ohri.ca"
-  },
-  {
-    "objectID": "study.html#study-approach",
-    "href": "study.html#study-approach",
-    "title": "About the study",
-    "section": "Study approach",
-    "text": "Study approach\n…"
-  },
-  {
-    "objectID": "study.html#study-steps",
-    "href": "study.html#study-steps",
-    "title": "About the study",
-    "section": "Study steps",
-    "text": "Study steps"
-  },
-  {
-    "objectID": "study.html#open-science",
-    "href": "study.html#open-science",
-    "title": "About the study",
-    "section": "Open Science",
-    "text": "Open Science\nThe project will follow an open-science approach and make available the data for all project stages, including the search strategy, search findings, initial curation of evaluation measures, summary of executive group discussions, e-Delphi processes, and agreement procedures.\nPHES-EF will be made available using an open license (CC-BY-SA-4.0 license).\nAnonymous aggregate data will be available on OSF, where the study protocol is registered. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used."
-  },
-  {
-    "objectID": "study.html#equity-diversity-and-inclusion-edi",
-    "href": "study.html#equity-diversity-and-inclusion-edi",
-    "title": "About the study",
-    "section": "Equity, diversity, and inclusion (EDI)",
-    "text": "Equity, diversity, and inclusion (EDI)\n“Equity is defined as the removal of systemic barriers and biases enabling all individuals to have equal opportunity to access and benefit from the program”(1). To achieve this, members of the research team are committed to developing a strong understanding of the systemic barriers faced by individuals from underrepresented groups. “Diversity is defined as differences in race, colour, place of origin, religion, immigrant and newcomer status, ethnic origin, ability, sex, sexual orientation, gender identity, gender expression and age”. Panellists will be asked to provide characteristic information (e.g., country of residence, gender, primary discipline) to assess and help ensure (through more targeted recruitment) a large diversity in perspectives. “Inclusion is defined as the practice of ensuring that all individuals are valued and respected for their contributions and are equally supported”. To help ensure that all research team members are integrated and supported, we will have a code of conduct statement in the Executive Group Terms of Reference.\nAll study working group members will complete EDI-related Canadian Institutes for Health Research (CIHR) Training, and the First Nations principles of Ownership, Control, Access and Possession (OCAP©) training for the research (2). The executive group will receive an overview of EDI and OCAP and will be encouraged and supported to complete such training. Furthermore, staff trained in EDI and OCAP principles will review the framework from an EDI perspective to ensure appropriate language."
-  },
-  {
-    "objectID": "study.html#knowledge-user-and-public-involvement",
-    "href": "study.html#knowledge-user-and-public-involvement",
-    "title": "About the study",
-    "section": "Knowledge user and public involvement",
-    "text": "Knowledge user and public involvement\nTo ensure accurate and transparent reporting of knowledge users and public involvement throughout the study, we will refer to the Guidance for Reporting Involvement of Patients and the Public (GRIPP2) checklist (3). We will document the methods used to engage knowledge users, report the impacts and outcomes of their engagement, and report on lessons learned from the experience."
-  },
-  {
-    "objectID": "study.html#funding",
-    "href": "study.html#funding",
-    "title": "About the study",
-    "section": "Funding",
-    "text": "Funding\nThis project is funded by the Canadian Institutes for Health Research-funded network, CoVaRR-Net (Coronavirus Variants Rapid Response Network. FRN: 175622), and Health Canada (through the Safe Restart Agreement Contribution Program. Arrangement #: 2223-HQ-000098). The Canadian Institutes for Health Research and Health Canada have not been involved in the design or conduct or the study and the views expressed herein do not necessarily represent the views of either funding organization."
-  },
-  {
-    "objectID": "study.html#ethics-approval-and-consent-to-participate",
-    "href": "study.html#ethics-approval-and-consent-to-participate",
-    "title": "About the study",
-    "section": "Ethics Approval and Consent to Participate",
-    "text": "Ethics Approval and Consent to Participate\nEthical approval will be obtained from the Ottawa Health Science Network Research Ethics Board (OHSN-REB) before commencing the study Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study. Only anonymous panellist responses will be used for analyses.\nOHSN-REB Number: 20230428-01H\nIf you have questions about ethical issues related to this study, you can talk to someone who is not involved in the study at the Ottawa Health Science Network Research Ethics Board, Chairperson at 1-613-798-5555 extension 16719."
-  },
-  {
-    "objectID": "study.html#acknowledgements",
-    "href": "study.html#acknowledgements",
-    "title": "About the study",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nWe thank Peter Farrell (Research Librarian, University of Ottawa) for developing the associated scoping review search strategies for this study."
-  },
-  {
-    "objectID": "study.html#references",
-    "href": "study.html#references",
-    "title": "About the study",
-    "section": "references",
-    "text": "references\n\n\n1. Schmalz U, Spinler S, Ringbeck J. Lessons Learned from a Two-Round Delphi-based Scenario Study. MethodsX [Internet]. 2021 Jan 1;8:101179. Available from: https://www.sciencedirect.com/science/article/pii/S221501612030399X\n\n\n2. The First Nations Information Governance Centre. The first nations principles of OCAP® [Internet]. 2023. Available from: https://fnigc.ca/ocap-training/\n\n\n3. Staniszewska S, Brett J, Simera I, Seers K, Mockford C, Goodlad S, et al. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research. Res Involv Engagem. 2017;3:13."
-  },
-  {
-    "objectID": "delphi.html",
-    "href": "delphi.html",
-    "title": "eDelphi study",
-    "section": "",
-    "text": "Inclusion Criteria by Discipline\n    \n    \n    \n      Discipline\n      Inclusion_Criteria\n    \n  \n  \n    Mathematical Sciences\nAn adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.\n    Social Sciences\nAn adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or has relevant lived experience.\n    Environmental and Physical Sciences\nAn adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.\n    Public Health and Medicine\nAn adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.\n    Public Interest/ Knowledge User\nAn adult (≥ 18 years old) who is proficient in English.\n  \n  \n  \n\n\n\n\nDefinitions\nProfessional experience: Paid employment in current disciplines (current or former) post-training experience, 3+ graduate training or professional practice\nGraduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "methods.html",
+    "href": "methods.html",
     "title": "",
     "section": "",
     "text": "Code"
-  },
-  {
-    "objectID": "index.html#background",
-    "href": "index.html#background",
-    "title": "",
-    "section": "Background",
-    "text": "Background\nPublic health requires robust surveillance systems to inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving attention with widespread adoption.(1)\nA structured evaluation of public health surveillance systems can improve program accountability, transparency, trust, and performance; thereby quantifying their value to public health and informing future surveillance needs.(2)"
-  },
-  {
-    "objectID": "index.html#study-objectives",
-    "href": "index.html#study-objectives",
-    "title": "",
-    "section": "Study objectives",
-    "text": "Study objectives\nThe study’s primary objective is to develop an evaluation framework for public health environmental surveillance (PHES-EF), using a multi-nation, mulitdisicplinary consensus approach. PHES-EF will identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed.\nLearn more about the study."
-  },
-  {
-    "objectID": "index.html#recruiting-consensus-panel-members",
-    "href": "index.html#recruiting-consensus-panel-members",
-    "title": "",
-    "section": "Recruiting consensus panel members",
-    "text": "Recruiting consensus panel members\nBecome a voice in shaping the adoption of public health surveillance. A robust, accepted, and highly adopted surveillance systems reuqires a diverse range of expertise from around the world. Click to learn more and join this vital, open science effort.\nLearn about participating in the eDelphi study"
-  },
-  {
-    "objectID": "index.html#references",
-    "href": "index.html#references",
-    "title": "",
-    "section": "References",
-    "text": "References\n\n\n1. Manuel DG, Amadei CA, Campbell JR, Brault JM, Veillard J. Strengthening public health surveillance through wastewater testing : An essential investment for the COVID-19 pandemic and future health threats [Internet]. Washington, DC; 2022 Jan p. 67. Available from: https://openknowledge.worldbank.org/handle/10986/36852\n\n\n2. Centers for Disease Control. Updated guidelines for evaluating public health surveillance systems: Recommendations from the guidelines working group. [Internet]. 2001 p. 1–35. Available from: http://www.ncbi.nlm.nih.gov/pubmed/18634202"
   },
   {
     "objectID": "about.html",
@@ -257,5 +110,159 @@
     "title": "Study Team",
     "section": "Emma Brown",
     "text": "Emma Brown\nCanada"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "",
+    "section": "Background",
+    "text": "Background\nPublic health requires robust surveillance systems to inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving attention with widespread adoption.(1)\nA structured evaluation of public health surveillance systems can improve program accountability, transparency, trust, and performance; thereby quantifying their value to public health and informing future surveillance needs.(2)"
+  },
+  {
+    "objectID": "index.html#study-objectives",
+    "href": "index.html#study-objectives",
+    "title": "",
+    "section": "Study objectives",
+    "text": "Study objectives\nThe study’s primary objective is to develop an evaluation framework for public health environmental surveillance (PHES-EF), using a multi-nation, mulitdisicplinary consensus approach. PHES-EF will identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed.\nLearn more about the study."
+  },
+  {
+    "objectID": "index.html#recruiting-consensus-panel-members",
+    "href": "index.html#recruiting-consensus-panel-members",
+    "title": "",
+    "section": "Recruiting consensus panel members",
+    "text": "Recruiting consensus panel members\nBecome a voice in shaping the adoption of public health surveillance. A robust, accepted, and highly adopted surveillance systems reuqires a diverse range of expertise from around the world. Click to learn more and join this vital, open science effort.\nLearn about participating in the eDelphi study"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "",
+    "section": "References",
+    "text": "References\n\n\n1. Manuel DG, Amadei CA, Campbell JR, Brault JM, Veillard J. Strengthening public health surveillance through wastewater testing : An essential investment for the COVID-19 pandemic and future health threats [Internet]. Washington, DC; 2022 Jan p. 67. Available from: https://openknowledge.worldbank.org/handle/10986/36852\n\n\n2. Centers for Disease Control. Updated guidelines for evaluating public health surveillance systems: Recommendations from the guidelines working group. [Internet]. 2001 p. 1–35. Available from: http://www.ncbi.nlm.nih.gov/pubmed/18634202"
+  },
+  {
+    "objectID": "delphi.html",
+    "href": "delphi.html",
+    "title": "eDelphi study",
+    "section": "",
+    "text": "Inclusion Criteria by Discipline\n    \n    \n    \n      Discipline\n      Inclusion_Criteria\n    \n  \n  \n    Mathematical Sciences\nAn adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.\n    Social Sciences\nAn adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or has relevant lived experience.\n    Environmental and Physical Sciences\nAn adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.\n    Public Health and Medicine\nAn adult (≥ 18 years old) who is proficient in English and has a graduate degree in one of the listed specializations, or more than ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.\n    Public Interest/ Knowledge User\nAn adult (≥ 18 years old) who is proficient in English.\n  \n  \n  \n\n\n\n\nDefinitions\nProfessional experience: Paid employment in current disciplines (current or former) post-training experience, 3+ graduate training or professional practice\nGraduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health"
+  },
+  {
+    "objectID": "study.html",
+    "href": "study.html",
+    "title": "About the study",
+    "section": "",
+    "text": "Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International Multidisciplinary e-Delphi Study\nShort Study Title: Public Health Environmental Surveillance Evaluation Framework (PHES-EF)\nPrincipal Investigator: Dr. Douglas Manuel dmanuel@ohri.ca"
+  },
+  {
+    "objectID": "study.html#study-title",
+    "href": "study.html#study-title",
+    "title": "About the study",
+    "section": "",
+    "text": "Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International Multidisciplinary e-Delphi Study\nShort Study Title: Public Health Environmental Surveillance Evaluation Framework (PHES-EF)\nPrincipal Investigator: Dr. Douglas Manuel dmanuel@ohri.ca"
+  },
+  {
+    "objectID": "study.html#study-approach",
+    "href": "study.html#study-approach",
+    "title": "About the study",
+    "section": "Study approach",
+    "text": "Study approach\n…"
+  },
+  {
+    "objectID": "study.html#study-steps",
+    "href": "study.html#study-steps",
+    "title": "About the study",
+    "section": "Study steps",
+    "text": "Study steps"
+  },
+  {
+    "objectID": "study.html#open-science",
+    "href": "study.html#open-science",
+    "title": "About the study",
+    "section": "Open Science",
+    "text": "Open Science\nThe project will follow an open-science approach and make available the data for all project stages, including the search strategy, search findings, initial curation of evaluation measures, summary of executive group discussions, e-Delphi processes, and agreement procedures.\nPHES-EF will be made available using an open license (CC-BY-SA-4.0 license).\nAnonymous aggregate data will be available on OSF, where the study protocol is registered. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used."
+  },
+  {
+    "objectID": "study.html#equity-diversity-and-inclusion-edi",
+    "href": "study.html#equity-diversity-and-inclusion-edi",
+    "title": "About the study",
+    "section": "Equity, diversity, and inclusion (EDI)",
+    "text": "Equity, diversity, and inclusion (EDI)\n“Equity is defined as the removal of systemic barriers and biases enabling all individuals to have equal opportunity to access and benefit from the program”(1). To achieve this, members of the research team are committed to developing a strong understanding of the systemic barriers faced by individuals from underrepresented groups. “Diversity is defined as differences in race, colour, place of origin, religion, immigrant and newcomer status, ethnic origin, ability, sex, sexual orientation, gender identity, gender expression and age”. Panellists will be asked to provide characteristic information (e.g., country of residence, gender, primary discipline) to assess and help ensure (through more targeted recruitment) a large diversity in perspectives. “Inclusion is defined as the practice of ensuring that all individuals are valued and respected for their contributions and are equally supported”. To help ensure that all research team members are integrated and supported, we will have a code of conduct statement in the Executive Group Terms of Reference.\nAll study working group members will complete EDI-related Canadian Institutes for Health Research (CIHR) Training, and the First Nations principles of Ownership, Control, Access and Possession (OCAP©) training for the research (2). The executive group will receive an overview of EDI and OCAP and will be encouraged and supported to complete such training. Furthermore, staff trained in EDI and OCAP principles will review the framework from an EDI perspective to ensure appropriate language."
+  },
+  {
+    "objectID": "study.html#knowledge-user-and-public-involvement",
+    "href": "study.html#knowledge-user-and-public-involvement",
+    "title": "About the study",
+    "section": "Knowledge user and public involvement",
+    "text": "Knowledge user and public involvement\nTo ensure accurate and transparent reporting of knowledge users and public involvement throughout the study, we will refer to the Guidance for Reporting Involvement of Patients and the Public (GRIPP2) checklist (3). We will document the methods used to engage knowledge users, report the impacts and outcomes of their engagement, and report on lessons learned from the experience."
+  },
+  {
+    "objectID": "study.html#funding",
+    "href": "study.html#funding",
+    "title": "About the study",
+    "section": "Funding",
+    "text": "Funding\nThis project is funded by the Canadian Institutes for Health Research-funded network, CoVaRR-Net (Coronavirus Variants Rapid Response Network. FRN: 175622), and Health Canada (through the Safe Restart Agreement Contribution Program. Arrangement #: 2223-HQ-000098). The Canadian Institutes for Health Research and Health Canada have not been involved in the design or conduct or the study and the views expressed herein do not necessarily represent the views of either funding organization."
+  },
+  {
+    "objectID": "study.html#ethics-approval-and-consent-to-participate",
+    "href": "study.html#ethics-approval-and-consent-to-participate",
+    "title": "About the study",
+    "section": "Ethics Approval and Consent to Participate",
+    "text": "Ethics Approval and Consent to Participate\nEthical approval will be obtained from the Ottawa Health Science Network Research Ethics Board (OHSN-REB) before commencing the study Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study. Only anonymous panellist responses will be used for analyses.\nOHSN-REB Number: 20230428-01H\nIf you have questions about ethical issues related to this study, you can talk to someone who is not involved in the study at the Ottawa Health Science Network Research Ethics Board, Chairperson at 1-613-798-5555 extension 16719."
+  },
+  {
+    "objectID": "study.html#acknowledgements",
+    "href": "study.html#acknowledgements",
+    "title": "About the study",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nWe thank Peter Farrell (Research Librarian, University of Ottawa) for developing the associated scoping review search strategies for this study."
+  },
+  {
+    "objectID": "study.html#references",
+    "href": "study.html#references",
+    "title": "About the study",
+    "section": "references",
+    "text": "references\n\n\n1. Schmalz U, Spinler S, Ringbeck J. Lessons Learned from a Two-Round Delphi-based Scenario Study. MethodsX [Internet]. 2021 Jan 1;8:101179. Available from: https://www.sciencedirect.com/science/article/pii/S221501612030399X\n\n\n2. The First Nations Information Governance Centre. The first nations principles of OCAP® [Internet]. 2023. Available from: https://fnigc.ca/ocap-training/\n\n\n3. Staniszewska S, Brett J, Simera I, Seers K, Mockford C, Goodlad S, et al. GRIPP2 reporting checklists: tools to improve reporting of patient and public involvement in research. Res Involv Engagem. 2017;3:13."
+  },
+  {
+    "objectID": "publications.html#scoping-reviews",
+    "href": "publications.html#scoping-reviews",
+    "title": "Publications",
+    "section": "Scoping Reviews",
+    "text": "Scoping Reviews"
+  },
+  {
+    "objectID": "publications.html#executive-group-terms-of-reference",
+    "href": "publications.html#executive-group-terms-of-reference",
+    "title": "Publications",
+    "section": "Executive Group Terms of Reference",
+    "text": "Executive Group Terms of Reference\n\n\nDownload terms of reference"
+  },
+  {
+    "objectID": "publications.html#presentations",
+    "href": "publications.html#presentations",
+    "title": "Publications",
+    "section": "Presentations",
+    "text": "Presentations"
+  },
+  {
+    "objectID": "publications.html#poster-presentations",
+    "href": "publications.html#poster-presentations",
+    "title": "Publications",
+    "section": "Poster Presentations",
+    "text": "Poster Presentations"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "phes-ef@ohri.ca"
   }
 ]
