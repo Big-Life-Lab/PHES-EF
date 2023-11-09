@@ -1,5 +1,5 @@
 ---
-title: "About the study"
+title: "About"
 format: html
 bibliography: references.bib
 ---
