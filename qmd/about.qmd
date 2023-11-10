@@ -65,10 +65,10 @@ Dr. Sander is an expert to national and international advisory bodies, including
 The study working group is based out of the Ottawa Hospital Research Institute and is composed by Doug Manuel (see above), Carol Bennett, and Emma Brown.
 
 ### Carol Bennett
-[Public Health and Medicine]{.public-health-and-medicine}[Canada]{.canada}
+
 
 ### Emma Brown
-[Canada]{.canada} Emma Brown is Clinical Research Assistant at Ottawa Hospital Research Institute.
+![](images/IMG_4918.jpg){.person-img width="200"}){.person-img width="200"} Emma Brown is Clinical Research Assistant at Ottawa Hospital Research Institute.
 
 ## Acknowledgements
 
