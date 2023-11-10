@@ -18,6 +18,7 @@ website:
         href: index.qmd
       - href: study.qmd
       - href: methods.qmd
+      - href: delphi.qmd
       - href: about.qmd
       - href: publications.qmd
       - href: contact.qmd
