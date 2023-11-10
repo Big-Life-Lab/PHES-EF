@@ -4,6 +4,7 @@ $color_1: #8C4D33; // used for h1, h2
 $color_2: #838c91; // used for h5 and .section-head
 $color_3: #2ea6cc; // used for a
 $color_4: #c4c4c4; // used for .section-head border
+$color_5: #333333; // used for h3, h4
 $font_family_1: "Noto Sans Display", "HelveticaNeue", "Helvetica", "Arial", sans-serif; // used for *, p, a, .big, .section-head, h5
 $font_family_2: "lora"; // used for h1, h2, h3, h4, .lora
 $background_color_1: #ffcb6c; // used for mark
@@ -49,11 +50,12 @@ h2 {
 
 h3 {
   font: 600 20px "Lora";
-  color: $color_1;
+  color: $color_5;
 }
 
 h4 {
   font: 600 18px "Lora";
+   color: $color_5;
 }
 
 h5 {
