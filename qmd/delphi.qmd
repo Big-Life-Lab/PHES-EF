@@ -9,13 +9,13 @@ We will conduct an all-rounds e-Delphi invitation approach, meaning that panelli
 
 Registration to complete the e-Delphi will open approximately four weeks before the first round and e-Delphi round survey. Each e-Delphi survey round will be active for roughly 4-6 weeks and will take approximately one hour to complete. 
 
-### Panellist withdrawal or termination
+### Panellist Withdrawal or Termination
 Panellists will not be able to withdraw from the study due to the safeguards in place to maintain anonymity; however, they may choose to stop actively participating in the study at any time. 
 
-### Panellist compensation
+### Panellist Compensation
 Panellists who complete all rounds of the e-Delphi process will receive a $100 CAD pre-paid Visa card.
 
-Table 1. Eligibility criteria for e-Delphi survey panellists.
+### Eligibility Criteria for e-Delphi Survey Panellists
 ```{r echo=FALSE, warning=FALSE}
 
 # Load the gt package
@@ -84,14 +84,14 @@ Panellists will be invited to rate their level of agreement with candidate items
 ### Round 2
 Regardless of whether they participated in the previous round, panellists will be invited to participate in Round 2 of the e-Delphi survey. They will be invited to rate their level of agreement with newly identified candidate items from the first e-Delphi round and to re-rate their level of agreement for items that did not reach consensus during the previous round. When re-rating their level of agreement, panellists will be presented with their previous round scores alongside the aggregate group results. Anonymous feedback from Round 1 panellists will also be compiled and presented during Round 2. Any newly suggested items during Round 2 will be deliberated on during the consensus meeting.
 
-### Defining consensus
+### Defining Consensus
 We will use a 9-point Likert scale (1 = extremely irrelevant to 9 = extremely relevant). Panellist responses will be categorised as irrelevant (1–3), equivocal (4–6), or relevant (7–9). For each item, consensus will be reached if ≥ 80% of the panellist votes fall within the same category (1–3, 4–6, or 7–9) (26). The survey will include a free-text box for panellist to provide comments or suggest new items. Newly suggested items, as well as non-consensus items, will be listed in the second round. 
 
-### Stopping rules
+### Stopping Rules
 When ≥ 80% of the panellist votes fall within the same category (1–3, 4–6, or 7–9) for a given item, no subsequent rounds of ranking for that item will be performed. Consensus items that are considered equivocal will be further deliberated during the consensus meeting.
 
 ## ![](images/Delphi_Consensus_Process - website.svg){fig-align="center" width="1000"}
-Figure 2. E-Delphi and consensus meeting methodology, methods to achieve consensus on core items for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).
+**Figure 1.** E-Delphi and consensus meeting methodology, methods to achieve consensus on core items for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).
 
 
 
