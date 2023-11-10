@@ -2,9 +2,8 @@
 bibliography: references.bib
 ---
 
-::: centered-content
-![](assets/phes-ef-logo_colour.svg){width="1000"}
+![](assets/phes-ef-logo_colour.svg){width="500"}
 
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
 
-## Developing an Evaluation Framework for Public Health Environmental Surveillance using an International, Multidisciplinary e-Delphi Study
+### Developing an Evaluation Framework for Public Health Environmental Surveillance using an International, Multidisciplinary e-Delphi Study
