@@ -9,12 +9,6 @@ We will conduct an all-rounds e-Delphi invitation approach, meaning that panelli
 
 Registration to complete the e-Delphi will open approximately four weeks before the first round and e-Delphi round survey. Each e-Delphi survey round will be active for roughly 4-6 weeks and will take approximately one hour to complete. 
 
-### Panellist Withdrawal or Termination
-Panellists will not be able to withdraw from the study due to the safeguards in place to maintain anonymity; however, they may choose to stop actively participating in the study at any time. 
-
-### Panellist Compensation
-Panellists who complete all rounds of the e-Delphi process will receive a $100 CAD pre-paid Visa card.
-
 ### Eligibility Criteria for e-Delphi Survey Panellists
 ```{r echo=FALSE, warning=FALSE}
 
@@ -75,6 +69,12 @@ Professional experience: Paid employment in current disciplines (current or form
 
 Graduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health
 
+### Panellist Withdrawal or Termination
+Panellists will not be able to withdraw from the study due to the safeguards in place to maintain anonymity; however, they may choose to stop actively participating in the study at any time. 
+
+### Panellist Compensation
+Panellists who complete all rounds of the e-Delphi process will receive a $100 CAD pre-paid Visa card.
+
 ## Procedure
 We will conduct a two-round e-Delphi survey to generate consensus on evaluation criteria. The full survey will be pre-tested and validated prior to administration. Summaries of Round 1 will be compiled for the subsequent round. Custom survey pathways will be generated for each stakeholder group (i.e., panellists from different stakeholder groups will be shown a different collection of candidate items). Within each custom stakeholder survey pathway, panellists will also have the option to skip items or self-declare that they are not qualified to assess certain candidate items.
 
@@ -92,17 +92,3 @@ When ≥ 80% of the panellist votes fall within the same category (1–3, 4–6,
 
 ## ![](images/Delphi_Consensus_Process - website.svg){fig-align="center" width="1000"}
 **Figure 1.** E-Delphi and consensus meeting methodology, methods to achieve consensus on core items for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
