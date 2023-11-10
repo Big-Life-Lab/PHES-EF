@@ -3,32 +3,8 @@ bibliography: references.bib
 ---
 
 ::: centered-content
-![](assets/phes-ef-logo_colour.svg){width="150"}
+![](assets/phes-ef-logo_colour.svg){width="1000"}
 
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
 
-<br> *An international consensus study to develop an evaluation framework for public health environmental surveillance* <br>
-:::
-
-## Background
-
-Public health requires robust surveillance systems to inform decisions and guide timely interventions. As surveillance has evolved, especially during the global coronavirus disease (COVID-19) pandemic, diverse methods have emerged, with wastewater-based surveillance (wastewater surveillance) receiving attention with widespread adoption.[@manuel2022]
-
-A structured evaluation of public health surveillance systems can improve program accountability, transparency, trust, and performance; thereby quantifying their value to public health and informing future surveillance needs.[@cdc2001]
-
-## Study objectives
-
-The study's primary objective is to develop an evaluation framework for public health environmental surveillance (*PHES-EF*), using a multi-nation, mulitdisicplinary consensus approach. PHES-EF will identify criteria that should be used to evaluate environmental surveillance systems and provide guidance on how the criteria should be assessed.
-
-[Learn more about the study.](about.qmd)
-
-## Recruiting consensus panel members
-
-Become a voice in shaping the adoption of public health surveillance. A robust, accepted, and highly adopted surveillance systems reuqires a diverse range of expertise from around the world. Click to learn more and join this vital, open science effort. 
-
-[Learn about participating in the eDelphi study](delphi.qmd)
-
-## References
-
-::: {#refs}
-:::
+## Developing an Evaluation Framework for Public Health Environmental Surveillance using an International, Multidisciplinary e-Delphi Study
