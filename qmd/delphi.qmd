@@ -63,15 +63,10 @@ gt(data, id = "delphi_table") %>%
 
 
 ```
-**Definitions**
+<sup>**Definitions**
+
 Professional experience: Paid employment in current disciplines (current or former) post-training experience, 3+ graduate training or professional practice
-Graduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health
-
-### Panellist Withdrawal or Termination
-Panellists will not be able to withdraw from the study due to the safeguards in place to maintain anonymity; however, they may choose to stop actively participating in the study at any time. 
-
-### Panellist Compensation
-Panellists who complete all rounds of the e-Delphi process will receive a $100 CAD pre-paid Visa card.
+Graduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health</sup>
 
 ## Procedure
 We will conduct a two-round e-Delphi survey to generate consensus on evaluation criteria. The full survey will be pre-tested and validated prior to administration. Summaries of Round 1 will be compiled for the subsequent round. Custom survey pathways will be generated for each stakeholder group (i.e., panellists from different stakeholder groups will be shown a different collection of candidate items). Within each custom stakeholder survey pathway, panellists will also have the option to skip items or self-declare that they are not qualified to assess certain candidate items.
