@@ -22,6 +22,7 @@ website:
       - href: about.qmd
       - href: publications.qmd
       - href: contact.qmd
+      - href: faq.qmd
       
     tools:
       - icon: github
