@@ -67,7 +67,7 @@ The study working group is based out of the Ottawa Hospital Research Institute a
 ### Carol Bennett
 
 ### Emma Brown
-![](images/Emma_Brown.jpg){.person-img width="200"} Emma Brown is Clinical Research Assistant at Ottawa Hospital Research Institute.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-## Acknowledgements
+![](images/Emma_Brown.jpg){.person-img width="200"} Emma Brown is Clinical Research Assistant at Ottawa Hospital Research Institute.  
 
+## Acknowledgements
 We thank Peter Farrell (Research Librarian, University of Ottawa) for developing the associated scoping review search strategies for this study.
