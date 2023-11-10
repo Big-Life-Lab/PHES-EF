@@ -8,14 +8,14 @@ title: "Publications"
 The study protocol is currently being finalized and will be available on OSF. io shortly, prior to being submitted to an open-access journal for publication.
 
 ## Scoping Reviews
-### Scoping Review #1: Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
+### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
 
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
 [Download terms of reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
 
-### Scoping Review #2: Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol
+### Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol
 The second scoping review protocol is currently under development.
 
 ## Executive Group Terms of Reference
