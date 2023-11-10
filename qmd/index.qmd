@@ -18,6 +18,6 @@
 
 [![](images/icon_data-reporting-71.svg){fig-align="center" width="75"}](study.qmd)``` ```[![](images/icon_Laboratory.svg){fig-align="center" width="75"}](methods.qmd)```   ```[![](images/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd)```   ```[![](images/icon_researcher.svg){fig-align="center" width="75"}](about.qmd)```   ```[![](images/icon_Documentation.svg){fig-align="center" width="75"}](publications.qmd)```   ```[![](images/icon_international.svg){fig-align="center" width="75"}](contact.qmd)```   ```[![](images/icon_interpretation.svg){fig-align="center" width="75"}](faq.qmd)
 
-[## About](study.qmd)``   ``[## Methods](methods.qmd)``   ``[ ##e-Delphi Study](delphi.qmd)``   ``[## Team](about.qmd)``   ``[## Documents](publications.qmd)``   ``[## Contact Us](contact.qmd)``   ``[## FAQ](faq.qmd) 
+[## About](study.qmd)``   ``[## Methods](methods.qmd)``   ``[ ## e-Delphi Study](delphi.qmd)``   ``[## Team](about.qmd)``   ``[## Documents](publications.qmd)``   ``[## Contact Us](contact.qmd)``   ``[## FAQ](faq.qmd) 
 
 :::
