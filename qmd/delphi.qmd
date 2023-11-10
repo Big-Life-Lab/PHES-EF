@@ -1,8 +1,21 @@
 ---
-title: "eDelphi study"
+title: "e-Delphi Study"
 format: html
 ---
+## Recruitment of Panellists
+We will recruit a multinational, multidisciplinary panel of experts with knowledge or interest in wastewater surveillance to complete the e-Delphi survey. Experts will be defined as adult individuals with a high degree of knowledge in their respective disciplines. Panellists will be selected to capture the multiple perspectives of those that influence the design, implementation, evaluation, use, and reporting of wastewater surveillance activities including the following disciplines: mathematical sciences, social sciences, environmental and physical sciences, and public health and medicine. Targeted recruitment will also be conducted to identify knowledge users representing public interest. We will use purposive sampling to identify potentially eligible panellists by examining relevant author lists, professional networks, and internet-based searching, among other potential methods. Snowball sampling may also be employed by executive group members and potential panellists to maximize recruitment. 
 
+We will conduct an all-rounds e-Delphi invitation approach, meaning that panellists will be invited to every round independent of whether they participated in the previous round (24). We will aim to recruit at least 50 panellists, preferably, with at least 8-10 people per discipline group. The study working group will monitor the distribution of registered panellists based on their demographic information and will try to have appropriate distribution across disciplines and other demographic markers. 
+
+Registration to complete the e-Delphi will open approximately four weeks before the first round and e-Delphi round survey. Each e-Delphi survey round will be active for roughly 4-6 weeks and will take approximately one hour to complete. 
+
+### Panellist withdrawal or termination
+Panellists will not be able to withdraw from the study due to the safeguards in place to maintain anonymity; however, they may choose to stop actively participating in the study at any time. 
+
+### Panellist compensation
+Panellists who complete all rounds of the e-Delphi process will receive a $100 CAD pre-paid Visa card.
+
+Table 1. Eligibility criteria for e-Delphi survey panellists.
 ```{r echo=FALSE, warning=FALSE}
 
 # Load the gt package
@@ -61,3 +74,35 @@ gt(data, id = "delphi_table") %>%
 Professional experience: Paid employment in current disciplines (current or former) post-training experience, 3+ graduate training or professional practice
 
 Graduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health
+
+## Procedure
+We will conduct a two-round e-Delphi survey to generate consensus on evaluation criteria. The full survey will be pre-tested and validated prior to administration. Summaries of Round 1 will be compiled for the subsequent round. Custom survey pathways will be generated for each stakeholder group (i.e., panellists from different stakeholder groups will be shown a different collection of candidate items). Within each custom stakeholder survey pathway, panellists will also have the option to skip items or self-declare that they are not qualified to assess certain candidate items.
+
+### Round 1
+Panellists will be invited to rate their level of agreement with candidate items generated from scoping review results and consultation with the study executive group. Free-text boxes will be included for panellists to provide feedback or identify additional candidate items to be included in the next e-Delphi survey round. 
+
+### Round 2
+Regardless of whether they participated in the previous round, panellists will be invited to participate in Round 2 of the e-Delphi survey. They will be invited to rate their level of agreement with newly identified candidate items from the first e-Delphi round and to re-rate their level of agreement for items that did not reach consensus during the previous round. When re-rating their level of agreement, panellists will be presented with their previous round scores alongside the aggregate group results. Anonymous feedback from Round 1 panellists will also be compiled and presented during Round 2. Any newly suggested items during Round 2 will be deliberated on during the consensus meeting.
+
+### Defining consensus
+We will use a 9-point Likert scale (1 = extremely irrelevant to 9 = extremely relevant). Panellist responses will be categorised as irrelevant (1–3), equivocal (4–6), or relevant (7–9). For each item, consensus will be reached if ≥ 80% of the panellist votes fall within the same category (1–3, 4–6, or 7–9) (26). The survey will include a free-text box for panellist to provide comments or suggest new items. Newly suggested items, as well as non-consensus items, will be listed in the second round. 
+
+### Stopping rules
+When ≥ 80% of the panellist votes fall within the same category (1–3, 4–6, or 7–9) for a given item, no subsequent rounds of ranking for that item will be performed. Consensus items that are considered equivocal will be further deliberated during the consensus meeting.
+
+## ![](images/Delphi_Consensus_Process - website.svg){fig-align="center" width="1000"}
+Figure 2. E-Delphi and consensus meeting methodology, methods to achieve consensus on core items for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
