@@ -5,9 +5,9 @@
 
 ### Developing an Evaluation Framework for Public Health Environmental Surveillance using an International, Multidisciplinary e-Delphi Study
 
-## ![[](assets/icon_interpretation.svg){fig-align="center" width="75"}](about.qmd)
+## ![[](images/icon_interpretation.svg){fig-align="center" width="150"}](about.qmd)
 
-## ![][(assets/icon_data-reporting-71.svg){fig-align="center" width="75"}](about.qmd)
+## ![][(images/icon_data-reporting-71.svg){fig-align="center" width="150"}](methods.qmd)
 
 
 :::
