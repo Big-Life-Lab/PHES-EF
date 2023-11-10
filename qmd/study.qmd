@@ -11,11 +11,11 @@ An evaluation framework provides structured guidance to facilitate a systematic 
 
 ## Our Objectives
 Specific objectives for the framework development process are as follows:
-[]1. Engage a multidisciplinary executive group of international experts to inform the development of the evaluation framework
-[]2. Review the literature to identify current guidance on surveillance evaluation items
-[]3. Prioritize items for an evaluation framework for environmental surveillance using an international electronic-Delphi (e-Delphi) process
-[]4. Conduct a consensus meeting that engages experts across disciplines to create an evaluation framework for public health environmental surveillance based on      feedback from the international e-Delphi process
-[]5. Develop a comprehensive dissemination plan for the evaluation framework.
+**1.** Engage a multidisciplinary executive group of international experts to inform the development of the evaluation framework
+**2.** Review the literature to identify current guidance on surveillance evaluation items
+**3.** Prioritize items for an evaluation framework for environmental surveillance using an international electronic-Delphi (e-Delphi) process
+**4.** Conduct a consensus meeting that engages experts across disciplines to create an evaluation framework for public health environmental surveillance based         on feedback from the international e-Delphi process
+**5.** Develop a comprehensive dissemination plan for the evaluation framework
 
 ## Our Approach
 ### Open Science
