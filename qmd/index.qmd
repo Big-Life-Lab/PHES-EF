@@ -4,4 +4,10 @@
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
 
 ### Developing an Evaluation Framework for Public Health Environmental Surveillance using an International, Multidisciplinary e-Delphi Study
+
+## ![[](assets/icon_interpretation.svg){fig-align="center" width="75"}](about.qmd)
+
+## ![][(qmd/assets/icon_data-reporting-71.svg){fig-align="center" width="75"}](about.qmd)
+
+
 :::
