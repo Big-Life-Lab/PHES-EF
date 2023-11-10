@@ -37,7 +37,4 @@ CoVaRR-Net Spring Meeting 2023
 Coronavirus Variants Rapid Response Network (CoVaRR-Net)
 May 16-18, 2023
 
-#### The Development of an Evaluation Framework for Wastewater-Based Surveillance
-Toronto Wastewater Surveillance Conference
-Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson)
-February 2-3, 2023
+[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-danger}

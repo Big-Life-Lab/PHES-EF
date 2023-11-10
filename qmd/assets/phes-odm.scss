@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 
-$color_1: #9B5539; // used for h1, h2, h3, h4
+$color_1: #8C4D33; // used for h1, h2, h3, h4
 $color_2: #838c91; // used for h5 and .section-head
 $color_3: #2ea6cc; // used for a
 $color_4: #c4c4c4; // used for .section-head border
@@ -27,27 +27,29 @@ $region_germany: #bfbfbf;
 
 /*-- scss:rules --*/
 
+
 #quarto-header .navbar {
-  background-color: #2E607A;
-  height: 60px;
+//  background-color: #2E607A;
 }
+
 
 * { 
   font-family: $font_family_1; 
 }
 
 h1 {
-  font: 800 36px "Lora";
+  font: 800 30px "Lora";
   color: $color_1;
 }
 
 h2 {
-  font: 600 28px "Lora";
+  font: 600 24px "Lora";
   color: $color_1;
 }
 
 h3 {
-  font: 600 22px "Lora";
+  font: 600 20px "Lora";
+  color: $color_1;
 }
 
 h4 {
@@ -61,14 +63,14 @@ h5 {
 }
 
 p {
-  font: 11px;
+  font: 10px;
   strong {
     font-weight: 500;
   }
 }
 
 a {
-  font: 11px;
+  font: 10px;
   color: $color_3;
 }
 
