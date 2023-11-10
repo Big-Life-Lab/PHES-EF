@@ -1,11 +1,12 @@
 ---
 title: "e-Delphi Study"
 format: html
+bibliography: references.bib
 ---
 ## Recruitment of Panellists
 We will recruit a multinational, multidisciplinary panel of experts with knowledge or interest in wastewater surveillance to complete the e-Delphi survey. Experts will be defined as adult individuals with a high degree of knowledge in their respective disciplines. Panellists will be selected to capture the multiple perspectives of those that influence the design, implementation, evaluation, use, and reporting of wastewater surveillance activities including the following disciplines: mathematical sciences, social sciences, environmental and physical sciences, and public health and medicine. Targeted recruitment will also be conducted to identify knowledge users representing public interest. We will use purposive sampling to identify potentially eligible panellists by examining relevant author lists, professional networks, and internet-based searching, among other potential methods. Snowball sampling may also be employed by executive group members and potential panellists to maximize recruitment. 
 
-We will conduct an all-rounds e-Delphi invitation approach, meaning that panellists will be invited to every round independent of whether they participated in the previous round (24). We will aim to recruit at least 50 panellists, preferably, with at least 8-10 people per discipline group. The study working group will monitor the distribution of registered panellists based on their demographic information and will try to have appropriate distribution across disciplines and other demographic markers. 
+We will conduct an all-rounds e-Delphi invitation approach, meaning that panellists will be invited to every round independent of whether they participated in the previous round (1). We will aim to recruit at least 50 panellists, preferably, with at least 8-10 people per discipline group. The study working group will monitor the distribution of registered panellists based on their demographic information and will try to have appropriate distribution across disciplines and other demographic markers. 
 
 Registration to complete the e-Delphi will open approximately four weeks before the first round and e-Delphi round survey. Each e-Delphi survey round will be active for roughly 4-6 weeks and will take approximately one hour to complete. 
 
@@ -62,11 +63,8 @@ gt(data, id = "delphi_table") %>%
 
 
 ```
-
 **Definitions**
-
 Professional experience: Paid employment in current disciplines (current or former) post-training experience, 3+ graduate training or professional practice
-
 Graduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health
 
 ### Panellist Withdrawal or Termination
@@ -92,3 +90,6 @@ When ≥ 80% of the panellist votes fall within the same category (1–3, 4–6,
 
 ## ![](images/Delphi_Consensus_Process - website.svg){fig-align="center" width="1000"}
 **Figure 1.** E-Delphi and consensus meeting methodology, methods to achieve consensus on core items for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).
+
+::: {#refs}
+:::
