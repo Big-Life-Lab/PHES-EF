@@ -19,6 +19,7 @@ The study protocol is currently being finalized and will be available on OSF. io
 The second scoping review protocol is currently under development.
 
 ## Executive Group Terms of Reference
+The Terms of Reference was drafted by the study working group and then reviewed, modified, and agreed upon with all members of the executive group.
 
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
@@ -36,5 +37,12 @@ November 14-15, 2022
 CoVaRR-Net Spring Meeting 2023
 Coronavirus Variants Rapid Response Network (CoVaRR-Net)
 May 16-18, 2023
+
+[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-danger}
+
+### The Development of an Evaluation Framework for Wastewater-Based Surveillance
+Toronto Wastewater Surveillance Conference
+Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson)
+February 2-3, 2023
 
 [Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-danger}
