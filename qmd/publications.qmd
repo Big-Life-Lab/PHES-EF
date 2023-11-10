@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Documents"
 
 ---
 
@@ -13,7 +13,7 @@ The study protocol is currently being finalized and will be available on OSF. io
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
-[Download terms of reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
+[Download Scoping Review #1&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
 
 #### Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol
 The second scoping review protocol is currently under development.
@@ -24,7 +24,7 @@ The Terms of Reference was drafted by the study working group and then reviewed,
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
-[Download terms of reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
+[Download Terms of Reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
 
 ## Presentations
 #### Development of a Wastewater-Based Surveillance Evaluation Framework
