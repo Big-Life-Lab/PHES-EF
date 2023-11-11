@@ -1,6 +1,7 @@
 ::: centered-content
 ![](assets/phes-ef-logo_colour.svg){width="200"}
 
+
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
 ```
 ```
@@ -16,8 +17,8 @@
 
 ```
 
-[![](images/icon_data-reporting-71.svg){fig-align="center" width="75"}](study.qmd)```         ```[![](images/icon_Laboratory.svg){fig-align="center" width="75"}](methods.qmd)```           ```[![](images/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd)```           ```[![](images/icon_researcher.svg){fig-align="center" width="75"}](about.qmd)```           ```[![](images/icon_Documentation.svg){fig-align="center" width="75"}](publications.qmd)```           ```[![](images/icon_international.svg){fig-align="center" width="75"}](contact.qmd)```           ```[![](images/icon_interpretation.svg){fig-align="center" width="75"}](faq.qmd)
+[![](images/icon_data-reporting-71.svg){fig-align="center" width="75"}](study.qmd)```                        ```[![](images/icon_Laboratory.svg){fig-align="center" width="75"}](methods.qmd)```                          ```[![](images/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd)```                          ```[![](images/icon_researcher.svg){fig-align="center" width="75"}](about.qmd)```                          ```[![](images/icon_Documentation.svg){fig-align="center" width="75"}](publications.qmd)```                          ```[![](images/icon_international.svg){fig-align="center" width="75"}](contact.qmd)```                         ```[![](images/icon_interpretation.svg){fig-align="center" width="75"}](faq.qmd)
 
-## About```                         ``` Methods```                         ```e-Delphi Study```                         ```Team```                         ```Documents```                         ```Contact Us```                         ```FAQ 
+### About```                         ``` Methods```                         ```e-Delphi Study```                         ```Team```                         ```Documents```                         ```Contact Us```                         ```FAQ 
 
 :::
