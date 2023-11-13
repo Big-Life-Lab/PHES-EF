@@ -11,7 +11,7 @@ $font_family_2: "lora"; // used for h1, h2, h3, h4, .lora
 $background_color_1: #ffcb6c; // used for mark
 $tag_public_health: #2ea6cc;
 $tag_social_sciences: #f37f58;
-$tag_environmental_sciences: #61c971;
+$tag_environmental_sciences: #6d9775;
 $tag_knowledge_user: #f37f58;
 // Define color variables for regions
 $region_north_america: #bfbfbf;
@@ -36,11 +36,17 @@ h1 {
 h2 {
   font: 600 24px "Lora";
   color: $color_1;
+  display: block; // Ensure the heading is on its own line
+  clear: both; // Clear any floated elements before the heading
+  margin-top: 20px;
 }
 
 h3 {
   font: 600 20px "Lora";
   color: $color_5;
+  display: block; // Ensure the heading is on its own line
+  clear: both; // Clear any floated elements before the heading
+  margin-top: 10px;
 }
 
 h4 {
@@ -109,6 +115,8 @@ mark {
   max-width: 30%;
   object-fit: cover;
   margin-right: 10px;
+  margin-bottom: 3px;
+  display: block;
 }
 
 .person_info {
