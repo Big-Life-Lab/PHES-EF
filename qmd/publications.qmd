@@ -14,7 +14,7 @@ The study protocol will be available on OSF. io shortly, prior to being submitte
 ## Scoping Reviews
 #### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
 
-[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/q5uca/?action=download){.btn .btn-secondary}
+[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/hm3sc/?action=download){.btn .btn-secondary}
 
 [Download Scoping Review #1&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
 
@@ -54,14 +54,14 @@ August 22, 2022
 
 ## Poster Presentations
 
-[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-danger}
-
 ### The Development of an Evaluation Framework for Wastewater-Based Surveillance
 Toronto Wastewater Surveillance Conference
 
 Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson)
 
 February 2-3, 2023
+
+[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-secondary}
 
 [Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst
 
