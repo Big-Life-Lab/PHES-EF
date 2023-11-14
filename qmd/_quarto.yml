@@ -16,11 +16,11 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - href: study.qmd
+      - href: about.qmd
       - href: methods.qmd
       - href: delphi.qmd
-      - href: about.qmd
-      - href: publications.qmd
+      - href: team.qmd
+      - href: documents.qmd
       - href: contact.qmd
       - href: faq.qmd
       
