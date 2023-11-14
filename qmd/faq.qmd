@@ -1,4 +1,6 @@
-# FAQ
+---
+title: "FAQ"
+---
 
 ## Why is there a Need for a Public Health Environmental Surveillance Framework?
 Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater-based surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve surveillance program accountability, transparency, and trust. 
