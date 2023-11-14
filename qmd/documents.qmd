@@ -9,8 +9,9 @@ Documentation for the e-Delphi study is available on the OSF.io platform, with l
 
 ## Study Protocol
 #### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary e-Delphi Study
-[!DRAFT] The study protocol will be registered on OSF. io shortly, prior to being submitted to an open-access journal for publication.
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/78azy/?action=download){.btn .btn-secondary}
+[!NOTE] This is a draft version of the study protocol. The protocol will be registered on OSF. io shortly, prior to being submitted to an open-access journal for publication.
+
+[Download Study Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/78azy/?action=download){.btn .btn-secondary}
 
 ## Scoping Reviews
 #### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
@@ -37,7 +38,7 @@ The EU Sewage Sentinel System for SARS-CoV-2 (EU4S)
 
 November 14-15, 2022
 
-[Download Scoping Review #1&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/fts8w/?action=download){.btn .btn-secondary}
+[Download Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/fts8w/?action=download){.btn .btn-secondary}
 
 ### Wastewater surveillance for population and public health: program evaluation
 National Wastewater Strategy Consulation Meeting
@@ -55,7 +56,7 @@ Coronavirus Variants Rapid Response Network (CoVaRR-Net)
 
 May 16-18, 2023
 
-[Download Scoping Review #1&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cu45e/?action=download){.btn .btn-secondary}
+[Download Poster Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cu45e/?action=download){.btn .btn-secondary}
 
 ### The Development of an Evaluation Framework for Wastewater-Based Surveillance
 Toronto Wastewater Surveillance Conference
@@ -64,36 +65,32 @@ Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan Universi
 
 February 2-3, 2023
 
-[Download Presentation {{< fa file-pdf >}}](https://osf.io/ncqzk/?action=download){.btn .btn-secondary}
+[Download Poster Presentation {{< fa file-pdf >}}](https://osf.io/ncqzk/?action=download){.btn .btn-secondary}
 
 
 ## Recruiting documents
 Recruiting for the e-Delphi has not yet begun. Recruitment documents that have been reviewed by the Research Ethics Board are below. Additional recruitment documents will be added to this page as they become available.
 
 ### Implied Consent Form - Round 1
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/pqjsa/?action=download){.btn .btn-secondary}
+[Download Consent Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/pqjsa/?action=download){.btn .btn-secondary}
 
 ### Implied Consent Form - Round 2
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/xj2rq/?action=download){.btn .btn-secondary}
+[Download Consent Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/xj2rq/?action=download){.btn .btn-secondary}
 
 ### Recruitment Email
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/qfdcv/?action=download){.btn .btn-secondary}
+[Download Recruitment Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/qfdcv/?action=download){.btn .btn-secondary}
 
 ### Reminder Recruitment Email
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wnz7p/?action=download){.btn .btn-secondary}
+[Download Recruitment Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wnz7p/?action=download){.btn .btn-secondary}
 
 ### Survey Participation Email
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/rx47c/?action=download){.btn .btn-secondary}
+[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/rx47c/?action=download){.btn .btn-secondary}
 
 ### Survey Participation Reminder Email - Round 1
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/8rkhg/?action=download){.btn .btn-secondary}
+[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/8rkhg/?action=download){.btn .btn-secondary}
 
 ### Survey Participation Reminder Email - Round 2
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/rgjue/?action=download){.btn .btn-secondary}
+[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/rgjue/?action=download){.btn .btn-secondary}
 
 ### Twitter Campaign
-[Download Document &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/w8gks/?action=download){.btn .btn-secondary}
-
-
-
-
+[Download Twitter Campaign &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/w8gks/?action=download){.btn .btn-secondary}
