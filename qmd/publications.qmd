@@ -1,6 +1,5 @@
 ---
 title: "Documents"
-
 ---
 
 Documentation for the e-Delphi study is available on the OSF.io platform, with links below.
@@ -15,7 +14,7 @@ The study protocol will be available on OSF. io shortly, prior to being submitte
 ## Scoping Reviews
 #### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
 
-[Download Evaluation Practices Scoping Protocol www&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
+[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
 
 [Download Scoping Review #1&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
 
@@ -34,16 +33,21 @@ The Terms of Reference was drafted by the study working group and then reviewed,
 
 ### The Development of an Evaluation Framework for Wastewater-Based Surveillance
 CoVaRR-Net Spring Meeting 2023
+
 Coronavirus Variants Rapid Response Network (CoVaRR-Net)
+
 May 16-18, 2023
 
 #### Development of a Wastewater-Based Surveillance Evaluation Framework
 Wastewater-based Surveillance – Looking into the Blue Mirror, 8th Town Hall Meeting
+
 The EU Sewage Sentinel System for SARS-CoV-2 (EU4S)
+
 November 14-15, 2022
 
 ### Wastewater surveillance for population and public health: program evaluation
 National Wastewater Strategy Consulation Meeting
+
 August 22, 2022
 
 [Download Link {{< fa file-pdf >}}](https://osf.io/8fa3v/?action=download){.btn .btn-secondary}
@@ -54,7 +58,9 @@ August 22, 2022
 
 ### The Development of an Evaluation Framework for Wastewater-Based Surveillance
 Toronto Wastewater Surveillance Conference
+
 Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson)
+
 February 2-3, 2023
 
 [Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst
