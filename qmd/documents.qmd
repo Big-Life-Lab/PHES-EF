@@ -9,14 +9,14 @@ Documentation for the e-Delphi study is available on the OSF.io platform, with l
 
 ## Study Protocol
 #### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary e-Delphi Study
-The study protocol will be available on OSF. io shortly, prior to being submitted to an open-access journal for publication.
+[!NOTE] This is a draft version of the study protocol. The protocol will be registered on OSF. io shortly, prior to being submitted to an open-access journal for publication.
+
+[Download Study Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/78azy/?action=download){.btn .btn-secondary}
 
 ## Scoping Reviews
 #### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
 
-[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/hm3sc/?action=download){.btn .btn-secondary}
-
-[Download Scoping Review #1&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
+[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/29k8u/?action=download){.btn .btn-secondary}
 
 #### Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol
 The second scoping review protocol is currently under development.
@@ -27,16 +27,9 @@ The Terms of Reference was drafted by the study working group and then reviewed,
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
-[Download Terms of Reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
+[Download Terms of Reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/4vj3x/?action=download){.btn .btn-secondary}
 
 ## Presentations
-
-### The Development of an Evaluation Framework for Wastewater-Based Surveillance
-CoVaRR-Net Spring Meeting 2023
-
-Coronavirus Variants Rapid Response Network (CoVaRR-Net)
-
-May 16-18, 2023
 
 #### Development of a Wastewater-Based Surveillance Evaluation Framework
 Wastewater-based Surveillance – Looking into the Blue Mirror, 8th Town Hall Meeting
@@ -45,14 +38,25 @@ The EU Sewage Sentinel System for SARS-CoV-2 (EU4S)
 
 November 14-15, 2022
 
+[Download Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/fts8w/?action=download){.btn .btn-secondary}
+
 ### Wastewater surveillance for population and public health: program evaluation
 National Wastewater Strategy Consulation Meeting
 
 August 22, 2022
 
-[Download Link {{< fa file-pdf >}}](https://osf.io/8fa3v/?action=download){.btn .btn-secondary}
+[Download Presentation {{< fa file-pdf >}}](https://osf.io/euysp/?action=download){.btn .btn-secondary}
 
 ## Poster Presentations
+
+### The Development of an Evaluation Framework for Wastewater-Based Surveillance
+CoVaRR-Net Spring Meeting 2023
+
+Coronavirus Variants Rapid Response Network (CoVaRR-Net)
+
+May 16-18, 2023
+
+[Download Poster Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cu45e/?action=download){.btn .btn-secondary}
 
 ### The Development of an Evaluation Framework for Wastewater-Based Surveillance
 Toronto Wastewater Surveillance Conference
@@ -61,14 +65,32 @@ Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan Universi
 
 February 2-3, 2023
 
-[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-secondary}
-
-[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst
+[Download Poster Presentation {{< fa file-pdf >}}](https://osf.io/ncqzk/?action=download){.btn .btn-secondary}
 
 
 ## Recruiting documents
-Recruiting for the eDelphi has not yet begun. Recruiting documents that have been reviewed by the Research Ethics Board are below. Additional recruitment documents will be added to this page as they become available.
+Recruiting for the e-Delphi has not yet begun. Recruitment documents that have been reviewed by the Research Ethics Board are below. Additional recruitment documents will be added to this page as they become available.
 
+### Implied Consent Form - Round 1
+[Download Consent Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/pqjsa/?action=download){.btn .btn-secondary}
 
+### Implied Consent Form - Round 2
+[Download Consent Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/xj2rq/?action=download){.btn .btn-secondary}
 
+### Recruitment Email
+[Download Recruitment Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/qfdcv/?action=download){.btn .btn-secondary}
 
+### Reminder Recruitment Email
+[Download Recruitment Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wnz7p/?action=download){.btn .btn-secondary}
+
+### Survey Participation Email
+[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/rx47c/?action=download){.btn .btn-secondary}
+
+### Survey Participation Reminder Email - Round 1
+[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/8rkhg/?action=download){.btn .btn-secondary}
+
+### Survey Participation Reminder Email - Round 2
+[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/rgjue/?action=download){.btn .btn-secondary}
+
+### Twitter Campaign
+[Download Twitter Campaign &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/w8gks/?action=download){.btn .btn-secondary}
