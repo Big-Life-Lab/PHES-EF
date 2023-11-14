@@ -9,11 +9,12 @@ Documentation for the e-Delphi study is available on the OSF.io platform, with l
 
 ## Study Protocol
 #### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary e-Delphi Study
-[!NOTE] This is a draft version of the study protocol. The protocol will be registered on OSF. io shortly, prior to being submitted to an open-access journal for publication.
+> [!NOTE] 
+> This is a draft version of the study protocol. The protocol will be registered on OSF. io shortly, prior to being submitted to an open-access journal for publication.
 
 [Download Study Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/78azy/?action=download){.btn .btn-secondary}
 
-## Scoping Reviews
+## Scoping Review Protocols
 #### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
 
 [Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/29k8u/?action=download){.btn .btn-secondary}
@@ -21,7 +22,7 @@ Documentation for the e-Delphi study is available on the OSF.io platform, with l
 #### Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol
 The second scoping review protocol is currently under development.
 
-## Executive Group Terms of Reference
+## Executive Group Documents
 The Terms of Reference was drafted by the study working group and then reviewed, modified, and agreed upon with all members of the executive group.
 
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
