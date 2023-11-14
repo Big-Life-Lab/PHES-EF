@@ -1,19 +1,22 @@
 ---
-title: "Publications"
-
+title: "Documents"
 ---
 
-## Study Protocol
-#### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary e-Delphi Study
-The study protocol is currently being finalized and will be available on OSF. io shortly, prior to being submitted to an open-access journal for publication.
-
-## Scoping Reviews
-#### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
+Documentation for the e-Delphi study is available on the OSF.io platform, with links below.
 
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
-[Download terms of reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
+## Study Protocol
+#### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary e-Delphi Study
+The study protocol will be available on OSF. io shortly, prior to being submitted to an open-access journal for publication.
+
+## Scoping Reviews
+#### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
+
+[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/hm3sc/?action=download){.btn .btn-secondary}
+
+[Download Scoping Review #1&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
 
 #### Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol
 The second scoping review protocol is currently under development.
@@ -24,25 +27,48 @@ The Terms of Reference was drafted by the study working group and then reviewed,
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
-[Download terms of reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
+[Download Terms of Reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wcxu7/?action=download){.btn .btn-secondary}
 
 ## Presentations
-#### Development of a Wastewater-Based Surveillance Evaluation Framework
-Wastewater-based Surveillance – Looking into the Blue Mirror, 8th Town Hall Meeting
-The EU Sewage Sentinel System for SARS-CoV-2 (EU4S)
-November 14-15, 2022
 
-## Poster Presentations
-#### The Development of an Evaluation Framework for Wastewater-Based Surveillance
+### The Development of an Evaluation Framework for Wastewater-Based Surveillance
 CoVaRR-Net Spring Meeting 2023
+
 Coronavirus Variants Rapid Response Network (CoVaRR-Net)
+
 May 16-18, 2023
 
-[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-danger}
+#### Development of a Wastewater-Based Surveillance Evaluation Framework
+Wastewater-based Surveillance – Looking into the Blue Mirror, 8th Town Hall Meeting
+
+The EU Sewage Sentinel System for SARS-CoV-2 (EU4S)
+
+November 14-15, 2022
+
+### Wastewater surveillance for population and public health: program evaluation
+National Wastewater Strategy Consulation Meeting
+
+August 22, 2022
+
+[Download Link {{< fa file-pdf >}}](https://osf.io/8fa3v/?action=download){.btn .btn-secondary}
+
+## Poster Presentations
 
 ### The Development of an Evaluation Framework for Wastewater-Based Surveillance
 Toronto Wastewater Surveillance Conference
+
 Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson)
+
 February 2-3, 2023
 
-[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-danger}
+[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst/example/file_1.pdf){.btn .btn-secondary}
+
+[Download Link {{< fa file-pdf >}}](https://github.com/fmmattioni/downloadthis/raw/master/inst
+
+
+## Recruiting documents
+Recruiting for the eDelphi has not yet begun. Recruiting documents that have been reviewed by the Research Ethics Board are below. Additional recruitment documents will be added to this page as they become available.
+
+
+
+

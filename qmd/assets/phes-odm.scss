@@ -1,40 +1,31 @@
 /*-- scss:defaults --*/
 
-$color_1: #8C4D33; // used for h1, h2
-$color_2: #838c91; // used for h5 and .section-head
+$color_1: #8c4d33; // used for h1, h2
+$color_2: #838c91; // used for h5 and .section_head
 $color_3: #2ea6cc; // used for a
-$color_4: #c4c4c4; // used for .section-head border
-$font_family_1: "Noto Sans Display", "HelveticaNeue", "Helvetica", "Arial", sans-serif; // used for *, p, a, .big, .section-head, h5
+$color_4: #c4c4c4; // used for .section_head border
+$color_5: #333333; // used for h3, h4
+$font_family_1: "Noto Sans Display", "HelveticaNeue", "Helvetica", "Arial",
+  sans-serif; // used for *, p, a, .big, .section_head, h5
 $font_family_2: "lora"; // used for h1, h2, h3, h4, .lora
 $background_color_1: #ffcb6c; // used for mark
-$tag_mathematical_sciences: #2ea6cc;
+$tag_public_health: #2ea6cc;
 $tag_social_sciences: #f37f58;
-$tag_environmental_and_physical_sciences: #61c971;
-$tag_public_health_and_medicine: #e05e5e;
-$tag_public_interest_or_knowledge_user: #9286ea;
+$tag_environmental_sciences: #6d9775;
+$tag_knowledge_user: #f37f58;
 // Define color variables for regions
-$region_canada: #bfbfbf;
-$region_united_states_of_america: #bfbfbf;
-$region_south_africa: #bfbfbf;
-$region_india: #bfbfbf;
-$region_united_kingdom: #bfbfbf;
-$region_germany: #bfbfbf;
-
-
+$region_north_america: #bfbfbf;
+$region_latin_america: #bfbfbf;
+$region_ss_africa: #bfbfbf;
+$region_south_asia: #bfbfbf;
+$region_europe: #bfbfbf;
 
 @import "https://fonts.googleapis.com/css?family=Lora:400,600,800";
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+Display:300;700";
 
 /*-- scss:rules --*/
-
-
-#quarto-header .navbar {
-//  background-color: #2E607A;
-}
-
-
-* { 
-  font-family: $font_family_1; 
+* {
+  font-family: $font_family_1;
 }
 
 h1 {
@@ -45,15 +36,22 @@ h1 {
 h2 {
   font: 600 24px "Lora";
   color: $color_1;
+  display: block; // Ensure the heading is on its own line
+  clear: both; // Clear any floated elements before the heading
+  margin-top: 20px;
 }
 
 h3 {
   font: 600 20px "Lora";
-  color: $color_1;
+  color: $color_5;
+  display: block; // Ensure the heading is on its own line
+  clear: both; // Clear any floated elements before the heading
+  margin-top: 10px;
 }
 
 h4 {
   font: 600 18px "Lora";
+  color: $color_5;
 }
 
 h5 {
@@ -92,7 +90,7 @@ mark {
   height: 5vh;
 }
 
-.section-head {
+.section_head {
   margin: 2em 0;
   font-family: $font_family_1;
   font-size: 70%;
@@ -102,29 +100,30 @@ mark {
   border-bottom: 1px solid #c4c4c4;
 }
 
-
 .lora {
   font-family: $font_family_2;
 }
 
-.centered-content {
-    text-align: center;
+.centered_content {
+  text-align: center;
 }
 
-.person-img {
+.person_img {
   float: left;
   width: 200px;
   height: auto;
   max-width: 30%;
   object-fit: cover;
   margin-right: 10px;
+  margin-bottom: 3px;
+  display: block;
 }
 
-.person-info {
+.person_info {
   text-align: right;
 }
 
-.tag-label {
+.tag_label {
   border-radius: 12px;
   padding: 4px 8px;
   font-size: 12px;
@@ -132,62 +131,57 @@ mark {
   font-family: $font_family_1;
 }
 
-.public-health-and-medicine {
-  @extend .tag-label;
-  background-color: $tag_public_health_and_medicine;
+.public_health {
+  @extend .tag_label;
+  background-color: $tag_public_health;
 }
 
-.environmental-and-physical-sciences {
-  @extend .tag-label;
-  background-color: $tag_environmental_and_physical_sciences;
+.environmental_sciences {
+  @extend .tag_label;
+  background-color: $tag_environmental_sciences;
 }
 
-.social-sciences {
-  @extend .tag-label;
+.social_sciences {
+  @extend .tag_label;
   background-color: $tag_social_sciences;
 }
 
-.mathematical-sciences {
-  @extend .tag-label;
-  background-color: $tag_mathematical_sciences;
+.mathematical_sciences {
+  @extend .tag_label;
+  background-color: $tag_public_health;
 }
 
-.public-interest-or-knowledge-user {
-  @extend .tag-label;
-  background-color: $tag_public_interest_or_knowledge_user;
+.knowledge_user {
+  @extend .tag_label;
+  background-color: $tag_knowledge_user;
 }
 
-.region-tag {
-  @extend .tag-label;
+.region_tag {
+  @extend .tag_label;
   font-style: italic;
 }
 
-.canada {
-  @extend .region-tag;
-  background-color: $region_canada;
+.north_america {
+  @extend .region_tag;
+  background-color: $region_north_america;
 }
 
-.united-states-of-america {
-  @extend .region-tag;
-  background-color: $region_united_states_of_america;
+.latin_america {
+  @extend .region_tag;
+  background-color: $region_latin_america;
 }
 
-.south-africa {
-  @extend .region-tag;
-  background-color: $region_south_africa;
+.ss_africa {
+  @extend .region_tag;
+  background-color: $region_ss_africa;
 }
 
-.india {
-  @extend .region-tag;
-  background-color: $region_india;
+.south_asia {
+  @extend .region_tag;
+  background-color: $region_south_asia;
 }
 
-.united-kingdom {
-  @extend .region-tag;
-  background-color: $region_united_kingdom;
-}
-
-.germany {
-  @extend .region-tag;
-  background-color: $region_germany;
+.europe {
+  @extend .region_tag;
+  background-color: $region_europe;
 }
