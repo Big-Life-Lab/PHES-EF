@@ -66,9 +66,9 @@ gt(data, id = "delphi_table") %>%
 
 ```
 
-<sup>**Definitions**
+<sup>**Definitions**</sup>
 
-Professional experience: Paid employment in current disciplines (current or former) post-training experience, 3+ graduate training or professional practice Graduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health</sup>
+<sup>Professional experience: Paid employment in current disciplines (current or former) post-training experience, 3+ graduate training or professional practice Graduate or professional degree: Master, PhD, Engineering, Law, Medicine, Public Health</sup>
 
 ## Procedure
 
