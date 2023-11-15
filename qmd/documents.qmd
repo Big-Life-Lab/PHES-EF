@@ -70,28 +70,4 @@ February 2-3, 2023
 
 
 ## Recruiting documents
-Recruiting for the e-Delphi has not yet begun. Recruitment documents that have been reviewed by the Research Ethics Board are below. Additional recruitment documents will be added to this page as they become available.
-
-### Implied Consent Form - Round 1
-[Download Consent Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/pqjsa/?action=download){.btn .btn-secondary}
-
-### Implied Consent Form - Round 2
-[Download Consent Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/xj2rq/?action=download){.btn .btn-secondary}
-
-### Recruitment Email
-[Download Recruitment Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/qfdcv/?action=download){.btn .btn-secondary}
-
-### Reminder Recruitment Email
-[Download Recruitment Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/wnz7p/?action=download){.btn .btn-secondary}
-
-### Survey Participation Email
-[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/rx47c/?action=download){.btn .btn-secondary}
-
-### Survey Participation Reminder Email - Round 1
-[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/8rkhg/?action=download){.btn .btn-secondary}
-
-### Survey Participation Reminder Email - Round 2
-[Download Email &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/rgjue/?action=download){.btn .btn-secondary}
-
-### Twitter Campaign
-[Download Twitter Campaign &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/w8gks/?action=download){.btn .btn-secondary}
+Recruiting for the e-Delphi has not yet begun. Recruitment materials will be added to the website once approved by the Research Ethics Board.
