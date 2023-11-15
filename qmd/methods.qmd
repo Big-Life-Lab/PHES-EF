@@ -20,7 +20,7 @@ You can learn more about the study executive group members [here.](team.qmd)
 
 ### Step 2: Generation of Candidate Items
 
-We will generate a list of PHES-EF e-Delphi candidate items by conducting relevant scoping reviews(s) and consulting the study's expert executive group.
+We will conduct relevant scoping review(s) and consult the study's expert executive group to generate a list of PHES-EF e-Delphi candidate items.
 
 Relevant scoping review registrations and publications can be accessed [here.](documents.qmd)
 
