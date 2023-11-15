@@ -16,7 +16,7 @@ A multinational and multidisciplinary executive group of 12 members will oversee
 
 The executive group will be responsible for providing feedback on the framework development process, connecting the study to other related projects, recruiting e-Delphi panellists, participating in the consensus meeting, disseminating the evaluation framework, advising and/or participating in post-publication activities, and promoting the adoption of the evaluation framework among their professional networks.
 
-You can learn more about the study executive group members [here.](about.qmd)
+You can learn more about the study executive group members [here.](team.qmd)
 
 ### Step 2: Generation of Candidate Items
 
