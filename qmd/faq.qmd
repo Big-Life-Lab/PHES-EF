@@ -4,7 +4,7 @@ title: "FAQ"
 bibliography: references.bib
 ---
 
-## Why PHES-EF Needed?
+## Why is PHES-EF Needed?
 Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater-based surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve surveillance program accountability, transparency, and trust. 
 
 It may even be argued that over the past few years only wastewater-based monitoring has increased rather than surveillance, as the data were not used to inform public health decision-making. This issue exemplifies the need for *PHES-EF*, as an evaluation framework for public health environmental surveillance systems is required to increase their reliability and credibility, to inform public health decision-making. In turn, this will also promote their value and sustainability as a public health tool.
