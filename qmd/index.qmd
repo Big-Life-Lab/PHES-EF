@@ -1,4 +1,3 @@
-
 ::: centered_content
 ![](assets/phes-ef-logo_colour.svg){width="200"}
 
@@ -7,11 +6,12 @@
 *An international consensus study to develop an evaluation framework for public health environmental surveillance*
 :::
 \
-Welcome to our eDelphi study platform, where we unite global expertise to establish a consensus-driven, open science approach for evaluating wastewater-based surveillance. Our goal is to collaboratively define the most robust practices for assessing this emerging public health surveillance tool.
+Welcome to the PHES-EF study website, where we engage global expertise to establish a consensus-driven, open-science approach for evaluating wastewater-based surveillance. We aim to collaboratively define the most robust practices for assessing this emerging public health surveillance tool.
 \
 \
 
-| [![](images/icon_data-reporting-71.svg){fig-align="center" width="75"}](study.qmd) | [![](images/icon_Laboratory.svg){fig-align="center" width="75"}](methods.qmd) | [![](images/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd) | [![](images/icon_researcher.svg){fig-align="center" width="75"}](about.qmd) | [![](images/icon_Documentation.svg){fig-align="center" width="75"}](publications.qmd) | [![](images/icon_international.svg){fig-align="center" width="75"}](contact.qmd) | [![](images/icon_interpretation.svg){fig-align="center" width="75"}](faq.qmd) |
+
+| [![](images/icon_data-reporting-71.svg){fig-align="center" width="75"}](about.qmd) | [![](images/icon_Laboratory.svg){fig-align="center" width="75"}](methods.qmd) | [![](images/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd) | [![](images/icon_researcher.svg){fig-align="center" width="75"}](team.qmd) | [![](images/icon_Documentation.svg){fig-align="center" width="75"}](documents.qmd) | [![](images/icon_international.svg){fig-align="center" width="75"}](contact.qmd) | [![](images/icon_interpretation.svg){fig-align="center" width="75"}](faq.qmd) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **About** | **Methods**| **e-Delphi Study** | **Team** | **Documents** | **Contact Us** | **FAQ** |
 

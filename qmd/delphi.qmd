@@ -13,7 +13,7 @@ Registration to complete the e-Delphi will open approximately four weeks before 
 
 ### Eligibility Criteria for e-Delphi Survey Panellists
 
-```{r echo=FALSE, warning=FALSE}
+```{r table-eligibility-criteria, echo=FALSE, warning=FALSE}
 
 # Load the gt package
 library(gt)
