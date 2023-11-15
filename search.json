@@ -119,8 +119,8 @@
     "text": "Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater-based surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve surveillance program accountability, transparency, and trust.\nIt may even be argued that over the past few years only wastewater-based monitoring has increased rather than surveillance, as the data were not used to inform public health decision-making. This issue exemplifies the need for PHES-EF, as an evaluation framework for public health environmental surveillance systems is required to increase their reliability and credibility, to inform public health decision-making. In turn, this will also promote their value and sustainability as a public health tool.\nThere is also a need for such an evaluation framework as the recent and abrupt adoption of wastewater-based monitoring has resulted in poor standardization of analytic techniques, with ideal methods for reporting testing data still remaining unclear (1). Ultimately, PHES-EF aims to address this issue as well, as the framework is intended to be adopted by researchers to determine surveillance system performance and create analogous results for comparison within the field."
   },
   {
-    "objectID": "faq.html#why-is-there-a-need-for-a-public-health-environmental-surveillance-framework",
-    "href": "faq.html#why-is-there-a-need-for-a-public-health-environmental-surveillance-framework",
+    "objectID": "faq.html#why-phes-ef-needed",
+    "href": "faq.html#why-phes-ef-needed",
     "title": "FAQ",
     "section": "",
     "text": "Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater-based surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve surveillance program accountability, transparency, and trust.\nIt may even be argued that over the past few years only wastewater-based monitoring has increased rather than surveillance, as the data were not used to inform public health decision-making. This issue exemplifies the need for PHES-EF, as an evaluation framework for public health environmental surveillance systems is required to increase their reliability and credibility, to inform public health decision-making. In turn, this will also promote their value and sustainability as a public health tool.\nThere is also a need for such an evaluation framework as the recent and abrupt adoption of wastewater-based monitoring has resulted in poor standardization of analytic techniques, with ideal methods for reporting testing data still remaining unclear (1). Ultimately, PHES-EF aims to address this issue as well, as the framework is intended to be adopted by researchers to determine surveillance system performance and create analogous results for comparison within the field."
@@ -130,7 +130,7 @@
     "href": "faq.html#what-is-a-delphi",
     "title": "FAQ",
     "section": "What is a Delphi?",
-    "text": "What is a Delphi?\nThe Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity (19,20). An electronic Delphi (e-Delphi) method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. Delphi surveys relating to health sciences have typically been conducted over a period of 2-3 rounds (17,21,22). Therefore, a two-round e-Delphi survey paired with a subsequent consensus meeting will be conducted to balance feasibility with rigour. Each round will be active for approximately 4-6 weeks to allow panellists sufficient time to participate in the survey, while balancing study timeline constraints (23)."
+    "text": "What is a Delphi?\nThe Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity (1) (2). An electronic Delphi (e-Delphi) method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. Delphi surveys relating to health sciences have typically been conducted over a period of 2-3 rounds (spranger2022?) (shang2023?) (3). Therefore, a two-round e-Delphi survey paired with a subsequent consensus meeting will be conducted to balance feasibility with rigour. Each round will be active for approximately 4-6 weeks to allow panellists sufficient time to participate in the survey, while balancing study timeline constraints (niederberger2020?)."
   },
   {
     "objectID": "faq.html#who-is-eligible-to-participate-in-the-study",
@@ -140,11 +140,11 @@
     "text": "Who is Eligible to Participate in the Study?\nThe eligibiligy criteria for e-Delphi survey panellists can be found here."
   },
   {
-    "objectID": "faq.html#when-will-the-study-be-conducted",
-    "href": "faq.html#when-will-the-study-be-conducted",
+    "objectID": "faq.html#references",
+    "href": "faq.html#references",
     "title": "FAQ",
-    "section": "When will the Study be Conducted?",
-    "text": "When will the Study be Conducted?"
+    "section": "References",
+    "text": "References\n\n\n1. Andrea C Tricco WZ Erin Lillie. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Annals of Internal Medicine [Internet]. 2018 Oct 2;169(7). Available from: http://dx.doi.org/10.7326/M18-0850\n\n\n2. Prashant Nasa DJ Ravi Jain. Delphi methodology in healthcare research: How to decide its appropriateness. World Journal of Methodology [Internet]. 2021 Jul 20;11(4). Available from: http://dx.doi.org/10.5662/wjm.v11.i4.116\n\n\n3. Saskia Jünger JB Sheila A Payne. Guidance on Conducting and REporting DElphi Studies (CREDES) in palliative care: Recommendations based on a methodological systematic review. World Journal of Methodology [Internet]. 2017 Feb 17;31(8). Available from: http://dx.doi.org/10.1177/0269216317690685"
   },
   {
     "objectID": "documents.html",
