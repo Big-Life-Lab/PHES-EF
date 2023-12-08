@@ -5,7 +5,7 @@ $color_2: #838c91; // used for h5 and .section_head
 $color_3: #2ea6cc; // used for a
 $color_4: #c4c4c4; // used for .section_head border
 $color_5: #333333; // used for h3, h4
-$font_family_1: "Noto Sans Display", "HelveticaNeue", "Helvetica", "Arial",
+$font_family_1: "Assistant", "HelveticaNeue", "Helvetica", "Arial",
   sans-serif; // used for *, p, a, .big, .section_head, h5
 $font_family_2: "lora"; // used for h1, h2, h3, h4, .lora
 $background_color_1: #ffcb6c; // used for mark
@@ -20,8 +20,8 @@ $region_ss_africa: #bfbfbf;
 $region_south_asia: #bfbfbf;
 $region_europe: #bfbfbf;
 
+@import "https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,800)";
 @import "https://fonts.googleapis.com/css?family=Lora:400,600,800";
-@import "https://fonts.googleapis.com/css?family=Noto+Sans+Display:300;700";
 
 /*-- scss:rules --*/
 * {
@@ -77,7 +77,7 @@ a {
 }
 
 .caption {
-    font-size: .8em;
+  font-size: 0.8em;
 }
 
 mark {
