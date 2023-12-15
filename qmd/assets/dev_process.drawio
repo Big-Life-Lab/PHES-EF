@@ -15,7 +15,7 @@
         <mxCell id="y7TbIQ7WOGR4q9mUZn1G-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontFamily=Helvetica;" parent="1" source="y7TbIQ7WOGR4q9mUZn1G-1" target="y7TbIQ7WOGR4q9mUZn1G-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y7TbIQ7WOGR4q9mUZn1G-1" value="&lt;b&gt;Establish the Executive Group&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=13;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Helvetica;spacingLeft=15;spacingRight=15;spacing=0;" parent="1" vertex="1">
+        <mxCell id="y7TbIQ7WOGR4q9mUZn1G-1" value="&lt;b&gt;Establish the executive group&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=13;labelBackgroundColor=none;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Helvetica;spacingLeft=15;spacingRight=15;spacing=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="40" width="170" height="67" as="geometry" />
         </mxCell>
         <mxCell id="y7TbIQ7WOGR4q9mUZn1G-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" source="y7TbIQ7WOGR4q9mUZn1G-2" target="y7TbIQ7WOGR4q9mUZn1G-4" edge="1">
@@ -32,7 +32,7 @@
         <mxCell id="y7TbIQ7WOGR4q9mUZn1G-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" source="y7TbIQ7WOGR4q9mUZn1G-4" target="y7TbIQ7WOGR4q9mUZn1G-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="y7TbIQ7WOGR4q9mUZn1G-4" value="&lt;b&gt;Perform the international &lt;br&gt;e-Delphi durvey&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=13;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Helvetica;spacingLeft=15;spacingRight=15;spacing=0;" parent="1" vertex="1">
+        <mxCell id="y7TbIQ7WOGR4q9mUZn1G-4" value="&lt;b&gt;Perform the international &lt;br&gt;e-Delphi survey&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=13;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Helvetica;spacingLeft=15;spacingRight=15;spacing=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="320" width="170" height="67" as="geometry" />
         </mxCell>
         <mxCell id="y7TbIQ7WOGR4q9mUZn1G-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" source="y7TbIQ7WOGR4q9mUZn1G-8" target="y7TbIQ7WOGR4q9mUZn1G-10" edge="1">
@@ -47,7 +47,7 @@
         <mxCell id="y7TbIQ7WOGR4q9mUZn1G-18" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; text-align: justify;&quot;&gt;Agree on the scope of the study and develop study protocol.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Agree on Terms of Reference for executive group members.&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;fontFamily=Helvetica;spacingLeft=-15;spacingRight=20;spacing=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="40" width="390" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="y7TbIQ7WOGR4q9mUZn1G-23" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; text-align: justify;&quot;&gt;Conduct scoping reviews to extract&amp;nbsp;&lt;/span&gt;relevant items for e-Delphi.&lt;/li&gt;&lt;li&gt;Review candidate items with the Executive Group to establish the organization, completeness, and redundancy of the candidate items list.&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;fontFamily=Helvetica;spacingLeft=-15;spacingRight=20;" parent="1" vertex="1">
+        <mxCell id="y7TbIQ7WOGR4q9mUZn1G-23" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; text-align: justify;&quot;&gt;Conduct scoping reviews to extract&amp;nbsp;&lt;/span&gt;relevant items for e-Delphi.&lt;/li&gt;&lt;li&gt;Review candidate items with the executive group to establish the organization, completeness, and redundancy of the candidate items list.&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;fontFamily=Helvetica;spacingLeft=-15;spacingRight=20;" parent="1" vertex="1">
           <mxGeometry x="420" y="180" width="390" height="67" as="geometry" />
         </mxCell>
         <mxCell id="y7TbIQ7WOGR4q9mUZn1G-25" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;Recruit, screen, and register international participants for participation in e-Delphi survey.&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Conduct recruitment and retention efforts during each round.&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;fontFamily=Helvetica;textDirection=ltr;spacing=0;spacingRight=20;spacingLeft=-15;" parent="1" vertex="1">
