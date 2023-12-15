@@ -88,7 +88,7 @@ We will use a 9-point Likert scale (1 = extremely irrelevant to 9 = extremely re
 
 When ≥ 80% of the panellist votes fall within the same category (1--3, 4--6, or 7--9) for a given item, no subsequent rounds of ranking for that item will be performed. Consensus items that are considered equivocal will be further deliberated during the consensus meeting.
 
-## ![](images/Delphi_Consensus_Process%20-%20website.svg){fig-align="center" width="1000"}
+## ![](images/delphi_consensus_process.svg){fig-align="center" width="1000"}
 
 [**Figure 2.** E-Delphi and consensus meeting methodology, methods to achieve consensus on core items for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).]{.caption}
 
