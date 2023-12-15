@@ -1,14 +1,14 @@
 project:
   type: website
   output-dir: ../docs
-  
+
 embed-resources: true
 
 website:
   title: "PHES-EF"
   repo-subdir: qmd
   repo-url: "https://github.com/big-life-lab/PHES-EF"
-  
+
   navbar:
     logo: assets/phes-ef-logo_colour.png
     background: primary
@@ -23,16 +23,17 @@ website:
       - href: documents.qmd
       - href: contact.qmd
       - href: faq.qmd
-      
+
     tools:
       - icon: github
         href: "https://github.com/big-life-lab/PHES-EF"
-      
+
 format:
   html:
-    theme: 
+    theme:
       - flatly # https://bootswatch.com/flatly/
       - assets/phes-odm.scss
+      - assets/phes-ef.scss
     code-tools: true
     toc: true
 

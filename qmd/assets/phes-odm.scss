@@ -1,191 +1,325 @@
 /*-- scss:defaults --*/
 
-$color_1: #8c4d33; // used for h1, h2
-$color_2: #838c91; // used for h5 and .section_head
-$color_3: #2ea6cc; // used for a
-$color_4: #c4c4c4; // used for .section_head border
-$color_5: #333333; // used for h3, h4
-$font_family_1: "Assistant", "HelveticaNeue", "Helvetica", "Arial",
-  sans-serif; // used for *, p, a, .big, .section_head, h5
-$font_family_2: "lora"; // used for h1, h2, h3, h4, .lora
-$background_color_1: #ffcb6c; // used for mark
-$tag_public_health: #2ea6cc;
-$tag_social_sciences: #f37f58;
-$tag_environmental_sciences: #6d9775;
-$tag_knowledge_user: #f37f58;
-// Define color variables for regions
-$region_north_america: #bfbfbf;
-$region_latin_america: #bfbfbf;
-$region_ss_africa: #bfbfbf;
-$region_south_asia: #bfbfbf;
-$region_europe: #bfbfbf;
+$color_1: #333333;
+$color_2: #2ea6cc;
+$color_3: #c4c4c4;
+$color_4: #1dcdfe;
+$color_5: #01b5e7;
+$color_6: #019fcc;
+$color_7: #0181a5;
+$color_8: #01637e;
+$color_9: #014457;
+$color_10: #f59e4c;
+$color_11: #f38a27;
+$color_12: #e6760d;
+$color_13: #c1630b;
+$color_14: #9c5009;
+$color_15: #86ea96;
+$color_16: #f27070;
+$color_17: #9b6cd8;
+$color_18: #ffcb6c;
+$color_19: #fff;
+$color_20: #c5cae9;
+$color_21: black;
+$font-family_1: "assistant";
+$font-family_2: "lora";
+$font-family_3: "assistant";
+$font-family_4: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$background-color_1: #ffcb6c;
+$background-color_2: #f7aa62;
+$background-color_3: #f1f1f1;
+$background-color_4: #1dcdfe;
+$background-color_5: #01b5e7;
+$background-color_6: #019fcc;
+$background-color_7: #0181a5;
+$background-color_8: #01637e;
+$background-color_9: #014457;
+$background-color_10: #f59e4c;
+$background-color_11: #f38a27;
+$background-color_12: #e6760d;
+$background-color_13: #c1630b;
+$background-color_14: #9c5009;
+$background-color_15: #86ea96;
+$background-color_16: #f27070;
+$background-color_17: #9b6cd8;
+$background-color_18: #ffcb6c;
+$background-color_19: #fff;
 
-@import "https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,800)";
-@import "https://fonts.googleapis.com/css?family=Lora:400,600,800";
+/*-- scss:uses --*/
+/* Import statements and dependencies */
+@import "https://fonts.googleapis.com/css?family=Assistant::200,300,400,600,800)";
+@import "https://fonts.google.com/specimen/Lora:400,600,800";
 
 /*-- scss:rules --*/
-* {
-  font-family: $font_family_1;
+.assistant {
+  font-family: $font-family_1;
+}
+.lora {
+  font-family: $font-family_2;
 }
 
-h1 {
-  font: 800 30px "Lora";
-  color: $color_1;
+.h-blue {
+  font-color: #016581;
+  color: $color_9;
 }
-
-h2 {
-  font: 600 24px "Lora";
-  color: $color_1;
-  display: block; // Ensure the heading is on its own line
-  clear: both; // Clear any floated elements before the heading
-  margin-top: 20px;
+.h-orange {
+  font-color: #016581;
+  color: $color_14;
 }
-
-h3 {
-  font: 600 20px "Lora";
-  color: $color_5;
-  display: block; // Ensure the heading is on its own line
-  clear: both; // Clear any floated elements before the heading
-  margin-top: 10px;
+.secondary-set {
+  font-family: $font-family_3;
+  font-weight: 600;
 }
-
-h4 {
-  font: 600 18px "Lora";
-  color: $color_5;
-}
-
-h5 {
-  font: 600 14px;
-  font-variant: small-caps;
-  color: $color_2;
-}
-
 p {
-  font: 10px;
-  strong {
-    font-weight: 500;
+  font-family: $font-family_3;
+  font-weight: 400;
+}
+a {
+  color: $color_2;
+  &:hover {
+    color: $color_20;
   }
 }
-
-a {
-  font: 10px;
-  color: $color_3;
-}
-
 .big {
   font-size: 1.25em;
 }
-
-.caption {
-  font-size: 0.8em;
-}
-
 mark {
-  background-color: $background_color_1;
+  background-color: $background-color_1;
   padding: 0.2rem;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .wrapper {
   width: 80%;
   margin: 8rem auto;
 }
-
 .break {
   height: 5vh;
 }
-
-.section_head {
+.section-head {
   margin: 2em 0;
-  font-family: $font_family_1;
+  font-family: $font-family_4;
   font-size: 70%;
   font-weight: normal;
   padding: 1em 0;
-  color: $color_4;
+  color: $color_3;
   border-bottom: 1px solid #c4c4c4;
 }
 
-.lora {
-  font-family: $font_family_2;
+/*LAYOUT *
+-----------------------------------------------*/
+/* COLORS */
+
+.primary-blue {
+  color: $color_4;
+}
+.blue-shade-100 {
+  color: $color_5;
+}
+.blue-shade-80 {
+  color: $color_6;
+}
+.blue-shade-60 {
+  color: $color_7;
+}
+.blue-shade-40 {
+  color: $color_8;
+}
+.blue-shade-20 {
+  color: $color_9;
+}
+.primary-orange {
+  background-color: $background-color_2;
+}
+.orange-shade-100 {
+  color: $color_10;
+}
+.orange-shade-80 {
+  color: $color_11;
+}
+.orange-shade-60 {
+  color: $color_12;
+}
+.orange-shade-40 {
+  color: $color_13;
+}
+.orange-shade-20 {
+  color: $color_14;
+}
+.green {
+  color: $color_15;
+  background-color: $background-color_15;
+}
+.red {
+  color: $color_16;
+  background-color: $background-color_16;
+}
+.purple {
+  color: $color_17;
+  background-color: $background-color_17;
+}
+.yellow {
+  color: $color_18;
+  background-color: $background-color_18;
 }
 
-.centered_content {
-  text-align: center;
+/* HEADER */
+h1 {
+  font: 800 48px "Lora";
+  color: $color_14;
 }
-
-.person_img {
-  float: left;
-  width: 200px;
-  height: auto;
-  max-width: 30%;
-  object-fit: cover;
-  margin-right: 10px;
-  margin-bottom: 3px;
+h2 {
+  font: 600 32px "Lora";
+  display: block; // Ensure the heading is on its own line
+  clear: both; // Clear any floated elements before the heading
+  color: $color_14;
+}
+h3 {
+  font: 600 26px "Lora";
   display: block;
+  clear: both;
+  color: $color_14;
+}
+h4 {
+  font: 600 21px "Lora";
+  color: $color_1;
+}
+h5 {
+  font: 600 16px "Lora";
+  color: $color_1;
 }
 
-.person_info {
-  text-align: right;
+/* MENU */
+
+.header {
+  left: 0;
+  right: 0;
+  height: 3rem;
+  line-height: 3rem;
+  color: $color_19;
+  background-color: $background-color_3;
+}
+.header__logo {
+  font-weight: 700;
+  padding: 0 25px;
+  float: left;
 }
 
-.tag_label {
-  border-radius: 12px;
-  padding: 4px 8px;
-  font-size: 12px;
-  color: #fff;
-  font-family: $font_family_1;
+/* BUTTONS */
+
+button {
+  box-sizing: border-box;
+  appearance: none;
+  width: 100%;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-family_1;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: $color_19;
+  background: #f38a27;
+  border: 3px solid #f37f58;
+  border-radius: 0.4rem;
+  transition: transform 150ms ease;
+}
+.btn {
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+}
+.btn-hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.btn-blue {
+  background: #0181a5;
+  border: 3px solid #0181a5;
+}
+.btn-dark {
+  background: #333333;
+  border: 3px solid #333333;
+}
+.btn-secondary {
+  color: $color_21;
+  background: 0;
+}
+.btn-tertiary {
+  color: $color_21;
+  background: 0;
+  border: 0;
+  text-decoration: underline;
+}
+.btn-disable {
+  background: #e4ecef;
+  border: 3px solid #e4ecef;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
-.public_health {
-  @extend .tag_label;
-  background-color: $tag_public_health;
+/* CodePen Document */
+
+.primary-blue-swatch {
+  background-color: $background-color_4;
+}
+.blue-shade-100-swatch {
+  background-color: $background-color_5;
+}
+.blue-shade-80-swatch {
+  background-color: $background-color_6;
+}
+.blue-shade-60-swatch {
+  background-color: $background-color_7;
+}
+.blue-shade-40-swatch {
+  background-color: $background-color_8;
+}
+.blue-shade-20-swatch {
+  background-color: $background-color_9;
+}
+.primary-orange-swatch {
+  background-color: $background-color_2;
+}
+.orange-shade-100-swatch {
+  background-color: $background-color_10;
+}
+.orange-shade-80-swatch {
+  background-color: $background-color_11;
+}
+.orange-shade-60-swatch {
+  background-color: $background-color_12;
+}
+.orange-shade-40-swatch {
+  background-color: $background-color_13;
+}
+.orange-shade-20-swatch {
+  background-color: $background-color_14;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-gap: 2rem;
+}
+.card {
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2), -1px -1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 0rem 0rem 2rem 0rem;
+}
+.flat {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.color-pallet-container {
+  background-color: $background-color_19;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.environmental_sciences {
-  @extend .tag_label;
-  background-color: $tag_environmental_sciences;
+.name {
+  padding: 0px 0px 16px 16px;
 }
-
-.social_sciences {
-  @extend .tag_label;
-  background-color: $tag_social_sciences;
-}
-
-.mathematical_sciences {
-  @extend .tag_label;
-  background-color: $tag_public_health;
-}
-
-.knowledge_user {
-  @extend .tag_label;
-  background-color: $tag_knowledge_user;
-}
-
-.region_tag {
-  @extend .tag_label;
-  font-style: italic;
-}
-
-.north_america {
-  @extend .region_tag;
-  background-color: $region_north_america;
-}
-
-.latin_america {
-  @extend .region_tag;
-  background-color: $region_latin_america;
-}
-
-.ss_africa {
-  @extend .region_tag;
-  background-color: $region_ss_africa;
-}
-
-.south_asia {
-  @extend .region_tag;
-  background-color: $region_south_asia;
-}
-
-.europe {
-  @extend .region_tag;
-  background-color: $region_europe;
+.white-text {
+  color: #000000;
 }

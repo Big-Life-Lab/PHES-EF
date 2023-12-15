@@ -1,0 +1,194 @@
+/*-- scss:defaults --*/
+/*--
+$color_1: #8c4d33; // used for h1, h2
+$color_2: #838c91; // used for h5 and .section_head
+$color_3: #2ea6cc; // used for a
+$color_4: #c4c4c4; // used for .section_head border
+$color_5: #333333; // used for h3, h4
+--*/
+$font_family_1: "Assistant", "HelveticaNeue", "Helvetica", "Arial",
+  sans-serif; // used for *, p, a, .big, .section_head, h5
+$font_family_2: "lora"; // used for h1, h2, h3, h4, .lora
+$background_color_1: #ffcb6c; // used for mark
+$tag_public_health: #2ea6cc;
+$tag_social_sciences: #f37f58;
+$tag_environmental_sciences: #6d9775;
+$tag_knowledge_user: #f37f58;
+// Define color variables for regions
+$region_north_america: #bfbfbf;
+$region_latin_america: #bfbfbf;
+$region_ss_africa: #bfbfbf;
+$region_south_asia: #bfbfbf;
+$region_europe: #bfbfbf;
+
+@import "https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,800)";
+@import "https://fonts.googleapis.com/css?family=Lora:400,600,800";
+
+/*-- scss:rules --*/
+/*--
+* {
+  font-family: $font_family_1;
+}
+
+h1 {
+  font: 800 30px "Lora";
+  color: $color_1;
+}
+
+h2 {
+  font: 600 24px "Lora";
+  color: $color_1;
+  display: block; // Ensure the heading is on its own line
+  clear: both; // Clear any floated elements before the heading
+  margin-top: 20px;
+}
+
+h3 {
+  font: 600 20px "Lora";
+  color: $color_5;
+  display: block; // Ensure the heading is on its own line
+  clear: both; // Clear any floated elements before the heading
+  margin-top: 10px;
+}
+
+h4 {
+  font: 600 18px "Lora";
+  color: $color_5;
+}
+
+h5 {
+  font: 600 14px;
+  font-variant: small-caps;
+  color: $color_2;
+}
+
+p {
+  font: 10px;
+  strong {
+    font-weight: 500;
+  }
+}
+
+a {
+  font: 10px;
+  color: $color_3;
+}
+
+.big {
+  font-size: 1.25em;
+}
+
+.caption {
+  font-size: 0.8em;
+}
+
+mark {
+  background-color: $background_color_1;
+  padding: 0.2rem;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 8rem auto;
+}
+
+.break {
+  height: 5vh;
+}
+
+.section_head {
+  margin: 2em 0;
+  font-family: $font_family_1;
+  font-size: 70%;
+  font-weight: normal;
+  padding: 1em 0;
+  color: $color_4;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.lora {
+  font-family: $font_family_2;
+}
+
+--*/
+.centered_content {
+  text-align: center;
+}
+
+.person_img {
+  float: left;
+  width: 200px;
+  height: auto;
+  max-width: 30%;
+  object-fit: cover;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  display: block;
+}
+
+.person_info {
+  text-align: right;
+}
+
+.tag_label {
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-size: 12px;
+  color: #fff;
+  font-family: $font_family_1;
+}
+
+.public_health {
+  @extend .tag_label;
+  background-color: $tag_public_health;
+}
+
+.environmental_sciences {
+  @extend .tag_label;
+  background-color: $tag_environmental_sciences;
+}
+
+.social_sciences {
+  @extend .tag_label;
+  background-color: $tag_social_sciences;
+}
+
+.mathematical_sciences {
+  @extend .tag_label;
+  background-color: $tag_public_health;
+}
+
+.knowledge_user {
+  @extend .tag_label;
+  background-color: $tag_knowledge_user;
+}
+
+.region_tag {
+  @extend .tag_label;
+  font-style: italic;
+}
+
+.north_america {
+  @extend .region_tag;
+  background-color: $region_north_america;
+}
+
+.latin_america {
+  @extend .region_tag;
+  background-color: $region_latin_america;
+}
+
+.ss_africa {
+  @extend .region_tag;
+  background-color: $region_ss_africa;
+}
+
+.south_asia {
+  @extend .region_tag;
+  background-color: $region_south_asia;
+}
+
+.europe {
+  @extend .region_tag;
+  background-color: $region_europe;
+}
