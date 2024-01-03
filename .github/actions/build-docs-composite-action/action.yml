@@ -1,14 +1,11 @@
-
 name: build-docs-composite-action
 runs:
   using: composite
   steps:
     - name: Install quarto
       uses: quarto-dev/quarto-actions/setup@v2
-      with:
-        version: 1.4.515
     - name: Install tinytex
-      run: quarto install tool tinytex --version 'v2024.01' 
+      run: quarto install tool tinytex
       shell: bash
     - name: setup-r
       uses: r-lib/actions/setup-r@v2
