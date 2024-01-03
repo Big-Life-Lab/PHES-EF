@@ -34,7 +34,7 @@ format:
       - flatly # https://bootswatch.com/flatly/
       - assets/phes-odm.scss
       - assets/phes-ef.scss
-    code-tools: true
+    code-tools: false
     toc: true
 
 bibliography: references.bib
