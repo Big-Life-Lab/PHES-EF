@@ -6,7 +6,7 @@ bibliography: references.bib
 
 This project will use a multidisciplinary and multinational consensus approach to develop an evaluation framework for public health environmental surveillance (Public Health Environmental Surveillance Evaluation Framework, *PHES-EF*) using wastewater surveillance as an example.
 
-A structured system or schema to systematically assess a program [@fynn2020][@calba2015]. An evaluation framework presents a clear list of items or elements such as constructs, concepts, that should appear in an evaluation; provides an organisation or structure for the list of items; defines how the list and organisation were developed; and, potentially, includes details about how to measure the evaluation items. Importantly, an evaluation framework facilitates informed decision-making by providing a comprehensive understanding of program effectiveness and areas for improvement.
+A structured system or schema to systematically assess a program [@fynn2020; \@calba2015]. An evaluation framework presents a clear list of items or elements such as constructs, concepts, that should appear in an evaluation; provides an organisation or structure for the list of items; defines how the list and organisation were developed; and, potentially, includes details about how to measure the evaluation items. Importantly, an evaluation framework facilitates informed decision-making by providing a comprehensive understanding of program effectiveness and areas for improvement.
 
 ## Approach
 
