@@ -75,11 +75,8 @@ Consensus for each item is defined as ≥ 70% of the panelist votes falling with
 
 The survey will include a free-text box for panellist to provide comments or suggest new items. Newly suggested items, as well as non-consensus items, will be listed in the second round.
 
-![](images/delphi_consensus_process.svg){fig-align="center" width="700"} 
-
-![](images/dev_process.svg){fig-align="center" width="700"}
-
-[**Figure 2.** E-Delphi onsensus process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).]
+![](images/delphi_consensus_process.png){fig-align="center"}
+[**Figure 2.** E-Delphi onsensus process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF)]{.caption}
 
 ## References
 

@@ -74,6 +74,11 @@ p {
   font-family: $font-family_3;
   font-weight: 400;
 }
+
+ul, ol, li {
+    font-family: $font-family_3 
+}
+
 a {
   color: $color_2;
   &:hover {
@@ -107,9 +112,6 @@ html {
   border-bottom: 1px solid #c4c4c4;
 }
 
-ul, ol, li {
-    font-family: inherit; 
-}
 
 /*LAYOUT *
 -----------------------------------------------*/
