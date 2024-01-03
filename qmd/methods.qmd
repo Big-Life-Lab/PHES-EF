@@ -36,13 +36,11 @@ For more details, see the [e-Delphi page.](delphi.qmd)
 
 In preparation for the consensus meeting, the study working group will categorize candidate items for consideration into a preliminary evaluation framework. This will include merging and/or modifying items based on feedback gathered from the e-Delphi rounds.
 
-An in-person or hybrid consensus meeting will be held after the results of the e-Delphi have been compiled and analysed. The primary objective will be to achieve expert consensus on the final list of items for PHES-EF, through review and discussion of salient items. This process will be guided by the empirical evidence that was identified during the scoping review(s), and the opinions gathered during the e-Delphi process. The secondary objective will be to discuss publication and dissemination strategies for the final evaluation framework.
+An in-person or hybrid consensus meeting will be held after the results of the e-Delphi have been compiled and analysed. The primary objective will be to achieve expert consensus on the final list of items for PHES-EF, through review and discussion of salient items. This process will be guided by the empirical evidence that was identified during the scoping review(s), and the opinions gathered during the e-Delphi process.
 
 Steps to produce the final list of items are as follows: (i) present the results of e-Delphi exercise (name, rationale, and score of each item); (ii) discuss the rationale and relevance for including the items in the framework; and (iii) vote on equivocal and non-consensual items. PHES-EF will be developed based on the final list of items that receive consensus during the executive group consensus meeting.
 
 ### Step 5: Dissemination of Evaluation Framework
-
-The dissemination of this evaluation framework will start with the publication of the PHES-EF protocol. Active dissemination approaches will include presenting at relevant scientific conferences, holding webinars, and conducting workshops. Additional dissemination practices will be determined during the consensus meeting.
 
 The development of the evaluation framework will be reported in a statement document that will include the rationale and a brief description of the meeting and the panellists involved. The evaluation framework will be made available as a preprint, prior to publication in an open-access peer-reviewed journal. PHES-EF will be made available using an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/).
 

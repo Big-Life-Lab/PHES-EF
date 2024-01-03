@@ -48,11 +48,10 @@ gt(data, id = "delphi_table") %>%
   ))
 
 ```
+
 **Definitions**
 
-*Professional experience:* Paid employment or professional practice in a listed specialization (current or former).
-*Graduate or professional degree:* Master or PhD in a listed discipline/specialization.
-
+*Professional experience:* Paid employment or professional practice in a listed specialization (current or former). *Graduate or professional degree:* Master or PhD in a listed discipline/specialization.
 
 ## Procedure
 
@@ -70,17 +69,17 @@ Panellists will rate their level of agreement with newly identified candidate it
 
 Consensus for each item is defined as ≥ 70% of the panelist votes falling within the same grouping of three categories within a 7-point Likert scale:
 
-1.	Core Item: Highly or moderately relevant
-2.	Further Discussion: Slightly relevant, neutral, slightly irrelevant
-3.	Excluded Item: Moderately or highly irrelevant
+1.  Core Item: Highly or moderately relevant
+2.  Further Discussion: Slightly relevant, neutral, slightly irrelevant
+3.  Excluded Item: Moderately or highly irrelevant
 
 The survey will include a free-text box for panellist to provide comments or suggest new items. Newly suggested items, as well as non-consensus items, will be listed in the second round.
 
- 
-![](images/delphi_consensus_process.svg){fig-align="center" width="1000"}
+![](images/delphi_consensus_process.svg){fig-align="center" width="700"} 
 
-[**Figure 2.** E-Delphi  onsensus process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).]{.caption}
+![](images/dev_process.svg){fig-align="center" width="700"}
 
+[**Figure 2.** E-Delphi onsensus process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF).]
 
 ## References
 
