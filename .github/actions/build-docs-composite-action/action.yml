@@ -9,6 +9,7 @@ runs:
         version: 1.4.515
     - name: Install tinytex
       run: quarto install tool tinytex
+       run: quarto install tool tinytex --version 'v2024.01' 
       shell: bash
     - name: setup-r
       uses: r-lib/actions/setup-r@v2
