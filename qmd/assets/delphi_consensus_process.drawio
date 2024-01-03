@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-01-03T21:27:23.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="mpGEwzf7G8wwk36diZ6y" version="22.1.16" type="device">
+<mxfile host="Electron" modified="2024-01-03T21:59:29.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6VkD7waBmDkIDBoQRm2A" version="22.1.16" type="device">
   <diagram name="Page-1" id="emtAasKzlPdS6pt3cwZh">
     <mxGraphModel dx="1425" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
           <mxGeometry x="298" y="382" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yjMTc29iKmr8lifg0grA-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1 - Consensus:&lt;/b&gt; if&amp;nbsp;&lt;span style=&quot;line-height: 15.6933px; font-family: Calibri, sans-serif;&quot;&gt;≥ 70% of participant votes fall within the same category (irrelevant, equivocal, relevant); no consensus if &amp;lt;70% agreement.&lt;br&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;2 - Item relevancy:&lt;/b&gt; &lt;i style=&quot;&quot;&gt;core item&lt;/i&gt;: highly or moderately relevant; &lt;i style=&quot;&quot;&gt;further discussion&lt;/i&gt;: slightly relevant, neutral, slightly irrelevant; &lt;i style=&quot;&quot;&gt;excluded item&lt;/i&gt;: moderately or highly irrelevant.&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="68" y="800" width="930" height="40" as="geometry" />
+          <mxGeometry x="68" y="790" width="930" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xM073StepA89XgEnhjdI-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" parent="1" source="xM073StepA89XgEnhjdI-2" target="xM073StepA89XgEnhjdI-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
