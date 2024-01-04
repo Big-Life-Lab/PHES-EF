@@ -8,7 +8,7 @@ The Public Health Environmental Surveillance Evaluation Framework (PHES-EF) will
 
 ## Study Steps
 
-![](images/dev_process.svg){fig-align="center" width="700"}
+![](assets/dev_process.svg){fig-align="center" width="700"}
 
 [**Figure 1.** Overview of the development process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF)]{.caption}
 

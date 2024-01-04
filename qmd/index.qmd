@@ -15,7 +15,7 @@ Welcome to the PHES-EF study website, where we engage global expertise to establ
 \
 
 ::: centered_content
-| [![](images/icon_about.svg){fig-align="center" width="75"}](about.qmd) | [![](images/icon_study.svg){fig-align="center" width="75"}](methods.qmd) | [![](images/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd) | [![](images/icon_team.svg){fig-align="center" width="75"}](team.qmd) | [![](images/icon_Documentation.svg){fig-align="center" width="75"}](documents.qmd) | [![](images/icon_contact-us.svg){fig-align="center" width="75"}](contact.qmd) | [![](images/icon_faq.svg){fig-align="center" width="75"}](faq.qmd) |
+| [![](assets/icon_about.svg){fig-align="center" width="75"}](about.qmd) | [![](assets/icon_study.svg){fig-align="center" width="75"}](methods.qmd) | [![](assets/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd) | [![](assets/icon_team.svg){fig-align="center" width="75"}](team.qmd) | [![](assets/icon_Documentation.svg){fig-align="center" width="75"}](documents.qmd) | [![](assets/icon_contact-us.svg){fig-align="center" width="75"}](contact.qmd) | [![](assets/icon_faq.svg){fig-align="center" width="75"}](faq.qmd) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **About** | **Methods**| **e-Delphi Study** | **Team** | **Documents** | **Contact Us** | **FAQ** |
 :::
