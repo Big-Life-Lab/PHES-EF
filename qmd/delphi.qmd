@@ -16,6 +16,7 @@ We will aim to recruit at least 50 panellists, preferably, with at least 8-10 pe
 
 ### Eligibility Criteria for e-Delphi Survey Panellists
 
+::: {.table-striped}
 ```{r table-eligibility-criteria, echo=FALSE, warning=FALSE}
 
 # Load the gt package
@@ -48,6 +49,7 @@ gt(data, id = "delphi_table") %>%
   ))
 
 ```
+:::
 
 **Definitions**
 
