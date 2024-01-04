@@ -14,8 +14,46 @@ Welcome to the PHES-EF study website, where we engage global expertise to establ
 \
 \
 
-::: centered_content
-| [![](assets/icon_about.svg){fig-align="center" width="75"}](about.qmd) | [![](assets/icon_study.svg){fig-align="center" width="75"}](methods.qmd) | [![](assets/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd) | [![](assets/icon_team.svg){fig-align="center" width="75"}](team.qmd) | [![](assets/icon_Documentation.svg){fig-align="center" width="75"}](documents.qmd) | [![](assets/icon_contact-us.svg){fig-align="center" width="75"}](contact.qmd) | [![](assets/icon_faq.svg){fig-align="center" width="75"}](faq.qmd) |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **About** | **Methods**| **e-Delphi Study** | **Team** | **Documents** | **Contact Us** | **FAQ** |
+<!-- ::: centered_content -->
+<!-- | [![](assets/icon_about.svg){fig-align="center" width="75"}](about.qmd) | [![](assets/icon_study.svg){fig-align="center" width="75"}](methods.qmd) | [![](assets/icon_clipboard.svg){fig-align="center" width="75"}](delphi.qmd) | [![](assets/icon_team.svg){fig-align="center" width="75"}](team.qmd) | [![](assets/icon_Documentation.svg){fig-align="center" width="75"}](documents.qmd) | [![](assets/icon_contact-us.svg){fig-align="center" width="75"}](contact.qmd) | [![](assets/icon_faq.svg){fig-align="center" width="75"}](faq.qmd) | -->
+<!-- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | -->
+<!-- | **About** | **Methods**| **e-Delphi Study** | **Team** | **Documents** | **Contact Us** | **FAQ** | -->
+<!-- ::: -->
+
+:::: {.icon-row}
+::: {.flex-item}
+[![](assets/icon_about.svg)  
+About](about.qmd)
 :::
+
+::: {.flex-item}
+[![](assets/icon_study.svg)  
+Methods](methods.qmd)
+:::
+
+::: {.flex-item}
+[![](assets/icon_clipboard.svg)  
+e-Delphi study](delphi.qmd)
+:::
+
+::: {.flex-item}
+[![](assets/icon_team.svg)  
+Team](team.qmd)
+:::
+
+::: {.flex-item}
+[![](assets/icon_Documentation.svg)  
+Documents](documents.qmd)
+:::
+
+::: {.flex-item}
+[![](assets/icon_contact-us.svg)  
+Contact us](contact.qmd)
+:::
+
+::: {.flex-item}
+[![](assets/icon_faq.svg)  
+FAQ](faq.qmd)
+:::
+::::
+
