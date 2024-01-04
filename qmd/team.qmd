@@ -32,6 +32,8 @@ His research and practice focus on the informatics of health surveillance and di
 
 ![](assets/farah_ishtiaq.jpg){.person_img width="200"}[Evolutionary ecology]{.environmental_sciences}[Epidemiology]{.public_health}[South Asia]{.south_asia} Farah is an evolutionary ecologist interested in the ecology and evolution of emerging infectious diseases. Their experience in research and conservation is based on 25 years of involvement in various projects around the world. They have a national coordinator of Important Bird Areas programme (India) and conducted research on critically endangered and threatened birds, impact of introduced birds and their parasites (avian malaria in Hawaii) at Smithsonian Institution as a postdoc and vector communities on remote pacific islands (New Caledonia, Vanuatu and nearby islands) as Marie Curie Fellow at University of Oxford, and ecology of avian influenza SE Asia (Mongolia) with Wildlife Conservation Society. As Wellcome Trust/DBT India Alliance fellow, their long-term research explored the epidemiology of avian malaria and spread of disease in high altitude malaria-free zones in the face of climate-change. In their current role at Tata Institute for Genetics and Society, they lead the disease ecology and environmental surveillance -- mainly focusing on ecology and population genomics of key mosquito species involved in malaria and dengue transmission in India. They also lead environmental surveillance of SARS-CoV-2 as an early warning system for Bengaluru city and expanding it to other pathogens.
 
+[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/f5bme){.btn .btn-secondary}
+
 ### Mary Jessome
 
 ![](assets/mary_jessome.jpg){.person_img width="200"}[Social Sciences]{.public_health}[North America]{.north_america} Mary is the lead researcher for CIEDAR's #BeadAndThrive social media engagement. They joined CIEDAR after working as a research and data analytics officer for the Department of Canadian Heritage, where their focus on equity and inclusion helped inform the governance of North America's diverse populations (i.e., 2SLGBTQ+, Persons Living with Disabilities, and Indigenous Peoples). Mary is also a PhD student in the Department of Sociology at the University of British Columbia. Their research focuses on assortative mating patterns among gender diverse (i.e., transgender and non-binary) Canadians and how these patterns reproduce socio-economic inequalities.
@@ -44,9 +46,13 @@ His research and practice focus on the informatics of health surveillance and di
 
 ![](assets/Kerrigan_McCarthy.png){.person_img width="200"}[Public health]{.public_health}[Microbiology]{.environmental_sciences}[Sub-Saharan Africa]{.ss_africa} Dr. Kerrigan McCarthy is a specialist pathologist in the discipline of microbiology who specialises in the laboratory diagnosis of infectious disease. She has a PhD in Public Health from Wits. She has worked at the NICD in quality assurance and mycology, and for a number of NGOs doing health system strengthening in the area of TB/HIV integration. She co-ordinated the national evaluation of the GeneXpert technology for the diagnosis of tuberculosis. Since working at the NICD she has supported national and provincial responses to outbreaks, including listeria and SARS-CoV-2.
 
+[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/3hyr8){.btn .btn-secondary}
+
 ### David Moher
 
 ![](assets/david_moher.png){.person_img width="200"}[Knowledge synthesis]{.public_health}[Epidemiology]{.public_health}[North America]{.north_america} Dr. David Moher is a senior scientist, Clinical Epidemiology Program, Ottawa Hospital Research Institute, where he directs the Centre for Journalology. Dr. Moher is also a full Professor, School of Epidemiology and Public Health, Faculty of Medicine, University of Ottawa. Dr. Moher received an MSc in epidemiology and PhD in clinical epidemiology and biostatistics. Dr. Moher is a fellow of the Royal Society of North America, and Canadian Academy of Health Sciences. Dr. Moher works in knowledge synthesis; predatory journals; reporting guidelines; and open science.
+
+[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/ws5u7){.btn .btn-secondary}
 
 ### Beate Sander
 
@@ -56,6 +62,8 @@ Dr. Sander is an internationally recognized leader in infectious disease economi
 
 Dr. Sander is an expert to national and international advisory bodies, including North America's National Advisory Committee for Immunization (NACI), where she chairs the Economics Task Group and co-chairs the Economic Guidelines Task Group -- a group tasked with developing national guidelines for the economic evaluation of vaccines, which will set the standard for conducting economic evaluations for vaccines in North America. Dr. Sander co-chaired the Ontario COVID-19 Modeling Consensus Table from March 2020 to March 2022 and was a member of Ontario's Science Advisory Table, leading timely COVID-19 evidence generation and knowledge mobilization. Dr. Sander is a member of several Federal expert advisory committees and President of the international Society for Medical Decision Making.
 
+[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/vz72q){.btn .btn-secondary}
+
 ### Jeremy Veillard
 
 ![](assets/jeremy_veillard.jpg){.person_img width="200"}[Health services]{.public_health}[Public health]{.public_health}[Latin America and Caribbean]{.latin_america} Jeremy Veillard is a Lead Health Specialist in the Latin America and Caribbean Region, for Health, Nutrition and Population, at the World Bank. Jeremy is a former health care executive in North America and France, with deep expertise in quality of care, service delivery performance and health systems research and analytics. Jeremy has a PhD in public health (health systems research) from the University of Amsterdam, The Netherlands and a masters in hospital administration from the Ecole des Hautes Etudes en Santé Publique, France.
@@ -63,6 +71,8 @@ Dr. Sander is an expert to national and international advisory bodies, including
 ### Matthew Wade
 
 ![](assets/matthew_wade.png){.person_img width="200"}[Mathematical modelling]{.public_health}[Microbial ecology]{.environmental_sciences}[Europe and Central Asia]{.europe} Dr. Matthew Wade is Head of Science & Research on the Environmental Monitoring for Health Protection project at the UK Health Security Agency. He helped deliver the English Wastewater Monitoring Programme for COVID-19 from October 2020 to March 2022. Prior to joining the UK Civil Service, he held a Marie Sklodowska-Curie Individual Fellowship, spending two years at McMaster University in North America where he researched the mathematics and modelling of engineered biological systems, with special interest in the dynamics of microbial ecology. During his time in North America, he spent 6 months as a visiting fellow at The Fields Institute in Toronto, participating in the "Emergent Challenges in Mathematical Biology" major thematic program. He has spent over 20 years working at the interface of mathematics, engineering and biology within academia and industry, within both research and operational delivery of complex systems in the agriculture, water, energy, and pharmaceutical sectors. He has a Bachelor of Engineering and Master of Science from Newcastle University, and a PhD from Strathclyde University and is a member of the International Water Association and Water Environmental Foundation. He is currently an editor for the Journal of Water & Health, Water Science & Technology, Frontiers in Microbiology, and Bioengineering journals.
+
+[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cg8pr){.btn .btn-secondary}
 
 ## Study Working Group
 
