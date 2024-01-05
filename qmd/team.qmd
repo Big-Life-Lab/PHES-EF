@@ -12,6 +12,8 @@ The executive group is a multidisciplinary and multinational group composed of 1
 
 He leads the development of the Public Health Environmental Surveillance Open Data Model (PHES ODM) which is used worldwide for wastewater surveillance. He consults for the World Bank for the development of wastewater surveillance in low- and middle-income countries. He formerly led the  Coronavirus Variants Rapid Response Network (CoVaRR-Net) Wastewater Research Group.
 
+[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/utske){.btn .btn-secondary}
+
 ### David Buckeridge (Co-chair)
 
 ![](assets/david_buckeridge.png){.person_img width="200"}[Public Health]{.public_health}[North America]{.north_america} David Buckeridge is a Professor in the School of Population and Global Health at McGill University in Montreal where he directs the Surveillance Lab, an interdisciplinary group that develops, implements, and evaluates novel computational methods for population health surveillance. He also directs the Anonymized Data Warehouse at the McGill University Health Center, provides informatics advice to the Quebec Institute for Excellence in Health and Social Services, and leads data management and analytics for the COVID-19 Immunity Task Force.
