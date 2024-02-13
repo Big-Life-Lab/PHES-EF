@@ -39,10 +39,6 @@ His research and practice focus on the informatics of health surveillance and di
 
 [View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/f5bme){.btn .btn-secondary}
 
-### Mary Jessome
-
-![](assets/mary_jessome.jpg){.person_img width="200"}[Social Sciences]{.public_health}[North America]{.north_america} Mary is the lead researcher for CIEDAR's #BeadAndThrive social media engagement. They joined CIEDAR after working as a research and data analytics officer for the Department of Canadian Heritage, where their focus on equity and inclusion helped inform the governance of North America's diverse populations (i.e., 2SLGBTQ+, Persons Living with Disabilities, and Indigenous Peoples). Mary is also a PhD student in the Department of Sociology at the University of British Columbia. Their research focuses on assortative mating patterns among gender diverse (i.e., transgender and non-binary) Canadians and how these patterns reproduce socio-economic inequalities.
-
 ### Amy Kirby
 
 ![](assets/amy_kirby.jpg){.person_img width="200"}[Public health]{.public_health}[Microbiology]{.environmental_sciences}[North America]{.north_america} Dr. Amy Kirby is an Environmental Microbiologist in the Waterborne Disease Prevention Branch and the Program Lead for the National Wastewater Surveillance System (NWSS) at the Centers for Disease Control and Prevention (CDC). She has a Bachelor of Science in Agriculture from the University of Georgia, a PhD in Microbiology from the University of Buffalo, SUNY, and a Master of Public Health in Epidemiology from Emory University. At CDC, Dr. Kirby is interested in leveraging environmental microbiology methods to measure pathogens, antibiotic resistance genes, and other health indicators in natural and man-made water systems.
