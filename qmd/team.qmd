@@ -26,7 +26,6 @@ His research and practice focus on the informatics of health surveillance and di
 
 ![](assets/yoni_freedhoff.jpg){.person_img width="200"}[Public interest]{.knowledge_user}[Communication]{.public_health}[North America]{.north_america} Yoni Freedhoff is an Associate Professor of Family Medicine at the University of Ottawa and the medical director of the Bariatric Medical Institute as well as Constant Health. Outside patient care he has dedicated much of his professional career to science communication and public health advocacy which has led him to author a number one national bestselling book, have bylines in the New York Times, TIME, Macleans and more, author on ongoing Medscape column, serve as a regular expert for both national and international media, and on multiple occasions deliver invited testimony to North America's Senate and House of Commons.
 
-
 [View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/d8bcm){.btn .btn-secondary}
 
 ### Bernd Gawlik
