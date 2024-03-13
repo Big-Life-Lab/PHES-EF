@@ -1,4 +1,4 @@
-name: Publish docs to github pages
+name: Publish docs to GitHub pages
 on:
   workflow_dispatch:
   push:
@@ -10,8 +10,14 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+
       - name: Build docs
         uses: ./.github/actions/build-docs-composite-action
+
+      # New step to copy CNAME into the ./docs directory
+      - name: Copy CNAME to docs
+        run: cp CNAME ./docs/CNAME
+
       - name: Publish docs
         uses: peaceiris/actions-gh-pages@v3
         with:
