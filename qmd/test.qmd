@@ -1,0 +1,8 @@
+Creates a dotted circle - no fill. Incorrectly displays.
+![](circle_with_styles.svg)
+
+Creates a circle with fill. Correctly displays.
+<object data="circle_with_styles.svg"></object>
+
+Creates a circle with fill. Correctly displays.
+![](assets/circle_without_styles.svg)
