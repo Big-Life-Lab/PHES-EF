@@ -1,24 +1,6 @@
 
-![](assets/circle_with_styles.svg)
-
-<object data="assets/circle_with_styles.svg"></object>
-
-
-![](assets/circle_without_styles.svg)
-
 ::: centered_content
 ![](assets/phes-ef-logo_colour.png){width="200"}
-
-
-![](assets/circle_with_styles.svg)
-
-<object data="assets/circle_with_styles.svg"></object>
-
-
-![](assets/circle_without_styles.svg)
-
-
-
 
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
 
