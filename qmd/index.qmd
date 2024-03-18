@@ -28,7 +28,7 @@ Methods](methods.qmd)
 
 ::: {.flex-item}
 [![](assets/clipboard.svg) 
- e-Delphi study](delphi.qmd)
+ eDelphi study](delphi.qmd)
 :::
 
 ::: {.flex-item}
