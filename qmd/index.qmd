@@ -1,6 +1,6 @@
 
 ::: centered_content
-![](assets/phes-ef-logo_colour.png){width="200"}
+![](assets/phes-ef-logo_colour.svg){width="200"}
 
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
 
@@ -17,37 +17,37 @@ Welcome to the PHES-EF study website, where we engage global expertise to establ
 
 :::: {.icon-row}
 ::: {.flex-item}
-[![](assets/icon_about.svg)  
+[![](assets/about.svg)  
 About](about.qmd)
 :::
 
 ::: {.flex-item}
-[![](assets/icon_study.svg)  
+[![](assets/study.svg)  
 Methods](methods.qmd)
 :::
 
 ::: {.flex-item}
-[![](assets/icon_clipboard.svg)  
-e-Delphi study](delphi.qmd)
+[![](assets/clipboard.svg) 
+ e-Delphi study](delphi.qmd)
 :::
 
 ::: {.flex-item}
-[![](assets/icon_team.svg)  
+[![](assets/team.svg)  
 Team](team.qmd)
 :::
 
 ::: {.flex-item}
-[![](assets/icon_Documentation.svg)  
+[![](assets/docs.svg)  
 Documents](documents.qmd)
 :::
 
 ::: {.flex-item}
-[![](assets/icon_contact-us.svg)  
+[![](assets/contact.svg)  
 Contact us](contact.qmd)
 :::
 
 ::: {.flex-item}
-[![](assets/icon_faq.svg)  
+[![](assets/faq.svg)  
 FAQ](faq.qmd)
 :::
 ::::
