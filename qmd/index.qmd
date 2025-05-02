@@ -1,54 +1,140 @@
+---
+format:
+  html:
+    css: assets/phes-ef.scss
+---
 
 ::: centered_content
 ![](assets/phes-ef-logo_colour.svg){width="200"}
 
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
-
-*An international consensus study to develop an evaluation framework for public health environmental surveillance*
-:::
-\
-
-::: centered_content
-Welcome to the PHES-EF study website, where we engage global expertise to establish a consensus-driven, open-science approach for evaluating wastewater-based surveillance. We aim to collaboratively define the most robust practices for assessing this emerging public health surveillance tool.
 :::
 
-\
-\
+------------------------------------------------------------------------
 
-:::: {.icon-row}
-::: {.flex-item}
-[![](assets/about.svg)  
-About](about.qmd)
-:::
+<!-- HOME PAGE TEXT -->
 
-::: {.flex-item}
-[![](assets/study.svg)  
-Methods](methods.qmd)
-:::
+:::: intro-container
+::: justify-text
+The <i>Public Health Environmental Surveillance Evaluation Framework (PHES-EF)</i> is an international consensus study designed to develop a comprehensive framework for evaluating public health environmental surveillance systems, using wastewater-based surveillance as a practical example.<br>
 
-::: {.flex-item}
-[![](assets/clipboard.svg) 
- eDelphi study](delphi.qmd)
-:::
+This work employs the <b>Delphi method</b> — an iterative, multi-round survey process that combines structured feedback and participant anonymity to elicit expert consensus on complex issues. By engaging a diverse panel of global experts through an open-science approach, the study seeks to produce an evidence-informed framework for assessing the performance of surveillance systems and creating analogous evaluation results for comparison within the field. [Learn more about the Delphi study and how it works.](https://phes-ef.org/delphi.html)
 
-::: {.flex-item}
-[![](assets/team.svg)  
-Team](team.qmd)
-:::
-
-::: {.flex-item}
-[![](assets/docs.svg)  
-Documents](documents.qmd)
-:::
-
-::: {.flex-item}
-[![](assets/contact.svg)  
-Contact us](contact.qmd)
-:::
-
-::: {.flex-item}
-[![](assets/faq.svg)  
-FAQ](faq.qmd)
+<b>Next Steps:</b> Active recruitment (summer 2025) and the launching the Delphi consensus process (fall 2025).
 :::
 ::::
 
+::: hero-container
+```{=html}
+
+<style>
+  #hero-carousel {
+    height: 300px;
+    background-color: #F4F4F4;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .carousel-inner,
+  .carousel-item {
+    height: 100%;
+  }
+
+  .carousel-item {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .carousel-item.active {
+    display: flex;
+  }
+
+  #hero-carousel h2 {
+    font-size: 2rem;         
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #8c4d33;          
+  }
+
+  #hero-carousel p {
+    font-size: 1rem;     
+    max-width: 700px;
+    color: #444444;          
+  }
+
+  #hero-carousel a {
+    color: #2ea6cc;
+    text-decoration: underline;
+  }
+
+  #hero-carousel a:hover {
+    text-decoration: none;
+  }
+
+  /* Position carousel controls vertically at 50% */
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+</style>
+
+<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h2>📣 Coming Soon</h2>
+      <p>Stay up-to-date with us! The Delphi study will begin in the <b>Fall of 2025</b>.</br>
+      <a href="https://phes-ef.org/delphi.html" target="_blank">Learn more about the study</a>.</p>
+    </div>
+      <div class="carousel-item">
+      <h2>📬 Recruiting Soon</h2>
+      <p>Interested in participating? Email us at <a href="mailto:phes-ef@ohri.ca">phes-ef@ohri.ca</a>.</p>
+    </div>
+    <div class="carousel-item">
+      <h2>📘 Study Protocol In Press</h2>
+      <p>Our study protocol is in press at PLOS ONE. <a href="https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1" target="_blank">View our pre-print on MedRxix</a>.</p>
+    </div>
+    <div class="carousel-item">
+      <h2>📑 Scoping Reviews Published</h2>
+      <p>Our scoping review protocols are registered on OSF.io. <a href="https://osf.io/myprojects/#registrations" target="_blank">Find them here</a>.</p>
+    </div>
+    <div class="carousel-item">
+      <h2>📰 In the News</h2>
+      <p>We’re presenting at the GLOWACON Regional Conference Latin America in May 2025.<br>
+      <a href="/documents.qmd" target="_blank">View the rest of our presentations here</a>.</p>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Bootstrap JS (required for carousel functionality) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+```
+:::
