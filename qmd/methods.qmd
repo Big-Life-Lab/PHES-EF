@@ -4,7 +4,8 @@ title: "Methods"
 bibliography: references.bib
 ---
 
-The Public Health Environmental Surveillance Evaluation Framework (PHES-EF) will be developed in five steps.
+::: justify-text
+The *Public Health Environmental Surveillance Evaluation Framework (PHES-EF)* will be developed in five stages.
 
 ## Study Steps
 
@@ -12,39 +13,40 @@ The Public Health Environmental Surveillance Evaluation Framework (PHES-EF) will
 
 [**Figure 1.** Overview of the development process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF)]{.caption}
 
-### Step 1: Establishment of the Executive Group
+### Step 1: Establishment of the executive group
 
-A multinational and multidisciplinary executive group of 12 members will oversee the development of the evaluation framework. The group will bring expertise from the following fields: mathematical sciences, social sciences, environmental and physical sciences, public health and medicine, and public interest/knowledge users.
+A multinational and multidisciplinary executive group will oversee the development of the evaluation framework. The group will bring expertise from various fields, including public health, infectious disease, epidemiology, environmental and physical sciences, mathematical sciences, social sciences, communication, knowledge translation and exchange, knowledge users, and an engaged public. 
 
-The executive group will be responsible for providing feedback on the framework development process, connecting the study to other related projects, recruiting electronic Delphi (e-Delphi) panellists, participating in the consensus meeting, disseminating the evaluation framework, advising and/or participating in post-publication activities, and promoting the adoption of the evaluation framework among their professional networks.
+The executive group will be responsible for providing feedback on the framework development process (e.g., framework organization, completeness, additions, redundancy), supporting and advising working groups in their area of expertise, connecting the study to other related projects, recruiting e-Delphi panellists, participating in the consensus meeting, disseminating the evaluation framework, advising and/or participating in post-publication activities, and promoting the adoption of the evaluation framework among their professional networks. Co-chairs will also be responsible for decision-making when the executive group cannot reach a consensus, leading executive group activities, and the overall framework development process. 
 
-You can learn more about the study executive group members [here.](team.qmd)
+For more information about the members of the study's Executive Group, please visit the [Team page.](team.qmd)
 
-### Step 2: Generation of Candidate Items
+### Step 2: generation of candidate items
 
-We will conduct relevant scoping review(s) and consult the study's expert executive group to generate a list of PHES-EF e-Delphi candidate items.
+We will systematically compile a list of e-Delphi candidate items through scoping reviews, content analysis and extraction, and executive group consultation.
 
-Relevant scoping review registrations and publications can be accessed [here.](documents.qmd)
+You can view relevant scoping review registrations and publications on our [Documents page.](documents.qmd)
 
-### Step 3: International e-Delphi Survey
+### Step 3: International e-Delphi survey
 
-We will use an e-Delphi technique to develop an internationally accepted evaluation framework for public health environmental surveillance. The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@tricco2018 @nasa2021]. We will use the e-Delphi method to overcome geographic barriers and allow us to engage panellists internationally across various time zones.
+A Delphi technique will be used to develop an internationally accepted evaluation framework for public health environmental surveillance. The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@tricco2018 @nasa2021]. An e-Delphi method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. 
 
-For more details, see the [e-Delphi page.](delphi.qmd)
+For more details, please refer to the [e-Delphi Study page.](delphi.qmd)
 
-### Step 4: Consensus Meeting
+### Step 4: Consensus meeting
 
-In preparation for the consensus meeting, the study working group will categorize candidate items for consideration into a preliminary evaluation framework. This will include merging and/or modifying items based on feedback gathered from the e-Delphi rounds.
+In preparation for the consensus meeting, the study working group will categorize the remaining candidate items for consideration into a preliminary evaluation framework. This will include merging and/or modifying the remaining items based on gathered feedback from the e-Delphi rounds.
 
-An in-person or hybrid consensus meeting will be held after the results of the e-Delphi have been compiled and analysed. The primary objective will be to achieve expert consensus on the final list of items for PHES-EF, through review and discussion of salient items. This process will be guided by the empirical evidence that was identified during the scoping review(s), and the opinions gathered during the e-Delphi process.
+An in-person or hybrid (in-person and online) consensus meeting may be held using the Surveylet Delphi survey platform after the results of the e-Delphi have been compiled and analysed. The primary objective of the meeting will be to achieve expert consensus on the final list of items for *PHES-EF*, through review and discussion of salient items. This process will be guided by the empirical evidence that was identified during the scoping reviews, and the opinions gathered during the e-Delphi process. The secondary objective will be to discuss publication and dissemination strategies for the final evaluation framework.
 
-Steps to produce the final list of items are as follows: (i) present the results of e-Delphi exercise (name, rationale, and score of each item); (ii) discuss the rationale and relevance for including the items in the framework; and (iii) vote on equivocal and non-consensual items. PHES-EF will be developed based on the final list of items that receive consensus during the executive group consensus meeting.
+Steps to produce the final list of items are as follows: (i) present the results of the e-Delphi exercise (name, rationale, and score of each item); (ii) discuss the rationale and relevance for including the items in the framework; and (iii) vote on equivocal and non-consensual items. *PHES-EF* will be developed based on the final list of items that receive consensus during the executive group consensus meeting.
 
-### Step 5: Dissemination of Evaluation Framework
+### Step 5: Dissemination of evaluation framework
 
-The development of the evaluation framework will be reported in a statement document that will include the rationale and a brief description of the meeting and the panellists involved. The evaluation framework will be made available as a preprint, prior to publication in an open-access peer-reviewed journal. PHES-EF will be made available using an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/).
+The development of the evaluation framework will be reported in a statement document that will include the rationale and a brief description of the meeting, and the panellists involved. While the publication strategy will be finalized based on the consensus meeting discussion, the preliminary approach will be to post to OSF, as a preprint, before publication in an open-access peer-reviewed journal. During this time, we will actively seek feedback from experts, knowledge users, and the public within our networks and via social media. *PHES-EF* will be made available using an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## References
 
 ::: {#refs}
+:::
 :::
