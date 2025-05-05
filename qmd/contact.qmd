@@ -2,6 +2,7 @@
 title: "Contact Us"
 ---
 
+::: justify-text
 If you have any questions, comments, or are interested in participating in the study, please feel free to contact us at our study email address ([phes-ef\@ohri.ca](mailto:phes-ef@ohri.ca){.email}).
 
 ### Principal Investigator: Dr. Douglas Manuel 
@@ -15,3 +16,4 @@ Senior Investigator, Bruyère Research Institute<br>
 Senior Core Scientist, ICES, Ontario<br>
 Senior Medical Advisor, Statistics Canada, Ottawa<br>
 Scientist, C.T. Lamont Primary Health Care Research Centre and Bruyère Research Institute
+:::
