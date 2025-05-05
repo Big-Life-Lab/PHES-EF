@@ -4,23 +4,29 @@ title: "About"
 bibliography: references.bib
 ---
 
-This project will use a multidisciplinary and multinational consensus approach to develop an evaluation framework for public health environmental surveillance (Public Health Environmental Surveillance Evaluation Framework, *PHES-EF*) using wastewater surveillance as an example.
+::: justify-text
+This project will adopt a multidisciplinary and multinational consensus approach to develop the *Public Health Environmental Surveillance Evaluation Framework (PHES-EF)*, using wastewater-based surveillance as an example.
 
-A structured system or schema to systematically assess a program [@fynn2020; @calba2015]. An evaluation framework presents a clear list of items or elements such as constructs, concepts, that should appear in an evaluation; provides an organisation or structure for the list of items; defines how the list and organisation were developed; and, potentially, includes details about how to measure the evaluation items. Importantly, an evaluation framework facilitates informed decision-making by providing a comprehensive understanding of program effectiveness and areas for improvement.
+**Evaluation framework definition:**<br>
+An evaluation framework is a structured system designed to systematically assess the effectiveness and impact of a program [@fynn2020; @calba2015]. It typically outlines key components - such as domains, concepts, and indicators or measures - that should be included in an evaluation. It also provides a logical organization of these components, explains the process by which they were identified and prioritized, and may offer guidance on how to measure them. By offering a comprehensive and transparent basis for evaluation, such frameworks support informed decision-making and help identify areas for improvement in public health programs.
 
 ## Approach
 
 ### Open science
 
-The project will follow an open-science approach and make available the data for all project stages, including the search strategy, search findings, initial curation of evaluation measures, summary of executive group discussions, e-Delphi processes, and agreement procedures.
+This project is committed to an open science approach, ensuring transparency and accessibility at every stage. All project data and materials will be made available, including the search strategy, search results, initial curation of evaluation measures, executive group discussion summaries, e-Delphi process documentation, and consensus procedures.
 
-*PHES-EF* will be made available using an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/). There will be a research data management plan to describe what data and information is available, and how to access tem. This will allow for the reuse of the data and the code, and will allow for the development of new tools and methods.
+*PHES-EF* will be made available under an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/), enabling reuse, adaptation, and further development. A comprehensive research data management plan will outline the data and materials shared, along with guidance on how to access them - to support reproducibility and facilitate collaboration.
 
-For more details, see the [license section](#licence) of this page.
+For licensing details, please refer to the [license section](#licence) of this page.
 
 ### Equity, diversity, and inclusion (EDI)
 
-"Equity is defined as the removal of systemic barriers and biases enabling all individuals to have equal opportunity to access and benefit from the program" [@schmalz2021]. To achieve this, members of the research team are committed to developing a strong understanding of the systemic barriers faced by individuals from underrepresented groups. "Diversity is defined as differences in race, colour, place of origin, religion, immigrant and newcomer status, ethnic origin, ability, sex, sexual orientation, gender identity, gender expression and age". Panellists will be asked to provide characteristic information (e.g., country of residence, gender, primary discipline) to assess and help ensure (through more targeted recruitment) a large diversity in perspectives. "Inclusion is defined as the practice of ensuring that all individuals are valued and respected for their contributions and are equally supported". To help ensure that all research team members are integrated and supported, we will have a code of conduct statement in the Executive Group Terms of Reference.
+“Equity is defined as the removal of systemic barriers and biases enabling all individuals to have equal opportunity to access and benefit from the program” [@schmalz2021]. To achieve this, members of the research team are committed to developing a strong understanding of the systemic barriers faced by individuals from underrepresented groups. 
+
+“Diversity is defined as differences in race, colour, place of origin, religion, immigrant and newcomer status, ethnic origin, ability, sex, sexual orientation, gender identity, gender expression and age” [@schmalz2021]. Panellists will be asked to provide characteristic information (e.g., country of residence, gender, primary discipline) to assess and help ensure (through more targeted recruitment) a large diversity in perspectives. 
+
+“Inclusion is defined as the practice of ensuring that all individuals are valued and respected for their contributions and are equally supported” [@schmalz2021]. To help ensure that all research team members are integrated and supported, we will have a code of conduct statement in the executive group Terms of Reference. 
 
 All study working group members will complete EDI-related Canadian Institutes for Health Research (CIHR) Training, and the First Nations principles of Ownership, Control, Access and Possession (OCAP©) training for the research [@ocap2023]. The executive group will receive an overview of EDI and OCAP and will be encouraged and supported to complete such training. Furthermore, staff trained in EDI and OCAP principles will review the framework from an EDI perspective to ensure appropriate language.
 
@@ -36,9 +42,7 @@ This project is funded by the Canadian Institutes for Health Research-funded net
 
 ### Ethics approval and consent to participate
 
-Ethical approval will be obtained from the Ottawa Health Science Network Research Ethics Board (OHSN-REB) before commencing the study Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study. Only anonymous panellist responses will be used for analyses.
-
-OHSN-REB Number: 20230428-01H
+This study has received ethical approval (20230428-01H) from the Ottawa Health Science Network Research Ethics Board (OHSN-REB). Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study. Only anonymous panellist responses will be used for analyses. All panellist data and responses will be password protected and only REB-approved study working group members from the Ottawa Hospital will have access to the data. 
 
 If you have questions about ethical issues related to this study, you can talk to someone who is not involved in the study at the Ottawa Health Science Network Research Ethics Board, Chairperson at +1-613-798-5555 ext. 16719.
 
@@ -56,9 +60,10 @@ Please see the [license page](https://github.com/Big-Life-Lab/PHES-EF/blob/main/
 
 ### Privacy
 
-Anonymous aggregate data will be available on OSF, where the study protocol is registered. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used.
+Anonymous aggregate data will be made available on our [Open Science Framework (OSF) project page](https://osf.io/8tcz6/) upon study completion. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used.
 
 ## References
 
 ::: {#refs}
+:::
 :::
