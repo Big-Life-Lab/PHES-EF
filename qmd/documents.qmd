@@ -1,7 +1,7 @@
 ---
 title: "Documents"
 ---
-
+::: justify-text
 Study documents can be accessed through our [Open Science Framework (OSF) project page](https://osf.io/8tcz6/).
 
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
@@ -72,3 +72,4 @@ Toronto Wastewater Surveillance Conference. Ontario’s Wastewater Surveillance 
 
 ## Recruitment Materials
 Study recruitment materials have received ethical approval (20230428-01H) by the Ottawa Health Science Network Research Ethics Board (OHSN-REB). View the documents [here ](https://osf.io/auy6j/files/osfstorage).
+:::
