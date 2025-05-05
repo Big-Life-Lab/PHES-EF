@@ -111,7 +111,7 @@ This work employs the <b>Delphi method</b> — an iterative, multi-round survey 
     </div>
     <div class="carousel-item">
       <h2>📘 Study Protocol In Press</h2>
-      <p>Our study protocol is in press at PLOS ONE. <a href="https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1" target="_blank">View our pre-print on MedRxix</a>.</p>
+      <p>Our study protocol is in press at PLOS ONE. <a href="https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1" target="_blank">View our pre-print on MedRxiv</a>.</p>
     </div>
     <div class="carousel-item">
       <h2>📑 Scoping Reviews Published</h2>
