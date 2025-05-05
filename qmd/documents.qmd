@@ -2,25 +2,26 @@
 title: "Documents"
 ---
 
-Documentation for the e-Delphi study is available on the OSF.io platform, with links below.
+Study documents can be accessed through our [Open Science Framework (OSF) project page](https://osf.io/8tcz6/).
 
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
 ## Study Protocol
-#### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary e-Delphi Study
+#### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary Delphi Study
 > **Note**
-> this is a draft version of the study protocol. The protocol will be registered on OSF. io shortly, prior to being submitted to an open-access journal for publication.
+> this is a pre-print of the study protocol. The protocol has been accepted by PLOS One for publication.
 
-[Download Study Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/78azy/?action=download){.btn .btn-secondary}
+[Download Study Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1.full.pdf/?action=download){.btn .btn-secondary}
 
 ## Scoping Review Protocols
 #### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
 
-[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/29k8u/?action=download){.btn .btn-secondary}
+[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/axcbr/?action=download){.btn .btn-secondary}
 
 #### Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol
-The second scoping review protocol is currently under development.
+
+[Download Lessons Learned from COVID-19 Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/4y59r/?action=download){.btn .btn-secondary}
 
 ## Executive Group Documents
 The Terms of Reference was drafted by the study working group and then reviewed, modified, and agreed upon with all members of the executive group.
@@ -28,46 +29,46 @@ The Terms of Reference was drafted by the study working group and then reviewed,
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
-[Download Terms of Reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/4vj3x/?action=download){.btn .btn-secondary}
+[Download Terms of Reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/e2cr5/?action=download){.btn .btn-secondary}
 
 ## Presentations
 
-#### Development of a Wastewater-Based Surveillance Evaluation Framework
-Wastewater-based Surveillance – Looking into the Blue Mirror, 8th Town Hall Meeting
+### Performance Evaluation of Wastewater-Based Surveillance
+Wastewater-based surveillance summit. The Canadian Water Network and the National Collaborating Centre for Infectious Diseases. September 11, 2024.
 
-The EU Sewage Sentinel System for SARS-CoV-2 (EU4S)
+[Download Presentation {{< fa file-pdf >}}](https://osf.io/g4rjq/?action=download){.btn .btn-secondary}
 
-November 14-15, 2022
+### Evaluation Practices for Public Health Environmental Surveillance Systems: A Scoping Review
+The International Conference Towards a Global Wastewater Surveillance System for Public Health. GLOWACON. November 15, 2023.
+
+[Download Presentation {{< fa file-pdf >}}](https://osf.io/bsq9p/?action=download){.btn .btn-secondary}
+
+### Development of a Wastewater-Based Surveillance Evaluation Framework
+Wastewater-based Surveillance – Looking into the Blue Mirror, 8th Town Hall Meeting. The EU Sewage Sentinel System for SARS-CoV-2 (EU4S). November 14-15, 2022.
 
 [Download Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/fts8w/?action=download){.btn .btn-secondary}
 
 ### Wastewater surveillance for population and public health: program evaluation
-National Wastewater Strategy Consulation Meeting
-
-August 22, 2022
+National Wastewater Strategy Consultation Meeting. August 22, 2022.
 
 [Download Presentation {{< fa file-pdf >}}](https://osf.io/euysp/?action=download){.btn .btn-secondary}
 
 ## Poster Presentations
 
-### The Development of an Evaluation Framework for Wastewater-Based Surveillance
-CoVaRR-Net Spring Meeting 2023
-
-Coronavirus Variants Rapid Response Network (CoVaRR-Net)
-
-May 16-18, 2023
+### An Evaluation Framework for Wastewater Surveillance: Building Consensus and Building a Future
+EU Wastewater Observatory for Public Health Town Hall Exhibition. The International Conference Towards a Global Wastewater Surveillance System for Public Health. GLOWACON. November 17, 2023.
 
 [Download Poster Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cu45e/?action=download){.btn .btn-secondary}
 
 ### The Development of an Evaluation Framework for Wastewater-Based Surveillance
-Toronto Wastewater Surveillance Conference
+CoVaRR-Net Spring Meeting 2023. Coronavirus Variants Rapid Response Network (CoVaRR-Net). May 16-18, 2023.
 
-Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson)
+[Download Poster Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cu45e/?action=download){.btn .btn-secondary}
 
-February 2-3, 2023
+### The Development of an Evaluation Framework for Wastewater-Based Surveillance
+Toronto Wastewater Surveillance Conference. Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson). February 2-3, 2023.
 
 [Download Poster Presentation {{< fa file-pdf >}}](https://osf.io/ncqzk/?action=download){.btn .btn-secondary}
 
-
-## Recruiting documents
-Recruiting for the e-Delphi has not yet begun. Recruitment materials will be added to the website once approved by the Research Ethics Board.
+## Recruitment Materials
+Study recruitment materials have received ethical approval (20230428-01H) by the Ottawa Health Science Network Research Ethics Board (OHSN-REB). View the documents [here ](https://osf.io/auy6j/files/osfstorage).
