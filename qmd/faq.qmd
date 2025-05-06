@@ -4,6 +4,7 @@ title: "FAQ"
 bibliography: references.bib
 ---
 
+::: justify-text
 ## Why is PHES-EF needed?
 Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve the evidence of wastewater surveillance effectiveness, return-on-investment, accountability, transparency, sustainablity and trust. 
 
@@ -18,4 +19,5 @@ The eligibiligy criteria for e-Delphi survey panellists can be found [here.](del
 ## References
 
 ::: {#refs}
+:::
 :::

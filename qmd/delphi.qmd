@@ -4,15 +4,16 @@ title: "e-Delphi Study"
 bibliography: references.bib
 ---
 
+::: justify-text
 A Delphi technique will be used to develop an internationally accepted evaluation framework for public health environmental surveillance. The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@shang2023; @niederberger2020]. An electronic Delphi (e-Delphi) method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones.
 
-The full Delphi study protocol is prespecified and available {add link}. The protocol has been submitted for peer-review.
+The study protocol is currently in publication with PLOS One. However, the pre-print is available on [MedRxiv](https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1).
 
 ## Recruitment of Panelists
 
-We will recruit a multinational, multidisciplinary panel of wastewater-based surveillance (wastewater surveillance) experts, knowledge users, and engaged public to complete the e-Delphi survey. Panellists will be selected to capture the multiple perspectives of the design, implementation, evaluation, reporting, and use, of wastewater surveillance.
+We will recruit a multinational, multidisciplinary panel of wastewater-based surveillance experts, knowledge users, and engaged members of the public to complete the e-Delphi survey. Panellists will be selected to capture the multiple perspectives of those that influence the design, implementation, evaluation, use, and reporting of wastewater surveillance activities, including the following subdisciplines groups: public health, infectious disease, epidemiology; environmental and physical sciences; mathematical sciences; social sciences; and communication, knowledge translation and exchange.
 
-We will aim to recruit at least 50 panellists, preferably, with at least 8-10 people per discipline group. The study working group will monitor the distribution of registered panellists based on their demographic information and will try to have appropriate distribution across disciplines and other demographic markers.
+we will aim to recruit at least 50 panellists. Preferably, with at least 8-10 people per discipline subgroup. The study working group will monitor the distribution of registered panellists based on their demographic information and will try to distribute appropriately across discipline subgroups and other demographic markers.
 
 ### Eligibility Criteria for e-Delphi Survey Panellists
 
@@ -44,8 +45,8 @@ gt(data, id = "delphi_table") %>%
     Inclusion_Criteria = "Inclusion criteria"
   ) %>%
  tab_source_note(source_note = md(
-    c("^*1*^ See the [full protocol](link), Appendix 2 for the specializations associated with each discipline.",
-      "^*2*^ Adult: ≥ 18 years of age.")
+    c("^*1*^ Adult: ≥ 18 years of age.",
+      "^*2*^ The list of specializations associated with each discipline can be found in the S2 Table of the study protocol once published.")
   ))
 
 ```
@@ -61,27 +62,25 @@ We will conduct a two-round e-Delphi survey to generate consensus on evaluation 
 
 ### Round 1
 
-Panellists will be invited to rate their level of agreement with candidate items generated from scoping review results and consultation with the study executive group.
+Panellists will be invited to rate their level of agreement with candidate items generated from scoping review results and consultation with the study executive group. Free-text boxes will be included for panellists to provide feedback or identify additional candidate items to be included in the next e-Delphi survey round. 
 
 ### Round 2
 
-Panellists will rate their level of agreement with newly identified candidate items from the first e-Delphi round and to re-rate their level of agreement for items that did not reach consensus during the previous round. Anonymous feedback from Round 1 panellists will also be compiled and presented during Round 2. Any newly suggested items during Round 2 will be deliberated on during the consensus meeting.
+Regardless of whether they participated in the previous round, panellists will be invited to participate in Round 2 of the e-Delphi survey. All panellists will be invited to rate new items and re-rate previous items that did not reach consensus. When re-rating their level of agreement, panellists will be presented with their previous round scores alongside the aggregate group results. Anonymous feedback from Round 1 will also be compiled and presented during Round 2.  Any newly suggested items during Round 2 will be deliberated on during the consensus meeting.
 
 ### Defining Consensus
 
-Consensus for each item is defined as ≥ 70% of the panelist votes falling within the same grouping of three categories within a 7-point Likert scale:
+Candidate items will be assessed on the following four rating properties: (1) relevance and practical utility; (2) scientific rigor, validity and reliability; (3) feasibility, adaptability and resource implications; and (4) equity, inclusiveness, and mitigation of bias. 
 
-1.  *Core Item:* Highly or moderately relevant
-2.  *Further Discussion:* Slightly relevant, neutral, slightly irrelevant
-3.  *Excluded Item:* Moderately or highly irrelevant
+A 7-point Likert scale (1 = highly irrelevant to 7 = highly relevant) will be used to rate each property for all candidate items. A summary score for each candidate item will be created by calculating the median of the four property ratings. Panellist summary scores will then be categorised as excluded item (irrelevant: 1–2), further discussion (equivocal: 3–5), or core item (relevant: 6–7). Consensus for each item is defined as ≥ 70% of the panellist votes falling within the same category (1–2, 3–5, or 6–7). 
 
-The survey will include a free-text box for panellist to provide comments or suggest new items. Newly suggested items, as well as non-consensus items, will be listed in the second round.
+The approach to use a 7-point fully-labeled Likert scale – a higher number of categories compared to many studies – is informed by the consideration that panellists are professionals and engaged members of the public with good cognitive skills; therefore, more categories and labels will be more discriminating and reproducible [@diamond2014; @belton2019; @weijters2010; @lange2020]. The ≥ 70% consensus cut-off – a lower cut-off compared to many studies – is informed by the rapidly evolving nature of environmental surveillance for public health and the wide range of disciplines invited to the panel; therefore, a high level of agreement may not occur [@diamond2014; @belton2019; @weijters2010; @lange2020].
 
-![](assets/delphi_consensus_process.svg){fig-align="center"}
-
+![](assets/delphi_consensus_process.svg){fig-align="center" width=100%}
 [**Figure 2.** E-Delphi onsensus process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF)]{.caption}
 
 ## References
 
 ::: {#refs}
+:::
 :::
