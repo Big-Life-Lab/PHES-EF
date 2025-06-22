@@ -46,5 +46,3 @@ Continuous integration is done using GitHub actions. Currently, there are two ac
 -   [build-docs-composite-action.yml](./.github/actions/build-docs-composite-action/action.yml) contains a reusable action to build the docs using quarto
 -   [check-pr.yml](./.github/workflows/check-pr.yml) contains the action run when a PR is made and commits pushed to it
 -   [publish-docs.yml](./.github/workflows/publish-docs.yml) contains the action run when a push is made to master. The documentation is published to github pages in this action.
-
-test commit by haolan_2025_06_22
