@@ -93,7 +93,8 @@ Dr. Sander is an expert to national and international advisory bodies, including
 The study working group is based out of the Ottawa Hospital Research Institute and is composed by Doug Manuel (see above), Carol Bennett, and Emma Brown.
 
 ### Carol Bennett
-Carol Bennett is a Senior Clinical Research Associate at the Ottawa Hospital Research Institute.
+
+![](assets/carol_bennett.jpg){.person_img width="200"} Carol Bennett is a Senior Clinical Research Associate at the Ottawa Hospital Research Institute.
 
 ### Emma Brown
 
