@@ -5,12 +5,26 @@
 .Ruserdata
 *.Rproj
 
+# renv
+renv/library/
+renv/staging/
+renv/local/
+
 # Mac files
 .DS_Store
 
 # Build website
 docs
+/.quarto/
 
+# Quarto old structure
+qmd/
 
+# AI assistant files
+claude.md
 
+# Backup files
 *.bkp
+
+# Legacy AI tools
+.codegpt

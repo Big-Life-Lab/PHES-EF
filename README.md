@@ -1,48 +1,100 @@
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
 
-A website to support the transparent development and reporting of PHES-EF
+An international consensus study developing evaluation standards for wastewater-based surveillance using a multidisciplinary, multinational approach.
 
-This repository is a template to get started with creating the website using Quarto.
+**Website**: https://big-life-lab.github.io/PHES-EF/
 
-The website can be accessed at: https://big-life-lab.github.io/PHES-EF/
+## About PHES-EF
 
-## Requirements to build the website
+The Public Health Environmental Surveillance Evaluation Framework (PHES-EF) is developing a consensus-driven evaluation framework for public health environmental surveillance, using wastewater surveillance as the primary example.
 
-* [Quarto](https://quarto.org/)
-* Tinytex by running the command `quarto install tinytex`
-* If you're going to use R in your notebooks, follow [this](https://quarto.org/docs/computations/r.html) guide on Quarto
-* If you're going to use Python in your notebooks, follow [this](https://quarto.org/docs/computations/python.html) guide
+**Key Features:**
+- Open science approach (CC-BY-SA-4.0 license)
+- eDelphi consensus methodology
+- International, multidisciplinary collaboration
+- Emphasis on equity, diversity, and inclusion
+- Registered protocol (Ottawa Health Science Network REB #20230428-01H)
 
-## Repository organization
+## Repository Structure
 
-* The `.github` folder contains [GitHub actions](https://github.com/features/actions) that automatically builds the website on every pull request (PR) and publishes the website on every push to master. For more information refer to the [continuous integration](#continuous-integration) section.
-* The `qmd` folder should contain the .qmd files that will be rendered in your website. For every new qmd file added to the folder, make sure to add an entry to the `qmd/_quarto.yml` file. 
+```
+PHES-EF/
+├── _quarto.yml           # Quarto website configuration
+├── *.qmd                 # Content pages (index, about, methods, delphi, etc.)
+├── assets/               # Images, logos, SCSS themes, CSL files
+├── data/                 # CSV data files (schema, example terms)
+├── references.bib        # Bibliography
+├── llm.md               # AI assistant instructions
+└── docs/                 # Build output (auto-generated, do not edit)
+```
 
-## Rendering the Website
+## Requirements
 
-The following commands can be used to build the documentation:
+### Software
+- [Quarto](https://quarto.org/) (latest version recommended)
+- TinyTeX: `quarto install tinytex`
+- R >= 4.2.0 (compatibility floor for StatsCan/ICES environments)
 
-* When working on the documentation you can run the command `quarto preview ./qmd` in the terminal to get a live preview of your changes every time you make a change.
-* For publishing, you can run the command `quarto render ./qmd`.
+### R Environment
+This project uses **renv** for package management:
 
-## Publishing the Website
+```r
+# After cloning the repository
+renv::restore()
 
-This template uses [GitHub Pages](https://pages.github.com/) to host the Quarto website. 
+# After adding new packages
+renv::snapshot()
+```
 
-You can use [these](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) instructions to enable GitGub pages for your repository. Make sure the publish branch is set to `gh-pages` and the folder is set to `/ (root)`. These [instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) go over how to do that.
+**Note**: Commit `renv.lock`, `.Rprofile`, and `renv/activate.R`. Do NOT commit `renv/library/`, `renv/staging/`, or `renv/local/`.
 
-**The gh-pages branch may not be available for selection until your website is published for the first time.**
+## Development Workflow
+
+### Local Preview
+```bash
+quarto preview
+```
+Opens a live preview that updates as you make changes.
+
+### Build Locally
+```bash
+quarto render
+```
+Generates static files in the `docs/` directory.
+
+### Publishing
+- **Automatic**: GitHub Actions publishes to GitHub Pages on push to main branch
+- **Manual Setup**: Configure GitHub Pages to use `gh-pages` branch, root folder
+  - Settings → Pages → Branch: `gh-pages`, Folder: `/`
+  - The `gh-pages` branch appears after first successful publish
+
+## Data Files
+
+- [data/PHES-EF-schema.csv](data/PHES-EF-schema.csv) - Framework schema definition
+- [data/PHES-ef-example-terms.csv](data/PHES-ef-example-terms.csv) - Example terminology
 
 ## Continuous Integration
 
-Continuous integration is done using GitHub actions. Currently, there are two actions:
+- **Pull Requests**: Build check only (not published)
+- **Main Branch**: Automatic deployment to GitHub Pages
+- See [.github/workflows/](.github/workflows/) for workflow details
 
-1. PR merges trigger a rendering of the website which allows you to check if the changes in a branch has broken the build. **The website is not publicly published.**
+## Contributing
 
-2. Commits to the main/master branch triggers a new version of the website to be published.
+See [llm.md](llm.md) for AI assistant guidelines and development standards.
 
-### Setup
+## Funding & Acknowledgments
 
--   [build-docs-composite-action.yml](./.github/actions/build-docs-composite-action/action.yml) contains a reusable action to build the docs using quarto
--   [check-pr.yml](./.github/workflows/check-pr.yml) contains the action run when a PR is made and commits pushed to it
--   [publish-docs.yml](./.github/workflows/publish-docs.yml) contains the action run when a push is made to master. The documentation is published to github pages in this action.
+This project is funded by:
+- Canadian Institutes for Health Research (CoVaRR-Net, FRN: 175622)
+- Health Canada (Safe Restart Agreement, #2223-HQ-000098)
+
+The views expressed do not necessarily represent those of the funding organizations.
+
+## License
+
+CC-BY-SA-4.0 - See [LICENSE.md](LICENSE.md) for details.
+
+## Contact
+
+Visit the [Contact](https://big-life-lab.github.io/PHES-EF/contact.html) page or the [Team](https://big-life-lab.github.io/PHES-EF/team.html) page for more information.

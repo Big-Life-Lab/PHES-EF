@@ -3,15 +3,14 @@ Type: Package
 Title: PHES-EF
 Version: 0.0.0
 Authors@R: c(
-    person(given = "Doug", family = "Manuel", role = c("aut"), email = "dmanuel@ohri.ca"),
-Maintainer: Doug Manuel <dmanuel@ohri.ca>
+    person(given = "Doug", family = "Manuel", role = c("aut", "cre"), email = "dmanuel@ohri.ca"))
 Description: Public Health Environmental Surveillance - Evaluation Framework
 Depends:
-    R (>= 4.0.3)
+    R (>= 4.2.0)
 Imports:
-    rmarkdown
+    rmarkdown,
     gt
-License: 
+License: CC-BY-SA-4.0
 URL: https://github.com/Big-Life-Lab/PHES-EF
 BugReports: https://github.com/Big-Life-Lab/PHES-EF/issues
 Encoding: UTF-8

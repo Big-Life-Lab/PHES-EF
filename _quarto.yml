@@ -1,12 +1,20 @@
 project:
   type: website
-  output-dir: ../docs
+  output-dir: docs
+  render:
+    - index.qmd
+    - about.qmd
+    - methods.qmd
+    - delphi.qmd
+    - team.qmd
+    - documents.qmd
+    - contact.qmd
+    - faq.qmd
 
 embed-resources: true
 
 website:
   title: "PHES-EF"
-  repo-subdir: qmd
   repo-url: "https://github.com/big-life-lab/PHES-EF"
 
   navbar:
