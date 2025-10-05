@@ -153,6 +153,15 @@ mark {
   text-align: center;
 }
 
+.centered_content p img {
+  max-width: 60px !important;
+  max-height: 60px !important;
+  width: 60px !important;
+  height: 60px !important;
+  margin: 0 auto;
+  display: inline-block;
+}
+
 .justify-text {
   text-align: justify;
   text-justify: inter-word;

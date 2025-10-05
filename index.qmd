@@ -5,7 +5,7 @@ format:
 ---
 
 ::: centered_content
-![](assets/phes-ef-logo_colour.svg){width="200"}
+![](assets/phes-ef-logo_colour.svg){width="50"}
 
 # Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
 :::
@@ -16,11 +16,15 @@ format:
 
 :::: intro-container
 ::: justify-text
-The <i>Public Health Environmental Surveillance Evaluation Framework (PHES-EF)</i> is an international consensus study designed to develop a comprehensive framework for evaluating public health environmental surveillance systems, using wastewater-based surveillance as a practical example.<br>
+The <i>Public Health Environmental Surveillance Evaluation Framework (PHES-EF)</i> is an international consensus study developing a comprehensive framework to evaluate public health environmental surveillance systems. We use wastewater-based surveillance as our primary example.<br>
 
-This work employs the <b>Delphi method</b> — an iterative, multi-round survey process that combines structured feedback and participant anonymity to elicit expert consensus on complex issues. By engaging a diverse panel of global experts through an open-science approach, the study seeks to produce an evidence-informed framework for assessing the performance of surveillance systems and creating analogous evaluation results for comparison within the field. [Learn more about the Delphi study and how it works.](https://phes-ef.org/delphi.html)
+<b>Our approach:</b> We employ the Delphi method—an iterative survey process using structured feedback and expert anonymity to build consensus. A diverse panel of global experts will help us create an evidence-informed framework for assessing surveillance system performance. [Learn more about the Delphi study.](https://phes-ef.org/delphi.html)
 
-<b>Next Steps:</b> Active recruitment (summer 2025) and the launching the Delphi consensus process (fall 2025).
+<b>Next steps:</b> Active recruitment (fall) 2025) and launch of the Delphi consensus process (winter 2025).
+
+<div style="margin-top: 1.5rem; padding: 1rem; background-color: #f8f9fa; border-left: 4px solid #8c4d33; border-radius: 4px;">
+<b>Want to participate?</b> <a href="contact.html">Contact us</a>
+</div>
 :::
 ::::
 
@@ -95,34 +99,22 @@ This work employs the <b>Delphi method</b> — an iterative, multi-round survey 
     <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
 
   <div class="carousel-inner">
     <div class="carousel-item active">
       <h2>📣 Coming Soon</h2>
-      <p>Stay up-to-date with us! The Delphi study will begin in the <b>Fall of 2025</b>.</br>
+      <p>Stay up-to-date with us! The Delphi study will begin in the <b>Winter 2025</b>.</br>
       <a href="https://phes-ef.org/delphi.html" target="_blank">Learn more about the study</a>.</p>
     </div>
-      <div class="carousel-item">
-      <h2>📬 Recruiting Soon</h2>
-      <p>Interested in participating? Email us at <a href="mailto:phes-ef@ohri.ca">phes-ef@ohri.ca</a>.</p>
+    <div class="carousel-item">
+      <h2>📘 Study protocol published</h2>
+      <p>Our study protocol is published in PLOS ONE. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310342" target="_blank">View our pre-print on MedRxiv</a>.</p>
     </div>
     <div class="carousel-item">
-      <h2>📘 Study Protocol In Press</h2>
-      <p>Our study protocol is in press at PLOS ONE. <a href="https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1" target="_blank">View our pre-print on MedRxiv</a>.</p>
-    </div>
-    <div class="carousel-item">
-      <h2>📑 Scoping Reviews Published</h2>
+      <h2>📑 Scoping protocol published</h2>
       <p>Our scoping review protocols are registered on OSF.io. <a href="https://osf.io/myprojects/#registrations" target="_blank">Find them here</a>.</p>
     </div>
-    <div class="carousel-item">
-      <h2>📰 In the News</h2>
-      <p>We’re presenting at the GLOWACON Regional Conference Latin America in May 2025.<br>
-      <a href="/documents.qmd" target="_blank">View the rest of our presentations here</a>.</p>
-    </div>
-  </div>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -138,3 +130,14 @@ This work employs the <b>Delphi method</b> — an iterative, multi-round survey 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 ```
 :::
+
+------------------------------------------------------------------------
+
+## Funding & Acknowledgments
+
+This project is funded by:
+
+- Canadian Institutes for Health Research (CoVaRR-Net, FRN: 175622)
+- Health Canada (Safe Restart Agreement, #2223-HQ-000098)
+
+The views expressed do not necessarily represent those of the funding organizations.
