@@ -28,6 +28,18 @@ His research and practice focus on the informatics of health surveillance and di
 
 [View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/d8bcm){.btn .btn-secondary}
 
+### Sarah Funnell
+
+![](assets/sarah_funnell.jpg){.person_img width="200"}[Public Health]{.public_health}[North America]{.north_america} Dr. Sarah Funnell is a First Nations family physician, public health specialist, and clinician scientist. Her background is mixed Algonquin and Tuscarora ancestry, and she grew up among the Mississaugas of Alderville First Nation and is a current band member of Kitigan Zibi First Nation. Her Algonquin name, Minwanimad, means pleasant breeze and was given to her by her great Auntie who saw her gift of leadership.
+
+Dr. Sarah Funnell is the Associate Dean and Chair of Indigenous Health at Queen's Health Sciences (QHS) and Assistant Professor, Department of Family Medicine. In these roles she leads efforts to incorporate Indigenous health and cultural perspectives into health education, administration, research, and clinical practice.
+
+Dr. Funnell has a passion for leadership and good governance. She is an executive and founding member of the National Consortium for Indigenous Medical Education and a Senior Editor for the Canadian Journal of Public Health. Throughout her career, she has been an active voice and advocate to improve Indigenous health and curriculum through her volunteer work with College of Family Physicians of Canada (CFPC), Royal College, Medical Council of Canada, Medical Council of Canada (MCC), and the Association of Faculties of Medicine of Canada (AFMC).
+
+Her research focus includes Indigenous population health, Indigenous data governance, and the impact of COVID-19 on the healthcare of Indigenous older adults. She is an award-winning educator and prolific speaker on topics related to Indigenous health, health equity, public health, and primary care.
+
+[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/9fxdh){.btn .btn-secondary}
+
 ### Bernd Gawlik
 
 ![](assets/bernd_gawlik.jpg){.person_img width="200"}[Chemical engineering]{.environmental_sciences}[Europe and Central Asia]{.europe} Dr. Bernd Manfred Gawlik is Portfolio Leader at the European Commission's Joint Research Centre, where he coordinates the activities on water quality. He holds an Engineering degree from the French Higher Institute for Industrial Chemistry and a Ph.D. on Natural Sciences from Technical University of Munich. In the past two decades he has been working on several major European environmental directives involving chemical monitoring and pollutants of emerging concern. He is a closely involved in the Common Implementation Strategy of the Water Framework Directive, umbrella under which he co-designed the Water Reuse Regulation. During the pandemic, Bernd united the European actors and stakeholder on wastewater-based epidemiology and ensured the speedy translation from knowledge to action as expressed by the respective Recommendation of the European Commission. Bernd is the author/co-author of more than 100 scientific paper, books and reports of the European Commission and promotes novel approaches on water diplomacy.
