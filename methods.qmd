@@ -7,11 +7,74 @@ bibliography: references.bib
 ::: justify-text
 The *Public Health Environmental Surveillance Evaluation Framework (PHES-EF)* will be developed in five stages.
 
-## Study Steps
+## Study steps
 
-![](assets/dev_process.svg){fig-align="center" width="700"}
+::::: process-grid
+:::: {.step-card .completed}
+::: step-header
+[1]{.step-number}
 
-[**Figure 1.** Overview of the development process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF)]{.caption}
+### Establish the executive group {.step-title .unnumbered .unlisted}
+:::
+
+- Agree on the scope of the study and develop the study protocol
+- Agree on terms of reference for executive group members
+
+[Completed]{.step-badge .badge-completed}
+::::
+
+:::: {.step-card .current}
+::: step-header
+[2]{.step-number}
+
+### Generate candidate evaluation items {.step-title .unnumbered .unlisted}
+:::
+
+- Conduct scoping reviews to extract candidate items for the e-Delphi survey (searches are being updated)
+- Review candidate items with the executive group for organization, completeness and redundancy
+
+[In progress]{.step-badge .badge-current}
+::::
+
+:::: step-card
+::: step-header
+[3]{.step-number}
+
+### Conduct the international e-Delphi survey {.step-title .unnumbered .unlisted}
+:::
+
+- Recruit, screen and register international panellists (registration opens January 2027)
+- Run two online survey rounds in spring 2027
+
+[Upcoming]{.step-badge .badge-upcoming}
+::::
+
+:::: step-card
+::: step-header
+[4]{.step-number}
+
+### Hold the consensus meeting {.step-title .unnumbered .unlisted}
+:::
+
+- Hold a hybrid or virtual consensus meeting in September or October 2027
+- Reach expert consensus on the final list of items and agree on dissemination strategies
+
+[Upcoming]{.step-badge .badge-upcoming}
+::::
+
+:::: step-card
+::: step-header
+[5]{.step-number}
+
+### Disseminate the evaluation framework {.step-title .unnumbered .unlisted}
+:::
+
+- Post a preprint to OSF, then submit to an open-access peer-reviewed journal (late 2027), under a CC BY-SA 4.0 licence
+- Engage researchers and knowledge users, and support adoption of the framework
+
+[Upcoming]{.step-badge .badge-upcoming}
+::::
+:::::
 
 ### Step 1: Establishment of the executive group
 
@@ -21,7 +84,7 @@ The executive group will be responsible for providing feedback on the framework 
 
 For more information about the members of the study's Executive Group, please visit the [Team page.](team.qmd)
 
-### Step 2: generation of candidate items
+### Step 2: Generation of candidate items
 
 We will systematically compile a list of e-Delphi candidate items through scoping reviews, content analysis and extraction, and executive group consultation.
 
@@ -31,19 +94,19 @@ You can view relevant scoping review registrations and publications on our [Docu
 
 A Delphi technique will be used to develop an internationally accepted evaluation framework for public health environmental surveillance. The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@tricco2018; @nasa2021]. An e-Delphi method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. 
 
-For more details, please refer to the [e-Delphi Study page.](delphi.qmd)
+Registration for panellists opens in January 2027. Round 1 runs in March 2027 and Round 2 closes in May 2027. For more details, please refer to the [e-Delphi study page.](delphi.qmd)
 
 ### Step 4: Consensus meeting
 
 In preparation for the consensus meeting, the study working group will categorize the remaining candidate items for consideration into a preliminary evaluation framework. This will include merging and/or modifying the remaining items based on gathered feedback from the e-Delphi rounds.
 
-An in-person or hybrid (in-person and online) consensus meeting may be held using the Surveylet Delphi survey platform after the results of the e-Delphi have been compiled and analysed. The primary objective of the meeting will be to achieve expert consensus on the final list of items for *PHES-EF*, through review and discussion of salient items. This process will be guided by the empirical evidence that was identified during the scoping reviews, and the opinions gathered during the e-Delphi process. The secondary objective will be to discuss publication and dissemination strategies for the final evaluation framework.
+A hybrid or virtual consensus meeting will be held in September or October 2027, using the Surveylet Delphi survey platform, after the results of the e-Delphi have been compiled and analysed. The primary objective of the meeting will be to achieve expert consensus on the final list of items for *PHES-EF*, through review and discussion of salient items. This process will be guided by the empirical evidence that was identified during the scoping reviews, and the opinions gathered during the e-Delphi process. The secondary objective will be to discuss publication and dissemination strategies for the final evaluation framework.
 
 Steps to produce the final list of items are as follows: (i) present the results of the e-Delphi exercise (name, rationale, and score of each item); (ii) discuss the rationale and relevance for including the items in the framework; and (iii) vote on equivocal and non-consensual items. *PHES-EF* will be developed based on the final list of items that receive consensus during the executive group consensus meeting.
 
 ### Step 5: Dissemination of evaluation framework
 
-The development of the evaluation framework will be reported in a statement document that will include the rationale and a brief description of the meeting, and the panellists involved. While the publication strategy will be finalized based on the consensus meeting discussion, the preliminary approach will be to post to OSF, as a preprint, before publication in an open-access peer-reviewed journal. During this time, we will actively seek feedback from experts, knowledge users, and the public within our networks and via social media. *PHES-EF* will be made available using an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/).
+The development of the evaluation framework will be reported in a statement document that will include the rationale and a brief description of the meeting, and the panellists involved. While the publication strategy will be finalized based on the consensus meeting discussion, the preliminary approach will be to post to OSF, as a preprint, before submission to an open-access peer-reviewed journal in late 2027. During this time, we will actively seek feedback from experts, knowledge users, and the public within our networks and via social media. *PHES-EF* will be made available using an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## References
 
