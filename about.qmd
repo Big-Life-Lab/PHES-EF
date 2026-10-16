@@ -10,6 +10,16 @@ This project will adopt a multidisciplinary and multinational consensus approach
 **Evaluation framework definition:**<br>
 An evaluation framework is a structured system designed to systematically assess the effectiveness and impact of a program [@fynn2020; @calba2015]. It typically outlines key components - such as domains, concepts, and indicators or measures - that should be included in an evaluation. It also provides a logical organization of these components, explains the process by which they were identified and prioritized, and may offer guidance on how to measure them. By offering a comprehensive and transparent basis for evaluation, such frameworks support informed decision-making and help identify areas for improvement in public health programs.
 
+## Why is PHES-EF needed?
+
+Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve the evidence of wastewater surveillance effectiveness, return-on-investment, accountability, transparency, sustainability and trust.
+
+There is also a need for such an evaluation framework as the recent adoption of wastewater-based monitoring has resulted in a lack of standard analytic techniques, with preferred methods for reporting testing data still remaining unclear [@manuel2021]. *PHES-EF* aims to address this issue as well, as the framework is intended to be adopted by researchers to determine surveillance system performance and create analogous results for comparison within the field.
+
+## What is a Delphi consensus study?
+
+The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@tricco2018; @nasa2021]. An electronic Delphi (e-Delphi) method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. Delphi surveys relating to health sciences have typically been conducted over a period of 2-3 rounds [@spranger2022; @shang2023; @junger2017]. Therefore, a two-round e-Delphi survey paired with a subsequent consensus meeting will be conducted to balance feasibility with rigour. Each round will be open for about five weeks to allow panellists sufficient time to participate in the survey, while balancing study timeline constraints [@niederberger2020]. Each round takes about an hour to complete. The consensus meeting will be held in a hybrid or virtual format.
+
 ## Approach
 
 ### Open science

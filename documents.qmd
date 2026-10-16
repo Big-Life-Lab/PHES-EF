@@ -7,12 +7,11 @@ Study documents can be accessed through our [Open Science Framework (OSF) projec
 <!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
 <!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
 
-## Study Protocol
+## Study protocol
 #### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary Delphi Study
-> **Note**
-> this is a pre-print of the study protocol. The protocol has been accepted by PLOS One for publication.
+The study protocol is published in PLOS ONE.
 
-[Download Study Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1.full.pdf/?action=download){.btn .btn-secondary}
+[Read the Published Protocol (PLOS ONE)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310342){.btn .btn-secondary} [Download Preprint (medRxiv) &nbsp;&nbsp; {{< fa file-pdf >}}](https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1.full.pdf/?action=download){.btn .btn-outline-secondary}
 
 ## Scoping Review Protocols
 #### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol

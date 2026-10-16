@@ -11,10 +11,13 @@ Public health environmental surveillance has evolved, especially during the coro
 There is also a need for such an evaluation framework as the recent adoption of wastewater-based monitoring has resulted in a lack standard analytic techniques, with perferred methods for reporting testing data still remaining unclear [@manuel2021]. *PHES-EF* aims to address this issue as well, as the framework is intended to be adopted by researchers to determine surveillance system performance and create analogous results for comparison within the field.
 
 ## What is a Delphi consensus study?
-The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@tricco2018; @nasa2021]. An electronic Delphi (e-Delphi) method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. Delphi surveys relating to health sciences have typically been conducted over a period of 2-3 rounds [@spranger2022; @shang2023; @junger2017]. Therefore, a two-round e-Delphi survey paired with a subsequent consensus meeting will be conducted to balance feasibility with rigour. Each round will be active for approximately 4-6 weeks to allow panellists sufficient time to participate in the survey, while balancing study timeline constraints [@niederberger2020]. 
+The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@tricco2018; @nasa2021]. An electronic Delphi (e-Delphi) method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. Delphi surveys relating to health sciences have typically been conducted over a period of 2-3 rounds [@spranger2022; @shang2023; @junger2017]. Therefore, a two-round e-Delphi survey paired with a subsequent consensus meeting will be conducted to balance feasibility with rigour. Each round will be open for about five weeks to allow panellists sufficient time to participate in the survey, while balancing study timeline constraints [@niederberger2020]. Each round takes about an hour to complete. The consensus meeting will be held in a hybrid or virtual format.
+
+## When will the study take place?
+Registration for e-Delphi panellists opens in January 2027. Round 1 runs in March 2027, Round 2 closes in May 2027, and the consensus meeting is planned for September or October 2027. See the [e-Delphi study timeline](delphi.qmd#timeline) for details.
 
 ## Who is eligible to participate in the study?
-The eligibiligy criteria for e-Delphi survey panellists can be found [here.](delphi.qmd)
+The eligibility criteria for e-Delphi survey panellists can be found [here.](delphi.qmd)
 
 ## References
 
