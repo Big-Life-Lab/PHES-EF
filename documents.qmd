@@ -1,74 +1,151 @@
 ---
 title: "Documents"
 ---
-::: justify-text
-Study documents can be accessed through our [Open Science Framework (OSF) project page](https://osf.io/8tcz6/).
 
-<!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
-<!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
+::: justify-text
+Study documents, protocols and presentations are shared openly. All files are also available on our [Open Science Framework (OSF) project page](https://osf.io/8tcz6/).
+
+<!-- Buttons use the .doc-btn classes in assets/phes-ef.scss; {{< fa ... >}} icons need the fontawesome Quarto extension -->
 
 ## Study protocol
-#### Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary Delphi Study
-The study protocol is published in PLOS ONE.
 
-[Read the Published Protocol (PLOS ONE)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310342){.btn .btn-secondary} [Download Preprint (medRxiv) &nbsp;&nbsp; {{< fa file-pdf >}}](https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1.full.pdf/?action=download){.btn .btn-outline-secondary}
+:::: doc-feature
+[{{< fa book-open >}}]{.doc-feature-icon}
 
-## Scoping Review Protocols
-#### Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol
+::: doc-feature-body
+[Published · PLOS ONE · 2025]{.doc-tag}
 
-[Download Evaluation Practices Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/axcbr/?action=download){.btn .btn-secondary}
+[Developing an Evaluation Framework for Public Health Environmental Surveillance: Protocol for an International, Multidisciplinary Delphi Study]{.doc-title}
 
-#### Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol
+[Read the article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310342){.doc-btn .doc-btn-primary} [Preprint (medRxiv) {{< fa file-pdf >}}](https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1.full.pdf/?action=download){.doc-btn}
+:::
+::::
 
-[Download Lessons Learned from COVID-19 Scoping Review Protocol &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/4y59r/?action=download){.btn .btn-secondary}
+## Protocols and governance
 
-## Executive Group Documents
-The Terms of Reference was drafted by the study working group and then reviewed, modified, and agreed upon with all members of the executive group.
+::::: doc-grid
+:::: doc-card
+[Scoping review protocol]{.doc-tag}
 
-<!-- Adds a FontAwesome icon {{< fa file-pdf >}} requires the fontawesome Quarto extension-->
-<!-- Adds a button to the URL link {.btn .btn-secondary} using the Flatly theme (or any Bootstrap theme)-->
+[Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol]{.doc-title}
 
-[Download Terms of Reference&nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/e2cr5/?action=download){.btn .btn-secondary}
+[Download {{< fa file-pdf >}}](https://osf.io/axcbr/?action=download){.doc-btn}
+::::
 
-## Presentations
+:::: doc-card
+[Scoping review protocol]{.doc-tag}
 
-### Performance Evaluation of Wastewater-Based Surveillance
-Wastewater-based surveillance summit. The Canadian Water Network and the National Collaborating Centre for Infectious Diseases. September 11, 2024.
+[Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol]{.doc-title}
 
-[Download Presentation {{< fa file-pdf >}}](https://osf.io/g4rjq/?action=download){.btn .btn-secondary}
+[Download {{< fa file-pdf >}}](https://osf.io/4y59r/?action=download){.doc-btn}
+::::
 
-### Evaluation Practices for Public Health Environmental Surveillance Systems: A Scoping Review
-The International Conference Towards a Global Wastewater Surveillance System for Public Health. GLOWACON. November 15, 2023.
+:::: doc-card
+[Executive group]{.doc-tag}
 
-[Download Presentation {{< fa file-pdf >}}](https://osf.io/bsq9p/?action=download){.btn .btn-secondary}
+[Terms of Reference]{.doc-title}
 
-### Development of a Wastewater-Based Surveillance Evaluation Framework
-Wastewater-based Surveillance – Looking into the Blue Mirror, 8th Town Hall Meeting. The EU Sewage Sentinel System for SARS-CoV-2 (EU4S). November 14-15, 2022.
+[Drafted by the study working group, then reviewed, modified and agreed upon with all members of the executive group.]{.doc-desc}
 
-[Download Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/fts8w/?action=download){.btn .btn-secondary}
+[Download {{< fa file-pdf >}}](https://osf.io/e2cr5/?action=download){.doc-btn}
+::::
+:::::
 
-### Wastewater surveillance for population and public health: program evaluation
-National Wastewater Strategy Consultation Meeting. August 22, 2022.
+## Presentations and posters
 
-[Download Presentation {{< fa file-pdf >}}](https://osf.io/euysp/?action=download){.btn .btn-secondary}
+<!-- Newest first. To add one: copy a doc-row block. Type tag: .type-talk or .type-poster -->
 
-## Poster Presentations
+::::: doc-list
+:::: doc-row
+[11 September 2024]{.doc-date}
 
-### An Evaluation Framework for Wastewater Surveillance: Building Consensus and Building a Future
-EU Wastewater Observatory for Public Health Town Hall Exhibition. The International Conference Towards a Global Wastewater Surveillance System for Public Health. GLOWACON. November 17, 2023.
+::: doc-row-main
+[Presentation]{.doc-type .type-talk} [Performance Evaluation of Wastewater-Based Surveillance]{.doc-row-title}
 
-[Download Poster Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cu45e/?action=download){.btn .btn-secondary}
+[Wastewater-based surveillance summit. The Canadian Water Network and the National Collaborating Centre for Infectious Diseases.]{.doc-event}
+:::
 
-### The Development of an Evaluation Framework for Wastewater-Based Surveillance
-CoVaRR-Net Spring Meeting 2023. Coronavirus Variants Rapid Response Network (CoVaRR-Net). May 16-18, 2023.
+[{{< fa file-pdf >}} PDF](https://osf.io/g4rjq/?action=download){.doc-pdf}
+::::
 
-[Download Poster Presentation &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cu45e/?action=download){.btn .btn-secondary}
+:::: doc-row
+[17 November 2023]{.doc-date}
 
-### The Development of an Evaluation Framework for Wastewater-Based Surveillance
-Toronto Wastewater Surveillance Conference. Ontario’s Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson). February 2-3, 2023.
+::: doc-row-main
+[Poster]{.doc-type .type-poster} [An Evaluation Framework for Wastewater Surveillance: Building Consensus and Building a Future]{.doc-row-title}
 
-[Download Poster Presentation {{< fa file-pdf >}}](https://osf.io/ncqzk/?action=download){.btn .btn-secondary}
+[EU Wastewater Observatory for Public Health Town Hall Exhibition. The International Conference Towards a Global Wastewater Surveillance System for Public Health (GLOWACON).]{.doc-event}
+:::
 
-## Recruitment Materials
-Study recruitment materials have received ethical approval (20230428-01H) by the Ottawa Health Science Network Research Ethics Board (OHSN-REB). View the documents [here ](https://osf.io/auy6j/files/osfstorage).
+[{{< fa file-pdf >}} PDF](https://osf.io/cu45e/?action=download){.doc-pdf}
+::::
+
+:::: doc-row
+[15 November 2023]{.doc-date}
+
+::: doc-row-main
+[Presentation]{.doc-type .type-talk} [Evaluation Practices for Public Health Environmental Surveillance Systems: A Scoping Review]{.doc-row-title}
+
+[The International Conference Towards a Global Wastewater Surveillance System for Public Health (GLOWACON).]{.doc-event}
+:::
+
+[{{< fa file-pdf >}} PDF](https://osf.io/bsq9p/?action=download){.doc-pdf}
+::::
+
+:::: doc-row
+[16–18 May 2023]{.doc-date}
+
+::: doc-row-main
+[Poster]{.doc-type .type-poster} [The Development of an Evaluation Framework for Wastewater-Based Surveillance]{.doc-row-title}
+
+[CoVaRR-Net Spring Meeting 2023. Coronavirus Variants Rapid Response Network (CoVaRR-Net).]{.doc-event}
+:::
+
+[{{< fa file-pdf >}} PDF](https://osf.io/cu45e/?action=download){.doc-pdf}
+::::
+
+:::: doc-row
+[2–3 February 2023]{.doc-date}
+
+::: doc-row-main
+[Poster]{.doc-type .type-poster} [The Development of an Evaluation Framework for Wastewater-Based Surveillance]{.doc-row-title}
+
+[Toronto Wastewater Surveillance Conference. Ontario's Wastewater Surveillance Initiative and Toronto Metropolitan University (formerly Ryerson).]{.doc-event}
+:::
+
+[{{< fa file-pdf >}} PDF](https://osf.io/ncqzk/?action=download){.doc-pdf}
+::::
+
+:::: doc-row
+[14–15 November 2022]{.doc-date}
+
+::: doc-row-main
+[Presentation]{.doc-type .type-talk} [Development of a Wastewater-Based Surveillance Evaluation Framework]{.doc-row-title}
+
+[Wastewater-based Surveillance – Looking into the Blue Mirror, 8th Town Hall Meeting. The EU Sewage Sentinel System for SARS-CoV-2 (EU4S).]{.doc-event}
+:::
+
+[{{< fa file-pdf >}} PDF](https://osf.io/fts8w/?action=download){.doc-pdf}
+::::
+
+:::: doc-row
+[22 August 2022]{.doc-date}
+
+::: doc-row-main
+[Presentation]{.doc-type .type-talk} [Wastewater surveillance for population and public health: program evaluation]{.doc-row-title}
+
+[National Wastewater Strategy Consultation Meeting.]{.doc-event}
+:::
+
+[{{< fa file-pdf >}} PDF](https://osf.io/euysp/?action=download){.doc-pdf}
+::::
+:::::
+
+## Recruitment materials
+
+::: {.definition-panel .doc-panel}
+Study recruitment materials have received ethical approval (20230428-01H) from the Ottawa Health Science Network Research Ethics Board (OHSN-REB).
+
+[View recruitment materials on OSF {{< fa arrow-up-right-from-square >}}](https://osf.io/auy6j/files/osfstorage){.doc-btn .doc-btn-primary}
+:::
 :::

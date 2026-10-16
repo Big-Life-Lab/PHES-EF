@@ -9,6 +9,34 @@ A Delphi technique will be used to develop an internationally accepted evaluatio
 
 The study protocol is published in [PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310342). The preprint is also available on [medRxiv](https://www.medrxiv.org/content/10.1101/2024.09.01.24312901v1).
 
+<!-- At a glance tiles -->
+
+::::: stat-grid
+:::: stat-tile
+[5]{.stat-number}
+
+[[Study steps](methods.qmd#study-steps)]{.stat-label}
+::::
+
+:::: stat-tile
+[2]{.stat-number}
+
+[Survey rounds]{.stat-label}
+::::
+
+:::: stat-tile
+[50+]{.stat-number}
+
+[Target panellists]{.stat-label}
+::::
+
+:::: stat-tile
+[70%]{.stat-number}
+
+[[Consensus level](#defining-consensus)]{.stat-label}
+::::
+:::::
+
 ## Recruitment of panellists
 
 We will recruit a multinational, multidisciplinary panel of wastewater-based surveillance experts, knowledge users, and engaged members of the public to complete the e-Delphi survey. Panellists will be selected to capture the multiple perspectives of those that influence the design, implementation, evaluation, use, and reporting of wastewater surveillance activities, including the following subdisciplines groups: public health, infectious disease, epidemiology; environmental and physical sciences; mathematical sciences; social sciences; and communication, knowledge translation and exchange.
@@ -17,44 +45,56 @@ We will aim to recruit at least 50 panellists, preferably with at least 8 to 10 
 
 ### Eligibility criteria for e-Delphi survey panellists
 
-::: {.table-striped}
-```{r table-eligibility-criteria, echo=FALSE, warning=FALSE}
+<!-- Eligibility criteria: one card per panellist group -->
 
-# Load the gt package
-library(gt)
+::::: eligibility-grid
+:::: eligibility-card
+[{{< fa microscope >}}]{.eligibility-icon}
 
-# Create a data frame with your data
-data <- data.frame(
-  Discipline = c("Public health, infectious disease, epidemiology <br><br>Environmental and physical science <br><br>Mathematical sciences <br><br>Social sciences <br><br>Communication, knowledge translation and Exchange", 
-    "Knowledge users", 
-    "Engaged public"
-  ),
-  Inclusion_Criteria = c(
-    "An adult^*1*^ who is proficient in English and has a graduate degree in one of the listed specializations^*2*^, or ≥ 3 years of professional experience, or ≥ 2 peer-reviewed publications relating to wastewater surveillance.",
-    "An adult^*1*^ who is proficient in English and who is a professional who does not have specialized training or qualifications in wastewater-based surveillance, but who uses surveillance to inform policy and action in their workplace.",
-    "An adult^*1*^ who is proficient in English and has relevant lived experience."
-  )
-)
+[Content experts]{.eligibility-title}
 
-# Generate the table using gt
-gt(data, id = "delphi_table") %>%
-   fmt_markdown() %>%
-  cols_width(Discipline ~ "30%") %>%
-    cols_label(
-    Discipline = "Discipline subgroup", 
-    Inclusion_Criteria = "Inclusion criteria"
-  ) %>%
- tab_source_note(source_note = md(
-    c("^*1*^ Adult: ≥ 18 years of age.",
-      "^*2*^ The list of specializations associated with each discipline can be found in the S2 Table of the study protocol once published.")
-  ))
+::: eligibility-groups
+Expertise subgroups:
 
-```
+- Public health, infectious disease, epidemiology
+- Environmental and physical sciences
+- Mathematical sciences
+- Social sciences
+- Communication, knowledge translation and exchange
 :::
 
-**Definitions**
+- An adult^1^
+- Proficient in English
+- Has a graduate degree in one of the listed specializations^2^, **or** ≥ 3 years of professional experience, **or** ≥ 2 peer-reviewed publications relating to wastewater surveillance
+::::
 
-*Professional experience:* Paid employment or professional practice in a listed specialization (current or former). *Graduate or professional degree:* Master or PhD in a listed discipline/specialization.
+:::: eligibility-card
+[{{< fa briefcase >}}]{.eligibility-icon}
+
+[Knowledge users]{.eligibility-title}
+
+- An adult^1^
+- Proficient in English
+- A professional who does not have specialized training or qualifications in wastewater-based surveillance, but who uses surveillance to inform policy and action in their workplace
+::::
+
+:::: eligibility-card
+[{{< fa people-group >}}]{.eligibility-icon}
+
+[Engaged public]{.eligibility-title}
+
+- An adult^1^
+- Proficient in English
+- Has relevant lived experience
+::::
+:::::
+
+::: eligibility-notes
+^1^ Adult: ≥ 18 years of age.<br>
+^2^ The list of specializations associated with each discipline can be found in S2 Table of the [published study protocol](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0310342).
+
+**Definitions:** *Professional experience:* paid employment or professional practice in a listed specialization (current or former). *Graduate or professional degree:* Master or PhD in a listed discipline/specialization.
+:::
 
 ## Procedure
 
@@ -78,8 +118,184 @@ A 7-point Likert scale (1 = highly irrelevant to 7 = highly relevant) will be us
 
 The approach to use a 7-point fully-labeled Likert scale – a higher number of categories compared to many studies – is informed by the consideration that panellists are professionals and engaged members of the public with good cognitive skills; therefore, more categories and labels will be more discriminating and reproducible [@diamond2014; @belton2019; @weijters2010; @lange2020]. The ≥ 70% consensus cut-off – a lower cut-off compared to many studies – is informed by the rapidly evolving nature of environmental surveillance for public health and the wide range of disciplines invited to the panel; therefore, a high level of agreement may not occur [@diamond2014; @belton2019; @weijters2010; @lange2020].
 
-![](assets/delphi_consensus_process.svg){fig-align="center" width=100%}
-[**Figure 2.** e-Delphi consensus process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF)]{.caption}
+<!-- Figure 2: e-Delphi consensus process. Flowchart drawn in site colours (generated, same structure as the original draw.io figure); stage cards are shown instead on phones -->
+
+```{=html}
+<figure class="flow-figure" aria-labelledby="flow-caption">
+<!-- Flowchart for wider screens; the stage cards below replace it on phones -->
+<svg class="flow-svg" viewBox="0 0 760 500" role="img" aria-labelledby="flow-svg-title flow-svg-desc" font-family="Assistant, Helvetica, Arial, sans-serif" xmlns="http://www.w3.org/2000/svg">
+<title id="flow-svg-title">e-Delphi consensus process</title>
+<desc id="flow-svg-desc">Round 1: initial candidate items are rated in an anonymized e-Delphi survey. With consensus, items are excluded (irrelevant), sent for further discussion at the consensus meeting (equivocal) or kept as core items (relevant); items without consensus go to Round 2. Round 2: new and non-consensus items are rated the same way; equivocal and non-consensus items go to the consensus meeting. Consensus meeting, hybrid or online with discussion and a Delphi survey: with consensus, items are excluded, optional (equivocal relevance) or core; items without consensus are excluded.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6c757d"/></marker></defs>
+<text x="180" y="18" font-size="15" fill="#212529" font-weight="700" text-anchor="middle">Round 1 e-Delphi</text>
+<rect x="20.0" y="30" width="320" height="30" rx="6" fill="#e6f2f8"/>
+<text x="180" y="49.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Review of initial candidate items</text>
+<path d="M180 60 V78" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="20.0" y="80" width="320" height="34" rx="6" fill="#c6e2ef"/>
+<text x="180" y="101.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Anonymized e-Delphi survey of candidate items</text>
+<path d="M180 114 V126" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M120 126 H300" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M120 126 V138" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M300 126 V138" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="70.0" y="140" width="100" height="30" rx="6" fill="#ffffff" stroke="#8fbdd3" stroke-width="1.5"/>
+<text x="120" y="159.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Consensus<tspan font-size="9" dy="-5">1</tspan></text>
+<rect x="250.0" y="140" width="100" height="30" rx="6" fill="#ffffff" stroke="#8fbdd3" stroke-width="1.5"/>
+<text x="300" y="159.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">No consensus</text>
+<path d="M120 170 V182" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M38 182 H202" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M38 182 V196" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M120 182 V196" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M202 182 V196" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="0.0" y="198" width="76" height="38" rx="6" fill="#e3e7ea"/>
+<text x="38" y="214.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Excluded</text>
+<text x="38" y="229.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">item</text>
+<rect x="82.0" y="198" width="76" height="38" rx="6" fill="#fddcb9"/>
+<text x="120" y="214.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Further</text>
+<text x="120" y="229.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">discussion</text>
+<rect x="164.0" y="198" width="76" height="38" rx="6" fill="#cfe8d3"/>
+<text x="202" y="221.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Core item</text>
+<text x="38" y="252" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Irrelevant</text>
+<text x="120" y="252" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Equivocal</text>
+<text x="202" y="252" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Relevant</text>
+<path d="M300 170 V196" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="262.0" y="198" width="76" height="38" rx="6" fill="#fddcb9"/>
+<text x="300" y="214.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Further</text>
+<text x="300" y="229.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">discussion</text>
+<text x="580" y="18" font-size="15" fill="#212529" font-weight="700" text-anchor="middle">Round 2 e-Delphi</text>
+<rect x="420.0" y="30" width="320" height="30" rx="6" fill="#e6f2f8"/>
+<text x="580" y="49.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Review of new and non-consensus items</text>
+<path d="M580 60 V78" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="420.0" y="80" width="320" height="34" rx="6" fill="#c6e2ef"/>
+<text x="580" y="101.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Anonymized e-Delphi survey of candidate items</text>
+<path d="M580 114 V126" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M520 126 H700" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M520 126 V138" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M700 126 V138" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="470.0" y="140" width="100" height="30" rx="6" fill="#ffffff" stroke="#8fbdd3" stroke-width="1.5"/>
+<text x="520" y="159.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Consensus<tspan font-size="9" dy="-5">1</tspan></text>
+<rect x="650.0" y="140" width="100" height="30" rx="6" fill="#ffffff" stroke="#8fbdd3" stroke-width="1.5"/>
+<text x="700" y="159.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">No consensus</text>
+<path d="M520 170 V182" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M438 182 H602" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M438 182 V196" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M520 182 V196" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M602 182 V196" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="400.0" y="198" width="76" height="38" rx="6" fill="#e3e7ea"/>
+<text x="438" y="214.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Excluded</text>
+<text x="438" y="229.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">item</text>
+<rect x="482.0" y="198" width="76" height="38" rx="6" fill="#fddcb9"/>
+<text x="520" y="214.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Further</text>
+<text x="520" y="229.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">discussion</text>
+<rect x="564.0" y="198" width="76" height="38" rx="6" fill="#cfe8d3"/>
+<text x="602" y="221.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Core item</text>
+<text x="438" y="252" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Irrelevant</text>
+<text x="520" y="252" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Equivocal</text>
+<text x="602" y="252" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Relevant</text>
+<path d="M700 170 V196" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="662.0" y="198" width="76" height="38" rx="6" fill="#fddcb9"/>
+<text x="700" y="214.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Further</text>
+<text x="700" y="229.0" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">discussion</text>
+<path d="M300 236 V266 H380 V45 H428" fill="none" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<path d="M120 260 V316" fill="none" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<path d="M520 260 V316" fill="none" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<path d="M700 236 V316" fill="none" stroke="#6c757d" stroke-width="1.5" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+<text x="380.0" y="296" font-size="15" fill="#212529" font-weight="700" text-anchor="middle">Consensus meeting</text>
+<rect x="20.0" y="318" width="720" height="34" rx="6" fill="#c6e2ef"/>
+<text x="380.0" y="339.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Hybrid or online with discussion and Delphi survey</text>
+<path d="M380.0 352 V366" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M250 366 H640" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M250 366 V378" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M640 366 V378" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="195.0" y="380" width="110" height="30" rx="6" fill="#ffffff" stroke="#8fbdd3" stroke-width="1.5"/>
+<text x="250" y="399.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Consensus</text>
+<rect x="585.0" y="380" width="110" height="30" rx="6" fill="#ffffff" stroke="#8fbdd3" stroke-width="1.5"/>
+<text x="640" y="399.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">No consensus</text>
+<path d="M250 410 V422" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M110 422 H390" fill="none" stroke="#6c757d" stroke-width="1.5"/>
+<path d="M110 422 V436" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M250 422 V436" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M390 422 V436" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="50.0" y="438" width="120" height="34" rx="6" fill="#e3e7ea"/>
+<text x="110" y="459.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Excluded item</text>
+<rect x="190.0" y="438" width="120" height="34" rx="6" fill="#ffeaa6"/>
+<text x="250" y="459.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Optional item</text>
+<rect x="330.0" y="438" width="120" height="34" rx="6" fill="#cfe8d3"/>
+<text x="390" y="459.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Core item</text>
+<text x="110" y="490" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Irrelevant</text>
+<text x="250" y="490" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Equivocal relevance</text>
+<text x="390" y="490" font-size="11.5" fill="#5f6b72" font-weight="400" text-anchor="middle">Relevant</text>
+<path d="M640 410 V436" fill="none" stroke="#6c757d" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="580.0" y="438" width="120" height="34" rx="6" fill="#e3e7ea"/>
+<text x="640" y="459.5" font-size="13" fill="#212529" font-weight="400" text-anchor="middle">Excluded item</text>
+</svg>
+<div class="flow">
+  <div class="flow-stage">
+    <div class="flow-head"><span class="flow-num">1</span>Round 1 e-Delphi</div>
+    <div class="flow-body">
+      <p class="flow-label">Reviews</p>
+      <p class="flow-text">Initial candidate items</p>
+      <p class="flow-label">Method</p>
+      <p class="flow-text">Anonymized e-Delphi survey of candidate items</p>
+      <p class="flow-label">Consensus<sup>1</sup> reached</p>
+      <ul class="flow-outcomes">
+<li><span class="flow-chip chip-core">Core item</span> <span class="flow-note">relevant</span></li>
+<li><span class="flow-chip chip-discuss">Further discussion</span> <span class="flow-note">equivocal → consensus meeting</span></li>
+<li><span class="flow-chip chip-excluded">Excluded item</span> <span class="flow-note">irrelevant</span></li>
+      </ul>
+      <p class="flow-label">No consensus</p>
+      <ul class="flow-outcomes">
+<li><span class="flow-chip chip-discuss">Further discussion</span> <span class="flow-note">→ Round 2</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="flow-arrow" aria-hidden="true">&#8594;</div>
+  <div class="flow-stage">
+    <div class="flow-head"><span class="flow-num">2</span>Round 2 e-Delphi</div>
+    <div class="flow-body">
+      <p class="flow-label">Reviews</p>
+      <p class="flow-text">New and non-consensus items</p>
+      <p class="flow-label">Method</p>
+      <p class="flow-text">Anonymized e-Delphi survey of candidate items</p>
+      <p class="flow-label">Consensus<sup>1</sup> reached</p>
+      <ul class="flow-outcomes">
+<li><span class="flow-chip chip-core">Core item</span> <span class="flow-note">relevant</span></li>
+<li><span class="flow-chip chip-discuss">Further discussion</span> <span class="flow-note">equivocal → consensus meeting</span></li>
+<li><span class="flow-chip chip-excluded">Excluded item</span> <span class="flow-note">irrelevant</span></li>
+      </ul>
+      <p class="flow-label">No consensus</p>
+      <ul class="flow-outcomes">
+<li><span class="flow-chip chip-discuss">Further discussion</span> <span class="flow-note">→ consensus meeting</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="flow-arrow" aria-hidden="true">&#8594;</div>
+  <div class="flow-stage">
+    <div class="flow-head"><span class="flow-num">3</span>Consensus meeting</div>
+    <div class="flow-body">
+      <p class="flow-label">Reviews</p>
+      <p class="flow-text">Items for further discussion from Rounds 1 and 2</p>
+      <p class="flow-label">Method</p>
+      <p class="flow-text">Hybrid or online with discussion and Delphi survey</p>
+      <p class="flow-label">Consensus<sup>1</sup> reached</p>
+      <ul class="flow-outcomes">
+<li><span class="flow-chip chip-core">Core item</span> <span class="flow-note">relevant</span></li>
+<li><span class="flow-chip chip-optional">Optional item</span> <span class="flow-note">equivocal relevance</span></li>
+<li><span class="flow-chip chip-excluded">Excluded item</span> <span class="flow-note">irrelevant</span></li>
+      </ul>
+      <p class="flow-label">No consensus</p>
+      <ul class="flow-outcomes">
+<li><span class="flow-chip chip-excluded">Excluded item</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="flow-legend">
+  <p><sup>1</sup> Consensus: at least 70% of panellist votes fall within the same category (irrelevant, equivocal, relevant); no consensus if agreement is below 70%.</p>
+  <p>Item relevance: <span class="flow-chip chip-core">Core item</span> highly or moderately relevant · <span class="flow-chip chip-discuss">Further discussion</span> slightly relevant, neutral or slightly irrelevant · <span class="flow-chip chip-excluded">Excluded item</span> moderately or highly irrelevant</p>
+</div>
+<figcaption id="flow-caption" class="caption">Figure 2. e-Delphi consensus process for the Public Health Environmental Surveillance Evaluation Framework (PHES-EF)</figcaption>
+</figure>
+```
 
 ## Timeline
 
@@ -137,7 +353,7 @@ Results are analysed and a preliminary framework is prepared.
 :::::
 
 ::::: {.timeline-item .phase-consensus}
-[Sept. or Oct. 2027]{.timeline-date}
+[Fall 2027]{.timeline-date}
 
 :::: timeline-content
 [Consensus meeting]{.timeline-title}

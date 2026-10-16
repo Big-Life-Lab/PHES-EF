@@ -1,15 +1,15 @@
-::: centered_content
-![](assets/phes-ef-logo_colour.svg){width="50"}
+::: home-hero
+![](assets/phes-ef-logo_colour.svg){.hero-logo fig-alt="PHES-EF logo"}
 
-# Public Health Environmental Surveillance Evaluation Framework (PHES-EF)
+[PHES-EF]{.hero-acronym}
+
+# Public Health Environmental Surveillance Evaluation Framework {.hero-title .unlisted}
 :::
-
-------------------------------------------------------------------------
 
 <!-- HOME PAGE TEXT -->
 
 ::: justify-text
-The <i>Public Health Environmental Surveillance Evaluation Framework (PHES-EF)</i> is an international consensus study developing a comprehensive framework to evaluate public health environmental surveillance systems. We use wastewater-based surveillance as our primary example.<br>
+The Public Health Environmental Surveillance Evaluation Framework (PHES-EF) is an international consensus study developing a comprehensive framework to evaluate public health environmental surveillance systems. We use wastewater-based surveillance as our primary example.<br>
 
 <b>Our approach:</b> We use the Delphi method—an iterative survey process using structured feedback and expert anonymity to build consensus. A diverse panel of global experts will help us create an evidence-informed framework for assessing surveillance system performance. [Learn more about the e-Delphi study.](delphi.qmd)
 

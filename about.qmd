@@ -5,16 +5,56 @@ bibliography: references.bib
 ---
 
 ::: justify-text
-This project will adopt a multidisciplinary and multinational consensus approach to develop the *Public Health Environmental Surveillance Evaluation Framework (PHES-EF)*, using wastewater-based surveillance as an example.
+PHES-EF (Public Health Environmental Surveillance Evaluation Framework) is an international consensus study to develop a framework for evaluating public health environmental surveillance systems, using wastewater-based surveillance as an example.
 
+::: definition-panel
 **Evaluation framework definition:**<br>
 An evaluation framework is a structured system designed to systematically assess the effectiveness and impact of a program [@fynn2020; @calba2015]. It typically outlines key components - such as domains, concepts, and indicators or measures - that should be included in an evaluation. It also provides a logical organization of these components, explains the process by which they were identified and prioritized, and may offer guidance on how to measure them. By offering a comprehensive and transparent basis for evaluation, such frameworks support informed decision-making and help identify areas for improvement in public health programs.
+:::
 
-## Why is PHES-EF needed?
+<!-- Framework hierarchy graphic -->
+
+<!-- Levels, definitions and examples from the PHES-EF framework schema (v0.1) -->
+
+:::::: framework-levels
+::::: level-step
+[Theme]{.level .level-1}
+
+[A high-level grouping of related concepts that define broad areas of public health evaluation.]{.level-def}
+
+[Example: Surveillance effectiveness]{.level-example}
+:::::
+
+::::: level-step
+[Domain]{.level .level-2}
+
+[A major area of focus within a theme.]{.level-def}
+
+[Example: Data quality]{.level-example}
+:::::
+
+::::: level-step
+[Subdomain]{.level .level-3}
+
+[A specific aspect or perspective within a domain.]{.level-def}
+
+[Example: Ascertainment performance]{.level-example}
+:::::
+
+::::: level-step
+[Attribute]{.level .level-4}
+
+[A measurable property or characteristic.]{.level-def}
+
+[Example: Sensitivity]{.level-example}
+:::::
+::::::
+
+## Why PHES-EF is needed
 
 Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve the evidence of wastewater surveillance effectiveness, return-on-investment, accountability, transparency, sustainability and trust.
 
-There is also a need for such an evaluation framework as the recent adoption of wastewater-based monitoring has resulted in a lack of standard analytic techniques, with preferred methods for reporting testing data still remaining unclear [@manuel2021]. *PHES-EF* aims to address this issue as well, as the framework is intended to be adopted by researchers to determine surveillance system performance and create analogous results for comparison within the field.
+There is also a need for such an evaluation framework as the recent adoption of wastewater-based monitoring has resulted in a lack of standard analytic techniques, with preferred methods for reporting testing data still remaining unclear [@manuel2021]. PHES-EF aims to address this issue as well, as the framework is intended to be adopted by researchers to determine surveillance system performance and create analogous results for comparison within the field.
 
 ## What is a Delphi consensus study?
 
@@ -22,15 +62,59 @@ The Delphi method is an iterative multi-round approach that uses a series of seq
 
 ## Approach
 
-### Open science
+<!-- Approach cards: "Read more" opens the full text in a panel below the cards (one at a time) -->
+
+::::: approach-grid
+:::: approach-card
+[{{< fa lock-open >}}]{.approach-icon}
+
+[Open science]{.approach-title}
+
+All data and materials shared under an open licence.
+
+```{=html}
+<button class="read-more" type="button" data-bs-toggle="collapse" data-bs-target="#approach-open-science" aria-expanded="false" aria-controls="approach-open-science"><span class="when-closed">Read more</span><span class="when-open">Show less</span><span class="visually-hidden"> about open science</span></button>
+```
+::::
+
+:::: approach-card
+[{{< fa people-group >}}]{.approach-icon}
+
+[Equity and inclusion]{.approach-title}
+
+Guided by EDI and OCAP principles.
+
+```{=html}
+<button class="read-more" type="button" data-bs-toggle="collapse" data-bs-target="#approach-edi" aria-expanded="false" aria-controls="approach-edi"><span class="when-closed">Read more</span><span class="when-open">Show less</span><span class="visually-hidden"> about equity, diversity and inclusion</span></button>
+```
+::::
+
+:::: approach-card
+[{{< fa comments >}}]{.approach-icon}
+
+[Public involvement]{.approach-title}
+
+Knowledge user and public involvement reported with GRIPP2.
+
+```{=html}
+<button class="read-more" type="button" data-bs-toggle="collapse" data-bs-target="#approach-public" aria-expanded="false" aria-controls="approach-public"><span class="when-closed">Read more</span><span class="when-open">Show less</span><span class="visually-hidden"> about public involvement</span></button>
+```
+::::
+:::::
+
+:::: {#approach-panels}
+::: {#approach-open-science .collapse .approach-panel data-bs-parent="#approach-panels"}
+### Open science {.unlisted}
 
 This project is committed to an open science approach, ensuring transparency and accessibility at every stage. All project data and materials will be made available, including the search strategy, search results, initial curation of evaluation measures, executive group discussion summaries, e-Delphi process documentation, and consensus procedures.
 
-*PHES-EF* will be made available under an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/), enabling reuse, adaptation, and further development. A comprehensive research data management plan will outline the data and materials shared, along with guidance on how to access them - to support reproducibility and facilitate collaboration.
+PHES-EF will be made available under an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/), enabling reuse, adaptation, and further development. A comprehensive research data management plan will outline the data and materials shared, along with guidance on how to access them - to support reproducibility and facilitate collaboration.
 
 For licensing details, please refer to the [license section](#licence) of this page.
+:::
 
-### Equity, diversity, and inclusion (EDI)
+::: {#approach-edi .collapse .approach-panel data-bs-parent="#approach-panels"}
+### Equity, diversity, and inclusion (EDI) {.unlisted}
 
 “Equity is defined as the removal of systemic barriers and biases enabling all individuals to have equal opportunity to access and benefit from the program” [@schmalz2021]. To achieve this, members of the research team are committed to developing a strong understanding of the systemic barriers faced by individuals from underrepresented groups. 
 
@@ -39,28 +123,65 @@ For licensing details, please refer to the [license section](#licence) of this p
 “Inclusion is defined as the practice of ensuring that all individuals are valued and respected for their contributions and are equally supported” [@schmalz2021]. To help ensure that all research team members are integrated and supported, we will have a code of conduct statement in the executive group Terms of Reference. 
 
 All study working group members will complete EDI-related Canadian Institutes for Health Research (CIHR) Training, and the First Nations principles of Ownership, Control, Access and Possession (OCAP©) training for the research [@ocap2023]. The executive group will receive an overview of EDI and OCAP and will be encouraged and supported to complete such training. Furthermore, staff trained in EDI and OCAP principles will review the framework from an EDI perspective to ensure appropriate language.
+:::
 
-### Knowledge user and public involvement
+::: {#approach-public .collapse .approach-panel data-bs-parent="#approach-panels"}
+### Knowledge user and public involvement {.unlisted}
 
 To ensure accurate and transparent reporting of knowledge users and public involvement throughout the study, we will refer to the Guidance for Reporting Involvement of Patients and the Public (GRIPP2) checklist [@staniszewska2017]. We will document the methods used to engage knowledge users, report the impacts and outcomes of their engagement, and report on lessons learned from the experience.
+:::
+::::
 
 ## Declarations
 
-### Funding
+<!-- Each declaration is a drop-down (closed by default) -->
+
+```{=html}
+<details class="declaration">
+<summary>Funding</summary>
+<div class="declaration-body">
+```
 
 This project is funded by the Canadian Institutes for Health Research-funded network, CoVaRR-Net (Coronavirus Variants Rapid Response Network. FRN: 175622), and Health Canada (through the Safe Restart Agreement Contribution Program. Arrangement #: 2223-HQ-000098). The Canadian Institutes for Health Research and Health Canada have not been involved in the design or conduct or the study and the views expressed herein do not necessarily represent the views of either funding organization.
 
-### Ethics approval and consent to participate
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration">
+<summary>Ethics approval and consent to participate</summary>
+<div class="declaration-body">
+```
 
 This study has received ethical approval (20230428-01H) from the Ottawa Health Science Network Research Ethics Board (OHSN-REB). Implied consent will be obtained from all panellists prior to participating in the e-Delphi survey. Information about the survey and consent practices will be provided on the first page of the survey. Panellists will be informed that by providing their demographic information and proceeding to the next page, they are providing their implied consent to participate in the study. Only anonymous panellist responses will be used for analyses. All panellist data and responses will be password protected and only REB-approved study working group members from the Ottawa Hospital will have access to the data. 
 
 If you have questions about ethical issues related to this study, you can talk to someone who is not involved in the study at the Ottawa Health Science Network Research Ethics Board, Chairperson at +1-613-798-5555 ext. 16719.
 
-### Competing interests
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration">
+<summary>Competing interests</summary>
+<div class="declaration-body">
+```
 
 All participants (i.e., study working group, executive group, and e-Delphi panellists) will be asked to declare any financial or personal relationships that may influence either the conduct or presentation of this research.
 
-### Licence {#licence}
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration" id="licence">
+<summary>Licence</summary>
+<div class="declaration-body">
+```
 
 This website hosts a range of content, including references to journal articles, research papers, and other educational materials.
 
@@ -68,9 +189,35 @@ The majority of the content on this website is licensed under two Creative Commo
 
 Please see the [license page](https://github.com/Big-Life-Lab/PHES-EF/blob/main/LICENSE.md) for more information.
 
-### Privacy
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration">
+<summary>Privacy</summary>
+<div class="declaration-body">
+```
 
 Anonymous aggregate data will be made available on our [Open Science Framework (OSF) project page](https://osf.io/8tcz6/) upon study completion. Individual responses to e-Delphi rounds will be anonymous at the source level by the platform used.
+
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<script>
+  // Open a declaration when a link points to it (e.g. the "license section" link)
+  function openTargetDeclaration() {
+    var el = location.hash && document.getElementById(location.hash.slice(1));
+    if (el && el.tagName === "DETAILS") { el.open = true; }
+  }
+  window.addEventListener("hashchange", openTargetDeclaration);
+  document.addEventListener("DOMContentLoaded", openTargetDeclaration);
+</script>
+```
 
 ## References
 
