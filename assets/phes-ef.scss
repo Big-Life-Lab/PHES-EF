@@ -212,7 +212,7 @@ mark {
 }
 
 /* Study progress states: completed, current (in progress), upcoming */
-$state_completed: #8c4d33;
+$state_completed: #185e7e; // brand dark blue (was brown #8c4d33)
 $state_current: #f59e4c;
 $state_upcoming: #d0d5db;
 $state_track: #e1e4e8;
@@ -438,7 +438,7 @@ $state_text: #333333;
   }
 
   &.completed li::before {
-    background-image: step-bullet("8c4d33");
+    background-image: step-bullet("185e7e");
   }
 
   &.current li::before {
@@ -512,7 +512,7 @@ $state_text: #333333;
   letter-spacing: 0.5px;
 
   &.badge-completed {
-    background: #f3e7e1;
+    background: #dcecf3;
     color: $state_completed;
   }
 
@@ -602,7 +602,7 @@ $state_text: #333333;
   }
 
   &.tag-publication {
-    background: #f3e7e1;
+    background: #dcecf3;
     color: $state_completed;
   }
 
@@ -805,4 +805,1024 @@ $phase_dissemination: #6d9775;
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
+}
+
+/* Let long reference links (DOIs) wrap on small screens */
+#refs a {
+  overflow-wrap: anywhere;
+}
+
+/* e-Delphi "at a glance" stat tiles */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+  text-align: center;
+}
+
+.stat-tile {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem 0.5rem;
+
+  p {
+    margin: 0;
+  }
+}
+
+.stat-number {
+  display: block;
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #000000;
+}
+
+.stat-label {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: $state_muted;
+  line-height: 1.3;
+}
+
+@media (max-width: 576px) {
+  .stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* About page: PHES-EF brand colours (from the PHES-EF slide template) */
+$brand_orange: #f37f58;       // branding orange
+$brand_orange_light: #f7aa62; // slide element orange
+$brand_yellow: #ffcb6c;
+$brand_yellow_light: #ffe1a6;
+$brand_blue_dark: #185e7e;    // slide element blue
+$brand_text: #2b2118;         // dark text on orange and yellow fills
+$brand_orange_text: #b5492a;  // text-safe orange on white
+
+// approach cards (previous yellow-orange design)
+$about_orange: #f59e4c;
+$about_orange_dark: #a85a12;
+$about_orange_text: #3d2a12;
+$about_orange_wash: #fff8ef;
+
+/* About page: intro and definition */
+.definition-panel {
+  margin: 1.5rem 0 1rem;
+  padding: 1.1rem 1.4rem;
+  background: #eef5f8;
+  border-left: 5px solid $brand_blue_dark;
+
+  p {
+    margin: 0;
+  }
+
+  strong {
+    color: $brand_blue_dark;
+    font-size: 1.05rem;
+  }
+}
+
+// justified text leaves large gaps on narrow screens
+@media (max-width: 576px) {
+  .definition-panel p {
+    text-align: left;
+  }
+}
+
+/* About page: evaluation framework hierarchy
+   Each level is a square card: a coloured name bar, a tinted definition box
+   and a lighter strip for the example. */
+.framework-levels {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  // three shared rows (name, definition, example) so every card's parts line up
+  grid-template-rows: auto 1fr auto;
+  column-gap: 1.75rem;
+  margin: 1.5rem 0 2.25rem;
+  text-align: center;
+
+  .level-step {
+    position: relative;
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+    row-gap: 0;
+    // slightly rounded card with an outline in the card colour
+    border: 1.5px solid var(--lvl);
+    border-radius: 6px;
+
+    // all levels share one colour, matching the approach cards
+    --lvl: #{$about_orange};
+    --lvl-def: #{mix($about_orange, white, 20%)};
+    --lvl-ex: #{mix($about_orange, white, 7%)};
+
+    p {
+      margin: 0;
+      text-align: center;
+    }
+
+    > p:nth-child(2) {
+      padding: 0.85rem 0.8rem;
+      background: var(--lvl-def);
+    }
+
+    > p:first-child .level {
+      border-radius: 4px 4px 0 0;
+    }
+
+    > p:nth-child(3) {
+      border-radius: 0 0 4px 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.55rem 0.8rem;
+      background: var(--lvl-ex);
+    }
+
+    // arrow pointing to the next level, level with the name bar
+    &:not(:last-child)::after {
+      content: "\2192";
+      position: absolute;
+      top: 0.5rem;
+      right: -1.4rem;
+      color: $state_muted;
+      font-size: 1.15rem;
+    }
+  }
+
+  .level {
+    display: block;
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    background: var(--lvl);
+    color: $brand_text;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .level-def {
+    display: block;
+    font-size: 0.88rem;
+    line-height: 1.4;
+    color: inherit;
+  }
+
+  .level-example {
+    display: block;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: inherit;
+  }
+}
+
+@media (max-width: 768px) {
+  .framework-levels {
+    grid-template-columns: minmax(0, 22rem);
+    grid-template-rows: none;
+    justify-content: center;
+    gap: 2.25rem;
+
+    // single column: cards stack, no need to share rows
+    .level-step {
+      display: flex;
+      flex-direction: column;
+      grid-row: auto;
+    }
+
+    .level-step:not(:last-child)::after {
+      content: "\2193";
+      top: auto;
+      bottom: -1.9rem;
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* About page: approach summary cards */
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+  text-align: left;
+}
+
+.approach-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid $about_orange;
+  border-radius: 8px;
+  padding: 1rem 1.15rem 1.15rem;
+  p {
+    margin: 0 0 0.4rem;
+    font-size: 0.92rem;
+    line-height: 1.4;
+    text-align: left;
+  }
+}
+
+.approach-icon {
+  font-size: 1.5rem;
+  color: $about_orange;
+}
+
+.approach-title {
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: $state_text;
+}
+
+@media (max-width: 768px) {
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* About page: "Read more" buttons and the panel they open */
+.read-more {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 0.3rem 0.85rem;
+  border: 2px solid $about_orange;
+  border-radius: 999px;
+  background: white;
+  color: $about_orange_dark;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover,
+  &[aria-expanded="true"] {
+    background: $about_orange;
+    color: $about_orange_text;
+  }
+
+  &:focus-visible {
+    outline: 3px solid rgba(245, 158, 76, 0.5);
+    outline-offset: 2px;
+  }
+
+  .when-open { display: none; }
+
+  &[aria-expanded="true"] {
+    .when-closed { display: none; }
+    .when-open { display: inline; }
+  }
+}
+
+.approach-card:has(.read-more[aria-expanded="true"]) {
+  border-color: $about_orange;
+  background: $about_orange_wash;
+  box-shadow: 0 0 0 3px rgba(245, 158, 76, 0.2);
+}
+
+.approach-panel {
+  margin: -0.75rem 0 2rem;
+  padding: 1.25rem 1.5rem 0.5rem;
+  background: $about_orange_wash;
+  border-left: 4px solid $about_orange;
+  border-radius: 0;
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+/* About page: Declarations drop-downs */
+.declaration {
+  border: 1px solid $state_track;
+  border-left: 4px solid $about_orange;
+  border-radius: 6px;
+  margin-bottom: 0.6rem;
+  background: white;
+
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    font-family: $font_family_2, serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: $state_text;
+    text-align: left;
+    gap: 1rem;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    // plus / minus indicator
+    &::after {
+      content: "+";
+      font-family: $font_family_1;
+      font-size: 1.4rem;
+      line-height: 1;
+      color: $about_orange_dark;
+    }
+
+    &:hover {
+      background: $about_orange_wash;
+    }
+
+    &:focus-visible {
+      outline: 3px solid rgba(245, 158, 76, 0.5);
+      outline-offset: 2px;
+    }
+  }
+
+  &[open] {
+    background: $about_orange_wash;
+
+    summary::after {
+      content: "\2212";
+    }
+  }
+
+  .declaration-body {
+    padding: 0 1rem 0.75rem;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* e-Delphi page: eligibility criteria cards (one per panellist group) */
+.eligibility-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 1rem;
+  text-align: left;
+}
+
+.eligibility-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid $about_orange;
+  border-radius: 8px;
+  padding: 1rem 1.15rem 1.15rem;
+
+  p {
+    margin: 0 0 0.5rem;
+    text-align: left;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.25rem 0 0;
+  }
+
+  li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.45rem;
+    font-size: 0.92rem;
+    line-height: 1.4;
+    text-align: left;
+
+    // orange check mark
+    &::before {
+      content: "\2713";
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-weight: 700;
+      color: $about_orange_dark;
+    }
+  }
+}
+
+.eligibility-icon {
+  font-size: 1.5rem;
+  color: $about_orange;
+}
+
+.eligibility-title {
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: $state_text;
+}
+
+.eligibility-groups {
+  display: block;
+  margin-bottom: 0.6rem;
+  padding: 0.55rem 0.7rem;
+  background: $about_orange_wash;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: $state_text;
+
+  p {
+    margin: 0;
+  }
+
+  strong {
+    display: inline-block;
+    margin-bottom: 0.2rem;
+  }
+
+  // subgroup list: small dots, not the orange check marks used for criteria
+  ul {
+    margin: 0;
+  }
+
+  li {
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+    padding-left: 1rem;
+
+    &::before {
+      content: "";
+      top: 0.55em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: $about_orange;
+    }
+  }
+}
+
+.eligibility-notes {
+  margin: 0.5rem 0 2rem;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  color: $state_text;
+
+  p {
+    margin: 0 0 0.4rem;
+    text-align: left;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .eligibility-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* e-Delphi page: Figure 2, consensus process (three stage cards) */
+.flow-figure {
+  margin: 1rem 0 1.25rem;
+}
+
+.flow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: stretch;
+  gap: 0.4rem;
+  text-align: left;
+}
+
+.flow-arrow {
+  align-self: center;
+  color: #6c757d;
+  font-size: 1.3rem;
+}
+
+.flow-stage {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid #8fbdd3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.flow-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.75rem;
+  background: #c6e2ef;
+  color: #212529;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.flow-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: white;
+  font-size: 0.8rem;
+}
+
+.flow-body {
+  padding: 0.6rem 0.75rem 0.75rem;
+
+  p {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.flow-label {
+  margin-top: 0.5rem !important;
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $state_muted;
+
+  &:first-child {
+    margin-top: 0 !important;
+  }
+}
+
+.flow-text {
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.flow-outcomes {
+  list-style: none;
+  padding: 0;
+  margin: 0.2rem 0 0;
+
+  li {
+    margin-bottom: 0.25rem;
+    font-size: 0.82rem;
+    line-height: 1.3;
+  }
+}
+
+.flow-chip {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #212529;
+
+  &.chip-core { background: #cfe8d3; }
+  &.chip-discuss { background: #fddcb9; }
+  &.chip-optional { background: #ffeaa6; }
+  &.chip-excluded { background: #e3e7ea; }
+}
+
+.flow-note {
+  color: $state_muted;
+  font-size: 0.8rem;
+}
+
+.flow-legend {
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: $state_text;
+
+  p {
+    margin: 0 0 0.3rem;
+    text-align: left;
+  }
+
+  .flow-chip {
+    font-size: 0.74rem;
+  }
+}
+
+.flow-figure .caption {
+  display: block;
+  margin-top: 0.4rem;
+  font-family: $font_family_1;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+}
+
+// flowchart on wider screens, stage cards on phones
+.flow-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 769px) {
+  .flow {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .flow-svg {
+    display: none;
+  }
+
+  .flow {
+    grid-template-columns: 1fr;
+  }
+
+  .flow-arrow {
+    justify-self: center;
+    transform: rotate(90deg);
+  }
+}
+
+/* Site-wide headings in the PHES-EF brand dark blue (from the slide template),
+   so orange is kept for cards and accents */
+$heading_blue: #185e7e;
+
+h1,
+h2,
+h3,
+h4,
+.title {
+  color: $heading_blue;
+}
+
+h2 {
+  border-bottom-color: #d6e6ee;
+}
+
+/* Home page: hero with large logo and two-level title */
+.home-hero {
+  margin: 0.5rem 0 2rem;
+  padding: 2rem 1.5rem 1.75rem;
+  background: #eef5f8;
+  border-bottom: 4px solid $about_orange;
+  text-align: center;
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+
+  // the logo SVG is inlined when the page is built, so style the svg itself
+  .hero-logo,
+  > p:first-child svg,
+  > p:first-child img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 0.5rem;
+  }
+
+  .hero-acronym {
+    display: block;
+    font-family: $font_family_1;
+    font-weight: 800;
+    font-size: 2.6rem;
+    letter-spacing: 0.06em;
+    line-height: 1.1;
+    color: $heading_blue;
+  }
+
+  .hero-title {
+    margin: 0.4rem auto 0;
+    max-width: 34rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: $state_text;
+    border: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-hero {
+    padding: 1.5rem 1rem;
+
+    > p:first-child svg,
+    > p:first-child img { width: 100px; height: 100px; }
+    .hero-acronym { font-size: 2.1rem; }
+    .hero-title { font-size: 1.15rem; }
+  }
+}
+
+/* Methods page: opening "this approach ensures" points */
+.method-points {
+  margin: 0.75rem 0 1.25rem;
+  padding: 0.9rem 1.2rem;
+  background: #eef5f8;
+  border-left: 5px solid $heading_blue;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    position: relative;
+    padding-left: 1.6rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    // blue bullet dot
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0.35rem;
+      top: 0.6em;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: $heading_blue;
+    }
+  }
+}
+
+/* Contact page: principal investigator details in the blue panel */
+.contact-panel {
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  p + p {
+    margin-top: 0.75rem;
+  }
+}
+
+/* Documents page */
+.doc-tag {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border-radius: 12px;
+  background: #fddcb9; // same as the Poster tags
+  color: #7a3f08;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.doc-title {
+  display: block;
+  margin: 0.45rem 0 0.4rem;
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  color: #212529;
+}
+
+.doc-desc {
+  display: block;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  color: $state_muted;
+}
+
+// buttons: outlined by default, filled for the main action
+.doc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.35rem 0.4rem 0 0;
+  padding: 0.3rem 0.9rem;
+  border: 2px solid $about_orange;
+  border-radius: 999px;
+  background: white;
+  color: $about_orange_dark;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    background: $about_orange;
+    color: $about_orange_text;
+  }
+
+  &.doc-btn-primary {
+    background: $about_orange;
+    color: $about_orange_text;
+
+    &:hover {
+      background: #e8892f;
+    }
+  }
+}
+
+// featured study protocol
+.doc-feature {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  margin: 1rem 0 2rem;
+  padding: 1.25rem 1.4rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid $about_orange;
+  border-radius: 8px;
+  text-align: left;
+
+  p {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.doc-feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 50%;
+  background: #dcecf3;
+  color: #185e7e;
+  font-size: 1.4rem;
+}
+
+.doc-feature-body {
+  flex: 1;
+
+  .doc-title {
+    font-size: 1.12rem;
+  }
+}
+
+// protocols and governance cards
+.doc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+  text-align: left;
+}
+
+.doc-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.1rem 1.1rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid $about_orange;
+  border-radius: 8px;
+
+  p {
+    margin: 0;
+    text-align: left;
+  }
+
+  // keep the download button at the bottom of every card
+  p:last-child {
+    margin-top: auto;
+    padding-top: 0.5rem;
+  }
+}
+
+// presentations and posters list
+.doc-list {
+  margin: 1rem 0 2rem;
+  border-top: 1px solid $state_track;
+  text-align: left;
+}
+
+.doc-row {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: start;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid $state_track;
+
+  p {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.doc-date {
+  display: block;
+  padding-top: 0.15rem;
+  font-size: 0.88rem;
+  color: $state_muted;
+  white-space: nowrap;
+}
+
+.doc-type {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  vertical-align: 0.1em;
+
+  &.type-talk { background: #dcecf3; color: #185e7e; }
+  &.type-poster { background: #fddcb9; color: #7a3f08; }
+}
+
+.doc-row-title {
+  font-weight: 600;
+  color: #212529;
+  line-height: 1.35;
+}
+
+.doc-event {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  color: $state_muted;
+}
+
+.doc-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.7rem;
+  border: 1.5px solid $about_orange;
+  border-radius: 999px;
+  color: $about_orange_dark;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover {
+    background: $about_orange;
+    color: $about_orange_text;
+  }
+}
+
+.doc-panel p {
+  text-align: left;
+}
+
+.doc-panel p + p {
+  margin-top: 0.6rem;
+}
+
+@media (max-width: 768px) {
+  .doc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .doc-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.25rem 0.75rem;
+
+    > p:first-child {
+      grid-column: 1 / -1;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .doc-feature {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+/* Headings never justified (justified headings stretch on narrow screens) */
+.justify-text h1,
+.justify-text h2,
+.justify-text h3,
+.justify-text h4,
+.justify-text h5 {
+  text-align: left;
+}
+
+/* Section subheadings (h3) in dark orange across the site, including the
+   Contact page heading; card titles keep the dark blue */
+h3 {
+  color: $about_orange_dark;
+}
+
+h3.step-title,
+.news-card h3 {
+  color: $heading_blue;
 }
