@@ -1826,3 +1826,1269 @@ h3.step-title,
 .news-card h3 {
   color: $heading_blue;
 }
+
+/* Team page: member cards (built from data/team-members.csv) */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+  text-align: center;
+}
+
+.member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.1rem 1rem 1rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid $about_orange;
+  border-radius: 8px;
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+
+  .member-bio {
+    width: 100%;
+    margin: auto 0 0;
+    padding-top: 0.75rem;
+    border: none;
+    border-top: 1px solid $state_track;
+    border-radius: 0;
+    background: transparent;
+    text-align: left;
+
+    summary {
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.5rem 0 0;
+      font-family: $font_family_1;
+      font-size: 0.88rem;
+      color: $about_orange_dark;
+
+      &:hover {
+        background: transparent;
+      }
+    }
+
+    &[open] {
+      background: transparent;
+    }
+
+    .declaration-body {
+      padding: 0.6rem 0 0;
+
+      p {
+        margin: 0 0 0.6rem;
+        font-size: 0.88rem;
+        line-height: 1.5;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.member-photo {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 0.7rem;
+  border-radius: 50%;
+  object-fit: cover;
+  // portrait photos: crop from near the top so heads aren't cut off
+  object-position: 50% 0;
+  border: 3px solid #dcecf3;
+}
+
+.member-name {
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: $heading_blue;
+  line-height: 1.25;
+}
+
+.member-creds {
+  font-size: 0.82rem;
+  color: $state_muted;
+}
+
+.member-badge {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 12px;
+  background: #fddcb9;
+  color: #7a3f08;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.member-title {
+  margin-top: 0.5rem !important;
+  font-size: 0.88rem;
+  line-height: 1.35;
+  color: #212529;
+}
+
+.member-aff {
+  font-size: 0.88rem;
+  line-height: 1.35;
+  font-weight: 600;
+  color: #212529;
+}
+
+.member-meta {
+  margin-top: 0.4rem !important;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: $state_muted;
+}
+
+.member-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.7rem !important;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.15rem 0.6rem;
+    border: 1.5px solid $about_orange;
+    border-radius: 999px;
+    color: $about_orange_dark;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      background: $about_orange;
+      color: $about_orange_text;
+    }
+  }
+}
+
+.orcid-icon {
+  width: 14px;
+  height: 14px;
+}
+
+// study working group: smaller cards
+.team-grid-small {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  .member-photo {
+    width: 84px;
+    height: 84px;
+  }
+}
+
+@media (max-width: 900px) {
+  .team-grid,
+  .team-grid-small {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .team-grid,
+  .team-grid-small {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Team page: subgroups one per line, and the past members list */
+.member-expertise {
+  line-height: 1.45;
+}
+
+.past-list {
+  list-style: none;
+  margin: 0.75rem 0 2rem;
+  padding: 0;
+  border-top: 1px solid $state_track;
+  text-align: left;
+
+  li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid $state_track;
+  }
+}
+
+.past-name {
+  font-weight: 600;
+  color: #212529;
+}
+
+.past-term {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  color: $state_muted;
+}
+
+.past-detail {
+  font-size: 0.88rem;
+  color: $state_muted;
+}
+
+/* Team page: coloured tags for discipline subgroups and World Bank region */
+.member-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem;
+  margin-top: 0.55rem !important;
+}
+
+.team-tag {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 12px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+
+  &.tag-ph { background: #c6e2ef; color: #123f55; }
+  &.tag-env { background: #cfe8d3; color: #1f4d2b; }
+  &.tag-math { background: #ffeaa6; color: #5c4500; }
+  &.tag-soc { background: #fddcb9; color: #7a3f08; }
+  &.tag-comm { background: #e6defa; color: #47367a; }
+  &.tag-other { background: #ececec; color: #4d4d4d; }
+  &.tag-region { background: #e3e7ea; color: #37434a; }
+}
+
+// links styled like the POPCORN team page: plain text, ORCID in ORCID green
+.member-card .member-links {
+  gap: 0.9rem;
+
+  a {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    color: #1d7f9e; // readable on white (site link blue is too light at this size)
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      background: transparent;
+      color: #155f77;
+      text-decoration: underline;
+    }
+  }
+
+  a.orcid-link {
+    color: #4d7a14;
+
+    &:hover {
+      color: #3b5e0f;
+    }
+  }
+}
+
+/* Work to date page: how the framework was built (four steps) */
+.build-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.75rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: none;
+  text-align: left;
+
+  li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.9rem 0.9rem 1rem;
+    background: #eef5f8;
+    border-radius: 8px;
+    border-top: 4px solid #185e7e;
+
+    // arrow to the next step
+    &:not(:last-child)::after {
+      content: "\2192";
+      position: absolute;
+      right: -0.7rem;
+      top: 1.1rem;
+      color: #6c757d;
+      font-size: 1rem;
+    }
+  }
+}
+
+.build-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background: #185e7e;
+  color: white;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.build-title {
+  font-weight: 700;
+  color: #212529;
+}
+
+.build-text {
+  font-size: 0.86rem;
+  line-height: 1.4;
+  color: #212529;
+}
+
+/* Work to date page: reconciling terms */
+.recon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.recon-card {
+  padding: 1rem 1.1rem 1.2rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid $about_orange;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.recon-kind {
+  margin: 0 0 0.8rem;
+  font-weight: 700;
+  color: #212529;
+  text-align: center;
+}
+
+.recon-diagram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.recon-pair {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.recon-arrows {
+  color: #6c757d;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.recon-term {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: #fddcb9;
+  color: #7a3f08;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.recon-attr {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0.35rem 0.8rem;
+  border-radius: 6px;
+  background: #c6e2ef;
+  color: #123f55;
+  font-weight: 700;
+  font-size: 0.92rem;
+
+  small {
+    font-weight: 400;
+    font-size: 0.76rem;
+  }
+}
+
+/* Work to date page: anatomy of an item */
+.item-card {
+  margin: 1rem 0 2rem;
+  padding: 1.1rem 1.3rem 1rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid #185e7e;
+  border-radius: 8px;
+  text-align: left;
+
+  p {
+    text-align: left;
+  }
+
+  .declaration {
+    margin-top: 0.6rem;
+  }
+}
+
+.item-path p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.4rem;
+  margin: 0 0 0.6rem;
+  font-size: 0.85rem;
+}
+
+.item-level {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.item-value {
+  font-weight: 600;
+  color: #185e7e;
+
+  &.item-none {
+    font-weight: 400;
+    color: #6c757d;
+  }
+}
+
+.item-sep {
+  color: #6c757d;
+}
+
+.item-name {
+  display: block;
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #212529;
+  margin-bottom: 0.3rem;
+}
+
+.item-facts {
+  margin: 0.4rem 0 0.6rem;
+  padding: 0.7rem 0.9rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+
+  p {
+    margin: 0 0 0.3rem;
+    font-size: 0.9rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.item-fact-label {
+  display: inline-block;
+  min-width: 7.5rem;
+  font-weight: 700;
+  color: #212529;
+}
+
+/* Work to date page: clickable survey preview */
+.survey-preview {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.3rem 1.2rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-left: 5px solid $about_orange;
+  border-radius: 8px;
+  text-align: left;
+
+  p {
+    margin: 0 0 0.4rem;
+    text-align: left;
+  }
+}
+
+.sv-banner {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 12px;
+  background: #fddcb9;
+  color: #7a3f08;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.sv-eyebrow {
+  margin-top: 0.6rem !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.sv-name {
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #212529;
+}
+
+.sv-scale {
+  margin: 0.6rem 0 0.4rem;
+  padding: 0;
+  border: none;
+
+  legend {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #212529;
+  }
+
+  &.sv-off {
+    opacity: 0.4;
+  }
+}
+
+.sv-options {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.35rem;
+}
+
+.sv-opt {
+  position: relative;
+  cursor: pointer;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    min-height: 4.6rem;
+    padding: 0.45rem 0.2rem;
+    border: 1px solid #c9d3d9;
+    border-radius: 6px;
+    background: white;
+    color: #495057;
+    font-size: 0.7rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  b {
+    font-size: 1rem;
+    color: #212529;
+  }
+
+  &:hover span {
+    border-color: #185e7e;
+  }
+
+  input:checked + span {
+    background: #185e7e;
+    border-color: #185e7e;
+    color: white;
+
+    b {
+      color: white;
+    }
+  }
+
+  input:focus-visible + span {
+    outline: 3px solid rgba(24, 94, 126, 0.4);
+    outline-offset: 2px;
+  }
+}
+
+.sv-optout {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.6rem 0 0.4rem;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+
+.sv-feedback {
+  margin-top: 0.5rem !important;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+/* Work to date page: draft framework structure */
+.fw-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+  text-align: left;
+}
+
+.fw-theme {
+  padding: 1rem 1.1rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid #185e7e;
+  border-radius: 8px;
+
+  p {
+    text-align: left;
+  }
+}
+
+.fw-theme-name {
+  margin: 0 0 0.2rem;
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #185e7e;
+}
+
+.fw-theme-desc {
+  margin: 0 0 0.6rem;
+  font-size: 0.86rem;
+  color: #495057;
+}
+
+.fw-domains {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    padding: 0.45rem 0;
+    border-top: 1px solid $state_track;
+  }
+}
+
+.fw-dom {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #212529;
+}
+
+.fw-count {
+  margin-left: 0.3rem;
+  font-size: 0.75rem;
+  color: #6c757d;
+}
+
+.fw-dom-desc {
+  font-size: 0.82rem;
+  color: #495057;
+}
+
+@media (max-width: 768px) {
+  .build-steps,
+  .recon-grid,
+  .fw-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .build-steps li:not(:last-child)::after {
+    content: "\2193";
+    right: auto;
+    left: 50%;
+    top: auto;
+    bottom: -0.95rem;
+  }
+
+  .sv-options {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+// reliability example: keep the two meanings side by side
+.recon-pair .recon-attr {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+// item facts: label column and value column
+.item-facts p {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 0.75rem;
+}
+
+.item-fact-label {
+  min-width: 0;
+}
+
+@media (max-width: 576px) {
+  .item-facts p {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+/* Work to date page: anatomy of a candidate item (field definitions beside values) */
+.anat-card {
+  margin: 1rem 0 2rem;
+  padding: 1rem 1.3rem 0.6rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-top: 4px solid #185e7e;
+  border-radius: 8px;
+  text-align: left;
+
+  p {
+    text-align: left;
+  }
+
+  .item-name {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.anat-row {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem) minmax(0, 1fr);
+  align-items: start;
+  gap: 0.4rem 1.25rem;
+  padding: 0.65rem 0;
+  border-top: 1px solid $state_track;
+
+  > p {
+    margin: 0;
+  }
+
+  > p:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .declaration {
+    margin: 0;
+  }
+
+  .declaration summary {
+    padding: 0.45rem 0.8rem;
+    font-size: 0.95rem;
+  }
+}
+
+.anat-field {
+  font-weight: 700;
+  color: #212529;
+}
+
+.anat-def {
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: #6c757d;
+}
+
+/* Work to date page: expandable themes */
+.fw-list {
+  margin: 1rem 0 2rem;
+  text-align: left;
+
+  .fw-theme {
+    padding: 0;
+    border: 1px solid $state_track;
+    border-left: 4px solid #185e7e;
+    border-top: 1px solid $state_track;
+    border-radius: 6px;
+  }
+
+  summary {
+    color: #185e7e;
+  }
+
+  .fw-summary-count {
+    display: block;
+    margin-top: 0.1rem;
+    font-family: $font_family_1;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #6c757d;
+  }
+}
+
+@media (max-width: 576px) {
+  .anat-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Work to date page: Timeliness card with field definitions */
+.item-path-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 11rem));
+  gap: 1rem;
+  margin: 0 0 0.8rem;
+}
+
+.item-level-box {
+  position: relative;
+  padding: 0.4rem 0.55rem;
+  background: #eef5f8;
+  border-radius: 6px;
+
+  .item-value {
+    font-size: 0.85rem;
+    line-height: 1.25;
+  }
+
+  .anat-def {
+    font-size: 0.7rem;
+  }
+
+  .item-level {
+    font-size: 0.62rem;
+  }
+
+  p {
+    margin: 0 0 0.2rem;
+    text-align: left;
+  }
+
+  .item-value {
+    display: block;
+  }
+
+  // arrow to the next level
+  &:not(:last-child)::after {
+    content: "\203A";
+    position: absolute;
+    right: -0.8rem;
+    top: 0.9rem;
+    color: #6c757d;
+    font-size: 1.1rem;
+  }
+}
+
+.item-card .anat-def {
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #6c757d;
+  font-weight: 400;
+  font-family: $font_family_1;
+}
+
+.item-card > p .item-fact-label {
+  min-width: 0;
+  margin-right: 0;
+}
+
+.item-facts .item-fact {
+  display: grid;
+  // wide label-and-definition column, narrow value column, so rows stay thin
+  grid-template-columns: minmax(0, 1fr) minmax(0, 14rem);
+  gap: 0.2rem 1rem;
+  padding: 0.4rem 0;
+  border-top: 1px solid #e3e7ea;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  p {
+    display: block;
+    margin: 0;
+  }
+}
+
+.item-card .declaration summary > span {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .item-path-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .item-facts .item-fact {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Work to date page: bringing disciplines together */
+.disc-graphic {
+  margin: 1rem 0 2rem;
+  text-align: center;
+}
+
+.disc-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  text-align: left;
+}
+
+.disc-card {
+  padding: 0.8rem 0.85rem 0.9rem;
+  border-radius: 8px;
+  border-top: 4px solid var(--disc);
+  background: var(--disc-bg);
+
+  &.disc-ph { --disc: #185e7e; --disc-bg: #e6f2f8; }
+  &.disc-ah { --disc: #3f7d4a; --disc-bg: #e6f3e8; }
+  &.disc-oh { --disc: #6b56a8; --disc-bg: #efebfa; }
+  &.disc-ww { --disc: #c46a1a; --disc-bg: #fff1e3; }
+}
+
+.disc-name {
+  margin: 0 0 0.45rem;
+  font-weight: 700;
+  font-size: 0.92rem;
+  line-height: 1.3;
+  color: #212529;
+  text-align: left;
+}
+
+.disc-focus {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    position: relative;
+    padding-left: 0.9rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    color: #212529;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.5em;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--disc);
+    }
+  }
+}
+
+.disc-merge {
+  margin: 0.4rem 0;
+  color: #6c757d;
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+}
+
+.disc-hub {
+  margin: 0 auto;
+  max-width: 34rem;
+  padding: 0.9rem 1.2rem;
+  border-radius: 8px;
+  background: #185e7e;
+  color: white;
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.disc-hub-title {
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.disc-hub-text {
+  margin-top: 0.3rem !important;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #e6f2f8;
+}
+
+@media (max-width: 768px) {
+  .disc-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Work to date page: static list of themes */
+.fw-static {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 1rem 0 2rem;
+  text-align: left;
+}
+
+.fw-theme-static {
+  padding: 0.65rem 0.9rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-left: 4px solid #185e7e;
+  border-radius: 6px;
+
+  p {
+    margin: 0;
+    text-align: left;
+  }
+
+  .fw-theme-name {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+.fw-theme-count {
+  margin-top: 0.1rem !important;
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+@media (max-width: 576px) {
+  .fw-static {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Work to date page: Timeliness candidate item card (consistent layout) */
+.tl-card {
+  margin: 1rem 0 2rem;
+  background: white;
+  border: 1px solid $state_track;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+
+  p {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+// every field: small dark blue label, grey definition underneath
+.tl-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #185e7e;
+}
+
+.tl-fdef {
+  display: block;
+  margin-top: 0.1rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #6c757d;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: $font_family_1;
+}
+
+.tl-value {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #212529;
+
+  &.tl-none {
+    font-weight: 400;
+    color: #6c757d;
+  }
+}
+
+.tl-head {
+  padding: 1rem 1.3rem 0.9rem;
+  background: #eef5f8;
+  border-bottom: 1px solid #d6e6ee;
+  border-top: 4px solid #185e7e;
+
+  p + p {
+    margin-top: 0.15rem;
+  }
+}
+
+.tl-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6c757d;
+}
+
+.tl-name {
+  display: block;
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #212529;
+  margin-bottom: 0.35rem;
+}
+
+.tl-section {
+  padding: 0.9rem 1.3rem 1rem;
+  border-bottom: 1px solid $state_track;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .tl-drop {
+    margin: 0.5rem 0 0;
+  }
+
+  .tl-drop summary > span {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.tl-section-title {
+  display: block;
+  margin-bottom: 0.6rem !important;
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #212529;
+}
+
+// three placement boxes across the full width of the card
+.tl-places {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+
+.tl-place {
+  position: relative;
+  padding: 0.6rem 0.75rem 0.7rem;
+  background: #f8f9fa;
+  border: 1px solid $state_track;
+  border-radius: 6px;
+
+  // arrow to the next level
+  &:not(:last-child)::after {
+    content: "\203A";
+    position: absolute;
+    right: -0.85rem;
+    top: 40%;
+    color: #6c757d;
+    font-size: 1.2rem;
+  }
+}
+
+.tl-definition {
+  margin-bottom: 0.6rem;
+  padding: 0.7rem 0.9rem;
+  background: #eef5f8;
+  border-left: 4px solid #185e7e;
+  border-radius: 0 6px 6px 0;
+
+  p:last-child {
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    color: #212529;
+  }
+}
+
+.tl-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 15rem);
+  gap: 0.2rem 1.2rem;
+  align-items: start;
+  padding: 0.55rem 0;
+  border-top: 1px solid $state_track;
+
+  .tl-value {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .tl-places {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .tl-place:not(:last-child)::after {
+    content: "\2193";
+    right: auto;
+    left: 50%;
+    top: auto;
+    bottom: -1.05rem;
+    font-size: 0.95rem;
+  }
+
+  .tl-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+// placement boxes: value right under the label, definition below
+.tl-place .tl-value {
+  margin: 0.2rem 0 0.3rem;
+}
+
+/* Timeliness card: orange colour scheme (overrides the blue defaults above) */
+.tl-card {
+  border-color: #f3d9bd;
+
+  .tl-label {
+    color: $about_orange_dark;
+  }
+
+  .tl-head {
+    background: $about_orange_wash;
+    border-top-color: $about_orange;
+    border-bottom-color: #f3d9bd;
+  }
+
+  .tl-section {
+    border-bottom-color: #f3e3d0;
+  }
+
+  .tl-place {
+    background: #fffaf4;
+    border-color: #f3d9bd;
+  }
+
+  .tl-definition {
+    background: transparent;
+    border-left-color: $about_orange;
+  }
+
+  .tl-row {
+    border-top-color: #f3e3d0;
+  }
+}
+
+// drop-down titles in the card use the normal drop-down font again
+.tl-drop-title {
+  display: block;
+  font-family: $font_family_2, serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: $state_text;
+}

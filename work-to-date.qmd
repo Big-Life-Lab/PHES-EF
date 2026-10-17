@@ -1,0 +1,303 @@
+---
+title: "Work to date"
+---
+
+::: justify-text
+PHES-EF is in its second step: generating the candidate evaluation items that panellists will rate in the e-Delphi survey. Two scoping reviews have mapped how surveillance systems are evaluated across public health, animal health, One Health and wastewater surveillance. The terms they identified have been reconciled into a draft framework, which the executive group is reviewing before the survey opens in 2027. This page summarizes that work and shows what panellists will see.
+
+<!-- Numbers below come from the framework working files (October 2026); update them as the framework changes -->
+
+::::: stat-grid
+:::: stat-tile
+[74]{.stat-number}
+
+[Terms in the dictionary]{.stat-label}
+::::
+
+:::: stat-tile
+[73]{.stat-number}
+
+[Wastewater sources coded]{.stat-label}
+::::
+
+:::: stat-tile
+[1,462]{.stat-number}
+
+[Coded annotations]{.stat-label}
+::::
+
+:::: stat-tile
+[68]{.stat-number}
+
+[Draft candidate items]{.stat-label}
+::::
+:::::
+
+## How the framework was built
+
+```{=html}
+<ol class="build-steps">
+  <li><span class="build-num">1</span><span class="build-title">Review</span><span class="build-text">Two scoping reviews: existing evaluation frameworks, and lessons learned from wastewater surveillance during COVID-19.</span></li>
+  <li><span class="build-num">2</span><span class="build-title">Extract</span><span class="build-text">Evaluation terms, definitions and measurement approaches coded from each source.</span></li>
+  <li><span class="build-num">3</span><span class="build-title">Reconcile</span><span class="build-text">Terms matched across disciplines, recording synonyms and related terms.</span></li>
+  <li><span class="build-num">4</span><span class="build-title">Organize</span><span class="build-text">Terms arranged into themes, domains and attributes, then reviewed by the executive group.</span></li>
+</ol>
+```
+
+### Reconciling terms across disciplines
+
+Evaluation terms are not used the same way in every field. The same word can mean different things, and the same idea can go by different names. Each term in the framework records its synonyms ("also known as") and related terms ("see also"), so readers from any discipline can find it.
+
+```{=html}
+<div class="recon-grid">
+  <div class="recon-card">
+    <p class="recon-kind">Same name, different meanings</p>
+    <div class="recon-diagram">
+      <span class="recon-term">&ldquo;reliability&rdquo;</span>
+      <span class="recon-arrows" aria-hidden="true">&#8601;&nbsp;&nbsp;&#8600;</span>
+      <div class="recon-pair">
+        <span class="recon-attr">Stability<small>the system keeps working when it is needed</small></span>
+        <span class="recon-attr">Consistency<small>data mean the same thing over time</small></span>
+      </div>
+    </div>
+  </div>
+  <div class="recon-card">
+    <p class="recon-kind">Different names, same meaning</p>
+    <div class="recon-diagram">
+      <div class="recon-pair">
+        <span class="recon-term">acceptability</span>
+        <span class="recon-term">engagement</span>
+        <span class="recon-term">participation</span>
+      </div>
+      <span class="recon-arrows" aria-hidden="true">&#8600;&nbsp;&#8595;&nbsp;&#8601;</span>
+      <span class="recon-attr">Acceptability and engagement<small>The willingness of individuals and organizations to participate in the surveillance system and the depth of their active involvement (CDC 2001; Calba 2015; Goutard 2022; Hoinville 2013).</small></span>
+    </div>
+  </div>
+</div>
+```
+
+### Bringing disciplines together
+
+Each surveillance tradition has its own evaluation focus. Public health frameworks emphasize how quickly and accurately a system detects cases; animal health frameworks add costs and laboratory performance; One Health frameworks emphasize governance and collaboration across sectors; and wastewater surveillance adds early warning, coverage and ethics. PHES-EF brings these together into one comprehensive view of public health environmental surveillance.
+
+```{=html}
+<div class="disc-graphic" role="img" aria-label="Four surveillance disciplines, each with its own evaluation focus, combine into the PHES-EF framework">
+<div class="disc-grid">
+  <div class="disc-card disc-ph">
+    <p class="disc-name">Public health surveillance</p>
+    <ul class="disc-focus"><li>Timeliness</li><li>Sensitivity</li><li>Representativeness</li><li>Data quality</li><li>Portability</li></ul>
+  </div>
+  <div class="disc-card disc-ah">
+    <p class="disc-name">Animal health surveillance</p>
+    <ul class="disc-focus"><li>Cost and efficiency</li><li>Sensitivity (freedom from disease)</li><li>Precision</li><li>Laboratory and sample management</li><li>Participatory methods</li></ul>
+  </div>
+  <div class="disc-card disc-oh">
+    <p class="disc-name">One Health surveillance</p>
+    <ul class="disc-focus"><li>Governance</li><li>Professional partnerships</li><li>System integration</li><li>Data sharing</li></ul>
+  </div>
+  <div class="disc-card disc-ww">
+    <p class="disc-name">Wastewater surveillance</p>
+    <ul class="disc-focus"><li>Early-warning lead time</li><li>Coverage</li><li>Consent and public authorization</li><li>Community engagement</li></ul>
+  </div>
+</div>
+<div class="disc-merge" aria-hidden="true">&#8600;&nbsp;&nbsp;&#8595;&nbsp;&nbsp;&#8595;&nbsp;&nbsp;&#8601;</div>
+<div class="disc-hub">
+  <p class="disc-hub-title">PHES-EF: a comprehensive view</p>
+</div>
+</div>
+```
+
+## Anatomy of a Delphi candidate item: Timeliness
+
+Timeliness is one of the best-evidenced items in the draft framework. Here is everything a candidate item records, with a short definition of each field.
+
+:::::: tl-card
+::::: tl-head
+[Delphi candidate item]{.tl-eyebrow}
+
+[Timeliness]{.tl-name}
+
+[Attribute]{.tl-label} [A measurable property or characteristic.]{.tl-fdef}
+:::::
+
+::::: tl-section
+[Where it sits in the framework]{.tl-section-title}
+
+::::: tl-places
+:::: tl-place
+[Theme]{.tl-label}
+
+[Surveillance effectiveness]{.tl-value}
+
+[A high-level grouping of related concepts that define broad areas of public health evaluation.]{.tl-fdef}
+::::
+
+:::: tl-place
+[Domain]{.tl-label}
+
+[System performance]{.tl-value}
+
+[A major area of focus within a theme.]{.tl-fdef}
+::::
+
+:::: tl-place
+[Subdomain]{.tl-label}
+
+[None (not needed here)]{.tl-value .tl-none}
+
+[A specific aspect or perspective within a domain.]{.tl-fdef}
+::::
+
+:::::
+:::::
+
+::::: tl-section
+[What it means]{.tl-section-title}
+
+:::: tl-definition
+[Definition]{.tl-label} [A concise definition derived from the scoping review literature that captures the essential meaning of the concept.]{.tl-fdef}
+
+The time elapsing between any two defined steps in the surveillance process. (CDC 1988; CDC 2001; Groseclose & Buckeridge 2017)
+::::
+
+:::: tl-row
+[Exact synonym]{.tl-label} [Terms with the same definition as the main schema term.]{.tl-fdef}
+
+[Reactivity (European public health guidance)]{.tl-value}
+::::
+
+:::: tl-row
+[Broad synonym]{.tl-label} [Terms with broadly the same definition as the main schema term.]{.tl-fdef}
+
+[None recorded]{.tl-value .tl-none}
+::::
+
+:::: tl-row
+[See also]{.tl-label} [Related terms that provide additional context or relevance to the main schema term.]{.tl-fdef}
+
+[Simplicity; early-warning lead time]{.tl-value}
+::::
+
+:::::
+
+::::: tl-section
+[Evidence from the scoping reviews]{.tl-section-title}
+
+```{=html}
+<details class="declaration tl-drop">
+<summary><span><span class="tl-drop-title">Description</span><span class="tl-fdef">An explanation of the term that builds on the definition.</span></span></summary>
+<div class="declaration-body">
+```
+
+Timeliness measures how much time passes as a health event moves through the surveillance system toward public health action. (Azofeifa 2018; CDC 1988) How much timeliness a system needs depends on the health event: rapid reporting is critical for acute, highly transmissible diseases, whereas less urgent conditions allow slower reporting. (Declich 1994; CDC 2001) It is influenced by how the surveillance system is designed, the resources available, and the volume and complexity of the data. (Groseclose & Buckeridge 2017; Declich 1994; Sosin 2003) Delays in laboratory results or data flow can hinder a timely response, particularly in resource-limited settings. (Innes 2022; Sahal 2009) Poor timeliness can also reduce the usefulness of the data and the acceptability of the surveillance system. (Sahal 2009; ECDC 2014; Buehler 2004)
+
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration tl-drop">
+<summary><span><span class="tl-drop-title">Background</span><span class="tl-fdef">The historical development, theoretical foundations and evidence base that establish the concept’s importance in surveillance system evaluation.</span></span></summary>
+<div class="declaration-body">
+```
+
+Timeliness has been part of surveillance evaluation since the earliest public health guidelines, which described it as “the speed or delay between steps in a surveillance system” and set the interval between a health event and its reporting, the identification of trends or outbreaks, and the implementation of control measures. (CDC 1988; Thacker 1988) The updated guidelines kept this framing, noting that “the time interval linking any two of these steps can be examined”, and judged the attribute by the availability of information for control. (CDC 2001) Later guidance anchored the interval as early as exposure to the agent and carried it through to the start of control measures. (Buehler 2004; Health Canada 2004; WHO 2006) Standardized terminology for animal health surveillance then settled on a common formulation: “the time between any two defined steps in a surveillance system”. (Hoinville 2013; Drewe 2015)
+
+In public health surveillance, timeliness is treated as a core attribute, measured as the interval between defined steps and interpreted according to the purpose the system serves. (Groseclose 2010; Groseclose & Buckeridge 2017; Sosin 2003) Animal health frameworks use the same definition, applying it through both quantitative and semi-quantitative assessment methods. (Hoinville 2013; Muellner 2018; Peyre 2019) One Health evaluations adopt the same formulation while noting practical constraints, notably the laboratory delays that lengthen the measured interval. (Innes 2022; Peyre 2022) Wastewater-based surveillance recasts it as “the ability of the WS to deliver timely results and to provide an early warning signal compared to other surveillance systems”, gauged by the lead time between environmental and clinical indicators. (Amato 2023) The underlying definition is consistent across disciplines; differences lie mainly in which steps each setting measures, though European public health guidance also labels the concept reactivity. (Groseclose & Buckeridge 2017; Peyre 2019; ECDC 2014)
+
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration tl-drop">
+<summary><span><span class="tl-drop-title">Evaluation methods (10)</span><span class="tl-fdef">The methods or tools used to quantify an attribute.</span></span></summary>
+<div class="declaration-body">
+```
+
+- Interval measurement between defined steps: measuring the time elapsing between any two defined steps in the surveillance process, with the steps chosen to be epidemiologically meaningful for the system's purpose (CDC 1988; CDC 2001; Hoinville 2013; Drewe 2015).
+- Median reporting delay: calculating the median number of days between a reference date, such as disease onset or diagnosis, and the date of report to the receiving agency (Jajosky 2004).
+- Benchmarking against the disease time course: expressing the measured interval as the percentage of cases reported within one or more incubation periods for the health event (Jajosky 2004; Buehler 2004).
+- Proportion reported within a target window: the share of reports or outbreak notifications submitted within a predefined schedule, such as 24 or 48 hours (WHO 2006; ECDC 2014).
+- Interim-milestone timeline: mapping fixed milestones along the surveillance chain to locate and compare the intervals that drive overall timeliness (Buehler 2004; Crawley 2021).
+- Alert lead-time comparison: comparing the time at which a statistical alert is generated against detection by an established surveillance component (Buehler 2008; Groseclose 2013).
+- Normalized timeliness score: modelling the measured interval with an exponential decay function to obtain a score between 0 and 1 (Arinik 2023).
+- Trend analysis of median timeliness: applying Cox proportional hazards regression to assess changes in median timeliness over time (Crawley 2021).
+- Time-to-detection against a reference indicator: estimating the lead time between an environmental or surveillance signal and a clinical or gold-standard indicator (Amato 2023; Arinik 2023).
+- Qualitative key-informant assessment: interviewing system operators to judge whether the achieved intervals meet the surveillance purpose (Harper 2011; Groseclose 2010).
+
+```{=html}
+</div>
+</details>
+```
+
+:::::
+::::::
+
+## What the survey will look like
+
+In Round 1, panellists see the items for their discipline subgroup, grouped by domain, and rate whether each one should be included in the framework. Try the example below.
+
+```{=html}
+<div class="survey-preview">
+  <p class="sv-banner">Example only. Nothing you select here is saved or sent.</p>
+  <p class="sv-eyebrow">Surveillance effectiveness · System performance</p>
+  <p class="sv-name">Timeliness</p>
+  <p class="sv-def">The time elapsing between any two defined steps in the surveillance process.</p>
+  <fieldset class="sv-scale" id="sv-scale">
+    <legend>How relevant is this attribute for inclusion in the evaluation framework?</legend>
+    <div class="sv-options">
+<label class="sv-opt"><input type="radio" name="sv-rating" value="1"><span><b>1</b>Highly irrelevant</span></label>
+<label class="sv-opt"><input type="radio" name="sv-rating" value="2"><span><b>2</b>Moderately irrelevant</span></label>
+<label class="sv-opt"><input type="radio" name="sv-rating" value="3"><span><b>3</b>Slightly irrelevant</span></label>
+<label class="sv-opt"><input type="radio" name="sv-rating" value="4"><span><b>4</b>Neutral</span></label>
+<label class="sv-opt"><input type="radio" name="sv-rating" value="5"><span><b>5</b>Slightly relevant</span></label>
+<label class="sv-opt"><input type="radio" name="sv-rating" value="6"><span><b>6</b>Moderately relevant</span></label>
+<label class="sv-opt"><input type="radio" name="sv-rating" value="7"><span><b>7</b>Highly relevant</span></label>
+    </div>
+  </fieldset>
+  <label class="sv-optout"><input type="checkbox" id="sv-optout"> I do not feel comfortable rating this attribute</label>
+  <p class="sv-feedback" id="sv-feedback" aria-live="polite">Choose a rating to see how your answer is recorded.</p>
+</div>
+<script>
+  (function () {
+    var scale = document.getElementById("sv-scale");
+    var optout = document.getElementById("sv-optout");
+    var feedback = document.getElementById("sv-feedback");
+    var labels = ["Highly irrelevant", "Moderately irrelevant", "Slightly irrelevant", "Neutral", "Slightly relevant", "Moderately relevant", "Highly relevant"];
+    scale.addEventListener("change", function (e) {
+      var v = Number(e.target.value);
+      feedback.textContent = "Recorded (example only): " + v + " of 7, " + labels[v - 1].toLowerCase() + ".";
+    });
+    optout.addEventListener("change", function () {
+      scale.disabled = optout.checked;
+      scale.classList.toggle("sv-off", optout.checked);
+      feedback.textContent = optout.checked
+        ? "Recorded (example only): not comfortable rating. This is reported, not treated as a missing answer."
+        : "Choose a rating to see how your answer is recorded.";
+    });
+  })();
+</script>
+```
+
+In Round 2, items without consensus are rated again on four properties: relevance and practical utility; scientific rigour; feasibility; and equity. See the [e-Delphi study page](delphi.qmd) for how consensus is defined.
+
+## Draft framework structure
+
+[Draft, subject to change]{.doc-tag} The draft framework has 7 themes, 21 domains and 68 candidate items. Themes organize the domains for this overview and are not rated by panellists.
+
+```{=html}
+<div class="fw-static">
+<div class="fw-theme-static"><p class="fw-theme-name">System structure and processes</p><p class="fw-theme-count">4 domains · 14 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">Surveillance effectiveness</p><p class="fw-theme-count">7 domains · 22 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">Partnerships and community engagement</p><p class="fw-theme-count">4 domains · 14 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">System capacity and resilience</p><p class="fw-theme-count">2 domains · 10 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">Financial performance and resources</p><p class="fw-theme-count">2 domains · 3 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">Overall performance</p><p class="fw-theme-count">1 domain · 4 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">System description</p><p class="fw-theme-count">1 domain · 1 candidate item</p></div>
+</div>
+```
+
+:::

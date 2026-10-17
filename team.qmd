@@ -2,103 +2,194 @@
 title: "Team"
 ---
 
-The executive group is a multidisciplinary and multinational group composed of 12 members. Executive group members will provide expertise on the following areas: mathematical sciences, social sciences, environmental and physical sciences, public health and medicine, and public interest/knowledge users.
+```{r setup}
+#| include: false
+# Team cards are built from data/team-members.csv (one row per person).
+# To add or update someone, edit the spreadsheet; this page rebuilds itself.
+# Base R only, so no extra packages are needed.
+team <- read.csv("data/team-members.csv", stringsAsFactors = FALSE,
+                 encoding = "UTF-8", na.strings = character(0))
 
-## Executive Group
+# Escape HTML and write any non-ASCII character (é, ’, ·) as a numeric HTML
+# entity, so the page is correct whatever locale R runs in.
+esc <- function(x) {
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  vapply(x, function(s) {
+    cp <- utf8ToInt(enc2utf8(s))
+    paste(ifelse(cp > 127, sprintf("&#%d;", cp), intToUtf8(cp, multiple = TRUE)), collapse = "")
+  }, character(1), USE.NAMES = FALSE)
+}
+dot <- " &middot; "
+has <- function(x) !is.na(x) && nzchar(trimws(x))
+cap1 <- function(x) paste0(toupper(substring(x, 1, 1)), substring(x, 2))
 
-### Douglas Manuel (Co-chair)
+# Expertise is one or more of the five discipline subgroups, separated by ";"
+expertise_of <- function(x) {
+  if (!has(x)) return(character(0))
+  trimws(strsplit(x, ";", fixed = TRUE)[[1]])
+}
 
-![](assets/doug_manuel.jpg){.person_img width="200"}[Public Health]{.public_health}[North America]{.north_america} Doug Manuel is a Distinguished Professor at the University of Ottawa in the Departments of Family Medicine and School of Epidemiology and Public Health. He is a Senior Scientist at The Ottawa Hospital Research Institute, and a Senior Investigator at the Bruyère Health Research Institute. Dr. Manuel hold as M.D. from Dalhousie University, and M.Sc. in Epidemiology and Royal College Speciality in Public Health from the University of Toronto.
+# one colour per discipline subgroup
+tag_class <- function(x) {
+  key <- c("Public health, infectious disease and epidemiology" = "tag-ph",
+           "Environmental and physical sciences" = "tag-env",
+           "Mathematical sciences" = "tag-math",
+           "Social sciences" = "tag-soc",
+           "Communication, knowledge translation and exchange" = "tag-comm")
+  out <- unname(key[x]); out[is.na(out)] <- "tag-other"; out
+}
 
-He leads the development of the Public Health Environmental Surveillance Open Data Model (PHES ODM) which is used worldwide for wastewater surveillance. He consults for the World Bank for the development of wastewater surveillance in low- and middle-income countries. He formerly led the  Coronavirus Variants Rapid Response Network (CoVaRR-Net) Wastewater Research Group.
+orcid_icon <- '<svg class="orcid-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#a6ce39"/><text x="12" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="#fff" font-family="Arial, sans-serif">iD</text></svg>'
 
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/utske){.btn .btn-secondary}
+# badge: which column holds the role badge ("role" shows Co-chair; "working_role"
+# shows the working group role)
+card <- function(p, badge = "role") {
+  name <- paste(p$first_name, p$last_name)
+  out <- c('<div class="member-card">')
+  # photo_style (optional) adjusts one person's photo crop, e.g. a centred crop
+  # or extra space around a tightly framed headshot
+  style <- if (has(p$photo_style)) sprintf(' style="%s"', esc(p$photo_style)) else ""
+  out <- c(out, sprintf('<img class="member-photo" src="%s" alt="%s"%s>', p$photo, esc(name), style))
+  out <- c(out, sprintf('<p class="member-name">%s</p>', esc(name)))
+  if (has(p$post_nominals))
+    out <- c(out, sprintf('<p class="member-creds">%s</p>', esc(p$post_nominals)))
+  b <- p[[badge]]
+  if (has(b) && b != "Member")
+    out <- c(out, sprintf('<p><span class="member-badge">%s</span></p>', esc(b)))
+  if (has(p$title))
+    out <- c(out, sprintf('<p class="member-title">%s</p>', esc(p$title)))
+  if (has(p$affiliation))
+    out <- c(out, sprintf('<p class="member-aff">%s</p>', esc(p$affiliation)))
+  # coloured tags: World Bank region first, then discipline subgroups
+  # (public health, infectious disease and epidemiology always listed last)
+  ex <- expertise_of(p$expertise)
+  ex <- ex[order(ex == "Public health, infectious disease and epidemiology")]
+  tags <- c(if (has(p$region)) sprintf('<span class="team-tag tag-region">%s</span>', esc(p$region)),
+            sprintf('<span class="team-tag %s">%s</span>', tag_class(ex), esc(ex)))
+  if (length(tags))
+    out <- c(out, sprintf('<p class="member-tags">%s</p>', paste(tags, collapse = "")))
+  if (has(p$term))
+    out <- c(out, sprintf('<p class="member-meta">Executive group member, %s</p>', esc(p$term)))
 
-### David Buckeridge (Co-chair)
+  # text links, as on the POPCORN team page: ORCID, Web bio, COI form
+  links <- character(0)
+  if (has(p$orcid))
+    links <- c(links, sprintf('<a class="orcid-link" href="https://orcid.org/%s" aria-label="ORCID iD for %s">%s ORCID</a>',
+                              p$orcid, esc(name), orcid_icon))
+  if (has(p$profile_url))
+    links <- c(links, sprintf('<a href="%s">Web bio</a>', p$profile_url))
+  if (has(p$coi_url))
+    links <- c(links, sprintf('<a href="%s/?action=download" aria-label="Conflict-of-interest disclosure form for %s (PDF)">COI form</a>',
+                              p$coi_url, esc(name)))
+  if (length(links))
+    out <- c(out, sprintf('<p class="member-links">%s</p>', paste(links, collapse = "")))
 
-![](assets/Buckeridge_David_Square_small.jpg){.person_img width="200"}[Public Health]{.public_health}[North America]{.north_america} David Buckeridge is a Professor in the School of Population and Global Health at McGill University in Montreal where he directs the Surveillance Lab, an interdisciplinary group that develops, implements, and evaluates novel computational methods for population health surveillance. He also directs the Anonymized Data Warehouse at the McGill University Health Center, provides informatics advice to the Quebec Institute for Excellence in Health and Social Services, and leads data management and analytics for the COVID-19 Immunity Task Force.
+  if (has(p$bio)) {
+    paras <- strsplit(p$bio, "\n\n", fixed = TRUE)[[1]]
+    out <- c(out, '<details class="declaration member-bio">', '<summary>Read bio</summary>',
+             '<div class="declaration-body">',
+             sprintf('<p>%s</p>', esc(paras)), '</div>', '</details>')
+  }
+  c(out, '</div>')
+}
 
-His research and practice focus on the informatics of health surveillance and disease control and he holds a North America Research Chair (Tier 1) in Health Informatics and Data Science. Dr Buckeridge sits on the Expert Panel advising the Canadian government about health systems during the COVID-19 pandemic. He is also a technical advisor to the World Health Organization Epidemic Intelligence from Open Sources (EIOS) program on the application of artificial intelligence to global infectious disease surveillance. Dr Buckeridge holds an M.D. from Queen's University, a M.Sc. in Epidemiology from the University of Toronto, and a Ph.D. in Biomedical Informatics from Stanford University.
+grid <- function(rows, cls = "team-grid", badge = "role") {
+  cards <- unlist(lapply(seq_len(nrow(rows)), function(i) card(rows[i, ], badge)))
+  cat(paste(c(sprintf('<div class="%s">', cls), cards, '</div>'), collapse = "\n"), "\n")
+}
 
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/uky82){.btn .btn-secondary}
+exec <- team[team$group == "executive", ]
+# Co-chairs first, in spreadsheet order (principal investigator first); then members A-Z
+exec$row <- seq_len(nrow(exec))
+exec <- exec[order(exec$role != "Co-chair", ifelse(exec$role == "Co-chair", exec$row, 0), exec$last_name), ]
+# Study working group: everyone marked working_group = yes (principal investigator first)
+working <- team[team$working_group == "yes", ]
+working <- working[order(working$working_role == "", working$last_name), ]
+past <- team[team$group == "past", ]
 
-### Yoni Freedhoff
+n_regions <- length(unique(exec$region[nzchar(exec$region)]))
+n_expertise <- length(unique(unlist(lapply(exec$expertise, expertise_of))))
 
-![](assets/yoni_freedhoff.jpg){.person_img width="200"}[Public interest]{.knowledge_user}[Communication]{.public_health}[North America]{.north_america} Yoni Freedhoff is an Associate Professor of Family Medicine at the University of Ottawa and the medical director of the Bariatric Medical Institute as well as Constant Health. Outside patient care he has dedicated much of his professional career to science communication and public health advocacy which has led him to author a number one national bestselling book, have bylines in the New York Times, TIME, Macleans and more, author on ongoing Medscape column, serve as a regular expert for both national and international media, and on multiple occasions deliver invited testimony to North America's Senate and House of Commons.
+past_list <- function(rows) {
+  items <- vapply(seq_len(nrow(rows)), function(i) {
+    p <- rows[i, ]
+    detail <- c(if (has(p$title)) p$title, if (has(p$affiliation)) p$affiliation,
+                if (has(p$expertise)) paste(expertise_of(p$expertise), collapse = "; "))
+    sprintf('<li><span class="past-name">%s</span> <span class="past-term">%s</span><br><span class="past-detail">%s</span></li>',
+            esc(paste(p$first_name, p$last_name)), esc(p$term), paste(esc(detail), collapse = dot))
+  }, character(1))
+  cat(paste(c('<ul class="past-list">', items, '</ul>'), collapse = "\n"), "\n")
+}
+```
 
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/d8bcm){.btn .btn-secondary}
+Our work on PHES-EF is led by an international collaborative group committed to transparency and rigour in the evaluation of public health environmental surveillance. Our team brings together expertise from diverse regions, disciplines, and actor and end-user perspectives.
 
-### Sarah Funnell
+::::: stat-grid
+:::: stat-tile
+[`r nrow(exec)`]{.stat-number}
 
-![](assets/sarah_funnell.jpg){.person_img width="200"}[Public Health]{.public_health}[North America]{.north_america} Dr. Sarah Funnell is a First Nations family physician, public health specialist, and clinician scientist. Her background is mixed Algonquin and Tuscarora ancestry, and she grew up among the Mississaugas of Alderville First Nation and is a current band member of Kitigan Zibi First Nation. Her Algonquin name, Minwanimad, means pleasant breeze and was given to her by her great Auntie who saw her gift of leadership.
+[Executive group members]{.stat-label}
+::::
 
-Dr. Sarah Funnell is the Associate Dean and Chair of Indigenous Health at Queen's Health Sciences (QHS) and Assistant Professor, Department of Family Medicine. In these roles she leads efforts to incorporate Indigenous health and cultural perspectives into health education, administration, research, and clinical practice.
+:::: stat-tile
+[`r n_regions`/7]{.stat-number}
 
-Dr. Funnell has a passion for leadership and good governance. She is an executive and founding member of the National Consortium for Indigenous Medical Education and a Senior Editor for the Canadian Journal of Public Health. Throughout her career, she has been an active voice and advocate to improve Indigenous health and curriculum through her volunteer work with College of Family Physicians of Canada (CFPC), Royal College, Medical Council of Canada, Medical Council of Canada (MCC), and the Association of Faculties of Medicine of Canada (AFMC).
+[World Bank regions]{.stat-label}
+::::
 
-Her research focus includes Indigenous population health, Indigenous data governance, and the impact of COVID-19 on the healthcare of Indigenous older adults. She is an award-winning educator and prolific speaker on topics related to Indigenous health, health equity, public health, and primary care.
+:::: stat-tile
+[`r n_expertise`/5]{.stat-number}
 
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/9fxdh){.btn .btn-secondary}
+[Discipline subgroups]{.stat-label}
+::::
 
-### Bernd Gawlik
+:::: stat-tile
+[`r nrow(working)`]{.stat-number}
 
-![](assets/bernd_gawlik.jpg){.person_img width="200"}[Chemical engineering]{.environmental_sciences}[Europe and Central Asia]{.europe} Dr. Bernd Manfred Gawlik is Portfolio Leader at the European Commission's Joint Research Centre, where he coordinates the activities on water quality. He holds an Engineering degree from the French Higher Institute for Industrial Chemistry and a Ph.D. on Natural Sciences from Technical University of Munich. In the past two decades he has been working on several major European environmental directives involving chemical monitoring and pollutants of emerging concern. He is a closely involved in the Common Implementation Strategy of the Water Framework Directive, umbrella under which he co-designed the Water Reuse Regulation. During the pandemic, Bernd united the European actors and stakeholder on wastewater-based epidemiology and ensured the speedy translation from knowledge to action as expressed by the respective Recommendation of the European Commission. Bernd is the author/co-author of more than 100 scientific paper, books and reports of the European Commission and promotes novel approaches on water diplomacy.
+[Study working group]{.stat-label}
+::::
+:::::
 
-### Farah Ishtiaq
+## Executive group
 
-![](assets/farah_ishtiaq.jpg){.person_img width="200"}[Evolutionary ecology]{.environmental_sciences}[Epidemiology]{.public_health}[South Asia]{.south_asia} Farah is an evolutionary ecologist interested in the ecology and evolution of emerging infectious diseases. Their experience in research and conservation is based on 25 years of involvement in various projects around the world. They have a national coordinator of Important Bird Areas programme (India) and conducted research on critically endangered and threatened birds, impact of introduced birds and their parasites (avian malaria in Hawaii) at Smithsonian Institution as a postdoc and vector communities on remote pacific islands (New Caledonia, Vanuatu and nearby islands) as Marie Curie Fellow at University of Oxford, and ecology of avian influenza SE Asia (Mongolia) with Wildlife Conservation Society. As Wellcome Trust/DBT India Alliance fellow, their long-term research explored the epidemiology of avian malaria and spread of disease in high altitude malaria-free zones in the face of climate-change. In their current role at Tata Institute for Genetics and Society, they lead the disease ecology and environmental surveillance -- mainly focusing on ecology and population genomics of key mosquito species involved in malaria and dengue transmission in India. They also lead environmental surveillance of SARS-CoV-2 as an early warning system for Bengaluru city and expanding it to other pathogens.
+The executive group oversees and supports the development of PHES-EF. Co-chaired by Doug Manuel and David Buckeridge, it brings together members from five World Bank regions and all five of the study's discipline subgroups: public health, infectious disease and epidemiology; environmental and physical sciences; mathematical sciences; social sciences; and communication, knowledge translation and exchange.
 
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/f5bme){.btn .btn-secondary}
+Members contribute by:
 
-### Amy Kirby
+::: method-points
+- reviewing the candidate evaluation items for their organization, completeness, gaps and redundancy
+- advising the study working group in their areas of expertise
+- connecting the study with related projects and networks
+- helping identify e-Delphi panellists and promoting the survey among their professional contacts
+- taking part in the consensus meeting to agree on the final framework
+- guiding dissemination and promoting adoption of the framework among actors and end-users
+:::
 
-![](assets/amy_kirby.jpg){.person_img width="200"}[Public health]{.public_health}[Microbiology]{.environmental_sciences}[North America]{.north_america} Dr. Amy Kirby is an Environmental Microbiologist in the Waterborne Disease Prevention Branch and the Program Lead for the National Wastewater Surveillance System (NWSS) at the Centers for Disease Control and Prevention (CDC). She has a Bachelor of Science in Agriculture from the University of Georgia, a PhD in Microbiology from the University of Buffalo, SUNY, and a Master of Public Health in Epidemiology from Emory University. At CDC, Dr. Kirby is interested in leveraging environmental microbiology methods to measure pathogens, antibiotic resistance genes, and other health indicators in natural and man-made water systems.
+```{r executive}
+#| echo: false
+#| output: asis
+grid(exec)
+```
 
-### Kerrigan McCarthy
+## Study working group
 
-![](assets/Kerrigan_McCarthy.png){.person_img width="200"}[Public health]{.public_health}[Microbiology]{.environmental_sciences}[Sub-Saharan Africa]{.ss_africa} Dr. Kerrigan McCarthy is a specialist pathologist in the discipline of microbiology who specialises in the laboratory diagnosis of infectious disease. She has a PhD in Public Health from Wits. She has worked at the NICD in quality assurance and mycology, and for a number of NGOs doing health system strengthening in the area of TB/HIV integration. She co-ordinated the national evaluation of the GeneXpert technology for the diagnosis of tuberculosis. Since working at the NICD she has supported national and provincial responses to outbreaks, including listeria and SARS-CoV-2.
+The PHES-EF study working group, based at the Ottawa Hospital Research Institute, manages day-to-day research activities, coordinates the executive group, facilitates engagement with actors and end-users, and supports the implementation of all project components. The team moves the project forward through research coordination, knowledge synthesis, consultation with actors and end-users, and framework development.
 
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/3hyr8){.btn .btn-secondary}
+```{r working}
+#| echo: false
+#| output: asis
+grid(working, "team-grid team-grid-small", badge = "working_role")
+```
 
-### David Moher
+## Past members
 
-![](assets/david_moher.png){.person_img width="200"}[Knowledge synthesis]{.public_health}[Epidemiology]{.public_health}[North America]{.north_america} Dr. David Moher is a senior scientist, Clinical Epidemiology Program, Ottawa Hospital Research Institute, where he directs the Centre for Journalology. Dr. Moher is also a full Professor, School of Epidemiology and Public Health, Faculty of Medicine, University of Ottawa. Dr. Moher received an MSc in epidemiology and PhD in clinical epidemiology and biostatistics. Dr. Moher is a fellow of the Royal Society of North America, and Canadian Academy of Health Sciences. Dr. Moher works in knowledge synthesis; predatory journals; reporting guidelines; and open science.
-
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/ws5u7){.btn .btn-secondary}
-
-### Beate Sander
-
-![](assets/beate_sander.jpg){.person_img width="200"}[Infectious disease economics]{.public_health}[Simulation modelling]{.public_health}[North America]{.north_america}Beate Sander, RN MBA MEcDev PhD, holds a Canada Research Chair in Economics of Infectious Diseases, is a Senior Scientist at the Toronto Health Economics and Technology Assessment (THETA) collaborative at the Toronto General Hospital Research Institute, University Health Network (UHN), and Professor at the Institute of Health Policy, Management and Evaluation (IHPME), University of Toronto.
-
-Dr. Sander is an internationally recognized leader in infectious disease economics with extensive expertise in health economics and simulation modeling. Her research focus is on assessing infectious disease interventions using simulation modeling and on estimating the burden of infectious diseases using population-based data. Dr. Sander has received several awards for research excellence.
-
-Dr. Sander is an expert to national and international advisory bodies, including North America's National Advisory Committee for Immunization (NACI), where she chairs the Economics Task Group and co-chairs the Economic Guidelines Task Group -- a group tasked with developing national guidelines for the economic evaluation of vaccines, which will set the standard for conducting economic evaluations for vaccines in North America. Dr. Sander co-chaired the Ontario COVID-19 Modeling Consensus Table from March 2020 to March 2022 and was a member of Ontario's Science Advisory Table, leading timely COVID-19 evidence generation and knowledge mobilization. Dr. Sander is a member of several Federal expert advisory committees and President of the international Society for Medical Decision Making.
-
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/vz72q){.btn .btn-secondary}
-
-### Jeremy Veillard
-
-![](assets/jeremy_veillard.jpg){.person_img width="200"}[Health services]{.public_health}[Public health]{.public_health}[Latin America and Caribbean]{.latin_america} Jeremy Veillard is a Lead Health Specialist in the Latin America and Caribbean Region, for Health, Nutrition and Population, at the World Bank. Jeremy is a former health care executive in North America and France, with deep expertise in quality of care, service delivery performance and health systems research and analytics. Jeremy has a PhD in public health (health systems research) from the University of Amsterdam, The Netherlands and a masters in hospital administration from the Ecole des Hautes Etudes en Santé Publique, France.
-
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/k3d2s){.btn .btn-secondary}
-
-### Matthew Wade
-
-![](assets/matthew_wade.png){.person_img width="200"}[Mathematical modelling]{.public_health}[Microbial ecology]{.environmental_sciences}[Europe and Central Asia]{.europe} Dr. Matthew Wade is a Senior Environmental Science Advisor in the Data Analytics & Surveillance Group at the UK Health Security Agency. He helped deliver the English Wastewater Monitoring Programme for COVID-19 from October 2020 to March 2022. Prior to joining the UK Civil Service, he held a Marie Sklodowska-Curie Individual Fellowship, spending two years at McMaster University in North America where he researched the mathematics and modelling of engineered biological systems, with special interest in the dynamics of microbial ecology. During his time in North America, he spent 6 months as a visiting fellow at The Fields Institute in Toronto, participating in the "Emergent Challenges in Mathematical Biology" major thematic program. He has spent over 20 years working at the interface of mathematics, engineering and biology within academia and industry, within both research and operational delivery of complex systems in the agriculture, water, energy, and pharmaceutical sectors. He has a Bachelor of Engineering and Master of Science from Newcastle University, and a PhD from Strathclyde University and is a member of the International Water Association and Water Environmental Foundation. He is currently an editor for the Journal of Water & Health, Water Science & Technology, Frontiers in Microbiology, and Bioengineering journals.
-
-[View Conflict-of-Interest Disclosure Form &nbsp;&nbsp; {{< fa file-pdf >}}](https://osf.io/cg8pr){.btn .btn-secondary}
-
-## Study Working Group
-
-The study working group is based out of the Ottawa Hospital Research Institute and is composed by Doug Manuel (see above), Carol Bennett, and Emma Brown.
-
-### Carol Bennett
-
-![](assets/carol_bennett.jpg){.person_img width="200"} Carol Bennett is a Senior Clinical Research Associate at the Ottawa Hospital Research Institute.
-
-### Emma Brown
-
-![](assets/Emma_Brown.jpg){.person_img width="200"} Emma Brown is Clinical Research Assistant at Ottawa Hospital Research Institute.
+```{r past}
+#| echo: false
+#| output: asis
+grid(past, "team-grid team-grid-small")
+```
 
 ## Acknowledgements
 

@@ -6,6 +6,7 @@ project:
     - about.qmd
     - methods.qmd
     - delphi.qmd
+    - work-to-date.qmd
     - team.qmd
     - documents.qmd
     - contact.qmd
@@ -27,6 +28,7 @@ website:
       - href: about.qmd
       - href: methods.qmd
       - href: delphi.qmd
+      - href: work-to-date.qmd
       - href: team.qmd
       - href: documents.qmd
       - href: contact.qmd
