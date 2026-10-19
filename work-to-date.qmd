@@ -3,33 +3,33 @@ title: "Work to date"
 ---
 
 ::: justify-text
-PHES-EF is in its second step: generating the candidate evaluation items that panellists will rate in the e-Delphi survey. Two scoping reviews have mapped how surveillance systems are evaluated across public health, animal health, One Health and wastewater surveillance. The terms they identified have been reconciled into a draft framework, which the executive group is reviewing before the survey opens in 2027. This page summarizes that work and shows what panellists will see.
+PHES-EF is in its second step: generating the candidate evaluation items that panellists will rate in the e-Delphi survey. Two scoping reviews have mapped how surveillance systems are evaluated across public health, animal health, One Health and wastewater-based surveillance. The identified terms have been reconciled into a draft framework, which the executive group will review before the survey opens in 2027. This page summarizes that work and gives a glimpse into what panellists will see when completing the survey.
 
-<!-- Numbers below come from the framework working files (October 2026); update them as the framework changes -->
+<!-- Sources reviewed: scoping reviews 1 and 2. Reported concepts: unique reported_concept entries in all_concepts_long of 2026-02_17_ScopingReview_ReportedConcepts.xlsx (422 ignoring capitalization; 427 as written). Candidate items: distinct Round 1 items in the e-Delphi pathway walkthrough (58, including the unrated system description; Acceptability and engagement is listed under two domains but counted once). Update as the framework changes. -->
 
 ::::: stat-grid
 :::: stat-tile
-[74]{.stat-number}
+[10,241]{.stat-number}
 
-[Terms in the dictionary]{.stat-label}
+[Sources reviewed in scoping review #1]{.stat-label}
 ::::
 
 :::: stat-tile
-[73]{.stat-number}
+[1,618]{.stat-number}
 
-[Wastewater sources coded]{.stat-label}
+[Sources reviewed in scoping review #2]{.stat-label}
 ::::
 
 :::: stat-tile
-[1,462]{.stat-number}
+[~420]{.stat-number}
 
-[Coded annotations]{.stat-label}
+[Reported concepts identified]{.stat-label}
 ::::
 
 :::: stat-tile
-[68]{.stat-number}
+[58]{.stat-number}
 
-[Draft candidate items]{.stat-label}
+[Drafted Delphi candidate items]{.stat-label}
 ::::
 :::::
 
@@ -37,7 +37,7 @@ PHES-EF is in its second step: generating the candidate evaluation items that pa
 
 ```{=html}
 <ol class="build-steps">
-  <li><span class="build-num">1</span><span class="build-title">Review</span><span class="build-text">Two scoping reviews: existing evaluation frameworks, and lessons learned from wastewater surveillance during COVID-19.</span></li>
+  <li><span class="build-num">1</span><span class="build-title">Review</span><span class="build-text">Two scoping reviews: existing evaluation frameworks, and lessons learned from wastewater-based surveillance during COVID-19.</span></li>
   <li><span class="build-num">2</span><span class="build-title">Extract</span><span class="build-text">Evaluation terms, definitions and measurement approaches coded from each source.</span></li>
   <li><span class="build-num">3</span><span class="build-title">Reconcile</span><span class="build-text">Terms matched across disciplines, recording synonyms and related terms.</span></li>
   <li><span class="build-num">4</span><span class="build-title">Organize</span><span class="build-text">Terms arranged into themes, domains and attributes, then reviewed by the executive group.</span></li>
@@ -78,7 +78,7 @@ Evaluation terms are not used the same way in every field. The same word can mea
 
 ### Bringing disciplines together
 
-Each surveillance tradition has its own evaluation focus. Public health frameworks emphasize how quickly and accurately a system detects cases; animal health frameworks add costs and laboratory performance; One Health frameworks emphasize governance and collaboration across sectors; and wastewater surveillance adds early warning, coverage and ethics. PHES-EF brings these together into one comprehensive view of public health environmental surveillance.
+Each surveillance tradition has its own evaluation focus. Public health frameworks emphasize how quickly and accurately a system detects cases; animal health frameworks add costs and laboratory performance; One Health frameworks emphasize governance and collaboration across sectors; and wastewater-based surveillance adds early warning, coverage and ethics. PHES-EF brings these together into one comprehensive view of public health environmental surveillance.
 
 ```{=html}
 <div class="disc-graphic" role="img" aria-label="Four surveillance disciplines, each with its own evaluation focus, combine into the PHES-EF framework">
@@ -96,7 +96,7 @@ Each surveillance tradition has its own evaluation focus. Public health framewor
     <ul class="disc-focus"><li>Governance</li><li>Professional partnerships</li><li>System integration</li><li>Data sharing</li></ul>
   </div>
   <div class="disc-card disc-ww">
-    <p class="disc-name">Wastewater surveillance</p>
+    <p class="disc-name">Wastewater-based surveillance</p>
     <ul class="disc-focus"><li>Early-warning lead time</li><li>Coverage</li><li>Consent and public authorization</li><li>Community engagement</li></ul>
   </div>
 </div>
@@ -107,15 +107,15 @@ Each surveillance tradition has its own evaluation focus. Public health framewor
 </div>
 ```
 
-## Anatomy of a Delphi candidate item: Timeliness
+## Anatomy of a Delphi candidate item: Acceptability and engagement
 
-Timeliness is one of the best-evidenced items in the draft framework. Here is everything a candidate item records, with a short definition of each field.
+Acceptability and engagement brings together terms that different disciplines call acceptability, engagement or participation. Here is everything a candidate item records, with a short definition of each field.
 
 :::::: tl-card
 ::::: tl-head
 [Delphi candidate item]{.tl-eyebrow}
 
-[Timeliness]{.tl-name}
+[Acceptability and engagement]{.tl-name}
 
 [Attribute]{.tl-label} [A measurable property or characteristic.]{.tl-fdef}
 :::::
@@ -127,7 +127,7 @@ Timeliness is one of the best-evidenced items in the draft framework. Here is ev
 :::: tl-place
 [Theme]{.tl-label}
 
-[Surveillance effectiveness]{.tl-value}
+[Partnerships and community engagement]{.tl-value}
 
 [A high-level grouping of related concepts that define broad areas of public health evaluation.]{.tl-fdef}
 ::::
@@ -135,9 +135,9 @@ Timeliness is one of the best-evidenced items in the draft framework. Here is ev
 :::: tl-place
 [Domain]{.tl-label}
 
-[System performance]{.tl-value}
+[Community engagement; Professional partnerships]{.tl-value}
 
-[A major area of focus within a theme.]{.tl-fdef}
+[A major area of focus within a theme. An item can sit in more than one domain.]{.tl-fdef}
 ::::
 
 :::: tl-place
@@ -157,25 +157,19 @@ Timeliness is one of the best-evidenced items in the draft framework. Here is ev
 :::: tl-definition
 [Definition]{.tl-label} [A concise definition derived from the scoping review literature that captures the essential meaning of the concept.]{.tl-fdef}
 
-The time elapsing between any two defined steps in the surveillance process. (CDC 1988; CDC 2001; Groseclose & Buckeridge 2017)
+The willingness of individuals and organizations to participate in the surveillance system and the depth of their active involvement. (CDC 2001; Calba 2015; Goutard 2022; Hoinville 2013)
 ::::
 
 :::: tl-row
-[Exact synonym]{.tl-label} [Terms with the same definition as the main schema term.]{.tl-fdef}
+[Synonyms]{.tl-label} [Terms used in other disciplines or sources for the same concept.]{.tl-fdef}
 
-[Reactivity (European public health guidance)]{.tl-value}
-::::
-
-:::: tl-row
-[Broad synonym]{.tl-label} [Terms with broadly the same definition as the main schema term.]{.tl-fdef}
-
-[None recorded]{.tl-value .tl-none}
+[Acceptability; engagement; participation]{.tl-value}
 ::::
 
 :::: tl-row
 [See also]{.tl-label} [Related terms that provide additional context or relevance to the main schema term.]{.tl-fdef}
 
-[Simplicity; early-warning lead time]{.tl-value}
+[Collaboration; governance; simplicity]{.tl-value}
 ::::
 
 :::::
@@ -189,7 +183,7 @@ The time elapsing between any two defined steps in the surveillance process. (CD
 <div class="declaration-body">
 ```
 
-Timeliness measures how much time passes as a health event moves through the surveillance system toward public health action. (Azofeifa 2018; CDC 1988) How much timeliness a system needs depends on the health event: rapid reporting is critical for acute, highly transmissible diseases, whereas less urgent conditions allow slower reporting. (Declich 1994; CDC 2001) It is influenced by how the surveillance system is designed, the resources available, and the volume and complexity of the data. (Groseclose & Buckeridge 2017; Declich 1994; Sosin 2003) Delays in laboratory results or data flow can hinder a timely response, particularly in resource-limited settings. (Innes 2022; Sahal 2009) Poor timeliness can also reduce the usefulness of the data and the acceptability of the surveillance system. (Sahal 2009; ECDC 2014; Buehler 2004)
+Acceptability and engagement capture the willingness of actors and end-users to contribute to a surveillance system and the degree to which they are actively involved in its processes. (Hoinville 2013; Calba 2015) The two constructs are conceptually linked: willingness (acceptability) is a prerequisite for active involvement (engagement), while sustained engagement reinforces acceptability over time. Reporting burden is the primary constraint on willingness: a system that is difficult or time-consuming to contribute to will see participation rates fall regardless of its public health value, while actors who receive timely feedback are more likely to remain actively involved. (CDC 2001; Goutard 2022) Trust in the system and among actors, and the degree to which the system respects cultural context and privacy, shape both constructs across settings. (Azofeifa 2018; Auer 2011; Calba 2015) Because acceptability is constrained by reporting burden, it co-varies with simplicity, and engagement is more easily sustained when actors receive feedback through communication and dissemination channels that demonstrate the value of their participation. (Goutard 2022; Drewe 2015)
 
 ```{=html}
 </div>
@@ -202,9 +196,9 @@ Timeliness measures how much time passes as a health event moves through the sur
 <div class="declaration-body">
 ```
 
-Timeliness has been part of surveillance evaluation since the earliest public health guidelines, which described it as “the speed or delay between steps in a surveillance system” and set the interval between a health event and its reporting, the identification of trends or outbreaks, and the implementation of control measures. (CDC 1988; Thacker 1988) The updated guidelines kept this framing, noting that “the time interval linking any two of these steps can be examined”, and judged the attribute by the availability of information for control. (CDC 2001) Later guidance anchored the interval as early as exposure to the agent and carried it through to the start of control measures. (Buehler 2004; Health Canada 2004; WHO 2006) Standardized terminology for animal health surveillance then settled on a common formulation: “the time between any two defined steps in a surveillance system”. (Hoinville 2013; Drewe 2015)
+Acceptability was formally defined in the surveillance evaluation literature in 1988 as “the willingness of individuals and organizations to participate in the surveillance system”. (CDC 1988) The updated guidelines kept this definition while expanding the influencing factors to include community participation, data feedback to reporting sources, and confidentiality protections. (CDC 2001) The combined construct of acceptability and engagement first appeared in standardized terminology for animal health surveillance, defined as “the willingness of persons and organisations to participate in the surveillance system, and the degree to which each of these users is involved in the surveillance process”. (Hoinville 2013) This expanded definition was then put into practice through participatory diagramming methods (relational, flow and impact diagrams) to assess actor roles, information flows and trust within surveillance systems (Calba 2015), and later formalized in the AccePT toolkit, which assesses objective adequacy, operational satisfaction, role recognition and trust among actors. (Goutard 2022)
 
-In public health surveillance, timeliness is treated as a core attribute, measured as the interval between defined steps and interpreted according to the purpose the system serves. (Groseclose 2010; Groseclose & Buckeridge 2017; Sosin 2003) Animal health frameworks use the same definition, applying it through both quantitative and semi-quantitative assessment methods. (Hoinville 2013; Muellner 2018; Peyre 2019) One Health evaluations adopt the same formulation while noting practical constraints, notably the laboratory delays that lengthen the measured interval. (Innes 2022; Peyre 2022) Wastewater-based surveillance recasts it as “the ability of the WS to deliver timely results and to provide an early warning signal compared to other surveillance systems”, gauged by the lead time between environmental and clinical indicators. (Amato 2023) The underlying definition is consistent across disciplines; differences lie mainly in which steps each setting measures, though European public health guidance also labels the concept reactivity. (Groseclose & Buckeridge 2017; Peyre 2019; ECDC 2014)
+Public health frameworks have treated acceptability primarily as a willingness construct. (CDC 1988; CDC 2001; Groseclose 2010; Azofeifa 2018) In animal health, the SERVAL framework relabelled the concept “participation”, the extent to which user groups “get involved in the surveillance process”, explicitly incorporating the engagement dimension. (Drewe 2015) One Health and multi-sectoral evaluations expanded it to include institutional trust and political will across contributing sectors, highlighting mutual understanding and willingness to collaborate. (Bordier 2020; Innes 2022) In wastewater-based surveillance, evaluators assessed “the extent to which end-users and stakeholders were willing to participate in the pilot WS and in the future”. (Amato 2023) In Indigenous community surveillance, acceptability was linked to cultural appropriateness and to community ownership and control of data. (Auer 2011) Acceptability and engagement is now widely recognized as a combined, multi-dimensional attribute that encompasses willingness, active involvement and trust.
 
 ```{=html}
 </div>
@@ -213,20 +207,19 @@ In public health surveillance, timeliness is treated as a core attribute, measur
 
 ```{=html}
 <details class="declaration tl-drop">
-<summary><span><span class="tl-drop-title">Evaluation methods (10)</span><span class="tl-fdef">The methods or tools used to quantify an attribute.</span></span></summary>
+<summary><span><span class="tl-drop-title">Evaluation methods (9)</span><span class="tl-fdef">The methods or tools used to quantify an attribute.</span></span></summary>
 <div class="declaration-body">
 ```
 
-- Interval measurement between defined steps: measuring the time elapsing between any two defined steps in the surveillance process, with the steps chosen to be epidemiologically meaningful for the system's purpose (CDC 1988; CDC 2001; Hoinville 2013; Drewe 2015).
-- Median reporting delay: calculating the median number of days between a reference date, such as disease onset or diagnosis, and the date of report to the receiving agency (Jajosky 2004).
-- Benchmarking against the disease time course: expressing the measured interval as the percentage of cases reported within one or more incubation periods for the health event (Jajosky 2004; Buehler 2004).
-- Proportion reported within a target window: the share of reports or outbreak notifications submitted within a predefined schedule, such as 24 or 48 hours (WHO 2006; ECDC 2014).
-- Interim-milestone timeline: mapping fixed milestones along the surveillance chain to locate and compare the intervals that drive overall timeliness (Buehler 2004; Crawley 2021).
-- Alert lead-time comparison: comparing the time at which a statistical alert is generated against detection by an established surveillance component (Buehler 2008; Groseclose 2013).
-- Normalized timeliness score: modelling the measured interval with an exponential decay function to obtain a score between 0 and 1 (Arinik 2023).
-- Trend analysis of median timeliness: applying Cox proportional hazards regression to assess changes in median timeliness over time (Crawley 2021).
-- Time-to-detection against a reference indicator: estimating the lead time between an environmental or surveillance signal and a clinical or gold-standard indicator (Amato 2023; Arinik 2023).
-- Qualitative key-informant assessment: interviewing system operators to judge whether the achieved intervals meet the surveillance purpose (Harper 2011; Groseclose 2010).
+- Participation rate analysis: the proportion of potential reporting sources actively contributing, including agency participation rates, physician and laboratory reporting rates, and interview completion rates (CDC 1988; CDC 2001; Groseclose 2010).
+- Report form completeness review: the proportion of required data fields completed per submitted report (CDC 1988; Albali 2023).
+- Questionnaire or survey of actors and end-users: structured or semi-structured instruments assessing willingness to continue participating, perceived value, and factors influencing participation (Amato 2023; Albali 2023).
+- Likert-scale ratings: five-point scales assessing agreement with statements about system performance or willingness to participate (Albali 2023).
+- Key-informant interviews: qualitative interviews with actors and end-users to explore perceptions of acceptability and barriers to engagement (Harper 2011; Auer 2011).
+- Participatory diagramming tools (AccePT/RISKUR): relational diagrams, flow diagrams with proportional piling, and impact diagrams to assess actor relationships, satisfaction with information flow, and trust (Calba 2015; Calba 2016; Goutard 2022).
+- Focus groups: structured discussions with surveillance actors to surface systemic factors affecting willingness and involvement (Calba 2015).
+- OASIS flash evaluation: criterion-based assessment across 20 indicators grouped into categories such as organization, animation, resources, feedback, training and partnerships (Calba 2015).
+- Process evaluation: review of procedures, completion times, training adequacy and dissemination processes through field observation and record review (Auer 2011).
 
 ```{=html}
 </div>
@@ -238,14 +231,14 @@ In public health surveillance, timeliness is treated as a core attribute, measur
 
 ## What the survey will look like
 
-In Round 1, panellists see the items for their discipline subgroup, grouped by domain, and rate whether each one should be included in the framework. Try the example below.
+In Round 1, panellists will see the items in their expertise pathway, grouped by domain, and rate whether each one should be included in the framework. Try the example below.
 
 ```{=html}
 <div class="survey-preview">
   <p class="sv-banner">Example only. Nothing you select here is saved or sent.</p>
-  <p class="sv-eyebrow">Surveillance effectiveness · System performance</p>
-  <p class="sv-name">Timeliness</p>
-  <p class="sv-def">The time elapsing between any two defined steps in the surveillance process.</p>
+  <p class="sv-eyebrow">Partnerships and community engagement</p>
+  <p class="sv-name">Acceptability and engagement</p>
+  <p class="sv-def">The willingness of individuals and organizations to participate in the surveillance system and the depth of their active involvement.</p>
   <fieldset class="sv-scale" id="sv-scale">
     <legend>How relevant is this attribute for inclusion in the evaluation framework?</legend>
     <div class="sv-options">
@@ -258,7 +251,7 @@ In Round 1, panellists see the items for their discipline subgroup, grouped by d
 <label class="sv-opt"><input type="radio" name="sv-rating" value="7"><span><b>7</b>Highly relevant</span></label>
     </div>
   </fieldset>
-  <label class="sv-optout"><input type="checkbox" id="sv-optout"> I do not feel comfortable rating this attribute</label>
+  <label class="sv-optout"><input type="checkbox" id="sv-optout"> Skip, I do not feel comfortable rating this attribute</label>
   <p class="sv-feedback" id="sv-feedback" aria-live="polite">Choose a rating to see how your answer is recorded.</p>
 </div>
 <script>
@@ -282,20 +275,20 @@ In Round 1, panellists see the items for their discipline subgroup, grouped by d
 </script>
 ```
 
-In Round 2, items without consensus are rated again on four properties: relevance and practical utility; scientific rigour; feasibility; and equity. See the [e-Delphi study page](delphi.qmd) for how consensus is defined.
+In Round 2, items without consensus will be rated again on four properties: relevance and practical utility; scientific rigour; feasibility; and equity. See [how consensus is defined](delphi.qmd#defining-consensus) on the Delphi study page.
 
 ## Draft framework structure
 
-[Draft, subject to change]{.doc-tag} The draft framework has 7 themes, 21 domains and 68 candidate items. Themes organize the domains for this overview and are not rated by panellists.
+[Draft, subject to change]{.doc-tag} The draft framework has 7 themes, 16 domains and 58 candidate items. Themes organize the domains for this overview and are not rated by panellists.
 
 ```{=html}
 <div class="fw-static">
-<div class="fw-theme-static"><p class="fw-theme-name">System structure and processes</p><p class="fw-theme-count">4 domains · 14 candidate items</p></div>
-<div class="fw-theme-static"><p class="fw-theme-name">Surveillance effectiveness</p><p class="fw-theme-count">7 domains · 22 candidate items</p></div>
-<div class="fw-theme-static"><p class="fw-theme-name">Partnerships and community engagement</p><p class="fw-theme-count">4 domains · 14 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">System structure and processes</p><p class="fw-theme-count">4 domains · 19 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">Surveillance effectiveness</p><p class="fw-theme-count">4 domains · 16 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">Partnerships and community engagement</p><p class="fw-theme-count">2 domains · 6 candidate items</p></div>
 <div class="fw-theme-static"><p class="fw-theme-name">System capacity and resilience</p><p class="fw-theme-count">2 domains · 10 candidate items</p></div>
 <div class="fw-theme-static"><p class="fw-theme-name">Financial performance and resources</p><p class="fw-theme-count">2 domains · 3 candidate items</p></div>
-<div class="fw-theme-static"><p class="fw-theme-name">Overall performance</p><p class="fw-theme-count">1 domain · 4 candidate items</p></div>
+<div class="fw-theme-static"><p class="fw-theme-name">Overall performance</p><p class="fw-theme-count">1 domain · 3 candidate items</p></div>
 <div class="fw-theme-static"><p class="fw-theme-name">System description</p><p class="fw-theme-count">1 domain · 1 candidate item</p></div>
 </div>
 ```

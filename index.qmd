@@ -1,19 +1,23 @@
-::: home-hero
+<!-- Hero: logo centred above the name (styles: .home-hero in assets/phes-ef.scss) -->
+
+:::: home-hero
 ![](assets/phes-ef-logo_colour.svg){.hero-logo fig-alt="PHES-EF logo"}
 
+::: hero-text
 [PHES-EF]{.hero-acronym}
 
 # Public Health Environmental Surveillance Evaluation Framework {.hero-title .unlisted}
 :::
+::::
 
 <!-- HOME PAGE TEXT -->
 
 ::: justify-text
-The Public Health Environmental Surveillance Evaluation Framework (PHES-EF) is an international consensus study developing a comprehensive framework to evaluate public health environmental surveillance systems. We use wastewater-based surveillance as our primary example.<br>
+PHES-EF is an international consensus study that will develop a comprehensive framework to evaluate public health environmental surveillance systems. We will use wastewater-based surveillance as our primary example.
 
-<b>Our approach:</b> We use the Delphi method—an iterative survey process using structured feedback and expert anonymity to build consensus. A diverse panel of global experts will help us create an evidence-informed framework for assessing surveillance system performance. [Learn more about the e-Delphi study.](delphi.qmd)
+<b>Our approach:</b> We will use the Delphi method—an iterative survey process using structured feedback and expert anonymity to build consensus. A diverse panel of global experts will help us create an evidence-informed framework for assessing surveillance system performance. [Learn more about the e-Delphi study.](delphi.qmd)
 
-<b>Next steps:</b> We are finalizing the list of candidate items this fall. Registration for e-Delphi panellists opens in January 2027, Round 1 of the survey runs in March 2027 and Round 2 closes in May 2027.
+<b>Next steps:</b> We will finalize the list of candidate items this fall. Registration for e-Delphi panellists will open in January 2027, Round 1 of the survey will run in March 2027 and Round 2 will run from April to May 2027.
 
 ::: cta-box
 <b>Want to participate?</b> [Contact us](contact.qmd)
@@ -72,7 +76,7 @@ The Public Health Environmental Surveillance Evaluation Framework (PHES-EF) is a
 :::::
 
 ::: status-footer
-[See the study steps](methods.qmd)
+[See the study design](methods.qmd)
 
 [Last updated October 2026]{.last-updated}
 :::
@@ -87,9 +91,9 @@ The Public Health Environmental Surveillance Evaluation Framework (PHES-EF) is a
 
 ### Updated study timeline {.unnumbered .unlisted}
 
-Registration for e-Delphi panellists opens in January 2027. Round 1 runs in March 2027, and the consensus meeting is planned for September or October 2027.
+Registration for e-Delphi panellists will open in January 2027. Round 1 will run in March 2027, Round 2 from April to May 2027, and the consensus meeting will be held in September or October 2027.
 
-[See the timeline →](delphi.qmd#timeline){.news-link}
+[See the timeline →](methods.qmd#timeline){.news-link}
 ::::
 
 :::: news-card
@@ -103,23 +107,23 @@ Our protocol for an international, multidisciplinary Delphi study is published o
 ::::
 
 :::: news-card
-[Registration]{.news-tag .tag-registration} [January 2025]{.news-date}
+[Registration]{.news-tag .tag-registration} [February 2024]{.news-date}
 
 ### Scoping review protocols registered {.unnumbered .unlisted}
 
 Our two scoping review protocols are registered on the Open Science Framework.
 
-[View on OSF →](https://osf.io/8tcz6/){.news-link}
+[Scoping review #1 →](https://osf.io/gskf6/overview){.news-link} [Scoping review #2 →](https://osf.io/c9a3q/overview){.news-link}
 ::::
 :::::
 
 ------------------------------------------------------------------------
 
-## Funding & Acknowledgments
+## Funding and acknowledgements
 
 This project is funded by:
 
-- Canadian Institutes for Health Research (CoVaRR-Net, FRN: 175622)
+- Canadian Institutes of Health Research (CoVaRR-Net, FRN: 175622)
 - Health Canada (Safe Restart Agreement, #2223-HQ-000098)
 
 The views expressed do not necessarily represent those of the funding organizations.

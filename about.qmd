@@ -7,10 +7,27 @@ bibliography: references.bib
 ::: justify-text
 PHES-EF (Public Health Environmental Surveillance Evaluation Framework) is an international consensus study to develop a framework for evaluating public health environmental surveillance systems, using wastewater-based surveillance as an example.
 
+## Why PHES-EF is needed
+
+Public health environmental surveillance, which monitors health threats using samples from the environment, expanded rapidly during the coronavirus disease (COVID-19) pandemic. Wastewater-based surveillance is the most prominent example. As these systems diversify and become part of routine public health practice, there is still no agreed way to evaluate them, and standard methods for analysing and reporting their data remain unclear [@manuel2021].
+
+A shared evaluation framework will help public health agencies, decision-makers and researchers to:
+
+::: method-points
+- Judge whether a surveillance system is effective and provides a return on investment
+- Strengthen accountability, transparency and public trust
+- Plan for sustainability
+- Compare system performance across settings using consistent methods
+:::
+
+## What the framework will look like
+
 ::: definition-panel
 **Evaluation framework definition:**<br>
-An evaluation framework is a structured system designed to systematically assess the effectiveness and impact of a program [@fynn2020; @calba2015]. It typically outlines key components - such as domains, concepts, and indicators or measures - that should be included in an evaluation. It also provides a logical organization of these components, explains the process by which they were identified and prioritized, and may offer guidance on how to measure them. By offering a comprehensive and transparent basis for evaluation, such frameworks support informed decision-making and help identify areas for improvement in public health programs.
+An evaluation framework is a structured system designed to systematically assess the effectiveness and impact of a program [@fynn2020; @calba2015]. It typically outlines key components (such as domains, concepts, and indicators or measures) that should be included in an evaluation. It also provides a logical organization of these components, explains the process by which they were identified and prioritized, and may offer guidance on how to measure them. By offering a comprehensive and transparent basis for evaluation, such frameworks support informed decision-making and help identify areas for improvement in public health programs.
 :::
+
+PHES-EF organizes these components into four levels, from broad to specific:
 
 <!-- Framework hierarchy graphic -->
 
@@ -30,7 +47,7 @@ An evaluation framework is a structured system designed to systematically assess
 
 [A major area of focus within a theme.]{.level-def}
 
-[Example: Data quality]{.level-example}
+[Example: Ascertainment performance]{.level-example}
 :::::
 
 ::::: level-step
@@ -38,7 +55,7 @@ An evaluation framework is a structured system designed to systematically assess
 
 [A specific aspect or perspective within a domain.]{.level-def}
 
-[Example: Ascertainment performance]{.level-example}
+[None needed for this example]{.level-example}
 :::::
 
 ::::: level-step
@@ -50,17 +67,11 @@ An evaluation framework is a structured system designed to systematically assess
 :::::
 ::::::
 
-## Why PHES-EF is needed
+## How PHES-EF is being developed
 
-Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve the evidence of wastewater surveillance effectiveness, return-on-investment, accountability, transparency, sustainability and trust.
+PHES-EF is being developed through an international e-Delphi consensus study. Candidate items come from two scoping reviews of how surveillance systems are evaluated. A panel of content experts, knowledge users and engaged members of the public will rate these items over two anonymous online survey rounds, followed by a consensus meeting. See [Study design](methods.qmd) for the five study steps and timeline, and the [Delphi study page](delphi.qmd) for how the survey works.
 
-There is also a need for such an evaluation framework as the recent adoption of wastewater-based monitoring has resulted in a lack of standard analytic techniques, with preferred methods for reporting testing data still remaining unclear [@manuel2021]. PHES-EF aims to address this issue as well, as the framework is intended to be adopted by researchers to determine surveillance system performance and create analogous results for comparison within the field.
-
-## What is a Delphi consensus study?
-
-The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@tricco2018; @nasa2021]. An electronic Delphi (e-Delphi) method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. Delphi surveys relating to health sciences have typically been conducted over a period of 2-3 rounds [@spranger2022; @shang2023; @junger2017]. Therefore, a two-round e-Delphi survey paired with a subsequent consensus meeting will be conducted to balance feasibility with rigour. Each round will be open for about five weeks to allow panellists sufficient time to participate in the survey, while balancing study timeline constraints [@niederberger2020]. Each round takes about an hour to complete. The consensus meeting will be held in a hybrid or virtual format.
-
-## Approach
+## Our principles
 
 <!-- Approach cards: "Read more" opens the full text in a panel below the cards (one at a time) -->
 
@@ -108,9 +119,9 @@ Knowledge user and public involvement reported with GRIPP2.
 
 This project is committed to an open science approach, ensuring transparency and accessibility at every stage. All project data and materials will be made available, including the search strategy, search results, initial curation of evaluation measures, executive group discussion summaries, e-Delphi process documentation, and consensus procedures.
 
-PHES-EF will be made available under an open license [(CC-BY-SA-4.0 license)](https://creativecommons.org/licenses/by-sa/4.0/), enabling reuse, adaptation, and further development. A comprehensive research data management plan will outline the data and materials shared, along with guidance on how to access them - to support reproducibility and facilitate collaboration.
+PHES-EF will be made available under an open licence [(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/), enabling reuse, adaptation, and further development. A comprehensive research data management plan will outline the data and materials shared, along with guidance on how to access them, to support reproducibility and facilitate collaboration.
 
-For licensing details, please refer to the [license section](#licence) of this page.
+For licensing details, please refer to the [Licence section](#licence) of this page.
 :::
 
 ::: {#approach-edi .collapse .approach-panel data-bs-parent="#approach-panels"}
@@ -122,7 +133,7 @@ For licensing details, please refer to the [license section](#licence) of this p
 
 “Inclusion is defined as the practice of ensuring that all individuals are valued and respected for their contributions and are equally supported” [@schmalz2021]. To help ensure that all research team members are integrated and supported, we will have a code of conduct statement in the executive group Terms of Reference. 
 
-All study working group members will complete EDI-related Canadian Institutes for Health Research (CIHR) Training, and the First Nations principles of Ownership, Control, Access and Possession (OCAP©) training for the research [@ocap2023]. The executive group will receive an overview of EDI and OCAP and will be encouraged and supported to complete such training. Furthermore, staff trained in EDI and OCAP principles will review the framework from an EDI perspective to ensure appropriate language.
+All study working group members will complete EDI-related Canadian Institutes of Health Research (CIHR) Training, and the First Nations principles of Ownership, Control, Access and Possession (OCAP©) training for the research [@ocap2023]. The executive group will receive an overview of EDI and OCAP and will be encouraged and supported to complete such training. Furthermore, staff trained in EDI and OCAP principles will review the framework from an EDI perspective to ensure appropriate language.
 :::
 
 ::: {#approach-public .collapse .approach-panel data-bs-parent="#approach-panels"}
@@ -142,7 +153,7 @@ To ensure accurate and transparent reporting of knowledge users and public invol
 <div class="declaration-body">
 ```
 
-This project is funded by the Canadian Institutes for Health Research-funded network, CoVaRR-Net (Coronavirus Variants Rapid Response Network. FRN: 175622), and Health Canada (through the Safe Restart Agreement Contribution Program. Arrangement #: 2223-HQ-000098). The Canadian Institutes for Health Research and Health Canada have not been involved in the design or conduct or the study and the views expressed herein do not necessarily represent the views of either funding organization.
+This project is funded by the Canadian Institutes of Health Research-funded network, CoVaRR-Net (Coronavirus Variants Rapid Response Network. FRN: 175622), and Health Canada (through the Safe Restart Agreement Contribution Program. Arrangement #: 2223-HQ-000098). The Canadian Institutes of Health Research and Health Canada have not been involved in the design or conduct of the study and the views expressed herein do not necessarily represent the views of either funding organization.
 
 ```{=html}
 </div>
@@ -170,7 +181,7 @@ If you have questions about ethical issues related to this study, you can talk t
 <div class="declaration-body">
 ```
 
-All participants (i.e., study working group, executive group, and e-Delphi panellists) will be asked to declare any financial or personal relationships that may influence either the conduct or presentation of this research.
+All participants (i.e., study working group, executive group, and e-Delphi panellists) will be asked to declare any financial or personal relationships that may influence either the conduct or presentation of this research. Conflict-of-interest disclosure forms for executive group members are available on the [Team page](team.qmd).
 
 ```{=html}
 </div>
@@ -185,9 +196,9 @@ All participants (i.e., study working group, executive group, and e-Delphi panel
 
 This website hosts a range of content, including references to journal articles, research papers, and other educational materials.
 
-The majority of the content on this website is licensed under two Creative Commons licenses: CC-BY-4.0 (Creative Commons Attribution 4.0 International) and CC-BY-SA-4.0 (Creative Commons Attribution-ShareAlike 4.0 International).
+The majority of the content on this website is licensed under two Creative Commons licences: CC-BY-4.0 (Creative Commons Attribution 4.0 International) and CC-BY-SA-4.0 (Creative Commons Attribution-ShareAlike 4.0 International).
 
-Please see the [license page](https://github.com/Big-Life-Lab/PHES-EF/blob/main/LICENSE.md) for more information.
+Please see the [licence page](https://github.com/Big-Life-Lab/PHES-EF/blob/main/LICENSE.md) for more information.
 
 ```{=html}
 </div>
@@ -209,7 +220,7 @@ Anonymous aggregate data will be made available on our [Open Science Framework (
 
 ```{=html}
 <script>
-  // Open a declaration when a link points to it (e.g. the "license section" link)
+  // Open a declaration when a link points to it (e.g. the "Licence section" link)
   function openTargetDeclaration() {
     var el = location.hash && document.getElementById(location.hash.slice(1));
     if (el && el.tagName === "DETAILS") { el.open = true; }

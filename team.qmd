@@ -100,10 +100,8 @@ grid <- function(rows, cls = "team-grid", badge = "role") {
   cat(paste(c(sprintf('<div class="%s">', cls), cards, '</div>'), collapse = "\n"), "\n")
 }
 
+# Executive group members are shown in spreadsheet order: reorder the rows to change it
 exec <- team[team$group == "executive", ]
-# Co-chairs first, in spreadsheet order (principal investigator first); then members A-Z
-exec$row <- seq_len(nrow(exec))
-exec <- exec[order(exec$role != "Co-chair", ifelse(exec$role == "Co-chair", exec$row, 0), exec$last_name), ]
 # Study working group: everyone marked working_group = yes (principal investigator first)
 working <- team[team$working_group == "yes", ]
 working <- working[order(working$working_role == "", working$last_name), ]
@@ -159,12 +157,12 @@ The executive group oversees and supports the development of PHES-EF. Co-chaired
 Members contribute by:
 
 ::: method-points
-- reviewing the candidate evaluation items for their organization, completeness, gaps and redundancy
-- advising the study working group in their areas of expertise
-- connecting the study with related projects and networks
-- helping identify e-Delphi panellists and promoting the survey among their professional contacts
-- taking part in the consensus meeting to agree on the final framework
-- guiding dissemination and promoting adoption of the framework among actors and end-users
+- Reviewing the candidate evaluation items for their organization, completeness, gaps and redundancy
+- Advising the study working group in their areas of expertise
+- Connecting the study with related projects and networks
+- Helping identify e-Delphi panellists and promoting the survey among their professional contacts
+- Taking part in the consensus meeting to agree on the final framework
+- Guiding dissemination and promoting adoption of the framework among actors and end-users
 :::
 
 ```{r executive}
