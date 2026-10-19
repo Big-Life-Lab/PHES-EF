@@ -29,7 +29,7 @@ Study documents, protocols and presentations are shared openly. All files are al
 
 [Current Evaluation Practices for Public Health and Environmental Surveillance Systems: A Scoping Review Protocol]{.doc-title}
 
-[Download {{< fa file-pdf >}}](https://osf.io/axcbr/?action=download){.doc-btn}
+[Download {{< fa file-pdf >}}](https://osf.io/axcbr/?action=download){.doc-btn} [OSF registration {{< fa arrow-up-right-from-square >}}](https://osf.io/gskf6/overview){.doc-btn}
 ::::
 
 :::: doc-card
@@ -37,7 +37,7 @@ Study documents, protocols and presentations are shared openly. All files are al
 
 [Lessons Learned from Wastewater Surveillance During the COVID-19 Pandemic: A Scoping Review Protocol]{.doc-title}
 
-[Download {{< fa file-pdf >}}](https://osf.io/4y59r/?action=download){.doc-btn}
+[Download {{< fa file-pdf >}}](https://osf.io/4y59r/?action=download){.doc-btn} [OSF registration {{< fa arrow-up-right-from-square >}}](https://osf.io/c9a3q/overview){.doc-btn}
 ::::
 
 :::: doc-card

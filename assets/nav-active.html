@@ -1,0 +1,16 @@
+<script>
+  // Highlight the current page inside navbar dropdowns (Quarto only marks
+  // top-level links), and highlight the dropdown's own label too.
+  document.addEventListener("DOMContentLoaded", function () {
+    var here = window.location.pathname.split("/").pop() || "index.html";
+    document.querySelectorAll(".navbar .dropdown-item").forEach(function (item) {
+      var target = (item.getAttribute("href") || "").split("/").pop().split("#")[0];
+      if (target === here) {
+        item.classList.add("active");
+        item.setAttribute("aria-current", "page");
+        var toggle = item.closest(".dropdown") && item.closest(".dropdown").querySelector(".dropdown-toggle");
+        if (toggle) toggle.classList.add("active");
+      }
+    });
+  });
+</script>

@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  # copied as-is so the social preview image (website: image) has a real URL
+  resources:
+    - assets/phes-ef-logo_colour.png
   render:
     - index.qmd
     - about.qmd
@@ -16,7 +19,17 @@ embed-resources: true
 
 website:
   title: "PHES-EF"
+  description: "PHES-EF (Public Health Environmental Surveillance Evaluation Framework) is an international e-Delphi consensus study developing a framework to evaluate public health environmental surveillance systems, using wastewater-based surveillance as an example."
+  site-url: "https://phes-ef.org"
   repo-url: "https://github.com/big-life-lab/PHES-EF"
+  favicon: assets/phes-ef-logo_colour.png
+  image: assets/phes-ef-logo_colour.png
+  open-graph: true
+  twitter-card: true
+
+  # shown at the bottom of every page
+  page-footer:
+    center: "Funded by the Canadian Institutes of Health Research (CoVaRR-Net) and Health Canada · [Licence](about.qmd#licence) · [phes-ef@ohri.ca](mailto:phes-ef@ohri.ca)"
 
   navbar:
     logo: assets/phes-ef-logo_colour.png
@@ -26,13 +39,23 @@ website:
       - text: Home
         href: index.qmd
       - href: about.qmd
-      - href: methods.qmd
-      - href: delphi.qmd
-      - href: work-to-date.qmd
+      - text: The study
+        menu:
+          - text: Study design
+            href: methods.qmd
+          - text: Delphi
+            href: delphi.qmd
+          - text: Work to date
+            href: work-to-date.qmd
       - href: team.qmd
-      - href: documents.qmd
-      - href: contact.qmd
-      - href: faq.qmd
+      - text: Resources
+        menu:
+          - text: Documents
+            href: documents.qmd
+          - text: FAQ
+            href: faq.qmd
+      - text: Contact
+        href: contact.qmd
 
     tools:
       - icon: github
@@ -46,6 +69,7 @@ format:
       - assets/phes-ef.scss
     code-tools: false
     toc: true
+    include-after-body: assets/nav-active.html
 
 bibliography: references.bib
 csl: assets/vancouver.csl

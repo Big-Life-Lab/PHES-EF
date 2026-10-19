@@ -13,9 +13,7 @@ bibliography: references.bib
 <div class="declaration-body">
 ```
 
-Public health environmental surveillance has evolved, especially during the coronavirus disease (COVID-19) pandemic, with wastewater surveillance being a prominent example. As surveillance methods diversify and expand, there is a need to evaluate these systems to improve the evidence of wastewater surveillance effectiveness, return-on-investment, accountability, transparency, sustainability and trust. 
-
-There is also a need for such an evaluation framework as the recent adoption of wastewater-based monitoring has resulted in a lack of standard analytic techniques, with preferred methods for reporting testing data still remaining unclear [@manuel2021]. PHES-EF aims to address this issue as well, as the framework is intended to be adopted by researchers to determine surveillance system performance and create analogous results for comparison within the field.
+Public health environmental surveillance, such as wastewater-based surveillance, expanded rapidly during the COVID-19 pandemic, but there is still no agreed way to evaluate how well these systems work. PHES-EF will provide a shared framework for doing so. [Read more on the About page.](about.qmd#why-phes-ef-is-needed)
 
 ```{=html}
 </div>
@@ -28,7 +26,7 @@ There is also a need for such an evaluation framework as the recent adoption of 
 <div class="declaration-body">
 ```
 
-The Delphi method is an iterative multi-round approach that uses a series of sequential surveys, interspersed by controlled feedback, to elicit consensus among a group of individuals while maintaining anonymity [@tricco2018; @nasa2021]. An electronic Delphi (e-Delphi) method will be used to overcome geographic barriers and allow us to engage panellists internationally across various time zones. Delphi surveys relating to health sciences have typically been conducted over a period of 2-3 rounds [@spranger2022; @shang2023; @junger2017]. Therefore, a two-round e-Delphi survey paired with a subsequent consensus meeting will be conducted to balance feasibility with rigour. Each round will be open for about five weeks to allow panellists sufficient time to participate in the survey, while balancing study timeline constraints [@niederberger2020]. Each round takes about an hour to complete. The consensus meeting will be held in a hybrid or virtual format.
+The Delphi method is an iterative, multi-round survey approach that uses controlled feedback to build consensus among a group of people while keeping their responses anonymous [@tricco2018; @nasa2021]. PHES-EF will use an online (e-Delphi) survey with two rounds, followed by a consensus meeting. See the [Delphi study page](delphi.qmd) for details.
 
 ```{=html}
 </div>
@@ -41,7 +39,7 @@ The Delphi method is an iterative multi-round approach that uses a series of seq
 <div class="declaration-body">
 ```
 
-Registration for e-Delphi panellists opens in January 2027. Round 1 runs in March 2027, Round 2 closes in May 2027, and the consensus meeting is planned for September or October 2027. See the [e-Delphi study timeline](delphi.qmd#timeline) for details.
+Registration for e-Delphi panellists will open in January 2027. Round 1 will run in March 2027, Round 2 will run from April to May 2027, and the consensus meeting will be held in September or October 2027. See the [study timeline](methods.qmd#timeline) for details.
 
 ```{=html}
 </div>
@@ -54,7 +52,59 @@ Registration for e-Delphi panellists opens in January 2027. Round 1 runs in Marc
 <div class="declaration-body">
 ```
 
-The eligibility criteria for e-Delphi survey panellists can be found on the [e-Delphi study page](delphi.qmd#eligibility-criteria-for-e-delphi-survey-panellists).
+The eligibility criteria for e-Delphi survey panellists can be found on the [Delphi study page](delphi.qmd#eligibility-criteria-for-e-delphi-survey-panellists).
+
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration faq-item">
+<summary>What will I be asked to do?</summary>
+<div class="declaration-body">
+```
+
+In Round 1, you will rate whether each candidate item in your expertise pathway should be included in the framework, using a 7-point scale, and you can suggest new items. In Round 2, you will rate new items and re-rate items that did not reach consensus on four properties. You can try an [example question](work-to-date.qmd#what-the-survey-will-look-like) on the Work to date page.
+
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration faq-item">
+<summary>How long will the survey take?</summary>
+<div class="declaration-body">
+```
+
+Each round will take about an hour to complete and will stay open for about five weeks, so you can complete it when it suits you. There will be two rounds. See the [Delphi study page](delphi.qmd#procedure) for details.
+
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration faq-item">
+<summary>How will my data be used and protected?</summary>
+<div class="declaration-body">
+```
+
+Only anonymous responses will be used for analysis. All data will be password protected, and only approved members of the study working group at the Ottawa Hospital will have access. Anonymous aggregate data will be shared on our [Open Science Framework (OSF) project page](https://osf.io/8tcz6/) when the study is complete. See the [declarations on the About page](about.qmd#declarations) for details on ethics approval and privacy.
+
+```{=html}
+</div>
+</details>
+```
+
+```{=html}
+<details class="declaration faq-item">
+<summary>Where can I find study documents?</summary>
+<div class="declaration-body">
+```
+
+The study protocol, scoping review protocols, executive group Terms of Reference, presentations and recruitment materials are on the [Documents page](documents.qmd) and our [OSF project page](https://osf.io/8tcz6/).
 
 ```{=html}
 </div>
